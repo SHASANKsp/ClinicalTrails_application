@@ -5,12 +5,13 @@ import math
 import time
 
 NEO4J_URI = "bolt://localhost:7687"
-NEO4J_USER = 
-NEO4J_PASSWORD = 
+NEO4J_USER = "neo4j"
+NEO4J_PASSWORD = "CTrail@123"
 
 DATA_DIR = "kg_output"
 BATCH_SIZE = 5000
 
+# Required merge keys per label
 REQUIRED_KEYS = {
     "Studies": ["nct_id"],
     "Sponsors": ["lead_sponsor", "nct_id"],
@@ -22,6 +23,10 @@ REQUIRED_KEYS = {
     "AdverseEvents": ["nct_id"]
 }
 
+# =============================
+# Connect
+# =============================
+
 driver = GraphDatabase.driver(
     NEO4J_URI,
     auth=(NEO4J_USER, NEO4J_PASSWORD)
@@ -32,6 +37,10 @@ def run_query(query, parameters=None):
     with driver.session() as session:
         session.run(query, parameters or {})
 
+
+# =============================
+# Utility: Batch Loader
+# =============================
 
 def batch_loader(df, query, label):
 
@@ -78,6 +87,9 @@ def batch_loader(df, query, label):
     print(f"{label} completed in {elapsed:.2f} seconds.")
 
 
+# =============================
+# Constraints
+# =============================
 
 def create_constraints():
     print("\nCreating constraints...")
@@ -97,6 +109,9 @@ def create_constraints():
     print("Constraints ready.")
 
 
+# =============================
+# Loaders
+# =============================
 
 def load_studies():
     df = pd.read_csv(os.path.join(DATA_DIR, "studies.csv"))
@@ -227,9 +242,15 @@ def load_adverse_events():
     batch_loader(df, query, "AdverseEvents")
 
 
+# =============================
+# MAIN
+# =============================
 
 if __name__ == "__main__":
+
+    print("\n=========================================")
     print("Starting ClinicalTrials KG Construction")
+    print("=========================================")
 
     total_start = time.time()
 
@@ -246,4 +267,7 @@ if __name__ == "__main__":
 
     total_time = time.time() - total_start
 
+    print("\n=========================================")
     print("Knowledge Graph Successfully Built")
+    print(f"Total execution time: {total_time:.2f} seconds")
+    print("=========================================")
