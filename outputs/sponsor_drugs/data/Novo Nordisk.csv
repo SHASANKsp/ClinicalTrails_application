@@ -1,0 +1,31 @@
+drug,intervention_type,trials
+placebo,DRUG,165
+insulin aspart,DRUG,123
+insulin detemir,DRUG,113
+Semaglutide,DRUG,107
+liraglutide,DRUG,101
+No treatment given,OTHER,84
+insulin degludec,DRUG,77
+Placebo,DRUG,71
+biphasic insulin aspart 30,DRUG,69
+insulin glargine,DRUG,65
+semaglutide,DRUG,61
+somatropin,DRUG,51
+metformin,DRUG,44
+biphasic insulin aspart,DRUG,37
+insulin NPH,DRUG,36
+activated recombinant human factor VII,DRUG,34
+insulin degludec/insulin aspart,DRUG,32
+Faster-acting insulin aspart,DRUG,25
+Placebo (semaglutide),DRUG,22
+Cagrilintide,DRUG,22
+repaglinide,DRUG,21
+eptacog alfa (activated),DRUG,20
+Insulin icodec,DRUG,20
+biphasic insulin aspart 50,DRUG,18
+Insulin degludec,DRUG,18
+insulin degludec/liraglutide,DRUG,17
+Oral semaglutide,DRUG,16
+glimepiride,DRUG,15
+biphasic insulin aspart 70,DRUG,14
+turoctocog alfa,DRUG,14

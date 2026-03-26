@@ -1,0 +1,1051 @@
+drug,trial,condition,sponsor,sponsor_class
+Semaglutide weekly injection,NCT06057077,Type 1 Diabetes,"Ministry of Health, Saudi Arabia",OTHER_GOV
+Semaglutide,NCT05920889,Stroke,Chinese University of Hong Kong,OTHER
+Semaglutide,NCT05920889,"Stroke, Ischemic",Chinese University of Hong Kong,OTHER
+Semaglutide,NCT05920889,"Stroke, Acute",Chinese University of Hong Kong,OTHER
+Semaglutide,NCT05920889,Brain Diseases,Chinese University of Hong Kong,OTHER
+Semaglutide,NCT06814938,Obesity,Mayo Clinic,OTHER
+Semaglutide,NCT06801015,Obesity,Mayo Clinic,OTHER
+Semaglutide,NCT05371496,Obesity,Mayo Clinic,OTHER
+Semaglutide,NCT05371496,Cardiomyopathy,Mayo Clinic,OTHER
+Semaglutide,NCT05371496,Heart Failure With Preserved Ejection Fraction (HFpEF),Mayo Clinic,OTHER
+semaglutide or tirzepatide,NCT07057310,Obesity,Mayo Clinic,OTHER
+semaglutide or tirzepatide,NCT07057310,Menopause,Mayo Clinic,OTHER
+"Semaglutide, 0.5 mg/mL",NCT06555146,"Diabetes Mellitus, Type 2",Bispebjerg Hospital,OTHER
+"Semaglutide, 0.5 mg/mL",NCT06555146,"Kidney Disease, Chronic",Bispebjerg Hospital,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05606471,Type 2 Diabetes Mellitus in Obese,University of Nottingham,OTHER
+Semaglutide (administered by DV3396 pen),NCT04143945,"Healthy Volunteers Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by DV3396 pen),NCT04143945,Healthy Volunteers Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by DV3396 pen),NCT04143945,Healthy Volunteers Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by PDS290 pen),NCT04143945,"Healthy Volunteers Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by PDS290 pen),NCT04143945,Healthy Volunteers Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by PDS290 pen),NCT04143945,Healthy Volunteers Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03548987,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03548987,Metabolism and Nutrition Disorder,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02014259,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02014259,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02014259,Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04707469,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02022254,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02022254,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02022254,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05669755,Cardiovascular Disease,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05394519,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05394519,Type 2 Diabetes Mellitus,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05394519,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo semaglutide,NCT05394519,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo semaglutide,NCT05394519,Type 2 Diabetes Mellitus,Novo Nordisk A/S,INDUSTRY
+Placebo semaglutide,NCT05394519,Overweight,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02079870,Obesity,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02079870,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02079870,Metabolism and Nutrition Disorder,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06041217,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06041217,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03987451,Non-alcoholic Steatohepatitis,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03987451,Non-alcoholic Steatohepatitis,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02845219,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02845219,Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04524832,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 0.5 mg,NCT03288740,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 0.5 mg,NCT03288740,Diabetes,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide 0.5 mg),NCT03288740,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide 0.5 mg),NCT03288740,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide 1.0 mg,NCT03288740,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 1.0 mg,NCT03288740,Diabetes,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide 1.0 mg),NCT03288740,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide 1.0 mg),NCT03288740,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01324505,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01324505,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT07018544,Obesity and Overweight,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04016974,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04016974,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05316662,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT05502562,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02692716,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02692716,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02146079,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02146079,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02146079,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT04261933,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02849080,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02849080,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02249910,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02249910,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03811574,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03811574,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03811574,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03811574,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03842202,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03842202,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide J,NCT05784402,Healthy Participants,Novo Nordisk A/S,INDUSTRY
+Semaglutide C,NCT05784402,Healthy Participants,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03457012,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04109547,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06780449,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo semaglutide,NCT06780449,Obesity,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02557620,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02557620,Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04862923,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05726227,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03596450,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03611582,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03611582,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03611582,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03611582,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03811561,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03811561,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02648204,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02648204,Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04109508,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04109508,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04067999,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06131437,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03789578,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01885208,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01885208,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02827708,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02827708,Diabetes,Novo Nordisk A/S,INDUSTRY
+Cagrilintide and Semaglutide,NCT06267092,Obesity,Novo Nordisk A/S,INDUSTRY
+Cagrilintide and Semaglutide,NCT06267092,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03693430,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03693430,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo (Semaglutide),NCT03693430,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (Semaglutide),NCT03693430,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03574597,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03574597,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03574597,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03574597,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03600480,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03600480,Overweight,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT04469855,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide J,NCT06642584,Healthy Volunteers Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide B,NCT06642584,Healthy Volunteers Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide L,NCT06642584,Healthy Volunteers Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide M,NCT06642584,Healthy Volunteers Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide N,NCT06642584,Healthy Volunteers Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT07081178,Obesity,Novo Nordisk A/S,INDUSTRY
+Oral Semaglutide,NCT05473286,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03086330,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03086330,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05646706,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03989232,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03989232,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by DV3396 pen),NCT04007107,"Healthy Volunteers Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by DV3396 pen),NCT04007107,Healthy Volunteers Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by DV3396 pen),NCT04007107,Healthy Volunteers Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by PDS290 pen),NCT04007107,"Healthy Volunteers Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by PDS290 pen),NCT04007107,Healthy Volunteers Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by PDS290 pen),NCT04007107,Healthy Volunteers Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06323174,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02161588,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02161588,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02161588,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05533632,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04777396,Early Alzheimer's Disease,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05429593,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide/dapagliflozin,NCT05429593,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT07010432,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo semaglutide,NCT07010432,Obesity,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02461589,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02461589,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01272973,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01272973,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01272973,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05891496,Alzheimers Disease,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01686945,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01686945,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01686945,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06478550,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04287179,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06065540,Type 2 Diabetes Mellitus,Novo Nordisk A/S,INDUSTRY
+Placebo semaglutide,NCT06065540,Type 2 Diabetes Mellitus,Novo Nordisk A/S,INDUSTRY
+Oral Semaglutide,NCT06269120,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide 3 mg/mL,NCT05016882,Non-alcoholic Steatohepatitis,Novo Nordisk A/S,INDUSTRY
+Semaglutide placebo,NCT05016882,Non-alcoholic Steatohepatitis,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05486065,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+CagriSema (Cagrilintide B and Semaglutide I),NCT07011667,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo matched to CagriSema (Cagrilintide B and Semaglutide I),NCT07011667,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04032197,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04032197,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03015220,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03015220,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01930188,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01930188,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05498610,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide D Dose 1,NCT05236517,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide D Dose 2,NCT05236517,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide D Dose 3,NCT05236517,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide C Dose 4,NCT05236517,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide C Dose 5 (50 mg),NCT05236517,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (Semaglutide C),NCT05236517,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo ( Semaglutide D),NCT05236517,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06289504,Obesity,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02254291,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02254291,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01619345,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01619345,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT07055607,Obesity,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT05035082,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02212067,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02212067,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03574584,Overweight or Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03574584,Metabolism and Nutrition Disorders,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT05230615,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02054897,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02054897,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02243098,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02243098,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06507475,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04102189,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04102189,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05564117,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05564117,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo semaglutide,NCT05564117,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo semaglutide,NCT05564117,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05443191,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 1.34 mg/mL,NCT05046873,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Co-formulation NNC0480 0389+Semaglutide A 10/1 mg/mL,NCT05046873,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide 1.34 mg/mL (placebo),NCT05046873,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02231684,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02231684,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05890976,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05890976,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide Placebo,NCT05890976,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide Placebo,NCT05890976,Overweight,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02210871,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02210871,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02210871,Hepatic Impaired,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05716724,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03357380,Non-alcoholic Fatty Liver Disease,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03357380,Hepatobiliary Disorders,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04865770,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04865770,Chronic Kidney Disease,Novo Nordisk A/S,INDUSTRY
+Placebo (Semaglutide),NCT04865770,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (Semaglutide),NCT04865770,Chronic Kidney Disease,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT00696657,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT00696657,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03018028,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03018028,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06323161,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05813925,Obesity or Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo Semaglutide,NCT05813925,Obesity or Overweight,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT00813020,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT00813020,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06534411,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT02920385,Healthy,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT02920385,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01866748,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01866748,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01866748,Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04817644,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Oral Semaglutide,NCT04559815,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by DV3396 pen-injector),NCT04238962,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by DV3396 pen-injector),NCT04238962,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by PDS290 pen-injector),NCT04238962,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by PDS290 pen-injector),NCT04238962,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06409130,Alcohol-related Liver Disease,Novo Nordisk A/S,INDUSTRY
+Semaglutide placebo (Group A),NCT06409130,Alcohol-related Liver Disease,Novo Nordisk A/S,INDUSTRY
+Cagrilintide + semaglutide,NCT06409130,Alcohol-related Liver Disease,Novo Nordisk A/S,INDUSTRY
+Semaglutide placebo (Group B),NCT06409130,Alcohol-related Liver Disease,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02128932,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02128932,Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04878393,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02207374,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02207374,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01766245,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01766245,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06207877,Obesity,Novo Nordisk A/S,INDUSTRY
+"Semaglutide, 0.5 mg/mL",NCT03598621,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+"Semaglutide, 1.0 mg/mL",NCT03598621,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+"Semaglutide, 2.0 mg/mL",NCT03598621,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+"Semaglutide, 1.34 mg/mL",NCT03598621,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide 50 mg,NCT05132088,Overweight and Obesity,Novo Nordisk A/S,INDUSTRY
+placebo (semaglutide),NCT05132088,Overweight and Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05468632,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT05035095,Obesity,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT05035095,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT05035095,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT05035095,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06388187,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03631186,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02863419,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02863419,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02906930,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02906930,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02453711,Obesity,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02453711,Metabolism and Nutrition Disorder,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03819153,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03819153,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02863328,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02863328,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06221969,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+"Semaglutide B, 1.34 mg/mL",NCT05689099,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+"Semaglutide B, 1.34 mg/mL",NCT05689099,Healthy Participants,Novo Nordisk A/S,INDUSTRY
+"Semaglutide B, 0.68 mg/mL",NCT05689099,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+"Semaglutide B, 0.68 mg/mL",NCT05689099,Healthy Participants,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT02970942,Non-alcoholic Steatohepatitis,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT02970942,Hepatobiliary Disorders,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03914326,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03914326,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04822181,Non-alcoholic Steatohepatitis,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05444153,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04560998,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04560998,Peripheral Arterial Disease,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04560998,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04560998,Peripheral Arterial Disease,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02060266,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02060266,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06283667,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04152915,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04152915,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04777409,Early Alzheimer´s Disease,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04777409,Early Alzheimer´s Disease,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04017832,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (oral semaglutide),NCT04017832,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05443334,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Oral Semaglutide,NCT04601753,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT03929679,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05996848,Obesity or Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo Semaglutide,NCT05996848,Obesity or Overweight,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02607865,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02607865,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by DV3396 pen),NCT04012255,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by DV3396 pen),NCT04012255,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by PDS290 pen),NCT04012255,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide (administered by PDS290 pen),NCT04012255,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide 2.4 mg,NCT04982575,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04982575,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+"Semaglutide B, 1.34 mg/mL",NCT05232708,"Healthy Volunteers (Diabetes Mellitus, Type 2)",Novo Nordisk A/S,INDUSTRY
+"Semaglutide D, 1.0 mg/mL",NCT05232708,"Healthy Volunteers (Diabetes Mellitus, Type 2)",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03191396,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03191396,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01923181,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01923181,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04788511,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04788511,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05579249,Obesity,Novo Nordisk A/S,INDUSTRY
+Oral Semaglutide,NCT04601740,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03010475,Healthy,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03010475,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03648281,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 1 mg,NCT05259033,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02249871,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02249871,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02147431,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02147431,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06571383,Obesity,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04097600,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04097600,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05813912,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02016911,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02016911,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02016911,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04094415,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 1.34 mg/mL,NCT05153564,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 3.0 mg/mL,NCT05153564,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06403761,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo semaglutide,NCT06403761,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05689372,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 2.4 mg,NCT05040971,Obesity,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02305381,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02305381,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02877355,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02877355,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02172313,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02172313,Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT05443568,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT04083820,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04228354,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04228354,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04228354,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04259801,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04259801,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04259801,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04259801,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04259801,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04259801,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04259801,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04259801,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03136484,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03136484,Diabetes,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03136484,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03136484,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04251156,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04251156,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04251156,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04251156,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04251156,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04251156,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06717698,Chronic Kidney Disease,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT07087795,"Diabetes Mellitus, Type 1",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05755360,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 2.4 mg,NCT04998136,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide 2.4 mg),NCT04998136,Obesity,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT00851773,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT00851773,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03689374,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide J,NCT05478252,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide B,NCT05478252,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT00833716,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT00833716,Renal Impairment,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT00833716,Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral Semaglutide,NCT04513704,Healthy Volunteers Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide D,NCT05129891,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide D,NCT05129891,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide D,NCT05129891,High Blood Cholesterol Levels,Novo Nordisk A/S,INDUSTRY
+Semaglutide G,NCT05129891,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide G,NCT05129891,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide G,NCT05129891,High Blood Cholesterol Levels,Novo Nordisk A/S,INDUSTRY
+Semaglutide H,NCT05129891,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide H,NCT05129891,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide H,NCT05129891,High Blood Cholesterol Levels,Novo Nordisk A/S,INDUSTRY
+Semaglutide I,NCT05129891,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide I,NCT05129891,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide I,NCT05129891,High Blood Cholesterol Levels,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05567796,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo semaglutide,NCT05567796,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03707990,Obesity and Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05649137,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05649137,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT04596631,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04596631,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Oral Semaglutide,NCT04537637,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 2.4 mg,NCT03552757,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide 2.4 mg,NCT03552757,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide 1.0 mg,NCT03552757,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide 1.0 mg,NCT03552757,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo I (Semaglutide),NCT03552757,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo I (Semaglutide),NCT03552757,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo II (Semaglutide),NCT03552757,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo II (Semaglutide),NCT03552757,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06351748,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02070510,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02070510,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03876015,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06097390,Healthy Participants,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05766709,Non-alcoholic Steatohepatitis,Novo Nordisk A/S,INDUSTRY
+NNC0194-0499/Semaglutide A (40/3.20 mg/mL),NCT05766709,Non-alcoholic Steatohepatitis,Novo Nordisk A/S,INDUSTRY
+NNC0194-0499/Semaglutide A (40/0.33mg/mL),NCT05766709,Non-alcoholic Steatohepatitis,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04878406,Healthy Volunteers Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Placebo (Semaglutide),NCT04878406,Healthy Volunteers Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide 3 mg,NCT03638778,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 7 mg,NCT03638778,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide B 3 mg,NCT03638778,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide B 7 mg,NCT03638778,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide C 3 mg,NCT03638778,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide C 7 mg,NCT03638778,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide D 3 mg,NCT03638778,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide D 7 mg,NCT03638778,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04916470,"Heart Failure With Preserved Ejection Fraction (HFpEF) and Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (Semaglutide),NCT04916470,"Heart Failure With Preserved Ejection Fraction (HFpEF) and Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06083675,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+CagriSema (Cagrilintide B and Semaglutide I),NCT06797869,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+CagriSema (Cagrilintide B and Semaglutide I),NCT06797869,Diabetic Peripheral Neuropathy,Novo Nordisk A/S,INDUSTRY
+Placebo matched to CagriSema (Cagrilintide B and Semaglutide I),NCT06797869,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo matched to CagriSema (Cagrilintide B and Semaglutide I),NCT06797869,Diabetic Peripheral Neuropathy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT04940078,Obesity & Overweight,Novo Nordisk A/S,INDUSTRY
+Cagrilintide and semaglutide,NCT04940078,Obesity & Overweight,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02773381,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02773381,Diabetes,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT03021187,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT03021187,Diabetes,Novo Nordisk A/S,INDUSTRY
+"Semaglutide, 0.25 mg",NCT03611322,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+"Semaglutide, 0.5 mg",NCT03611322,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+"Semaglutide, 1.0 mg",NCT03611322,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+CagriSema (cagrilintide B and semaglutide I),NCT06716307,Obesity,Novo Nordisk A/S,INDUSTRY
+semaglutide 2.4 mg,NCT05064735,Obesity,Novo Nordisk A/S,INDUSTRY
+semaglutide 2.4 mg (placebo),NCT05064735,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide 2.4 mg and NNC0165-1875 2.0 mg,NCT04969939,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide 2.4 mg and placebo 2.0 mg,NCT04969939,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide 2.4 mg and NNC0165-1875 1.0 mg,NCT04969939,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide 2.4 mg and placebo 1.0 mg,NCT04969939,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05714683,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05514535,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05514535,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01572753,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01572753,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01572753,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04187300,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04187300,Overweight,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05144984,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT05144984,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04189848,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04189848,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04189848,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04189848,Overweight,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT05435677,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT05996874,Healthy Participants,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03548935,Metabolism and Nutrition Disorder,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03548935,Overweight or Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03548935,Metabolism and Nutrition Disorder,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT03548935,Overweight or Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide 0.5 mg,NCT03061214,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 0.5 mg,NCT03061214,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide 1.0 mg,NCT03061214,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide 1.0 mg,NCT03061214,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide placebo 0.5 mg,NCT03061214,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide placebo 0.5 mg,NCT03061214,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide placebo 1.0 mg,NCT03061214,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide placebo 1.0 mg,NCT03061214,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03466567,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT03466567,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide D Dose 1,NCT05227196,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide D Dose 1,NCT05227196,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide D Dose 2,NCT05227196,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide D Dose 2,NCT05227196,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide D Dose 3,NCT05227196,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide D Dose 3,NCT05227196,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide Dose 4,NCT05227196,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide Dose 4,NCT05227196,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide Dose 5,NCT05227196,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide Dose 5,NCT05227196,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+Semaglutide Dose 6,NCT05227196,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide Dose 6,NCT05227196,Healthy Volunteers,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02064348,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT02064348,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06131372,Type 2 Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06131372,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT06131372,Chronic Kidney Disease,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01720446,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT01720446,Diabetes,Novo Nordisk A/S,INDUSTRY
+Oral semaglutide,NCT05230589,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT03144271,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT03144271,Healthy,Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT03144271,Diabetes,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04074161,Obesity,Novo Nordisk A/S,INDUSTRY
+Semaglutide,NCT04074161,Overweight,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04074161,Obesity,Novo Nordisk A/S,INDUSTRY
+Placebo (semaglutide),NCT04074161,Overweight,Novo Nordisk A/S,INDUSTRY
+Oral Semaglutide,NCT04537624,"Diabetes Mellitus, Type 2",Novo Nordisk A/S,INDUSTRY
+semaglutide,NCT07040592,HIV,Yale University,OTHER
+semaglutide,NCT07040592,Alcohol Use Disorder (AUD),Yale University,OTHER
+GLP-1 analogue - semaglutide,NCT04779697,Obesity,Yale University,OTHER
+Semaglutide Pen Injector,NCT06411210,Obesity,Yale University,OTHER
+Semaglutide Pen Injector,NCT06411210,Diabetes type1,Yale University,OTHER
+Semaglutide Pen Injector,NCT05067621,Type 2 Diabetes Mellitus,Yale University,OTHER
+Semaglutide Pen Injector,NCT05067621,Impaired Glucose Tolerance,Yale University,OTHER
+Semaglutide Pen Injector,NCT05067621,"Obesity, Childhood",Yale University,OTHER
+Semaglutide Pen Injector,NCT05067621,Non-Alcoholic Fatty Liver Disease,Yale University,OTHER
+Semaglutide,NCT06042153,Type 2 Diabetes,University of Texas Southwestern Medical Center,OTHER
+Semaglutide,NCT06042153,End Stage Renal Disease on Dialysis,University of Texas Southwestern Medical Center,OTHER
+Semaglutide 2.4 mg,NCT06934655,Pediatric Obesity,Children's Hospital Los Angeles,OTHER
+Semaglutide 2.4 mg,NCT06934655,Metabolic and Bariatric Surgery,Children's Hospital Los Angeles,OTHER
+Semaglutide 2.4 mg,NCT06934655,Semaglutide,Children's Hospital Los Angeles,OTHER
+Semaglutide,NCT03659682,Parkinson Disease,Oslo University Hospital,OTHER
+Semaglutide 3 MG [Rybelsus],NCT06913023,Kidney Transplant Recipient,"University Health Network, Toronto",OTHER
+Semaglutide 7 MG [Rybelsus],NCT06913023,Kidney Transplant Recipient,"University Health Network, Toronto",OTHER
+Semaglutide 14 MG [Rybelsus],NCT06913023,Kidney Transplant Recipient,"University Health Network, Toronto",OTHER
+Semaglutide Treatment,NCT05195944,Diabetes Mellitus,"University Health Network, Toronto",OTHER
+Semaglutide Treatment,NCT05195944,NASH - Nonalcoholic Steatohepatitis,"University Health Network, Toronto",OTHER
+Semaglutide Treatment,NCT05195944,NAFLD,"University Health Network, Toronto",OTHER
+Semaglutide Treatment,NCT05195944,Liver Transplant; Complications,"University Health Network, Toronto",OTHER
+Semaglutide,NCT04466345,Major Depressive Disorder,"University Health Network, Toronto",OTHER
+"Semaglutide, 1.0 mg/mL",NCT05938712,Kidney Transplant Recipients,"University Health Network, Toronto",OTHER
+Semaglutide,NCT04383197,Type 2 Diabetes,University of Copenhagen,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05071898,Obesity,"University of Maryland, Baltimore",OTHER
+Semaglutide Pen Injector [Ozempic],NCT05071898,Diabetes Type 2,"University of Maryland, Baltimore",OTHER
+Semaglutide,NCT06691243,HIV,"University of Maryland, Baltimore",OTHER
+Semaglutide,NCT06691243,Cocaine Use Disorder,"University of Maryland, Baltimore",OTHER
+Semaglutide 14 MG [Rybelsus],NCT05702931,Diabetes,"Rigshospitalet, Denmark",OTHER
+Semaglutide 14 MG [Rybelsus],NCT05702931,Hyperglycemia,"Rigshospitalet, Denmark",OTHER
+Semaglutide 14 MG [Rybelsus],NCT05702931,Renal Transplant Complication Primary Non-Function,"Rigshospitalet, Denmark",OTHER
+Semaglutide,NCT06557811,Acute Myocardial Infarction,University of Sao Paulo General Hospital,OTHER
+Semaglutide,NCT06557811,Diabetic Patients,University of Sao Paulo General Hospital,OTHER
+Semaglutide,NCT06499857,Atrial Fibrillation,University of Chicago,OTHER
+Semaglutide,NCT06499857,Overweight or Obesity,University of Chicago,OTHER
+Oral semaglutide,NCT06792422,Glaucoma,"Glostrup University Hospital, Copenhagen",OTHER
+Oral semaglutide,NCT06792422,Open-Angle Glaucoma,"Glostrup University Hospital, Copenhagen",OTHER
+Oral semaglutide,NCT06792422,Primary Open Angle Glaucoma (POAG),"Glostrup University Hospital, Copenhagen",OTHER
+Semaglutide,NCT05671653,Obesity,Pfizer,INDUSTRY
+Semaglutide,NCT06914141,"Diabetes Mellitus, Type 2",Brigham and Women's Hospital,OTHER
+Semaglutide,NCT06914141,HFpEF - Heart Failure With Preserved Ejection Fraction,Brigham and Women's Hospital,OTHER
+Semaglutide,NCT06980623,Type 2 Diabetes,Brigham and Women's Hospital,OTHER
+Semaglutide,NCT06980623,Heart Failure,Brigham and Women's Hospital,OTHER
+New use of semaglutide injection,NCT06659744,"Diabetes Mellitus, Type 2",Brigham and Women's Hospital,OTHER
+New use of semaglutide injection,NCT05577728,"Diabetes Mellitus, Type 2",Brigham and Women's Hospital,OTHER
+"New initiation of ""standard of care"" (SGL2i, 2nd generation SU, DPP-4i and GLP-1 RA except for semaglutide inj or oral)",NCT05577728,"Diabetes Mellitus, Type 2",Brigham and Women's Hospital,OTHER
+Semaglutide,NCT07096063,Type 2 Diabetes,Brigham and Women's Hospital,OTHER
+Semaglutide,NCT07096063,Overweight,Brigham and Women's Hospital,OTHER
+Semaglutide,NCT07096063,Cardiovascular (CV) Risk,Brigham and Women's Hospital,OTHER
+Semaglutide,NCT05768945,Diabetes,Brigham and Women's Hospital,OTHER
+Semaglutide,NCT06914102,"Diabetes Mellitus, Type 2",Brigham and Women's Hospital,OTHER
+Semaglutide,NCT06914102,HFpEF - Heart Failure With Preserved Ejection Fraction,Brigham and Women's Hospital,OTHER
+Semaglutide,NCT06639464,Opioid Use Disorder,Brigham and Women's Hospital,OTHER
+New use of oral semaglutide,NCT06659679,"Diabetes Mellitus, Type 2",Brigham and Women's Hospital,OTHER
+Oral semaglutide,NCT06659718,"Diabetes Mellitus, Type 2",Brigham and Women's Hospital,OTHER
+"dietary, semaglutide or/and metformin",NCT06182618,Metabolic Syndrome,"Second Affiliated Hospital, School of Medicine, Zhejiang University",OTHER
+Semaglutide Pen Injector,NCT05746039,Obesity,University of Pennsylvania,OTHER
+Semaglutide Pen Injector,NCT05746039,Chronic Obstructive Pulmonary Disease,University of Pennsylvania,OTHER
+Semaglutide Pen Injector,NCT05746039,Interstitial Lung Disease,University of Pennsylvania,OTHER
+Semaglutide Pen Injector,NCT05746039,"Sarcoidosis, Pulmonary",University of Pennsylvania,OTHER
+Semaglutide Pen Injector,NCT05746039,Pulmonary Hypertension,University of Pennsylvania,OTHER
+Semaglutide 2.4 MG/0.75 ML Subcutaneous Solution [WEGOVY],NCT05548647,Obesity,University of Pennsylvania,OTHER
+Semaglutide,NCT04216589,HIV Infections,National Institute of Allergy and Infectious Diseases (NIAID),NIH
+Semaglutide,NCT04216589,Non-Alcoholic Fatty Liver Disease,National Institute of Allergy and Infectious Diseases (NIAID),NIH
+Semaglutide Oral Product,NCT06318442,Steroid-Induced Diabetes,Imperial College London,OTHER
+Semaglutide Oral Product,NCT06318442,Steroid Induced Hyperglycemia,Imperial College London,OTHER
+Semaglutide,NCT06118203,Pulmonary Embolism,Imperial College London,OTHER
+Semaglutide Pen,NCT07017270,Diabetes,Unity Health Toronto,OTHER
+Semaglutide Pen,NCT07017270,Dialysis,Unity Health Toronto,OTHER
+Semaglutide Pen,NCT07017270,"Kidney Disease, Chronic",Unity Health Toronto,OTHER
+Semaglutide Pen,NCT07017270,End Stage Kidney Disease (ESRD),Unity Health Toronto,OTHER
+Semaglutide,NCT07112872,Type 2 Diabetes Mellitus,Hoffmann-La Roche,INDUSTRY
+Semaglutide 2.4mg,NCT06909006,Weight Loss,Nordsjaellands Hospital,OTHER
+Semaglutide 2.4mg,NCT06909006,Obesity in Diabetes,Nordsjaellands Hospital,OTHER
+Semaglutide 2.4mg,NCT06909006,Metabolomics,Nordsjaellands Hospital,OTHER
+Semaglutide 2.4mg,NCT06909006,Insulin Sensitivity/Resistance,Nordsjaellands Hospital,OTHER
+Semaglutide 2.4mg,NCT06909006,Obesity/Therapy,Nordsjaellands Hospital,OTHER
+Semaglutide 2.4mg,NCT06909006,Semaglutide,Nordsjaellands Hospital,OTHER
+Semaglutide 2.4mg,NCT06909006,Type 1 Diabetes Mellitus (T1DM),Nordsjaellands Hospital,OTHER
+Semaglutide 2.4mg,NCT06909006,Lipidomics,Nordsjaellands Hospital,OTHER
+Semaglutide 2.4mg,NCT06909006,Glycemic Control for Diabetes Mellitus,Nordsjaellands Hospital,OTHER
+Semaglutide placebo,NCT06909006,Weight Loss,Nordsjaellands Hospital,OTHER
+Semaglutide placebo,NCT06909006,Obesity in Diabetes,Nordsjaellands Hospital,OTHER
+Semaglutide placebo,NCT06909006,Metabolomics,Nordsjaellands Hospital,OTHER
+Semaglutide placebo,NCT06909006,Insulin Sensitivity/Resistance,Nordsjaellands Hospital,OTHER
+Semaglutide placebo,NCT06909006,Obesity/Therapy,Nordsjaellands Hospital,OTHER
+Semaglutide placebo,NCT06909006,Semaglutide,Nordsjaellands Hospital,OTHER
+Semaglutide placebo,NCT06909006,Type 1 Diabetes Mellitus (T1DM),Nordsjaellands Hospital,OTHER
+Semaglutide placebo,NCT06909006,Lipidomics,Nordsjaellands Hospital,OTHER
+Semaglutide placebo,NCT06909006,Glycemic Control for Diabetes Mellitus,Nordsjaellands Hospital,OTHER
+Semaglutide,NCT06005012,"Fibrosis, Liver","University of California, San Diego",OTHER
+Semaglutide,NCT06005012,Non-Alcoholic Fatty Liver Disease,"University of California, San Diego",OTHER
+Semaglutide,NCT06005012,Type 2 Diabetes Mellitus in Obese,"University of California, San Diego",OTHER
+Semaglutide Pen Injector,NCT06852391,Obesity (Disorder),McMaster University,OTHER
+Semaglutide,NCT06396416,Obesity,"Western University, Canada",OTHER
+Semaglutide,NCT06396416,Chronic Kidney Disease,"Western University, Canada",OTHER
+Semaglutide,NCT04515849,Type 2 Diabetes Mellitus,AstraZeneca,INDUSTRY
+Semaglutide,NCT04515849,Chronic Kidney Diseases,AstraZeneca,INDUSTRY
+Semaglutide,NCT06579105,"Diabetes Mellitus, Type 2",AstraZeneca,INDUSTRY
+Glucagon-like peptide-1 receptor agonist：Semaglutide,NCT06461377,Type 2 Diabetes,The First Affiliated Hospital with Nanjing Medical University,OTHER
+Glucagon-like peptide-1 receptor agonist：Semaglutide,NCT06461377,Diabetes With Diabetic Autonomic Neuropathy (Diagnosis),The First Affiliated Hospital with Nanjing Medical University,OTHER
+semaglutide,NCT06937060,Psoriasis (PsO),The University of Hong Kong,OTHER
+semaglutide,NCT06937060,Obesity and Overweight,The University of Hong Kong,OTHER
+Semaglutide and Behavioral Program,NCT04873245,"Obesity, Childhood",University of Minnesota,OTHER
+Semaglutide,NCT05788965,Cystic Fibrosis,University of Minnesota,OTHER
+Semaglutide,NCT05788965,Cystic Fibrosis-related Diabetes,University of Minnesota,OTHER
+Semaglutide,NCT06977438,"Obesity, Childhood",University of Minnesota,OTHER
+Semaglutide,NCT04538352,Type 2 Diabetes,The Cleveland Clinic,OTHER
+Semaglutide,NCT06533527,Obesity,The Cleveland Clinic,OTHER
+Semaglutide,NCT06533527,"Diabetes Mellitus, Type 2",The Cleveland Clinic,OTHER
+Semaglutide,NCT06533527,Gastroparesis,The Cleveland Clinic,OTHER
+Semaglutide,NCT04889183,Obesity,University Medical Center Groningen,OTHER
+Semaglutide,NCT04889183,Albuminuria,University Medical Center Groningen,OTHER
+semaglutide use,NCT06154486,Anesthesia,Hospital Israelita Albert Einstein,OTHER
+semaglutide use,NCT06154486,"Pneumonia, Aspiration",Hospital Israelita Albert Einstein,OTHER
+Semaglutide,NCT05829460,Endometrial Hyperplasia,Washington University School of Medicine,OTHER
+Semaglutide,NCT07091500,Obesity,Washington University School of Medicine,OTHER
+Semaglutide,NCT07091500,Skeletal Muscle,Washington University School of Medicine,OTHER
+Semaglutide,NCT05933499,Obesity,Massachusetts General Hospital,OTHER
+oral semaglutide,NCT06003153,Type 2 Diabetes,Massachusetts General Hospital,OTHER
+oral semaglutide,NCT06003153,Genetic Predisposition,Massachusetts General Hospital,OTHER
+oral semaglutide,NCT06003153,Metabolic Diseases,Massachusetts General Hospital,OTHER
+semaglutide 2.4mg,NCT06173778,Obesity,"The University of Texas Health Science Center, Houston",OTHER
+semaglutide 2.4mg,NCT06173778,Overweight,"The University of Texas Health Science Center, Houston",OTHER
+semaglutide 2.4mg,NCT06173778,Cigarette Smoking,"The University of Texas Health Science Center, Houston",OTHER
+Semaglutide,NCT05119179,PreDiabetes,"The University of Texas Health Science Center, Houston",OTHER
+Semaglutide(Wegovy® ),NCT07150975,Obesity/Overweight in Adult,Gan & Lee Pharmaceuticals.,INDUSTRY
+semaglutide,NCT06778967,Type 2 Diabetes Mellitus (T2DM),Gan & Lee Pharmaceuticals.,INDUSTRY
+Semaglutide,NCT03987074,Nonalcoholic Steatohepatitis,Gilead Sciences,INDUSTRY
+Semaglutide (SEMA),NCT04971785,Nonalcoholic Steatohepatitis,Gilead Sciences,INDUSTRY
+Semaglutide,NCT05822609,Type 1 Diabetes,University of Washington,OTHER
+Semaglutide,NCT05822609,Diabetic Kidney Disease,University of Washington,OTHER
+Semaglutide Auto-Injector,NCT05780905,"Diabetes Mellitus, Type 2",University of Washington,OTHER
+Semaglutide Auto-Injector,NCT05780905,Stroke (CVA) or Transient Ischemic Attack,University of Washington,OTHER
+Oral semaglutide,NCT07056803,Diabetes Mellitus Type 2,University of Palermo,OTHER
+subcutaneous semaglutide,NCT07056803,Diabetes Mellitus Type 2,University of Palermo,OTHER
+Semaglutide 1.34 mg/mL,NCT04944992,Nonalcoholic Fatty Liver Disease,Merck Sharp & Dohme LLC,INDUSTRY
+Semaglutide 1.34 mg/mL,NCT04944992,Nonalcoholic Steatohepatitis,Merck Sharp & Dohme LLC,INDUSTRY
+Semaglutide,NCT06699329,Healthy,Merck Sharp & Dohme LLC,INDUSTRY
+Semaglutide,NCT05877547,Nonalcoholic Fatty Liver Disease,Merck Sharp & Dohme LLC,INDUSTRY
+Semaglutide,NCT05877547,Non-alcoholic Fatty Liver Disease,Merck Sharp & Dohme LLC,INDUSTRY
+Semaglutide,NCT05877547,NAFLD,Merck Sharp & Dohme LLC,INDUSTRY
+Semaglutide,NCT05877547,"Fatty Liver, Nonalcoholic",Merck Sharp & Dohme LLC,INDUSTRY
+Semaglutide,NCT05877547,Nonalcoholic Steatohepatitis,Merck Sharp & Dohme LLC,INDUSTRY
+Semaglutide Pen Injector 2.4mg weekly,NCT05254314,Asthma,Vanderbilt University Medical Center,OTHER
+Semaglutide (Rybelsus®),NCT06338553,Type 1 Diabetes,Vanderbilt University Medical Center,OTHER
+Semaglutide,NCT06299098,Obesity,Regeneron Pharmaceuticals,INDUSTRY
+Semaglutide 7 MG Oral Tablet,NCT04865744,Healthy,University of Tartu,OTHER
+Semaglutide 14 MG Oral Tablet,NCT04865744,Healthy,University of Tartu,OTHER
+Semaglutide Pen Injector,NCT05249881,"Diabetes Mellitus, Type 2",Aga Khan University,OTHER
+Semaglutide Pen Injector,NCT05249881,"Weight Change, Body",Aga Khan University,OTHER
+Semaglutide,NCT06015893,Alcohol Use Disorder,National Institute on Drug Abuse (NIDA),NIH
+Semaglutide,NCT06015893,Addiction,National Institute on Drug Abuse (NIDA),NIH
+Semaglutide Injectable Product,NCT05786521,"Diabetes Mellitus, Type 2",The University of Texas Health Science Center at San Antonio,OTHER
+Semaglutide Injectable Product,NCT05786521,Aging,The University of Texas Health Science Center at San Antonio,OTHER
+Semaglutide Injectable Product,NCT05786521,PreDiabetes,The University of Texas Health Science Center at San Antonio,OTHER
+Semaglutide Injectable Product,NCT05786521,Overweight and Obesity,The University of Texas Health Science Center at San Antonio,OTHER
+Semaglutide,NCT06982859,Diabetes Mellitus,Eli Lilly and Company,INDUSTRY
+Semaglutide,NCT06982859,Insulin Sensitivity,Eli Lilly and Company,INDUSTRY
+Semaglutide,NCT03987919,Type 2 Diabetes,Eli Lilly and Company,INDUSTRY
+Semaglutide,NCT03951753,"Diabetes Mellitus, Type 2",Eli Lilly and Company,INDUSTRY
+Semaglutide,NCT06045221,Type 2 Diabetes,Eli Lilly and Company,INDUSTRY
+Semaglutide,NCT06260722,"Diabetes Mellitus, Type 2",Eli Lilly and Company,INDUSTRY
+Semaglutide,NCT05822830,Obesity,Eli Lilly and Company,INDUSTRY
+Semaglutide,NCT05822830,Overweight,Eli Lilly and Company,INDUSTRY
+Semaglutide,NCT05616013,Obesity,Eli Lilly and Company,INDUSTRY
+Semaglutide,NCT05616013,Obese,Eli Lilly and Company,INDUSTRY
+Semaglutide,NCT05616013,Overweight or Obesity,Eli Lilly and Company,INDUSTRY
+Semaglutide Pen,NCT03724981,"Diabetes Mellitus, Type 2",Eli Lilly and Company,INDUSTRY
+Semaglutide Injectable Product (not provided by the study),NCT05419726,Obesity,"University of California, Los Angeles",OTHER
+Semaglutide Pen Injector,NCT06149260,Fibrosis,Second Xiangya Hospital of Central South University,OTHER
+Semaglutide Pen Injector,NCT06149260,"Scleroderma, Systemic",Second Xiangya Hospital of Central South University,OTHER
+Semaglutide Pen Injector,NCT06149260,Semaglutide,Second Xiangya Hospital of Central South University,OTHER
+Anti-obesity medication with liraglutide or semaglutide,NCT06836284,Childhood Obesity,Karolinska Institutet,OTHER
+Anti-obesity medication with liraglutide or semaglutide,NCT06836284,Treatment Adherence,Karolinska Institutet,OTHER
+Semaglutide 7 MG,NCT05501483,Type 2 Diabetes,Karolinska Institutet,OTHER
+Semaglutide Pen Injector,NCT06908694,Prostate Cancer,Hamilton Health Sciences Corporation,OTHER
+Semaglutide Pen Injector,NCT05424003,NAFLD,Virginia Commonwealth University,OTHER
+Semaglutide Pen Injector,NCT05569772,Glucose Intolerance After a Recent History of Gestational Diabetes,Universitaire Ziekenhuizen KU Leuven,OTHER
+Semaglutide placebo,NCT05569772,Glucose Intolerance After a Recent History of Gestational Diabetes,Universitaire Ziekenhuizen KU Leuven,OTHER
+Semaglutide,NCT05202353,Obesity,Boehringer Ingelheim,INDUSTRY
+Semaglutide,NCT06745284,Obesity,Boehringer Ingelheim,INDUSTRY
+semaglutide,NCT05751226,Obesity,Boehringer Ingelheim,INDUSTRY
+semaglutide,NCT05751226,Healthy,Boehringer Ingelheim,INDUSTRY
+Semaglutide,NCT04153929,"Diabetes Mellitus, Type 2",Boehringer Ingelheim,INDUSTRY
+Semaglutide,NCT06546384,Alcohol Use Disorder,"Insel Gruppe AG, University Hospital Bern",OTHER
+Semaglutide,NCT06546384,Fatty Liver,"Insel Gruppe AG, University Hospital Bern",OTHER
+Semaglutide,NCT06546384,Adiposity,"Insel Gruppe AG, University Hospital Bern",OTHER
+Semaglutide 3 MG [Rybelsus],NCT05892432,Alcohol Use Disorder,"University of Colorado, Denver",OTHER
+Semaglutide 7 MG [Rybelsus],NCT05892432,Alcohol Use Disorder,"University of Colorado, Denver",OTHER
+Semaglutide Injectable Product (Wegovy and/or Ozempic),NCT05819853,Obese,"University of Colorado, Denver",OTHER
+Semaglutide Injectable Product (Wegovy and/or Ozempic),NCT05819853,PCOS (Polycystic Ovary Syndrome) of Bilateral Ovaries,"University of Colorado, Denver",OTHER
+Semaglutide 1.7mg subcutaneous,NCT07021937,Obesity/Therapy,"University of Colorado, Denver",OTHER
+Semaglutide,NCT04979130,Type 2 Diabetes,"University of Colorado, Denver",OTHER
+Semaglutide,NCT04979130,Chronic Inflammation,"University of Colorado, Denver",OTHER
+Semaglutide,NCT04979130,Intestinal Permeability,"University of Colorado, Denver",OTHER
+Semaglutide 3mg and 7mg [Rybelsus],NCT03919929,PCOS,"University of Colorado, Denver",OTHER
+Semaglutide 3mg and 7mg [Rybelsus],NCT03919929,Adolescent Obesity,"University of Colorado, Denver",OTHER
+Semaglutide 3mg and 7mg [Rybelsus],NCT03919929,NAFLD,"University of Colorado, Denver",OTHER
+Injectable semaglutide,NCT06575738,Obesity,"University of Colorado, Denver",OTHER
+Injectable semaglutide,NCT06575738,Bariatric Surgery,"University of Colorado, Denver",OTHER
+Injectable semaglutide,NCT06575738,Adolescent Obesity,"University of Colorado, Denver",OTHER
+Injectable semaglutide,NCT06575738,Weight Loss Trajectory,"University of Colorado, Denver",OTHER
+Injectable semaglutide,NCT06575738,Anti-obesity Agents,"University of Colorado, Denver",OTHER
+Injectable semaglutide,NCT06575738,Body-Weight Trajectory,"University of Colorado, Denver",OTHER
+semaglutide,NCT06975111,Menopause,"University of Colorado, Denver",OTHER
+semaglutide,NCT06975111,Menopause Related Conditions,"University of Colorado, Denver",OTHER
+semaglutide,NCT06975111,Cardiovascular,"University of Colorado, Denver",OTHER
+semaglutide,NCT06975111,Menopause Hot Flashes,"University of Colorado, Denver",OTHER
+Semaglutide Pen Injector,NCT05819138,"Diabetes Mellitus, Type 1","University of Colorado, Denver",OTHER
+"Semaglutide, 2.0 mg/mL",NCT05597202,Type 2 Diabetes,Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA),OTHER
+"Semaglutide, 1.0 mg/mL",NCT05984238,"Diabetes Mellitus, Type 2",Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA),OTHER
+Semaglutide,NCT05520775,Alcohol Use Disorder,"University of North Carolina, Chapel Hill",OTHER
+Semaglutide,NCT05520775,Cigarette Smoking,"University of North Carolina, Chapel Hill",OTHER
+Semaglutide,NCT05530577,Tobacco Use Disorder,"University of North Carolina, Chapel Hill",OTHER
+Semaglutide,NCT05530577,Nicotine Addiction,"University of North Carolina, Chapel Hill",OTHER
+Semaglutide,NCT04451837,Type2 Diabetes,Region Skane,OTHER
+Semaglutide,NCT07059377,"Diabetes Mellitus, Type 2",Ottawa Heart Institute Research Corporation,OTHER
+Semaglutide,NCT07059377,Tobacco Dependence,Ottawa Heart Institute Research Corporation,OTHER
+Semaglutide,NCT07059377,Nicotine Addiction,Ottawa Heart Institute Research Corporation,OTHER
+Semaglutide 3.2 MG/ML,NCT06184633,Obesity,Rijnstate Hospital,OTHER
+Semaglutide 3.2 MG/ML,NCT06184633,Weight Loss,Rijnstate Hospital,OTHER
+Semaglutide 3.2 MG/ML,NCT06184633,Atrial Fibrillation,Rijnstate Hospital,OTHER
+PEG-rhGH Injection + Semaglutide Injection,NCT06863363,Non-diabetic Obesity,Shanghai Zhongshan Hospital,OTHER
+Semaglutide Injection,NCT06863363,Non-diabetic Obesity,Shanghai Zhongshan Hospital,OTHER
+Semaglutide,NCT06468748,Obesity,United States Army Research Institute of Environmental Medicine,FED
+Semaglutide 0.5 mg,NCT07073053,Type 2 Diabetes,"Taipei Veterans General Hospital, Taiwan",OTHER_GOV
+Semaglutide 0.5 mg,NCT07073053,Coronary Arterial Disease (CAD),"Taipei Veterans General Hospital, Taiwan",OTHER_GOV
+Semaglutide 0.5 mg,NCT07073053,Glucagon-Like Peptide-1 Receptor Agonists,"Taipei Veterans General Hospital, Taiwan",OTHER_GOV
+Semaglutide 1.0 mg,NCT07073053,Type 2 Diabetes,"Taipei Veterans General Hospital, Taiwan",OTHER_GOV
+Semaglutide 1.0 mg,NCT07073053,Coronary Arterial Disease (CAD),"Taipei Veterans General Hospital, Taiwan",OTHER_GOV
+Semaglutide 1.0 mg,NCT07073053,Glucagon-Like Peptide-1 Receptor Agonists,"Taipei Veterans General Hospital, Taiwan",OTHER_GOV
+Semaglutide Pen Injector,NCT05302596,Obesity,State University of New York at Buffalo,OTHER
+Semaglutide Pen Injector,NCT05302596,Aging,State University of New York at Buffalo,OTHER
+Semaglutide,NCT03899402,Type 1 Diabetes Mellitus,State University of New York at Buffalo,OTHER
+Semaglutide,NCT04447859,Diabetes type2,Tel-Aviv Sourasky Medical Center,OTHER_GOV
+Semaglutide,NCT05779644,"Diabetes Mellitus, Type 2",RenJi Hospital,OTHER
+Semaglutide,NCT05779644,"Obesity, Abdominal",RenJi Hospital,OTHER
+Semaglutide,NCT05779644,Non-Alcoholic Fatty Liver Disease,RenJi Hospital,OTHER
+Semaglutide,NCT05779644,Metformin,RenJi Hospital,OTHER
+Semaglutide,NCT05779644,"Metabolism Disorder, Glucose",RenJi Hospital,OTHER
+Semaglutide,NCT05779644,Abdominal Fat,RenJi Hospital,OTHER
+Semaglutide,NCT05779644,"Metabolism Disorder, Lipid",RenJi Hospital,OTHER
+Semaglutide 0.5 mg,NCT07030621,Acute Ischemic Stroke,RenJi Hospital,OTHER
+Oral semaglutide,NCT06613854,Type 2 Diabetes Mellitus (T2DM),University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT06489457,Obesity,University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT06489457,Type 2 Diabetes Mellitus,University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT06489457,Functional Hypogonadism,University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT06541509,Obesity,University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT06541509,Heart Failure,University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT04263415,PCOS,University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT04263415,Semaglutide,University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT04263415,Gastric Emptying,University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT04263415,"Taste, Altered",University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT04263415,Tongue Tissue Transcriptome,University Medical Centre Ljubljana,OTHER
+Semaglutide,NCT04263415,Central Neural Response,University Medical Centre Ljubljana,OTHER
+Semaglutide Oral Tablet,NCT05147896,"Diabetes Mellitus, Type 2",University Medical Centre Ljubljana,OTHER
+Semaglutide Oral Tablet,NCT05147896,Atherosclerosis,University Medical Centre Ljubljana,OTHER
+semaglutide,NCT06608433,Healthy Volunteer Study,"University Hospital, Basel, Switzerland",OTHER
+semaglutide,NCT06608433,Adrenal Insufficiency,"University Hospital, Basel, Switzerland",OTHER
+semaglutide,NCT06608433,HPA,"University Hospital, Basel, Switzerland",OTHER
+semaglutide,NCT06608433,Cortisol Deficiency,"University Hospital, Basel, Switzerland",OTHER
+Semaglutide Pen Injector,NCT06548490,Substance-Related Disorders,Milton S. Hershey Medical Center,OTHER
+Semaglutide Pen Injector,NCT06548490,Opioid Use Disorder,Milton S. Hershey Medical Center,OTHER
+Semaglutide Pen Injector,NCT06548490,Narcotic-Related Disorders,Milton S. Hershey Medical Center,OTHER
+Semaglutide Pen Injector,NCT06548490,Mental Disorder,Milton S. Hershey Medical Center,OTHER
+Semaglutide Pen Injector,NCT06548490,Opioid,Milton S. Hershey Medical Center,OTHER
+Semaglutide Pen Injector,NCT06548490,Chemically-Induced Disorders,Milton S. Hershey Medical Center,OTHER
+Semaglutide Pen Injector,NCT06548490,Opioid Abuse and Addiction,Milton S. Hershey Medical Center,OTHER
+Semaglutide,NCT06072963,Alzheimer Disease,"Rutgers, The State University of New Jersey",OTHER
+Semaglutide,NCT06072963,Metabolic Syndrome,"Rutgers, The State University of New Jersey",OTHER
+Semaglutide,NCT06072963,Mild Cognitive Impairment,"Rutgers, The State University of New Jersey",OTHER
+Semaglutide placebo,NCT06072963,Alzheimer Disease,"Rutgers, The State University of New Jersey",OTHER
+Semaglutide placebo,NCT06072963,Metabolic Syndrome,"Rutgers, The State University of New Jersey",OTHER
+Semaglutide placebo,NCT06072963,Mild Cognitive Impairment,"Rutgers, The State University of New Jersey",OTHER
+Semaglutide,NCT05333003,Schizophrenia Spectrum Disorders,Centre for Addiction and Mental Health,OTHER
+Semaglutide 1.0 mg,NCT06851962,Diabetes Mellitus Type 2,Fundación para la Investigación del Hospital Clínico de Valencia,OTHER
+Insulin + semaglutide treatment,NCT05305794,Double Diabetes,Centre Hospitalier Universitaire Dijon,OTHER
+"Semaglutide, 0.5 mg/mL",NCT06363487,Cognitive Change,University of Oxford,OTHER
+Semaglutide Oral Tablet,NCT05441267,"Diabetes Mellitus, Type 2",University of Oxford,OTHER
+Semaglutide 2.4mg,NCT05087342,Obesity,Loma Linda University,OTHER
+Semaglutide 2.4mg,NCT05087342,Weight Loss,Loma Linda University,OTHER
+Semaglutide 2.4mg,NCT05087342,Overweight or Obesity,Loma Linda University,OTHER
+Semaglutide 2.4mg,NCT05087342,"Weight, Body",Loma Linda University,OTHER
+Semaglutide 2.4mg,NCT05087342,Obesity; Drug,Loma Linda University,OTHER
+Semaglutide 2.4mg,NCT05087342,Weight Loss Trajectory,Loma Linda University,OTHER
+Semaglutide,NCT06222437,Polycystic Ovary Syndrome,Methodist Health System,OTHER
+Semaglutide 3 mg,NCT05073835,Obesity,"University College, London",OTHER
+Semaglutide 3 mg,NCT05073835,Metabolic Syndrome,"University College, London",OTHER
+Semaglutide 3 mg,NCT05073835,Diabetes,"University College, London",OTHER
+Semaglutide with 4 meal strategies,NCT06387199,Diabetes Mellitus,McGill University Health Centre/Research Institute of the McGill University Health Centre,OTHER
+Semaglutide with 4 meal strategies,NCT06387199,Type 1 Diabetes,McGill University Health Centre/Research Institute of the McGill University Health Centre,OTHER
+Intervention Period 1: Semaglutide + Empagliflozin,NCT06894784,Diabetes Type 1,McGill University Health Centre/Research Institute of the McGill University Health Centre,OTHER
+Intervention Period 2: Semaglutide + Empagliflozin Placebo,NCT06894784,Diabetes Type 1,McGill University Health Centre/Research Institute of the McGill University Health Centre,OTHER
+Intervention Period 3: Semaglutide Placebo + Empagliflozin,NCT06894784,Diabetes Type 1,McGill University Health Centre/Research Institute of the McGill University Health Centre,OTHER
+Intervention Period 4: Semaglutide Placebo + Empagliflozin Placebo,NCT06894784,Diabetes Type 1,McGill University Health Centre/Research Institute of the McGill University Health Centre,OTHER
+semaglutide,NCT07043361,Metabolic Disease,Hillel Yaffe Medical Center,OTHER_GOV
+Semaglutide,NCT06986993,Tobacco Use,University of Oklahoma,OTHER
+Semaglutide Pen Injector,NCT05303857,"Diabetes Mellitus, Type 2",University of Erlangen-Nürnberg Medical School,OTHER
+TQF3510 (Semaglutide Injection),NCT06738979,Obesity,"Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",INDUSTRY
+Semaglutide Subcutaneous Injection,NCT06825793,Obesity,Beijing Chao Yang Hospital,OTHER
+Semaglutide,NCT05891587,Alcohol Use Disorder,Oklahoma State University Center for Health Sciences,OTHER
+semaglutide injection (HD1916),NCT06161844,Type 2 Diabetes Mellitus,"CSPC ZhongQi Pharmaceutical Technology Co., Ltd.",INDUSTRY
+Semaglutide,NCT06361823,Idiopathic Intracranial Hypertension,Capital Medical University,OTHER
+Semaglutide,NCT05630586,Acute Ischemic Stroke,Aarhus University Hospital,OTHER
+Semaglutide,NCT06082063,Heart Failure,Steno Diabetes Center Copenhagen,OTHER
+Semaglutide,NCT06082063,Cardiovascular Diseases,Steno Diabetes Center Copenhagen,OTHER
+Semaglutide,NCT06082063,Type 1 Diabetes,Steno Diabetes Center Copenhagen,OTHER
+Semaglutide,NCT06082063,Kidney Failure,Steno Diabetes Center Copenhagen,OTHER
+"Semaglutide, 1.34 mg/mL",NCT06954090,Albuminuria,Steno Diabetes Center Copenhagen,OTHER
+"Semaglutide, 1.34 mg/mL",NCT06954090,Type 2 DM,Steno Diabetes Center Copenhagen,OTHER
+"Semaglutide, 1.34 mg/mL",NCT06954090,Type 2 DM /Diabetic Nephropathy,Steno Diabetes Center Copenhagen,OTHER
+"Semaglutide, 1.34 mg/mL",NCT04061200,Type 2 Diabetes With Renal Manifestations,Steno Diabetes Center Copenhagen,OTHER
+Semaglutide Injection,NCT06649344,Type 2 Diabetes,"Fujian Shengdi Pharmaceutical Co., Ltd.",INDUSTRY
+Semaglutide,NCT05756764,Obesity,Louisiana State University Health Sciences Center in New Orleans,OTHER
+semaglutide,NCT06884293,Overweight,Innovent Biologics (Suzhou) Co. Ltd.,INDUSTRY
+semaglutide,NCT06884293,Metabolic Dysfunction-associated Fatty Liver Disease (MAFLD),Innovent Biologics (Suzhou) Co. Ltd.,INDUSTRY
+Semaglutide,NCT06184568,Type 2 Diabetes,Innovent Biologics (Suzhou) Co. Ltd.,INDUSTRY
+Semaglutide,NCT06184568,Obesity,Innovent Biologics (Suzhou) Co. Ltd.,INDUSTRY
+oral Semaglutide/Rybelsus,NCT06050577,Type 2 Diabetes,Odense University Hospital,OTHER
+oral Semaglutide/Rybelsus,NCT06050577,Osteopenia,Odense University Hospital,OTHER
+semaglutide combined with metformin,NCT07165158,Osteoporosis,The First Affiliated Hospital of Xiamen University,OTHER
+semaglutide combined with metformin,NCT07165158,Osteoporosis Fracture,The First Affiliated Hospital of Xiamen University,OTHER
+semaglutide combined with metformin,NCT07165158,T2DM,The First Affiliated Hospital of Xiamen University,OTHER
+Semaglutide administration plus dietary counselling and physical activity encouragement,NCT07065383,Diabetes Mellitus Type 2,University of Aberdeen,OTHER
+Semaglutide plus a personalised and supervised program of resistance and endurance training,NCT07065383,Diabetes Mellitus Type 2,University of Aberdeen,OTHER
+Semaglutide 2.4 MG/0.75 ML Subcutaneous Solution [WEGOVY],NCT06287307,Obesity,Zuyderland Medisch Centrum,OTHER
+Semaglutide 2.4 MG/0.75 ML Subcutaneous Solution [WEGOVY],NCT06287307,"Obesity, Morbid",Zuyderland Medisch Centrum,OTHER
+Semaglutide 2.4 MG/0.75 ML Subcutaneous Solution [WEGOVY],NCT06287307,Weight Gain,Zuyderland Medisch Centrum,OTHER
+"Semaglutide, 1.34 mg/mL",NCT05702905,PCOS (Polycystic Ovary Syndrome),Peking University First Hospital,OTHER
+"Semaglutide, 1.34 mg/mL",NCT05702905,Semaglutide,Peking University First Hospital,OTHER
+"Semaglutide, 1.34 mg/mL and Metformin Hydrochloride 500 MG",NCT05702905,PCOS (Polycystic Ovary Syndrome),Peking University First Hospital,OTHER
+"Semaglutide, 1.34 mg/mL and Metformin Hydrochloride 500 MG",NCT05702905,Semaglutide,Peking University First Hospital,OTHER
+Semaglutide,NCT05616052,"Weight Change, Body",Huashan Hospital,OTHER
+Semaglutide Pen Injector,NCT06619015,Obesity,Esbjerg Hospital - University Hospital of Southern Denmark,OTHER
+Semaglutide Pen Injector,NCT06619015,PreDiabetes,Esbjerg Hospital - University Hospital of Southern Denmark,OTHER
+Semaglutide Pen Injector,NCT06619015,Appetite Regulation,Esbjerg Hospital - University Hospital of Southern Denmark,OTHER
+Semaglutide,NCT03884075,Non-Alcoholic Fatty Liver Disease,National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK),NIH
+Semaglutide,NCT03884075,Non-Alcoholic Steatohepatitis,National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK),NIH
+Semaglutide,NCT06243536,Type 2 Diabetes,University Hospital Sestre Milosrdnice,OTHER
+Semaglutide,NCT06243536,Overweight,University Hospital Sestre Milosrdnice,OTHER
+Semaglutide,NCT06243536,Disordered Eating Behaviors,University Hospital Sestre Milosrdnice,OTHER
+Semaglutide Injectable Product,NCT04019197,Obesity,Case Western Reserve University,OTHER
+Semaglutide Injectable Product,NCT04019197,HIV/AIDS,Case Western Reserve University,OTHER
+Semaglutide Injectable Product,NCT04019197,Lipohypertrophy,Case Western Reserve University,OTHER
+Semaglutide Injectable Product,NCT04174755,Obesity,University College Dublin,OTHER
+Semaglutide Injectable Product,NCT04174755,HIV-1-infection,University College Dublin,OTHER
+Semaglutide 2 MG/1.5 ML Subcutaneous Solution,NCT03985384,Type 2 Diabetes,Lundquist Institute for Biomedical Innovation at Harbor-UCLA Medical Center,OTHER
+Semaglutide 2 MG/1.5 ML Subcutaneous Solution,NCT03985384,Coronary Artery Disease,Lundquist Institute for Biomedical Innovation at Harbor-UCLA Medical Center,OTHER
+semaglutide,NCT06959784,Cardiovascular Diseases,China-Japan Friendship Hospital,OTHER
+semaglutide,NCT06959784,Diabetes Mellitus,China-Japan Friendship Hospital,OTHER
+semaglutide,NCT06959784,Cerebrovascular Disease,China-Japan Friendship Hospital,OTHER
+Metformin with Semaglutide,NCT06896981,Obesity,"Bangabandhu Sheikh Mujib Medical University, Dhaka, Bangladesh",OTHER
+Metformin with Semaglutide,NCT06896981,Polycystic Ovary Syndrome (PCOS) Women,"Bangabandhu Sheikh Mujib Medical University, Dhaka, Bangladesh",OTHER
+"Semaglutide 2.4 mg, total diet replacement, behavioural intervention",NCT06234111,Obesity,Hvidovre University Hospital,OTHER
+"Semaglutide 2.4 mg, total diet replacement, behavioural intervention",NCT06234111,Multimorbidity,Hvidovre University Hospital,OTHER
+"Semaglutide 2.4 mg, total diet replacement, behavioural intervention",NCT06234111,Obesity Morbid,Hvidovre University Hospital,OTHER
+"Duragtide, Semaglutide, losenatide, tirzepatide, ebenatide, etc",NCT05990374,Diabetes,"Nanjing First Hospital, Nanjing Medical University",OTHER
+Empagliflozin 10mg oral tablet / Semaglutide 1mg pen injector,NCT04639414,Type 2 Diabetes,German Diabetes Center,OTHER
+Empagliflozin 10mg oral tablet / Semaglutide 1mg pen injector,NCT04639414,Non-alcoholic Steatohepatitis (NASH),German Diabetes Center,OTHER
+Empagliflozin 10mg oral tablet / Semaglutide 1mg pen injector,NCT04639414,Non-alcoholic Fatty Liver Disease (NAFLD),German Diabetes Center,OTHER
+Empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide,NCT04639414,Type 2 Diabetes,German Diabetes Center,OTHER
+Empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide,NCT04639414,Non-alcoholic Steatohepatitis (NASH),German Diabetes Center,OTHER
+Empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide,NCT04639414,Non-alcoholic Fatty Liver Disease (NAFLD),German Diabetes Center,OTHER
+Placebo matching empagliflozin and placebo pen injector matching semaglutide,NCT04639414,Type 2 Diabetes,German Diabetes Center,OTHER
+Placebo matching empagliflozin and placebo pen injector matching semaglutide,NCT04639414,Non-alcoholic Steatohepatitis (NASH),German Diabetes Center,OTHER
+Placebo matching empagliflozin and placebo pen injector matching semaglutide,NCT04639414,Non-alcoholic Fatty Liver Disease (NAFLD),German Diabetes Center,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05857085,"Diabetes Mellitus, Type 1",General and Teaching Hospital Celje,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05857085,Endothelial Dysfunction,General and Teaching Hospital Celje,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05857085,Arterial Stiffness,General and Teaching Hospital Celje,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05857085,Biomarkers,General and Teaching Hospital Celje,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05857085,FMD,General and Teaching Hospital Celje,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05857085,Incretins,General and Teaching Hospital Celje,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05857085,Endothelial Progenitor Cells,General and Teaching Hospital Celje,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05857085,SGLT 2 Inhibitors,General and Teaching Hospital Celje,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05857085,Glucose Excursions,General and Teaching Hospital Celje,OTHER
+Semaglutide Pen Injector [Ozempic],NCT05857085,FPF,General and Teaching Hospital Celje,OTHER
+Semaglutide Injectable Product,NCT05646199,Polycystic Ovary Syndrome,University of Hull,OTHER
+Liraglutide / Semaglutide,NCT05390307,Type 1 Diabetes,Dasman Diabetes Institute,OTHER
+Liraglutide or Semaglutide / Dapagliflozin,NCT05390307,Type 1 Diabetes,Dasman Diabetes Institute,OTHER
+Liraglutide or Semaglutide / Dapagliflozin plus intensive weight loss nutrition,NCT05390307,Type 1 Diabetes,Dasman Diabetes Institute,OTHER
+"Semaglutide 2 mg/1.5 ml (1.34 mg/ml), prefilled pen-injector for subcutaneous injection solution",NCT04741074,Obesity,Geisinger Clinic,OTHER
+"Semaglutide 2 mg/1.5 ml (1.34 mg/ml), prefilled pen-injector for subcutaneous injection solution",NCT04741074,Diabetic Kidney Disease,Geisinger Clinic,OTHER
+"Semaglutide 2 mg/1.5 ml (1.34 mg/ml), prefilled pen-injector for subcutaneous injection solution",NCT04741074,CKD,Geisinger Clinic,OTHER
+"Semaglutide 2 mg/1.5 ml (1.34 mg/ml), prefilled pen-injector for subcutaneous injection solution",NCT04741074,Severe Obesity,Geisinger Clinic,OTHER
+"Semaglutide 2 mg/1.5 ml (1.34 mg/ml), prefilled pen-injector for subcutaneous injection solution",NCT04741074,Type 2 Diabetes Mellitus in Obese,Geisinger Clinic,OTHER
+Semaglutide (1 Mg Dose),NCT04624672,"Diabetes Mellitus, Type 2",Geisinger Clinic,OTHER
+Semaglutide,NCT05950516,Type 2 Diabetes,"Qilu Pharmaceutical Co., Ltd.",INDUSTRY
+Semaglutide Pen Injector [Ozempic],NCT05950516,Type 2 Diabetes,"Qilu Pharmaceutical Co., Ltd.",INDUSTRY
+Semaglutide 3 mg/ml,NCT05574439,"Obesity, Adolescent",Signe Torekov,OTHER
+Placebo (Semaglutide 3 mg/ml),NCT05574439,"Obesity, Adolescent",Signe Torekov,OTHER
+Semaglutide,NCT06354101,Metabolic Health,CorEvitas,NETWORK
+Semaglutide Pill,NCT06060392,Diabete Mellitus,"Medanta, The Medicity, India",OTHER
+Semaglutide Pill,NCT06060392,Liver Transplant; Complications,"Medanta, The Medicity, India",OTHER
+semaglutide,NCT06629688,Diabetes Mellitus Type 2,University Hospital Dubrava,OTHER
+semaglutide,NCT06629688,Iron Absorption,University Hospital Dubrava,OTHER
+ASC47 +Semaglutide,NCT06972992,Chronic Weight Management,"Ascletis Pharma (China) Co., Limited",INDUSTRY
+Placebo+Semaglutide,NCT06972992,Chronic Weight Management,"Ascletis Pharma (China) Co., Limited",INDUSTRY
+"Semaglutide, 1.0 mg/mL",NCT06301191,Diabetes Type 2,Attikon Hospital,OTHER
+Semaglutide Pill,NCT05340868,Obesity,Medical University of Bialystok,OTHER
+Semaglutide Pill,NCT05340868,PreDiabetes,Medical University of Bialystok,OTHER
+Semaglutide Pill,NCT05340868,Prediabetic State,Medical University of Bialystok,OTHER
+semaglutide,NCT06989203,Obesity,Chinese Academy of Sciences,OTHER_GOV
+semaglutide,NCT06989203,Weight Loss,Chinese Academy of Sciences,OTHER_GOV
+semaglutide,NCT06989203,Protein Supplementation,Chinese Academy of Sciences,OTHER_GOV
+semaglutide,NCT06989177,Obesity,Chinese Academy of Sciences,OTHER_GOV
+semaglutide,NCT06989177,Weight Loss,Chinese Academy of Sciences,OTHER_GOV
+semaglutide,NCT06989177,Homeostasis,Chinese Academy of Sciences,OTHER_GOV
+semaglutide,NCT06989177,Probiotic Intervention,Chinese Academy of Sciences,OTHER_GOV
+Semaglutide,NCT06762314,Diabetes,Mostafa Bahaa,OTHER
+oral semaglutide,NCT05442450,Obesity,"Asian Institute of Gastroenterology, India",OTHER
+oral semaglutide,NCT05442450,Weight Loss,"Asian Institute of Gastroenterology, India",OTHER
+Semaglutide,NCT05071417,"Atheroscleroses, Coronary",Fundación Instituto de Estudios de Ciencias de la Salud de Castilla y León,OTHER
+semaglutide,NCT06764056,Obesity,"Institut universitaire de cardiologie et de pneumologie de Québec, University Laval",OTHER
+semaglutide,NCT06764056,Metabolic Associated Fatty Liver Disease,"Institut universitaire de cardiologie et de pneumologie de Québec, University Laval",OTHER
+semaglutide,NCT06764056,Metabolic Associated-dysfunction Steatohepatitis (MASH),"Institut universitaire de cardiologie et de pneumologie de Québec, University Laval",OTHER
+Semaglutide 1.34 MG/ML [Ozempic],NCT05078255,Type 2 Diabetes,"Asger Lund, MD",OTHER
+Semaglutide 1.34 MG/ML [Ozempic],NCT05078255,Obesity,"Asger Lund, MD",OTHER
+Semaglutide 1.34 mg/ml placebo,NCT05078255,Type 2 Diabetes,"Asger Lund, MD",OTHER
+Semaglutide 1.34 mg/ml placebo,NCT05078255,Obesity,"Asger Lund, MD",OTHER
+"ACEi / ARB, SGLT2i, finerenone, semaglutide, pentoxifylline, hydrochlorthiazide, baricitinib",NCT05897372,Diabetic Kidney Disease,Iain Bressendorff,OTHER
+Semaglutide 1MG Injection [Ozempic],NCT03292315,Obesity,James J. Peters Veterans Affairs Medical Center,FED
+Semaglutide 1MG Injection [Ozempic],NCT03292315,Spinal Cord Injuries,James J. Peters Veterans Affairs Medical Center,FED
+Semaglutide 1MG Injection [Ozempic],NCT03292315,Insulin Resistance,James J. Peters Veterans Affairs Medical Center,FED
+Semaglutide 1MG Injection [Ozempic],NCT03292315,Pre Diabetes,James J. Peters Veterans Affairs Medical Center,FED
+VTX3232 Dose A in combination with semaglutide,NCT06771115,Obesity,Zomagen Biosciences Ltd.,INDUSTRY
+Placebo in combination with semaglutide,NCT06771115,Obesity,Zomagen Biosciences Ltd.,INDUSTRY
+Semaglutide Injectable Product,NCT05895643,Alcohol Dependence,Psychiatric Centre Rigshospitalet,OTHER
+Semaglutide Injectable Product,NCT05895643,Alcohol Use Disorder,Psychiatric Centre Rigshospitalet,OTHER
+Semaglutide Injectable Product,NCT05895643,Alcohol Abuse,Psychiatric Centre Rigshospitalet,OTHER
+Semaglutide Injectable Product,NCT05895643,Alcohol Addiction,Psychiatric Centre Rigshospitalet,OTHER
+Semaglutide Pen Injector [Ozempic],NCT04873050,Pre Diabetes,Woman's,OTHER
+Semaglutide Pen Injector [Ozempic],NCT04873050,Postpartum Disorder,Woman's,OTHER
+Placebo semaglutide pen injector,NCT04873050,Pre Diabetes,Woman's,OTHER
+Placebo semaglutide pen injector,NCT04873050,Postpartum Disorder,Woman's,OTHER
+Semaglutide,NCT07139548,T2DM,"Guangdong Raynovent Biotech Co., Ltd",INDUSTRY
+semaglutide,NCT06604624,Weight Management,"CSPC Baike (Shandong) Biopharmaceutical Co., Ltd.",INDUSTRY
+Semaglutide,NCT05209165,Obesity,San Francisco Veterans Affairs Medical Center,FED
+Semaglutide,NCT05209165,Atrial Fibrillation,San Francisco Veterans Affairs Medical Center,FED
+Semaglutide,NCT05209165,Overweight,San Francisco Veterans Affairs Medical Center,FED
+semaglutide injection,NCT05816057,"Diabetes Mellitus, Type 2","Hangzhou Jiuyuan Gene Engineering Co. Ltd.,",INDUSTRY
+Semaglutide,NCT06633783,Obesity,"Hangzhou Jiuyuan Gene Engineering Co. Ltd.,",INDUSTRY
+semaglutide injection,NCT06577090,Obesity,"Skye Bioscience, Inc.",INDUSTRY
+Semaglutide,NCT05173714,Obesity,Srinvasan Beddhu,OTHER
+Semaglutide,NCT05173714,Chronic Kidney Diseases,Srinvasan Beddhu,OTHER
+Semaglutide,NCT06803888,Obesity and Obesity-related Medical Conditions,Ali Aminian,OTHER
+Semaglutide Pill,NCT04938388,"Diabetes Mellitus, Type 2",Sansum Diabetes Research Institute,OTHER
+Semaglutide Pill,NCT04938388,Glucose Metabolism Disorders (Including Diabetes Mellitus),Sansum Diabetes Research Institute,OTHER
+semaglutide,NCT04615871,Covid19,Vladimír Džavík,OTHER
+semaglutide,NCT04615871,Myocardial Injury,Vladimír Džavík,OTHER
+Semaglutide,NCT06390501,Obesity; Drug,"Shenzhen Institutes of Advanced Technology ,Chinese Academy of Sciences",OTHER
+Semaglutide,NCT07101939,Obesity,Actimed Therapeutics Ltd,INDUSTRY
+Semaglutide,NCT07101939,Muscle Loss,Actimed Therapeutics Ltd,INDUSTRY
+Semaglutide (Rybelsus®),NCT06827002,Obesity and Overweight,University of Yaounde 1,OTHER
+Semaglutide (Rybelsus®),NCT06827002,Appetite Regulation,University of Yaounde 1,OTHER
+"Semaglutide, 1.0 mg/mL",NCT05670379,Overweight and Obesity,"Vivani Medical, Inc",INDUSTRY
+"Semaglutide, 1.0 mg/mL",NCT05670379,Type2diabetes,"Vivani Medical, Inc",INDUSTRY
+Semaglutide,NCT06256549,Type 2 Diabetes,"Gan and Lee Pharmaceuticals, USA",INDUSTRY
+Semaglutide,NCT04175665,Type 2 Diabetes,LMC Diabetes & Endocrinology Ltd.,OTHER
+"Semaglutide, 1.34 mg/mL",NCT04892199,Type 2 Diabetes,"Anders Fink-Jensen, MD, DMSci",OTHER
+"Semaglutide, 1.34 mg/mL",NCT04892199,Schizophrenia,"Anders Fink-Jensen, MD, DMSci",OTHER
+"Semaglutide, 1.34 mg/mL",NCT04892199,Metabolic Disturbance,"Anders Fink-Jensen, MD, DMSci",OTHER
+"Semaglutide, 1.34 mg/mL",NCT04892199,GLP-1,"Anders Fink-Jensen, MD, DMSci",OTHER
+"Semaglutide, 1.34 mg/mL",NCT04892199,Olanzapine,"Anders Fink-Jensen, MD, DMSci",OTHER
+"Semaglutide, 1.34 mg/mL",NCT04892199,Clozapine,"Anders Fink-Jensen, MD, DMSci",OTHER
+Semaglutide-placebo,NCT04892199,Type 2 Diabetes,"Anders Fink-Jensen, MD, DMSci",OTHER
+Semaglutide-placebo,NCT04892199,Schizophrenia,"Anders Fink-Jensen, MD, DMSci",OTHER
+Semaglutide-placebo,NCT04892199,Metabolic Disturbance,"Anders Fink-Jensen, MD, DMSci",OTHER
+Semaglutide-placebo,NCT04892199,GLP-1,"Anders Fink-Jensen, MD, DMSci",OTHER
+Semaglutide-placebo,NCT04892199,Olanzapine,"Anders Fink-Jensen, MD, DMSci",OTHER
+Semaglutide-placebo,NCT04892199,Clozapine,"Anders Fink-Jensen, MD, DMSci",OTHER
+"Semaglutide, Empagliflozin",NCT06410352,Metabolic Syndrome,"University Medical Center, Kazakhstan",OTHER
+semaglutide injection,NCT07073417,Obesity,"Hangzhou Sciwind Biosciences Co., Ltd.",INDUSTRY
+semaglutide injection,NCT07073417,Weight Management,"Hangzhou Sciwind Biosciences Co., Ltd.",INDUSTRY
+Semaglutide Injectable Product,NCT04885634,Overweight and Obesity,Axel Brandes,OTHER
+Semaglutide Injectable Product,NCT04885634,Atrial Fibrillation,Axel Brandes,OTHER
+Semaglutide,NCT06027567,Obesity,Rigmor Højland Jensen,OTHER
+Semaglutide,NCT06027567,Weight Loss,Rigmor Højland Jensen,OTHER
+Semaglutide,NCT06027567,Idiopathic Intracranial Hypertension,Rigmor Højland Jensen,OTHER
+Semaglutide,NCT06027567,Intracranial Pressure,Rigmor Højland Jensen,OTHER
+Semaglutide,NCT06027567,Papilledema,Rigmor Højland Jensen,OTHER
+Semaglutide,NCT06027567,Pseudotumor Cerebri Syndrome,Rigmor Højland Jensen,OTHER
+Semaglutide 0.5 mg,NCT06788626,Acute Ischemic Stroke,Wei Hu,OTHER
+Semaglutide 0.5 mg,NCT06788626,Endovascular Treatment,Wei Hu,OTHER
+Semaglutide 0.5 mg,NCT06788626,Large Vessel Occlusion,Wei Hu,OTHER
+Semaglutide 0.5 mg,NCT06788626,Neuroprotective Drugs,Wei Hu,OTHER
+Semaglutide,NCT05586802,Klinefelter Syndrome,Georgios Papadakis,OTHER
+Semaglutide Pen Injector,NCT05870462,Obesity,Canadian Medical and Surgical Knowledge Translation Research Group,OTHER
+Semaglutide Pen Injector,NCT05870462,"Diabetes Mellitus, Type 2",Canadian Medical and Surgical Knowledge Translation Research Group,OTHER
+Semaglutide Pen Injector,NCT05870462,Atherosclerosis,Canadian Medical and Surgical Knowledge Translation Research Group,OTHER
+Semaglutide Pen Injector,NCT05870462,Cardiovascular Diseases,Canadian Medical and Surgical Knowledge Translation Research Group,OTHER
+Semaglutide,NCT06282458,Obesity,Veru Inc.,INDUSTRY
+Semaglutide,NCT06282458,Muscle Loss,Veru Inc.,INDUSTRY
+Semaglutide,NCT04126603,"Diabetes Mellitus, Type 2",Sabyasachi Sen,OTHER
+Semaglutide Administered SC,NCT06974825,Type 2 Diabetes,"BrightGene Bio-Medical Technology Co., Ltd.",INDUSTRY
+Drug: Semaglutide Administered SC,NCT06716216,Type 2 Diabetes Mellitus (T2DM),"BrightGene Bio-Medical Technology Co., Ltd.",INDUSTRY
+Semaglutide,NCT07064486,Type 2 Diabetes (T2DM),"BrightGene Bio-Medical Technology Co., Ltd.",INDUSTRY
+"Semaglutide Extended-release for Injectable Suspension, 1 mg",NCT06422624,"Diabetes Mellitus, Type 2","Bostal Drug Delivery Co., Ltd",INDUSTRY
+"Semaglutide Extended-release for Injectable Suspension, 4 mg",NCT06422624,"Diabetes Mellitus, Type 2","Bostal Drug Delivery Co., Ltd",INDUSTRY
+"Semaglutide Extended-release for Injectable Suspension, 8 mg",NCT06422624,"Diabetes Mellitus, Type 2","Bostal Drug Delivery Co., Ltd",INDUSTRY
+Semaglutide Injectable Product,NCT06500429,Healthy,"Neurogastrx, Inc.",INDUSTRY
+Semaglutide Injectable Product,NCT06500429,Overweight and Obesity,"Neurogastrx, Inc.",INDUSTRY
+Semaglutide (Rybelsus®),NCT07135245,Alzheimer Disease (AD),Rune Skovgaard Rasmussen,OTHER
+Semaglutide (Rybelsus®) combined with other interventions,NCT07135245,Alzheimer Disease (AD),Rune Skovgaard Rasmussen,OTHER
+Semaglutide Injectable Product,NCT06706284,Type 2 Diabetes,Marzieh Salehi,OTHER
+Semaglutide Injectable Product,NCT06706284,Spinal Cord Injuries,Marzieh Salehi,OTHER
+Semaglutide Pen,NCT06616961,Obesity,Popular Medical College Hospital,OTHER
+Semaglutide Pen,NCT06616961,Type 2 Diabetes Mellitus (T2DM),Popular Medical College Hospital,OTHER
+Semaglutide Injection,NCT06339086,Type 2 Diabetes Mellitus,"Chengdu Brilliant Pharmaceutical Co., Ltd.",INDUSTRY
+Semaglutide Injection(Ozempic®),NCT06339086,Type 2 Diabetes Mellitus,"Chengdu Brilliant Pharmaceutical Co., Ltd.",INDUSTRY
+Semaglutide,NCT06475586,Diabetes Type 2,University of Banja Luka,OTHER
+Semaglutide,NCT06475586,Psoriasis Vulgaris,University of Banja Luka,OTHER
+Semaglutide Injectable Product,NCT07136714,Major Depressive Disorder,Maj Vinberg,OTHER
+Arm 2 - DehydraTECH-semaglutide alone,NCT06648031,Type2diabetes,Lexaria Bioscience Corp.,INDUSTRY
+Arm 3 - DehydraTECH-CBD in combination with DehydraTECH-semaglutide,NCT06648031,Type2diabetes,Lexaria Bioscience Corp.,INDUSTRY
+Arm 4 - Rybelsus medication (semaglutide) alone,NCT06648031,Type2diabetes,Lexaria Bioscience Corp.,INDUSTRY
+Semaglutide Pen Injector [Ozempic],NCT06449625,Inflammation,Klaus Gottlob Müller,OTHER
+Semaglutide Pen Injector [Ozempic],NCT06449625,Chemotherapeutic Toxicity,Klaus Gottlob Müller,OTHER
+Semaglutide Pen Injector [Ozempic],NCT06449625,Intestinal Mucositis,Klaus Gottlob Müller,OTHER
+Semaglutide Injection (Ozempic®),NCT07163624,Type 2 Diabetes Mellitus (T2DM),"The United Bio-Technology (Hengqin) Co., Ltd.",INDUSTRY
+Semaglutide Injectable Product,NCT06423599,Obesity,"Jens D Hove, MD,PHD",OTHER
+Semaglutide Injectable Product,NCT06423599,Weight Loss,"Jens D Hove, MD,PHD",OTHER
+Semaglutide Injectable Product,NCT06423599,Chronic Heart Failure,"Jens D Hove, MD,PHD",OTHER
+Semaglutide Injectable Product,NCT06423599,Heart Failure With Reduced Ejection Fraction,"Jens D Hove, MD,PHD",OTHER
+Semaglutide in combination with a healthy lifestyle intervention (diet and exercise),NCT06754163,Obesity and Obesity-related Medical Conditions,St Andrew's Healthcare,OTHER
+Semaglutide in combination with a healthy lifestyle intervention (diet and exercise),NCT06754163,Psychiatric Disorders,St Andrew's Healthcare,OTHER
+Semaglutide,NCT05537233,Obesity,Viral N. Shah,OTHER
+Semaglutide,NCT05537233,Type 1 Diabetes,Viral N. Shah,OTHER
+"Semaglutide, 1.34 mg/mL",NCT05193578,Schizophrenia,Jan Frystyk,OTHER
+"Semaglutide, 1.34 mg/mL",NCT05193578,Prediabetic State,Jan Frystyk,OTHER
+"Semaglutide, 1.34 mg/mL",NCT04854083,Type2 Diabetes,Kirsi Pietiläinen,OTHER

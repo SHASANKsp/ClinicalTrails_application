@@ -1,0 +1,3910 @@
+sponsor,sponsor_class,trials
+Novo Nordisk A/S,INDUSTRY,830
+AstraZeneca,INDUSTRY,348
+Eli Lilly and Company,INDUSTRY,289
+Sanofi,INDUSTRY,266
+Merck Sharp & Dohme LLC,INDUSTRY,189
+GlaxoSmithKline,INDUSTRY,136
+Boehringer Ingelheim,INDUSTRY,135
+National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK),NIH,128
+"University of Colorado, Denver",OTHER,122
+Takeda,INDUSTRY,120
+University of Aarhus,OTHER,104
+Mayo Clinic,OTHER,97
+Pfizer,INDUSTRY,94
+Brigham and Women's Hospital,OTHER,93
+Yale University,OTHER,91
+University of Virginia,OTHER,90
+Emory University,OTHER,80
+Stanford University,OTHER,78
+Hoffmann-La Roche,INDUSTRY,76
+Steno Diabetes Center Copenhagen,OTHER,73
+Novartis Pharmaceuticals,INDUSTRY,73
+University of Michigan,OTHER,73
+Massachusetts General Hospital,OTHER,71
+University of Toronto,OTHER,70
+Washington University School of Medicine,OTHER,67
+Medtronic Diabetes,INDUSTRY,67
+Assistance Publique - Hôpitaux de Paris,OTHER,64
+VA Office of Research and Development,FED,64
+University of Pittsburgh,OTHER,62
+Imperial College London,OTHER,60
+Chong Kun Dang Pharmaceutical,INDUSTRY,60
+Duke University,OTHER,60
+University of Minnesota,OTHER,60
+University of Pennsylvania,OTHER,59
+University of Alabama at Birmingham,OTHER,57
+"University of California, San Francisco",OTHER,56
+"Jiangsu HengRui Medicine Co., Ltd.",INDUSTRY,56
+US Department of Veterans Affairs,FED,56
+The University of Texas Health Science Center at San Antonio,OTHER,55
+"University Hospital, Gentofte, Copenhagen",OTHER,54
+Johns Hopkins University,OTHER,54
+Novartis,INDUSTRY,54
+University of British Columbia,OTHER,53
+NYU Langone Health,OTHER,53
+Maastricht University Medical Center,OTHER,53
+National Taiwan University Hospital,OTHER,53
+"National Heart, Lung, and Blood Institute (NHLBI)",NIH,51
+University of Alberta,OTHER,50
+Assiut University,OTHER,50
+Cairo University,OTHER,50
+Joslin Diabetes Center,OTHER,49
+Rabin Medical Center,OTHER,49
+Chinese University of Hong Kong,OTHER,49
+University of Texas Southwestern Medical Center,OTHER,48
+Vanderbilt University Medical Center,OTHER,48
+Kaiser Permanente,OTHER,48
+Institut de Recherches Cliniques de Montreal,OTHER,47
+Radboud University Medical Center,OTHER,47
+Karolinska Institutet,OTHER,46
+Jaeb Center for Health Research,OTHER,45
+Ohio State University,OTHER,44
+University of Florida,OTHER,42
+Hospital de Clinicas de Porto Alegre,OTHER,42
+University of Chicago,OTHER,42
+Ascensia Diabetes Care,INDUSTRY,42
+Baylor College of Medicine,OTHER,41
+Vanderbilt University,OTHER,41
+Odense University Hospital,OTHER,41
+Bayer,INDUSTRY,41
+"Rigshospitalet, Denmark",OTHER,40
+Shanghai Jiao Tong University School of Medicine,OTHER,40
+Northwestern University,OTHER,40
+University of Manitoba,OTHER,40
+Medical University of Graz,OTHER,40
+Medical University of Vienna,OTHER,40
+Indiana University,OTHER,39
+"University of California, San Diego",OTHER,39
+The University of Hong Kong,OTHER,38
+Mannkind Corporation,INDUSTRY,38
+HealthPartners Institute,OTHER,38
+Abbott Diabetes Care,INDUSTRY,38
+"University of Maryland, Baltimore",OTHER,36
+"University of North Carolina, Chapel Hill",OTHER,36
+Hvidovre University Hospital,OTHER,36
+Ain Shams University,OTHER,36
+Pennington Biomedical Research Center,OTHER,35
+Yonsei University,OTHER,35
+Sansum Diabetes Research Institute,OTHER,35
+Seoul National University Hospital,OTHER,34
+Seoul National University Bundang Hospital,OTHER,34
+University of Illinois at Chicago,OTHER,34
+Unity Health Toronto,OTHER,34
+University of Copenhagen,OTHER,34
+University of Leicester,OTHER,33
+"Nanjing First Hospital, Nanjing Medical University",OTHER,33
+University of Cambridge,OTHER,33
+Oregon Health and Science University,OTHER,33
+University of Washington,OTHER,33
+University of Southern California,OTHER,32
+University of Sao Paulo,OTHER,32
+"Janssen Research & Development, LLC",INDUSTRY,32
+Sun Yat-sen University,OTHER,31
+Peking Union Medical College Hospital,OTHER,31
+"University Hospital, Montpellier",OTHER,31
+Astellas Pharma Inc,INDUSTRY,31
+"University of California, Los Angeles",OTHER,31
+Hospices Civils de Lyon,OTHER,30
+Centre Hospitalier Universitaire Dijon,OTHER,30
+Sheba Medical Center,OTHER_GOV,30
+Centre d'Etudes et de Recherche pour l'Intensification du Traitement du Diabète,OTHER,29
+"DexCom, Inc.",INDUSTRY,29
+"University Hospital, Basel, Switzerland",OTHER,29
+National Institute of Allergy and Infectious Diseases (NIAID),NIH,29
+Albert Einstein College of Medicine,OTHER,28
+University Hospital Tuebingen,OTHER,28
+McGill University Health Centre/Research Institute of the McGill University Health Centre,OTHER,28
+Lund University,OTHER,27
+Icahn School of Medicine at Mount Sinai,OTHER,27
+"The University of Texas Health Science Center, Houston",OTHER,26
+University of Campania Luigi Vanvitelli,OTHER,26
+Medical College of Wisconsin,OTHER,26
+University of Calgary,OTHER,26
+"University Hospital, Grenoble",OTHER,26
+University of Missouri-Columbia,OTHER,26
+Weill Medical College of Cornell University,OTHER,26
+"Insel Gruppe AG, University Hospital Bern",OTHER,26
+Nemours Children's Clinic,OTHER,25
+Université de Sherbrooke,OTHER,25
+State University of New York at Buffalo,OTHER,25
+Wake Forest University Health Sciences,OTHER,25
+McMaster University,OTHER,25
+Singapore Institute of Food and Biotechnology Innovation,OTHER_GOV,25
+"University of California, Davis",OTHER,25
+Columbia University,OTHER,25
+Second Xiangya Hospital of Central South University,OTHER,25
+"Amsterdam UMC, location VUmc",OTHER,24
+Bristol-Myers Squibb,INDUSTRY,24
+"University of Wisconsin, Madison",OTHER,24
+Profil Institut für Stoffwechselforschung GmbH,INDUSTRY,24
+Lexicon Pharmaceuticals,INDUSTRY,24
+McGill University,OTHER,23
+Universitaire Ziekenhuizen KU Leuven,OTHER,23
+Mitsubishi Tanabe Pharma Corporation,INDUSTRY,23
+"University Health Network, Toronto",OTHER,22
+Daiichi Sankyo,INDUSTRY,22
+Arizona State University,OTHER,22
+Federico II University,OTHER,22
+Adocia,INDUSTRY,22
+Dasman Diabetes Institute,OTHER,22
+The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School,OTHER,21
+German Diabetes Center,OTHER,21
+Shanghai Zhongshan Hospital,OTHER,21
+Vastra Gotaland Region,OTHER_GOV,21
+University of Padova,OTHER,21
+University of Utah,OTHER,21
+Abbott Nutrition,INDUSTRY,21
+Norwegian University of Science and Technology,OTHER,21
+Hadassah Medical Organization,OTHER,21
+"Johnson & Johnson Pharmaceutical Research & Development, L.L.C.",INDUSTRY,21
+"Becton, Dickinson and Company",INDUSTRY,20
+Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA),OTHER,20
+Chang Gung Memorial Hospital,OTHER,20
+Laval University,OTHER,20
+"Gan and Lee Pharmaceuticals, USA",INDUSTRY,20
+University of Oxford,OTHER,20
+University of Arkansas,OTHER,20
+University of Miami,OTHER,20
+LMC Diabetes & Endocrinology Ltd.,OTHER,20
+Riphah International University,OTHER,20
+Singapore General Hospital,OTHER,20
+Royal Devon and Exeter NHS Foundation Trust,OTHER,19
+"University Hospital, Lille",OTHER,19
+AdventHealth Translational Research Institute,OTHER,19
+The Cleveland Clinic,OTHER,19
+University of New Mexico,OTHER,19
+Daewoong Pharmaceutical Co. LTD.,INDUSTRY,19
+Tehran University of Medical Sciences,OTHER,19
+"Dong-A ST Co., Ltd.",INDUSTRY,19
+Aarhus University Hospital,OTHER,18
+Medical University of South Carolina,OTHER,18
+Aristotle University Of Thessaloniki,OTHER,18
+"Boryung Pharmaceutical Co., Ltd",INDUSTRY,18
+University at Buffalo,OTHER,18
+University of Kansas Medical Center,OTHER,18
+University of Arizona,OTHER,18
+King's College London,OTHER,18
+University of Sao Paulo General Hospital,OTHER,18
+Oslo University Hospital,OTHER,18
+Insulet Corporation,INDUSTRY,18
+Boston Children's Hospital,OTHER,18
+Theracos,INDUSTRY,17
+Bispebjerg Hospital,OTHER,17
+Centre Hospitalier Sud Francilien,OTHER,17
+"University Hospital, Toulouse",OTHER,17
+Scripps Whittier Diabetes Institute,OTHER,17
+"Post Graduate Institute of Medical Education and Research, Chandigarh",OTHER,17
+Fondazione Policlinico Universitario Agostino Gemelli IRCCS,OTHER,17
+Sohag University,OTHER,17
+Beth Israel Deaconess Medical Center,OTHER,17
+National University of Singapore,OTHER,17
+Indonesia University,OTHER,17
+Samsung Medical Center,OTHER,16
+"Rutgers, The State University of New Jersey",OTHER,16
+"University of Massachusetts, Worcester",OTHER,16
+Handok Inc.,INDUSTRY,16
+Göteborg University,OTHER,16
+Medical University of Warsaw,OTHER,16
+"Diabetes Foundation, India",OTHER,16
+National Center for Research Resources (NCRR),NIH,16
+Assaf-Harofeh Medical Center,OTHER_GOV,16
+"Tandem Diabetes Care, Inc.",INDUSTRY,16
+University of Nottingham,OTHER,15
+"Shandong Suncadia Medicine Co., Ltd.",INDUSTRY,15
+Amgen,INDUSTRY,15
+London Health Sciences Centre Research Institute OR Lawson Research Institute of St. Joseph's,OTHER,15
+Temple University,OTHER,15
+Société des Produits Nestlé (SPN),INDUSTRY,15
+Hanmi Pharmaceutical Company Limited,INDUSTRY,15
+University of Southern Denmark,OTHER,15
+George Washington University,OTHER,15
+Physicians Committee for Responsible Medicine,OTHER,15
+LifeScan,INDUSTRY,15
+Boston Medical Center,OTHER,15
+"University of California, Irvine",OTHER,15
+Universiti Putra Malaysia,OTHER,15
+Fundacio d'Investigacio en Atencio Primaria Jordi Gol i Gurina,OTHER,15
+Biodel,INDUSTRY,15
+University of Guadalajara,OTHER,15
+Hacettepe University,OTHER,14
+"VeraLight, Inc.",INDUSTRY,14
+Thomas Jefferson University,OTHER,14
+Aalborg University Hospital,OTHER,14
+City of Hope Medical Center,OTHER,14
+Johns Hopkins Bloomberg School of Public Health,OTHER,14
+Helsinki University Central Hospital,OTHER,14
+Purdue University,OTHER,14
+RSP Systems A/S,INDUSTRY,14
+"University of Campinas, Brazil",OTHER,14
+Korea University Anam Hospital,OTHER,14
+Children's Mercy Hospital Kansas City,OTHER,14
+The Hospital for Sick Children,OTHER,14
+University Medical Centre Ljubljana,OTHER,13
+Yaounde Central Hospital,OTHER_GOV,13
+"The University of Texas Medical Branch, Galveston",OTHER,13
+Karolinska University Hospital,OTHER,13
+Nantes University Hospital,OTHER,13
+Liverpool John Moores University,OTHER,13
+"University of Ljubljana, Faculty of Medicine",OTHER,13
+National Nutrition and Food Technology Institute,OTHER,13
+"Fujian Shengdi Pharmaceutical Co., Ltd.",INDUSTRY,13
+"Mount Sinai Hospital, Canada",OTHER,13
+"Ionis Pharmaceuticals, Inc.",INDUSTRY,13
+Peking University Third Hospital,OTHER,13
+"Institut National de la Santé Et de la Recherche Médicale, France",OTHER_GOV,13
+Huazhong University of Science and Technology,OTHER,13
+Uppsala University,OTHER,13
+The Catholic University of Korea,OTHER,13
+University of Texas at Austin,OTHER,13
+Assistance Publique Hopitaux De Marseille,OTHER,13
+University of Dundee,OTHER,13
+Shanghai 6th People's Hospital,OTHER,13
+Forschungsinstitut der Diabetes Akademie Mergentheim,OTHER,13
+University of Nebraska,OTHER,13
+Gilead Sciences,INDUSTRY,13
+Children's Hospital of Philadelphia,OTHER,13
+Wayne State University,OTHER,13
+Boston University,OTHER,13
+Institut für Diabetes-Technologie Forschungs- und Entwicklungsgesellschaft mbH an der Universität Ulm,OTHER,13
+Institut fur Diabetes Karlsburg GmbH,OTHER,13
+China Medical University Hospital,OTHER,12
+Ege University,OTHER,12
+Tel-Aviv Sourasky Medical Center,OTHER_GOV,12
+IRCCS San Raffaele,OTHER,12
+Rambam Health Care Campus,OTHER,12
+Castilla-La Mancha Health Service,OTHER,12
+University Medical Center Groningen,OTHER,12
+"Oramed, Ltd.",INDUSTRY,12
+Virginia Commonwealth University,OTHER,12
+"University Hospital, Bordeaux",OTHER,12
+"PegBio Co., Ltd.",OTHER,12
+German Institute of Human Nutrition,OTHER,12
+Region Skane,OTHER,12
+"Taipei Veterans General Hospital, Taiwan",OTHER_GOV,12
+Instituto Nacional de Ciencias Medicas y Nutricion Salvador Zubiran,OTHER,12
+Tel Aviv University,OTHER,12
+Mario Negri Institute for Pharmacological Research,OTHER,12
+University of Exeter,OTHER,12
+Augusta University,OTHER,12
+University of Pavia,OTHER,12
+Istanbul University,OTHER,12
+LG Chem,INDUSTRY,12
+University of Hawaii,OTHER,12
+Fundación Pública Andaluza para la Investigación de Málaga en Biomedicina y Salud,OTHER,12
+Abant Izzet Baysal University,OTHER,12
+University Hospitals Cleveland Medical Center,OTHER,12
+Maastricht University,OTHER,12
+University of Roma La Sapienza,OTHER,12
+Sunnybrook Health Sciences Centre,OTHER,12
+Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD),NIH,12
+Leiden University Medical Center,OTHER,12
+Shanghai Changzheng Hospital,OTHER,12
+"Coordinación de Investigación en Salud, Mexico",OTHER_GOV,11
+University of Pisa,OTHER,11
+"Glostrup University Hospital, Copenhagen",OTHER,11
+Morphic Medical Inc.,INDUSTRY,11
+Centre Hospitalier Universitaire de la Réunion,OTHER,11
+"Charles University, Czech Republic",OTHER,11
+Children's Hospital Los Angeles,OTHER,11
+Endocrine Research Society,OTHER,11
+"University Hospital, Caen",OTHER,11
+Loma Linda University,OTHER,11
+"University Hospital, Clermont-Ferrand",OTHER,11
+Ottawa Hospital Research Institute,OTHER,11
+Intarcia Therapeutics,INDUSTRY,11
+University of Aberdeen,OTHER,11
+Northwell Health,OTHER,11
+Rush University Medical Center,OTHER,11
+"Charite University, Berlin, Germany",OTHER,11
+Cook County Health,OTHER_GOV,11
+Turku University Hospital,OTHER_GOV,11
+University of Oklahoma,OTHER,11
+Hua Medicine Limited,INDUSTRY,11
+"Medical Research Foundation, The Netherlands",OTHER,11
+Halozyme Therapeutics,INDUSTRY,11
+Kinderkrankenhaus auf der Bult,OTHER,11
+Milton S. Hershey Medical Center,OTHER,10
+Manchester University NHS Foundation Trust,OTHER_GOV,10
+Rodolfo Alejandro,OTHER,10
+University of Lausanne Hospitals,OTHER,10
+"Sultan Abdulhamid Han Training and Research Hospital, Istanbul, Turkey",OTHER,10
+University of Adelaide,OTHER,10
+Institute for Clinical and Experimental Medicine,OTHER_GOV,10
+"Jiangsu Hansoh Pharmaceutical Co., Ltd.",INDUSTRY,10
+Laboratorios Silanes S.A. de C.V.,INDUSTRY,10
+Biogen,INDUSTRY,10
+Ohio University,OTHER,10
+India Diabetes Research Foundation & Dr. A. Ramachandran's Diabetes Hospitals,OTHER,10
+University of Helsinki,OTHER,10
+Charles Drew University of Medicine and Science,OTHER,10
+"CSPC ZhongQi Pharmaceutical Technology Co., Ltd.",INDUSTRY,10
+University of Leeds,OTHER,10
+The Royal Bournemouth Hospital,OTHER,10
+John Sievenpiper,OTHER,10
+University of Malaya,OTHER,10
+National University of Malaysia,OTHER,10
+"Second Affiliated Hospital, School of Medicine, Zhejiang University",OTHER,10
+University of Jordan,OTHER,10
+Federal University of Rio Grande do Sul,OTHER,10
+National Institute on Aging (NIA),NIH,10
+Hasselt University,OTHER,10
+RWTH Aachen University,OTHER,10
+"Central Hospital, Nancy, France",OTHER,10
+"University Hospital, Strasbourg, France",OTHER,10
+Guang'anmen Hospital of China Academy of Chinese Medical Sciences,OTHER,10
+MedImmune LLC,INDUSTRY,10
+Hamad Medical Corporation,INDUSTRY,10
+Aga Khan University,OTHER,10
+Medstar Health Research Institute,OTHER,10
+"Medanta, The Medicity, India",OTHER,9
+Harvard School of Public Health (HSPH),OTHER,9
+University of Oulu,OTHER,9
+"Kyowa Kirin Co., Ltd.",INDUSTRY,9
+LG Life Sciences,INDUSTRY,9
+RenJi Hospital,OTHER,9
+University of Portsmouth,OTHER,9
+Colorado State University,OTHER,9
+Centre Hospitalier Universitaire de Nīmes,OTHER,9
+Zhejiang University,OTHER,9
+Ataturk University,OTHER,9
+Griffin Hospital,OTHER,9
+Ottawa Heart Institute Research Corporation,OTHER,9
+Fundació Institut de Recerca de l'Hospital de la Santa Creu i Sant Pau,OTHER,9
+Tufts University,OTHER,9
+Beijing Chao Yang Hospital,OTHER,9
+Solvay Pharmaceuticals,INDUSTRY,9
+Skane University Hospital,OTHER,9
+Umeå University,OTHER,9
+"Jeil Pharmaceutical Co., Ltd.",INDUSTRY,9
+Taichung Veterans General Hospital,OTHER,9
+Hamilton Health Sciences Corporation,OTHER,9
+Cambridge University Hospitals NHS Foundation Trust,OTHER,9
+Peking University First Hospital,OTHER,9
+Loyola University,OTHER,9
+National Cheng-Kung University Hospital,OTHER,9
+Kangbuk Samsung Hospital,OTHER,9
+University of Rochester,OTHER,9
+Baskent University,OTHER,9
+Tanta University,OTHER,9
+National Center for Complementary and Integrative Health (NCCIH),NIH,9
+"Children's Hospital Medical Center, Cincinnati",OTHER,9
+"Senseonics, Inc.",INDUSTRY,9
+Tulane University,OTHER,9
+University of Erlangen-Nürnberg Medical School,OTHER,9
+Woman's,OTHER,9
+Legacy Health System,OTHER,9
+Hospital Clinic of Barcelona,OTHER,9
+Xijing Hospital,OTHER,9
+EMS,INDUSTRY,9
+King Saud University,OTHER,9
+Nordsjaellands Hospital,OTHER,9
+Georgetown University,OTHER,9
+Women's Hospital School Of Medicine Zhejiang University,OTHER,9
+Dartmouth-Hitchcock Medical Center,OTHER,9
+"University Hospital, Antwerp",OTHER,9
+Florida Atlantic University,OTHER,9
+Wockhardt,INDUSTRY,9
+National Human Genome Research Institute (NHGRI),NIH,9
+Children's Hospital of Eastern Ontario,OTHER,8
+AZ-VUB,OTHER,8
+"HaEmek Medical Center, Israel",OTHER,8
+Meir Medical Center,OTHER,8
+"University of Turin, Italy",OTHER,8
+Marmara University,OTHER,8
+Ruijin Hospital,OTHER,8
+First Affiliated Hospital Xi'an Jiaotong University,OTHER,8
+University of Palermo,OTHER,8
+Technical University of Munich,OTHER,8
+Montefiore Medical Center,OTHER,8
+Monash University,OTHER,8
+Geisinger Clinic,OTHER,8
+"University Hospital, Geneva",OTHER,8
+Gulhane School of Medicine,OTHER,8
+Baylor Research Institute,OTHER,8
+Soroka University Medical Center,OTHER,8
+Haukeland University Hospital,OTHER,8
+Universiti Sains Malaysia,OTHER,8
+Creighton University,OTHER,8
+Insuline Medical Ltd.,INDUSTRY,8
+TNO,OTHER,8
+China National Center for Cardiovascular Diseases,OTHER_GOV,8
+UMC Utrecht,OTHER,8
+University of Valencia,OTHER,8
+University of Cincinnati,OTHER,8
+"GT Metabolic Solutions, Inc.",INDUSTRY,8
+Taipei Medical University,OTHER,8
+University of Zurich,OTHER,8
+Universitätsklinikum Hamburg-Eppendorf,OTHER,8
+"Western University, Canada",OTHER,8
+Denver Health and Hospital Authority,OTHER,8
+"Suzhou Yabao Pharmaceutical R&D Co., Ltd.",INDUSTRY,8
+Fundacion para la Investigacion Biomedica del Hospital Universitario Ramon y Cajal,OTHER,8
+Universidade Estadual Paulista Júlio de Mesquita Filho,OTHER,8
+Getz Pharma,INDUSTRY,8
+University of Milan,OTHER,8
+Gazi University,OTHER,8
+San Diego State University,OTHER,8
+Hennepin Healthcare Research Institute,OTHER,8
+Organon and Co,INDUSTRY,8
+Gan & Lee Pharmaceuticals.,INDUSTRY,8
+Zealand Pharma,INDUSTRY,8
+Universita di Verona,OTHER,8
+"Clinica Universidad de Navarra, Universidad de Navarra",OTHER,8
+Yuhan Corporation,INDUSTRY,8
+University of Edinburgh,OTHER,8
+JW Pharmaceutical,INDUSTRY,8
+Zhongda Hospital,OTHER,8
+Phenomix,INDUSTRY,8
+Attikon Hospital,OTHER,7
+University of Chile,OTHER,7
+Esbjerg Hospital - University Hospital of Southern Denmark,OTHER,7
+Harokopio University,OTHER,7
+Penn State University,OTHER,7
+Istanbul Medeniyet University,OTHER,7
+"Sunshine Lake Pharma Co., Ltd.",INDUSTRY,7
+University of Bath,OTHER,7
+University of Surrey,OTHER,7
+HighTide Biopharma Pty Ltd,INDUSTRY,7
+Centre hospitalier de l'Université de Montréal (CHUM),OTHER,7
+Robert Wood Johnson Foundation,OTHER,7
+Bayside Health,OTHER_GOV,7
+"Daiichi Sankyo Co., Ltd.",INDUSTRY,7
+"University Hospital, Angers",OTHER_GOV,7
+Medical University of Bialystok,OTHER,7
+"First Affiliated Hospital, Sun Yat-Sen University",OTHER,7
+GWT-TUD GmbH,OTHER,7
+Florida State University,OTHER,7
+Virginia Polytechnic Institute and State University,OTHER,7
+Nagaoka Red Cross Hospital,OTHER,7
+Pamukkale University,OTHER,7
+Mahidol University,OTHER,7
+"Azienda Ospedaliero, Universitaria Pisana",OTHER,7
+Loughborough University,OTHER,7
+Damanhour University,OTHER,7
+Third Military Medical University,OTHER,7
+Pfizer's Upjohn has merged with Mylan to form Viatris Inc.,INDUSTRY,7
+Sciema UG,OTHER,7
+LabStyle Innovations Ltd.,INDUSTRY,7
+West German Center of Diabetes and Health,OTHER,7
+"Canadian Network for Observational Drug Effect Studies, CNODES",OTHER,7
+Ludwig-Maximilians - University of Munich,OTHER,7
+CHU de Quebec-Universite Laval,OTHER,7
+Peking University,OTHER,7
+"University Hospital, Ghent",OTHER,7
+Zhujiang Hospital,OTHER,7
+Midwest Center for Metabolic and Cardiovascular Research,OTHER,7
+"Sanwa Kagaku Kenkyusho Co., Ltd.",INDUSTRY,7
+Fred Hutchinson Cancer Center,OTHER,7
+Kaohsiung Medical University Chung-Ho Memorial Hospital,OTHER,7
+Herlev Hospital,OTHER,7
+Poznan University of Medical Sciences,OTHER,7
+King's College Hospital NHS Trust,OTHER,7
+Children's National Research Institute,OTHER,7
+Mike O'Callaghan Military Hospital,FED,7
+LifeScan Scotland Ltd,INDUSTRY,7
+The University of The West Indies,OTHER,7
+Case Western Reserve University,OTHER,7
+"Clinical Nutrition Research Center, Illinois Institute of Technology",INDUSTRY,7
+Dompé Farmaceutici S.p.A,INDUSTRY,7
+Universidade do Porto,OTHER,6
+St. Louis University,OTHER,6
+ikfe-CRO GmbH,INDUSTRY,6
+"Intermountain Health Care, Inc.",OTHER,6
+PhaseBio Pharmaceuticals Inc.,INDUSTRY,6
+Fondation Hôpital Saint-Joseph,OTHER,6
+Chonbuk National University Hospital,OTHER,6
+Guangdong Provincial People's Hospital,OTHER,6
+Azienda Ospedaliero-Universitaria Careggi,OTHER,6
+Tampere University Hospital,OTHER,6
+vTv Therapeutics,INDUSTRY,6
+"Samuel Lunenfeld Research Institute, Mount Sinai Hospital",OTHER,6
+Duke-NUS Graduate Medical School,OTHER,6
+Fuzhou General Hospital,OTHER,6
+Imperial College London Diabetes Centre,OTHER,6
+Akros Pharma Inc.,INDUSTRY,6
+Michigan State University,OTHER,6
+SingHealth Polyclinics,OTHER,6
+Diasome Pharmaceuticals,INDUSTRY,6
+"Instituto Nacional de Salud Publica, Mexico",OTHER,6
+Elaine Chow,OTHER,6
+Geropharm,INDUSTRY,6
+Saglik Bilimleri Universitesi,OTHER,6
+Shanghai 10th People's Hospital,OTHER,6
+"Centro Universitario de Ciencias de la Salud, Mexico",OTHER,6
+National and Kapodistrian University of Athens,OTHER,6
+"Nanfang Hospital, Southern Medical University",OTHER,6
+Poitiers University Hospital,OTHER,6
+China-Japan Friendship Hospital,OTHER,6
+"Carmot Therapeutics, Inc.",INDUSTRY,6
+Nationwide Children's Hospital,OTHER,6
+Xeris Pharmaceuticals,INDUSTRY,6
+Marc Breton,OTHER,6
+Uppsala University Hospital,OTHER,6
+Garvan Institute of Medical Research,OTHER,6
+"Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",INDUSTRY,6
+"University Hospitals, Leicester",OTHER,6
+Ruhr University of Bochum,OTHER,6
+The Hong Kong Polytechnic University,OTHER,6
+Clalit Health Services,OTHER,6
+East Carolina University,OTHER,6
+"Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd.",INDUSTRY,6
+NHS Greater Glasgow and Clyde,OTHER,6
+Centre Hospitalier Universitaire de Nice,OTHER,6
+Goztepe Prof Dr Suleyman Yalcın City Hospital,OTHER,6
+Korea University,OTHER,6
+University of Giessen,OTHER,6
+University of South Florida,OTHER,6
+The George Institute,OTHER,6
+Cedars-Sinai Medical Center,OTHER,6
+Heidelberg University,OTHER,6
+University of Eastern Finland,OTHER,6
+"National University Hospital, Singapore",OTHER,6
+Wageningen University,OTHER,6
+University of Reading,OTHER,6
+Tufts Medical Center,OTHER,6
+Azienda Ospedaliero-Universitaria di Parma,OTHER,6
+"University of Nevada, Las Vegas",OTHER,6
+Alexandria University,OTHER,6
+Palo Alto Medical Foundation,OTHER,6
+Catholic University of the Sacred Heart,OTHER,6
+State University of New York - Upstate Medical University,OTHER,6
+Uşak University,OTHER,6
+University of South Carolina,OTHER,6
+Diabetes Care Center,INDUSTRY,6
+Fractyl Health Inc.,INDUSTRY,6
+Galenicum Health,INDUSTRY,6
+Prokidney,INDUSTRY,6
+"Shanghai Yinnuo Pharmaceutical Technology Co., Ltd.",OTHER,6
+Istanbul University - Cerrahpasa,OTHER,6
+Medtronic - MITG,INDUSTRY,6
+Ningbo No. 1 Hospital,OTHER,6
+University of Vermont,OTHER,6
+Wolfson Medical Center,OTHER_GOV,6
+United Arab Emirates University,OTHER,6
+Kathleen Dungan,OTHER,6
+Westlake University,OTHER,6
+"Sirtris, a GSK Company",INDUSTRY,6
+"Queen's University, Belfast",OTHER,6
+Sidra Medicine,OTHER,6
+Fundación para la Investigación del Hospital Clínico de Valencia,OTHER,6
+Bogomolets National Medical University,OTHER,6
+Allergan,INDUSTRY,6
+Sinocare,INDUSTRY,6
+University of Connecticut,OTHER,6
+Hasan Kalyoncu University,OTHER,6
+EyeSense GmbH,INDUSTRY,6
+Asia Diabetes Foundation,OTHER,6
+Rennes University Hospital,OTHER,6
+CHU de Reims,OTHER,5
+Huashan Hospital,OTHER,5
+Ospedale San Raffaele,OTHER,5
+Dokuz Eylul University,OTHER,5
+Fayoum University,OTHER,5
+National Eye Institute (NEI),NIH,5
+Szeged University,OTHER,5
+Kasr El Aini Hospital,OTHER,5
+American University of Beirut Medical Center,OTHER,5
+Wyeth is now a wholly owned subsidiary of Pfizer,INDUSTRY,5
+Chongqing Medical University,OTHER,5
+University of Bern,OTHER,5
+King Abdullah International Medical Research Center,OTHER,5
+Hiroshima University,OTHER,5
+Agency for Healthcare Research and Quality (AHRQ),FED,5
+West China Hospital,OTHER,5
+IRCCS Azienda Ospedaliero-Universitaria di Bologna,OTHER,5
+Capital Medical University,OTHER,5
+University of the Balearic Islands,OTHER,5
+Hartford Hospital,OTHER,5
+M.D. Anderson Cancer Center,OTHER,5
+Beni-Suef University,OTHER,5
+"Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine",OTHER,5
+"Tranzyme, Inc.",INDUSTRY,5
+KU Leuven,OTHER,5
+University of Pecs,OTHER,5
+Weill Cornell Medical College in Qatar,OTHER,5
+Hospital Universitario Dr. Jose E. Gonzalez,OTHER,5
+"AJU Pharm Co., Ltd.",INDUSTRY,5
+"Merck KGaA, Darmstadt, Germany",INDUSTRY,5
+Diabeloop,INDUSTRY,5
+Universidade Federal do Rio de Janeiro,OTHER,5
+"Federal State Budgetary Institution, V. A. Almazov Federal North-West Medical Research Centre, of the Ministry of Health",OTHER,5
+National Heart Centre Singapore,OTHER,5
+"National Health Research Institutes, Taiwan",OTHER,5
+National Taipei University of Nursing and Health Sciences,OTHER,5
+"Third Affiliated Hospital, Sun Yat-Sen University",OTHER,5
+Arkansas Children's Hospital Research Institute,OTHER,5
+William Beaumont Hospitals,OTHER,5
+Dexa Medica Group,INDUSTRY,5
+Ramathibodi Hospital,OTHER,5
+Inova Health Care Services,OTHER,5
+British University In Egypt,OTHER,5
+University of Athens,OTHER,5
+Ligand Pharmaceuticals,INDUSTRY,5
+Population Health Research Institute,OTHER,5
+Texas Tech University Health Sciences Center,OTHER,5
+"CSPC Baike (Shandong) Biopharmaceutical Co., Ltd.",INDUSTRY,5
+University of Guelph,OTHER,5
+University Hospital Ostrava,OTHER,5
+Hannover Medical School,OTHER,5
+ViaCyte,INDUSTRY,5
+Per-Ola Carlsson,OTHER,5
+"University Hospital, Motol",OTHER,5
+Northumbria University,OTHER,5
+Corporacion Parc Tauli,OTHER,5
+KK Women's and Children's Hospital,OTHER_GOV,5
+"Anna Stanhewicz, PhD",OTHER,5
+Women and Infants Hospital of Rhode Island,OTHER,5
+Mylan Inc.,INDUSTRY,5
+Innovent Biologics (Suzhou) Co. Ltd.,INDUSTRY,5
+Campus Bio-Medico University,OTHER,5
+Peter Rossing,OTHER,5
+Foundation for the National Institutes of Health,OTHER,5
+Montreal Heart Institute,OTHER,5
+Astellas Pharma Europe B.V.,INDUSTRY,5
+Ben-Gurion University of the Negev,OTHER,5
+University of Mississippi Medical Center,OTHER,5
+University College Dublin,OTHER,5
+Adrian Vella,OTHER,5
+Torrent Pharmaceuticals Limited,INDUSTRY,5
+Chinese PLA General Hospital,OTHER,5
+Ono Pharmaceutical Co. Ltd,INDUSTRY,5
+Mackay Memorial Hospital,OTHER,5
+Ondokuz Mayıs University,OTHER,5
+Centre for Addiction and Mental Health,OTHER,5
+Istanbul Medipol University Hospital,OTHER,5
+Minneapolis Veterans Affairs Medical Center,FED,5
+Jessa Hospital,OTHER,5
+XOMA (US) LLC,INDUSTRY,5
+Qingdao University,OTHER,5
+Hospital Universitari Vall d'Hebron Research Institute,OTHER,5
+Biruni University,OTHER,5
+Bastyr University,OTHER,5
+Technische Universität Dresden,OTHER,5
+Texas A&M University,OTHER,5
+Canadian Medical and Surgical Knowledge Translation Research Group,OTHER,5
+"Haisco Pharmaceutical Group Co., Ltd.",INDUSTRY,5
+Wake Forest University,OTHER,5
+Dow University of Health Sciences,OTHER,5
+"BrightGene Bio-Medical Technology Co., Ltd.",INDUSTRY,5
+Liegang Liu,OTHER,5
+Cliniques universitaires Saint-Luc- Université Catholique de Louvain,OTHER,5
+University of Sydney,OTHER,5
+Chulalongkorn University,OTHER,5
+York University,OTHER,5
+Walter Reed National Military Medical Center,FED,5
+University of Tennessee,OTHER,5
+"OPKO Health, Inc.",INDUSTRY,5
+Linkoeping University,OTHER_GOV,5
+Inonu University,OTHER,5
+Ankara Yildirim Beyazıt University,OTHER,5
+University of Turku,OTHER,4
+Filip Krag Knop,OTHER,4
+Queen's University,OTHER,4
+DiObex,INDUSTRY,4
+Perspectum,INDUSTRY,4
+Majianhua,OTHER,4
+VIVUS LLC,INDUSTRY,4
+Zydus Lifesciences Limited,INDUSTRY,4
+Far Eastern Memorial Hospital,OTHER,4
+Tulane University School of Medicine,OTHER,4
+Diabeteszentrum Bad Lauterberg im Harz,OTHER,4
+China Cardiometabolic Registries,NETWORK,4
+Rockefeller University,OTHER,4
+University Ghent,OTHER,4
+Universidade Nova de Lisboa,OTHER,4
+Taipei Medical University WanFang Hospital,OTHER,4
+Pontificia Universidad Catolica de Chile,OTHER,4
+Texas Tech University,OTHER,4
+"Omada Health, Inc.",INDUSTRY,4
+Queen Mary University of London,OTHER,4
+Lia Bally,OTHER,4
+S.LAB (SOLOWAYS),OTHER,4
+Akdeniz University,OTHER,4
+Rashid Centre for Diabetes and Research,OTHER,4
+DCB Research AG,OTHER,4
+Hanoi Medical University,OTHER,4
+Pusan National University Hospital,OTHER,4
+Lund University Hospital,OTHER,4
+Wuhan General Hospital of Guangzhou Military Command,OTHER,4
+University of Liverpool,OTHER,4
+Goztepe Training and Research Hospital,OTHER,4
+Stony Brook University,OTHER,4
+Sandoz,INDUSTRY,4
+Servier Affaires Médicales,INDUSTRY,4
+Al-Azhar University,OTHER,4
+Azienda Ospedaliero-Universitaria Consorziale Policlinico di Bari,OTHER,4
+University of Tromso,OTHER,4
+"MetaCure (USA), Inc.",INDUSTRY,4
+Mehmet Akif Ersoy University,OTHER,4
+Azienda Ospedaliera Universitaria Integrata Verona,OTHER,4
+Mansoura University,OTHER,4
+The Miriam Hospital,OTHER,4
+Mountain Diabetes and Endocrine Center,OTHER,4
+University of Limerick,OTHER,4
+Eccogene,INDUSTRY,4
+University of KwaZulu,OTHER,4
+Jagiellonian University,OTHER,4
+Carnegie Mellon University,OTHER,4
+University of Patras,OTHER,4
+Shahid Beheshti University of Medical Sciences,OTHER,4
+Shandong Provincial Hospital,OTHER_GOV,4
+Changi General Hospital,OTHER,4
+University of Kentucky,OTHER,4
+"Tonghua Dongbao Pharmaceutical Co.,Ltd",INDUSTRY,4
+Animas Corporation,INDUSTRY,4
+BCDiabetes.Ca,NETWORK,4
+Khoo Teck Puat Hospital,OTHER,4
+Qilu Hospital of Shandong University,OTHER,4
+University of Oslo,OTHER,4
+"University College, London",OTHER,4
+Better Therapeutics,INDUSTRY,4
+"Institute for Human Development and Potential (IHDP), Singapore",OTHER,4
+Sangamo Therapeutics,INDUSTRY,4
+University of Cadiz,OTHER,4
+Freie Universität Berlin,OTHER,4
+Evidation Health,INDUSTRY,4
+Postgraduate Institute of Dental Sciences Rohtak,OTHER,4
+Benha University,OTHER,4
+Second Affiliated Hospital of Nanchang University,OTHER,4
+Fourth People's Hospital of Shenyang,OTHER,4
+Peking University People's Hospital,OTHER,4
+Glyconics Ltd,INDUSTRY,4
+Isfahan University of Medical Sciences,OTHER,4
+"Neurotronic, Inc.",INDUSTRY,4
+Yeditepe University,OTHER,4
+"Beijing Dongfang Biotech Co., Ltd.",INDUSTRY,4
+Azienda Ospedaliero Universitaria Maggiore della Carita,OTHER,4
+Chungbuk National University Hospital,OTHER,4
+University of Nove de Julho,OTHER,4
+Inje University,OTHER,4
+Universidad Peruana Cayetano Heredia,OTHER,4
+Sahlgrenska University Hospital,OTHER,4
+Hospital Italiano de Buenos Aires,OTHER,4
+University of Bergen,OTHER,4
+Oregon Research Institute,OTHER,4
+Association for Innovation and Biomedical Research on Light and Image,OTHER,4
+University of Birmingham,OTHER,4
+Shiraz University of Medical Sciences,OTHER,4
+Universidad Miguel Hernandez de Elche,OTHER,4
+Groupe Hospitalier Pitie-Salpetriere,OTHER,4
+University of Saskatchewan,OTHER,4
+Barts & The London NHS Trust,OTHER,4
+New York University,OTHER,4
+Universidade Federal Fluminense,OTHER,4
+Forest Laboratories,INDUSTRY,4
+Arecor Limited,INDUSTRY,4
+"University of Split, School of Medicine",OTHER,4
+Microclinic International,OTHER,4
+Throne Biotechnologies Inc.,INDUSTRY,4
+Melbourne Health,OTHER,4
+"IRCCS Azienda Ospedaliera Universitaria San Martino - IST Istituto Nazionale per la Ricerca sul Cancro, Genoa, Italy",OTHER,4
+University of Glasgow,OTHER,4
+Washington State University,OTHER,4
+"Clinical Research Centre, Malaysia",OTHER,4
+"University of Massachusetts, Amherst",OTHER,4
+"Elcelyx Therapeutics, Inc.",INDUSTRY,4
+Institut Investigacio Sanitaria Pere Virgili,OTHER,4
+IKFE Institute for Clinical Research and Development,OTHER,4
+South Valley University,OTHER,4
+Kyunghee University Medical Center,OTHER,4
+"REMD Biotherapeutics, Inc.",INDUSTRY,4
+Changhua Christian Hospital,OTHER,4
+University of Hull,OTHER,4
+Universidad de Guanajuato,OTHER,4
+Bahria University,OTHER,4
+Air Liquide Santé International,INDUSTRY,4
+Khyber Medical University Peshawar,OTHER,4
+Boston Therapeutics,INDUSTRY,4
+"Mondelēz International, Inc.",INDUSTRY,4
+Biocon Limited,INDUSTRY,4
+MacroGenics,INDUSTRY,4
+Andromeda Biotech Ltd.,INDUSTRY,4
+TC Erciyes University,OTHER,4
+Assuta Hospital Systems,OTHER,4
+Hackensack Meridian Health,OTHER,4
+Eastern Virginia Medical School,OTHER,4
+Sue Brown,OTHER,4
+Diamyd Therapeutics AB,INDUSTRY,4
+Seattle Children's Hospital,OTHER,4
+Sheffield Teaching Hospitals NHS Foundation Trust,OTHER,4
+"University Hospital, Brest",OTHER,4
+Children's Hospital of Fudan University,OTHER,4
+University of Baghdad,OTHER,4
+UNEEG Medical A/S,INDUSTRY,4
+"Chromaderm, Inc.",INDUSTRY,4
+Instituto Mexicano del Seguro Social,OTHER_GOV,4
+Eurasian Association of Therapists,OTHER,4
+Walter Reed Army Medical Center,FED,4
+Changhai Hospital,OTHER,4
+Kahramanmaras Sutcu Imam University,OTHER,4
+Tan Tock Seng Hospital,OTHER,4
+HK inno.N Corporation,INDUSTRY,4
+Federal University of São Paulo,OTHER,4
+Université Catholique de Louvain,OTHER,4
+Min-Sheng General Hospital,OTHER,4
+Guy's and St Thomas' NHS Foundation Trust,OTHER,4
+Western Galilee Hospital-Nahariya,OTHER_GOV,4
+Universidad de Granada,OTHER,4
+University of Waterloo,OTHER,4
+University Hospital Bispebjerg and Frederiksberg,OTHER,4
+"Foundation for Innovative New Diagnostics, Switzerland",OTHER,4
+Tarumanagara University,OTHER,4
+Philip Kern,OTHER,4
+Baystate Medical Center,OTHER,4
+UConn Health,OTHER,4
+Providence VA Medical Center,FED,4
+Veterans Medical Research Foundation,OTHER,4
+University College Cork,OTHER,4
+Kanuni Sultan Suleyman Training and Research Hospital,OTHER,4
+Humanis Saglık Anonim Sirketi,INDUSTRY,4
+Hirabai Cowasji Jehangir Medical Research Institute,OTHER,4
+University of Messina,OTHER,4
+Hospital Universitario San Ignacio,OTHER,4
+Minia University,OTHER,3
+"Royal College of Surgeons, Ireland",OTHER,3
+IRCCS Multimedica,OTHER,3
+"Services Institute of Medical Sciences, Pakistan",OTHER_GOV,3
+Christiana Care Health Services,OTHER,3
+University of Roehampton,OTHER,3
+Iowa State University,OTHER,3
+Georgia State University,OTHER,3
+Dr. Orit Hamiel,OTHER_GOV,3
+"Institut fur Diabetesforschung, Munich, Germany",OTHER,3
+Diabeter Nederland BV,OTHER,3
+Sanford Health,OTHER,3
+Ankara City Hospital Bilkent,OTHER,3
+prof dr Pieter Gillard,OTHER,3
+Nanjing Medical University,OTHER,3
+"Life for a Child Program, Diabetes Australia",OTHER,3
+Cukurova University,OTHER,3
+Professor Fernando Figueira Integral Medicine Institute,OTHER,3
+Seoul St. Mary's Hospital,OTHER,3
+University of Avignon,OTHER,3
+Lille Catholic University,OTHER,3
+University of Modena and Reggio Emilia,OTHER,3
+Foundation University Islamabad,OTHER,3
+Vancouver General Hospital,OTHER,3
+Gedeon Richter Plc.,INDUSTRY,3
+Sophia Al-Adwan,OTHER,3
+Eurofarma Laboratorios S.A.,INDUSTRY,3
+Slagelse Hospital,OTHER,3
+Herlev and Gentofte Hospital,OTHER,3
+"Levenson, David I., M.D.",INDIV,3
+Bettina Mittendorfer,OTHER,3
+Baqiyatallah Medical Sciences University,OTHER,3
+"National University of Ireland, Galway, Ireland",OTHER,3
+"Shenzhen Salubris Pharmaceuticals Co., Ltd.",INDUSTRY,3
+"Xinhua Hospital, Shanghai Jiao Tong University School of Medicine",OTHER,3
+Hams Hamed Abdelrahman,OTHER,3
+"Zhongshan Ophthalmic Center, Sun Yat-sen University",OTHER,3
+Norbert Hermanns,OTHER,3
+RCSI & UCD Malaysia Campus,OTHER,3
+"Sichuan Haisco Pharmaceutical Group Co., Ltd",INDUSTRY,3
+Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado,OTHER_GOV,3
+"Endocrinology Research Centre, Moscow",OTHER_GOV,3
+Universidade Federal de Pernambuco,OTHER,3
+Nanyang Technological University,OTHER,3
+Universiteit Antwerpen,OTHER,3
+Universidad de Valparaiso,OTHER,3
+Fudan University,OTHER,3
+"Aqua Medical, Inc.",INDUSTRY,3
+Consorcio Centro de Investigación Biomédica en Red (CIBER),OTHER_GOV,3
+"All India Institute of Medical Sciences, Bhubaneswar",OTHER,3
+Heart Care Foundation,OTHER,3
+"Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico",OTHER,3
+The First Affiliated Hospital of Xiamen University,OTHER,3
+"The George Institute for Global Health, China",OTHER,3
+Erasmus Medical Center,OTHER,3
+Aichi Gakuin University,OTHER,3
+University of Malaga,OTHER,3
+Maimónides Biomedical Research Institute of Córdoba,OTHER,3
+Jazz Pharmaceuticals,INDUSTRY,3
+Affiliated Hospital of Nantong University,OTHER,3
+London School of Hygiene and Tropical Medicine,OTHER,3
+The Third Xiangya Hospital of Central South University,OTHER,3
+Johannes Gutenberg University Mainz,OTHER,3
+Tuğba Bilgehan,OTHER,3
+St. Justine's Hospital,OTHER,3
+Neuromed IRCCS,OTHER,3
+Universidad de Antioquia,OTHER,3
+University of Monastir,OTHER,3
+Beijing Anzhen Hospital,OTHER,3
+HJN Sverige AB/Neko Health,INDUSTRY,3
+University of Ioannina,OTHER,3
+Henry Ford Health System,OTHER,3
+Istituti Clinici Scientifici Maugeri SpA,OTHER,3
+"Genentech, Inc.",INDUSTRY,3
+Facet Technologies,OTHER,3
+Medical University of Silesia,OTHER,3
+FibroGen,INDUSTRY,3
+Shiga University,OTHER,3
+Pendulum Therapeutics,INDUSTRY,3
+Alison Gustafson,OTHER,3
+Institut d'Investigació Biomèdica de Girona Dr. Josep Trueta,OTHER,3
+Carl T. Hayden VA Medical Center,FED,3
+The Affiliated Hospital of Xuzhou Medical University,OTHER,3
+Lahore General Hospital,OTHER_GOV,3
+Indiana University School of Medicine,OTHER,3
+Federal University of Vicosa,OTHER,3
+CeQur Corporation,INDUSTRY,3
+TME Pharma AG,INDUSTRY,3
+Landsteiner Institut,OTHER,3
+Federal University of Minas Gerais,OTHER,3
+King Faisal Specialist Hospital & Research Center,OTHER,3
+University of Zagreb,OTHER,3
+MTI University,OTHER,3
+Universitas Padjadjaran,OTHER,3
+Dance Biopharm Inc.,INDUSTRY,3
+Public Health Foundation of India,OTHER,3
+Composite Interceptive Med Science,INDUSTRY,3
+University of Pretoria,OTHER,3
+ConjuChem,INDUSTRY,3
+Yanbing Li,OTHER,3
+"Dong-A Pharmaceutical Co., Ltd.",INDUSTRY,3
+Medical University of Lodz,OTHER,3
+Universidad Juárez Autónoma de Tabasco,OTHER,3
+National Yang Ming Chiao Tung University,OTHER,3
+"Fifth Affiliated Hospital, Sun Yat-Sen University",OTHER,3
+Sinai University,OTHER,3
+"Ministry of Health, Malaysia",OTHER_GOV,3
+Zhejiang Provincial People's Hospital,OTHER,3
+Asan Medical Center,OTHER,3
+Imcyse SA,INDUSTRY,3
+Diamyd Medical AB,INDUSTRY,3
+Helmholtz Zentrum München,INDUSTRY,3
+Children's Hospitals and Clinics of Minnesota,OTHER,3
+University of Yalova,OTHER,3
+Centre Hospitalier du Luxembourg,OTHER,3
+"Capillary Biomedical, Inc.",INDUSTRY,3
+Ann & Robert H Lurie Children's Hospital of Chicago,OTHER,3
+Exsulin Corporation,INDUSTRY,3
+East Tennessee State University,OTHER,3
+Tameside Hospital NHS Foundation Trust,OTHER,3
+Chang Gung University of Science and Technology,OTHER,3
+Scott and White Hospital & Clinic,OTHER,3
+University of New Brunswick,OTHER,3
+"Endogenex, Inc.",INDUSTRY,3
+"Asger Lund, MD",OTHER,3
+"Qure Healthcare, LLC",INDUSTRY,3
+Shanghai East Hospital,OTHER,3
+Metabolic Solutions Development Company,INDUSTRY,3
+"Chipscreen Biosciences, Ltd.",INDUSTRY,3
+Rhode Island Hospital,OTHER,3
+Centre Hospitalier Universitaire de Saint Etienne,OTHER,3
+"Metabolic Fitness Association, Italy",OTHER,3
+MetaCure Limited,INDUSTRY,3
+Hyundai Pharm,INDUSTRY,3
+Xiang Guang-da,OTHER,3
+Meredith Hawkins,OTHER,3
+Ajou University School of Medicine,OTHER,3
+Region Stockholm,OTHER_GOV,3
+University of Thessaly,OTHER,3
+VeroScience,INDUSTRY,3
+Eulji University Hospital,OTHER,3
+Qianfoshan Hospital,OTHER,3
+Golo,INDUSTRY,3
+Rio de Janeiro State University,OTHER,3
+St. Olavs Hospital,OTHER,3
+Metavention,INDUSTRY,3
+Consorzio Mario Negri Sud,OTHER,3
+"Valeritas, Inc.",INDUSTRY,3
+Ziekenhuis Oost-Limburg,OTHER,3
+Hospital de Clinicas Caracas,OTHER,3
+Brittany L Smalls,OTHER,3
+Lise Tarnow,OTHER,3
+Prince Sattam Bin Abdulaziz University,OTHER,3
+University of Jena,OTHER,3
+Incyte Corporation,INDUSTRY,3
+"Kowa Research Institute, Inc.",INDUSTRY,3
+University of Rome Tor Vergata,OTHER,3
+Stoffwechselzentrum Rhein - Pfalz,OTHER,3
+Phoenix VA Health Care System,FED,3
+Universidad de Zaragoza,OTHER,3
+Barnsley Hospital,OTHER,3
+Munich Municipal Hospital,OTHER,3
+Instituto Nacional de Perinatologia Isidro Espinosa de los Reyes,OTHER_GOV,3
+Durham VA Medical Center,FED,3
+Winthrop University Hospital,OTHER,3
+Chinese Academy of Sciences,OTHER_GOV,3
+Rehab Werida,OTHER,3
+Blandine Laferrere,OTHER,3
+University College of Northern Denmark,OTHER,3
+University of the Pacific,OTHER,3
+BioKier Inc.,INDUSTRY,3
+University of Belgrade,OTHER,3
+"GI Windows, Inc.",INDUSTRY,3
+InLight Solutions,INDUSTRY,3
+"Kissei Pharmaceutical Co., Ltd.",INDUSTRY,3
+University of South Alabama,OTHER,3
+Liminal BioSciences Ltd.,INDUSTRY,3
+University of Lincoln,OTHER,3
+"Synvista Therapeutics, Inc",INDUSTRY,3
+Michael A. Nauck,OTHER,3
+Canterbury Christ Church University,OTHER,3
+Eastern Mediterranean University,OTHER,3
+"University Hospital, Rouen",OTHER,3
+"Egas Moniz - Cooperativa de Ensino Superior, CRL",OTHER,3
+Chiang Mai University,OTHER,3
+University of Southampton,OTHER,3
+Shenzhen People's Hospital,OTHER,3
+University of Bedfordshire,OTHER,3
+Oviva UK Ltd,OTHER,3
+"National Research Council, Spain",OTHER_GOV,3
+Taipei City Hospital,OTHER_GOV,3
+University Hospital Center of Martinique,OTHER,3
+The First Affiliated Hospital with Nanjing Medical University,OTHER,3
+St. Luke's-Roosevelt Hospital Center,OTHER,3
+Kutahya Health Sciences University,OTHER,3
+Florida International University,OTHER,3
+University of Manchester,OTHER,3
+Hospital Juarez de Mexico,OTHER_GOV,3
+Medtronic Diabetes R&D Denmark,INDUSTRY,3
+Morehouse School of Medicine,OTHER,3
+Srinakharinwirot University,OTHER,3
+Erasme University Hospital,OTHER,3
+Shandong University,OTHER,3
+Women's College Hospital,OTHER,3
+UCSF Benioff Children's Hospital Oakland,OTHER,3
+University of Tartu,OTHER,3
+Guangzhou Women and Children's Medical Center,OTHER,3
+"Near East University, Turkey",OTHER,3
+Tri-Service General Hospital,OTHER,3
+Jothydev's Diabetes and Research Centre,OTHER,3
+Diskapi Yildirim Beyazit Education and Research Hospital,OTHER_GOV,3
+Hong Kong Baptist University,OTHER,3
+Hospital Israelita Albert Einstein,OTHER,3
+Kristian Karstoft,OTHER,3
+Buckinghamshire Healthcare NHS Trust,OTHER,3
+Oxford University Hospitals NHS Trust,OTHER,3
+Helse Stavanger HF,OTHER_GOV,3
+"Centre Hospitalier Universitaire, Amiens",OTHER,3
+"Provention Bio, a Sanofi Company",INDUSTRY,3
+"InSpark Technologies, Inc.",INDUSTRY,3
+"Tolerion, Inc.",INDUSTRY,3
+IRCCS Burlo Garofolo,OTHER,3
+"Maisa N. Feghali, MD",OTHER,3
+Ypsomed Diabetes Care AG,INDUSTRY,3
+University Magna Graecia,OTHER,3
+Johnny Ludvigsson,OTHER_GOV,3
+Inreda Diabetic B.V.,INDUSTRY,3
+Vertex Pharmaceuticals Incorporated,INDUSTRY,3
+Beijing Friendship Hospital,OTHER,3
+"Gelesis, Inc.",INDUSTRY,3
+Haseki Training and Research Hospital,OTHER,3
+University of Illinois at Urbana-Champaign,OTHER,3
+Zealand University Hospital,OTHER,3
+University of Minho,OTHER,3
+Nova Biomedical,INDUSTRY,3
+Royal Adelaide Hospital,OTHER,3
+Oshadi Drug Administration,INDUSTRY,3
+AHEPA University Hospital,OTHER,3
+Medtronic Vascular,INDUSTRY,3
+Erzincan University,OTHER,3
+First Affiliated Hospital of Zhejiang University,OTHER,3
+GE Healthcare,INDUSTRY,3
+Wroclaw Medical University,OTHER,3
+Hillel Yaffe Medical Center,OTHER_GOV,3
+Julphar Gulf Pharmaceutical Industries,INDUSTRY,3
+Korey Kennelty,OTHER,3
+Harvard Pilgrim Health Care,OTHER,3
+Instituto de Cardiologia do Rio Grande do Sul,OTHER,3
+Spanish Society of Cardiology,OTHER,3
+Oxurion,INDUSTRY,3
+University of Lahore,OTHER,3
+Sanguine Biosciences,INDUSTRY,3
+Universitätsmedizin Mannheim,OTHER,3
+Bulent Ecevit University,OTHER,3
+"Heinrich-Heine University, Duesseldorf",OTHER,3
+Beijing Tongren Hospital,OTHER,3
+Okan University,OTHER,3
+Badr University,OTHER,3
+Cardiff University,OTHER,3
+Necmettin Erbakan University,OTHER,3
+Portsmouth Hospitals NHS Trust,OTHER_GOV,3
+University of East Anglia,OTHER,3
+Beneficência Portuguesa de São Paulo,OTHER,3
+"ZeaVision, LLC",INDUSTRY,3
+Dalin Tzu Chi General Hospital,OTHER,3
+Universitair Ziekenhuis Brussel,OTHER,3
+Parc de Salut Mar,OTHER,3
+Medipol University,OTHER,3
+California Polytechnic State University-San Luis Obispo,OTHER,3
+Agricultural University of Athens,OTHER,3
+University of Wyoming,OTHER,3
+National Institute of Environmental Health Sciences (NIEHS),NIH,3
+Centre Hospitalier Universitaire de Besancon,OTHER,3
+Centre Hospitalier Universitaire Vaudois,OTHER,3
+Viome,INDUSTRY,3
+Diabetica Solutions Inc.,INDUSTRY,3
+Seventh Sense Biosystems,INDUSTRY,3
+Healthy.io Ltd.,INDUSTRY,3
+Vantive Health LLC,INDUSTRY,3
+Li Huating,OTHER,3
+Abbott,INDUSTRY,3
+University of Stirling,OTHER,3
+Hasanuddin University,OTHER,3
+"Carla Greenbaum, MD",OTHER,2
+Shifa International Hospital,OTHER,2
+Bruce A. Buckingham,OTHER,2
+Jesús Moreno Fernández,OTHER,2
+Universidade Federal do vale do São Francisco,OTHER,2
+"Youngene Therapeutics Inc., Ltd.",INDUSTRY,2
+Faculty Hospital Kralovske Vinohrady,OTHER_GOV,2
+Giulio Frontino,OTHER,2
+University of Louisville,OTHER,2
+Hospitales Universitarios Virgen del Rocío,OTHER,2
+Op-T LLC,INDUSTRY,2
+"T1D Exchange, United States",OTHER,2
+CRISPR Therapeutics AG,INDUSTRY,2
+J.H. DeVries,OTHER,2
+Imperial College Healthcare NHS Trust,OTHER,2
+ISIS Diabete Service,OTHER,2
+Consorci Sanitari de l'Alt Penedès i Garraf,OTHER,2
+"University Hospital, Aker",OTHER,2
+Helse Fonna,OTHER,2
+DreaMed Diabetes,INDUSTRY,2
+Andrew Posselt,OTHER,2
+"University of Nevada, Reno",OTHER,2
+Hoag Memorial Hospital Presbyterian,OTHER,2
+University Hospital Heidelberg,OTHER,2
+CuraLife,INDUSTRY,2
+"Savvysherpa, Inc.",INDUSTRY,2
+"Government Dental College and Research Institute, Bangalore",OTHER,2
+Shen Qu,OTHER,2
+Kennesaw State University,OTHER,2
+Panineeya Mahavidyalaya Institute of Dental Sciences & Research Centre,OTHER,2
+"CAR-T (Shanghai) Biotechnology Co., Ltd.",INDUSTRY,2
+London North West Healthcare NHS Trust,OTHER,2
+Orbis,OTHER,2
+Yokohama City University Medical Center,OTHER,2
+Uptown Eye Specialists,OTHER,2
+Medtrum France,INDUSTRY,2
+"G2e Co., Ltd",INDUSTRY,2
+Kuopio University Hospital,OTHER,2
+"Humanitas Hospital, Italy",OTHER,2
+Sengkang General Hospital,OTHER,2
+Pacific Northwest University of Health Sciences,OTHER,2
+"Motus Therapeutics, Inc.",INDUSTRY,2
+Ascension Health,INDUSTRY,2
+Magda Bayoumi,OTHER,2
+Harbin Medical University,OTHER,2
+Swansea University,OTHER,2
+"Ferzli, George S., M.D. F.A.C.S.",INDIV,2
+Pakistan Institute of Medical Sciences,OTHER_GOV,2
+"Goldfinch Bio, Inc.",INDUSTRY,2
+"AgaMatrix, Inc.",INDUSTRY,2
+Dacima Consulting,OTHER,2
+Guangzhou University of Traditional Chinese Medicine,OTHER,2
+Université de Montréal,OTHER,2
+"Pharma Power Biotec Co., Ltd.",INDUSTRY,2
+Selcuk University,OTHER,2
+Andalusian School of Public Health,OTHER_GOV,2
+Genaera Corporation,INDUSTRY,2
+Memorial Sloan Kettering Cancer Center,OTHER,2
+Elpen Pharmaceutical Co. Inc.,INDUSTRY,2
+LifeBridge Health,OTHER,2
+"Glycemic Index Laboratories, Inc",INDUSTRY,2
+Summa Health System,OTHER,2
+Frederiksberg University Hospital,OTHER,2
+Derince Training and Research Hospital,OTHER,2
+Prof. Tony hayek MD,OTHER,2
+"Michael Mauer, MD",INDIV,2
+Diskapi Teaching and Research Hospital,OTHER,2
+Fundacion para la Investigacion y Formacion en Ciencias de la Salud,OTHER,2
+Arrowhead Regional Medical Center,OTHER,2
+NiliMedix,INDUSTRY,2
+Universität des Saarlandes,OTHER,2
+ThromboGenics,INDUSTRY,2
+Hospital Universitario Pedro Ernesto,OTHER,2
+Association Francaise pour la Recherche Thermale,OTHER,2
+University Hospital Freiburg,OTHER,2
+Hospital Regional de Alta Especialidad del Bajio,OTHER,2
+Bows Pharmaceuticals AG,INDUSTRY,2
+GlucoVista,INDUSTRY,2
+University of Medicine and Dentistry of New Jersey,OTHER,2
+Maimonides Medical Center,OTHER,2
+AEYE Health Inc,INDUSTRY,2
+Medical University Innsbruck,OTHER,2
+Fundación Pública Andaluza Progreso y Salud,OTHER,2
+Hywel Dda Health Board,OTHER,2
+NeurogesX,INDUSTRY,2
+Vanderbilt-Ingram Cancer Center,OTHER,2
+"Research Institute for Complex Problems of Cardiovascular Diseases, Russia",OTHER,2
+"National University Health System, Singapore",OTHER,2
+Kantonsspital Baselland Bruderholz,OTHER,2
+"Energenesis Biomedical Co., Ltd.",INDUSTRY,2
+"University Hospital, Martin",OTHER,2
+Nordin Hanssen,OTHER,2
+"Hospital Authority, Hong Kong",OTHER_GOV,2
+Universidad Complutense de Madrid,OTHER,2
+National Cancer Institute (NCI),NIH,2
+St Vincent's Hospital Melbourne,OTHER,2
+OSF Healthcare System,OTHER,2
+State University of New York - Downstate Medical Center,OTHER,2
+Alexandra Hospital,OTHER,2
+Boston University Charles River Campus,OTHER,2
+"Huons Co., Ltd.",INDUSTRY,2
+Anahuac University,OTHER,2
+"Intuity Medical, Inc",INDUSTRY,2
+Lee's Pharmaceutical Limited,INDUSTRY,2
+Imam Abdulrahman Bin Faisal University,OTHER,2
+University Tunis El Manar,OTHER,2
+"NGM Biopharmaceuticals, Inc",INDUSTRY,2
+Persei Vivarium,OTHER,2
+"National Institute for Medical Research, Tanzania",OTHER_GOV,2
+Tianjin Medical University,OTHER,2
+University of Kansas,OTHER,2
+"Xuanwu Hospital, Beijing",OTHER,2
+St. Joseph's Healthcare Hamilton,OTHER,2
+Brightseed,INDUSTRY,2
+Eskisehir Osmangazi University,OTHER,2
+Atlantia Food Clinical Trials,INDUSTRY,2
+"Taipei Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation",OTHER,2
+Aberystwyth University,OTHER,2
+Oregon State University,OTHER,2
+Simon Fraser University,OTHER,2
+Bezmialem Vakif University,OTHER,2
+Institut Pasteur de Lille,OTHER,2
+"University Hospital, Saarland",OTHER,2
+Derek Richards,OTHER,2
+Methodist Health System,OTHER,2
+Small Changes,OTHER,2
+Central Jutland Regional Hospital,OTHER,2
+DiaMedica Therapeutics Inc,INDUSTRY,2
+"Hospital San Carlos, Madrid",OTHER,2
+Shaanxi Provincial People's Hospital,OTHER,2
+Centre Hospitalier National d'Ophtalmologie des Quinze-Vingts,OTHER,2
+Scripps Translational Science Institute,OTHER,2
+Him SA,OTHER,2
+Avera McKennan Hospital & University Health Center,OTHER,2
+BRAC University,OTHER,2
+M.V. Hospital for Diabetes,OTHER,2
+Nathan Kline Institute for Psychiatric Research,OTHER,2
+"Health Resources in Action, Inc.",OTHER,2
+"DyAnsys, Inc.",INDUSTRY,2
+Eclypia,INDUSTRY,2
+Hedia ApS,INDUSTRY,2
+University of Central Florida,OTHER,2
+Universidad de Murcia,OTHER,2
+"Stratatech, a Mallinckrodt Company",INDUSTRY,2
+Mexican National Institute of Public Health,OTHER_GOV,2
+SpectralMD,INDUSTRY,2
+B. Braun Melsungen AG,INDUSTRY,2
+University Hospitals of North Midlands NHS Trust,OTHER,2
+Staffordshire University,OTHER,2
+University of Toledo Health Science Campus,OTHER,2
+Instituto Aragones de Ciencias de la Salud,OTHER_GOV,2
+"Berkeley Analytics, Inc.",INDUSTRY,2
+University of Huddersfield,OTHER,2
+"Mt. Sinai Medical Center, Miami",OTHER,2
+University of Lorraine,OTHER,2
+"Andon Medical Co.,Ltd",INDUSTRY,2
+C. T. Lamont Primary Care Research Centre,OTHER,2
+University of Plymouth,OTHER,2
+Group Health Centre,OTHER,2
+Zoe Global Limited,OTHER,2
+"Jinling Hospital, China",OTHER,2
+"Technion, Israel Institute of Technology",OTHER,2
+Georgia Institute of Technology,OTHER,2
+Tampere University,OTHER,2
+Brown University,OTHER,2
+Ethicon Endo-Surgery,INDUSTRY,2
+Yufan Wang,OTHER,2
+Kyungpook National University Chilgok Hospital,OTHER,2
+Johnson & Johnson Private Limited,INDUSTRY,2
+"NovMetaPharma Co., Ltd.",INDUSTRY,2
+Universiti Teknologi Mara,OTHER,2
+Indigo Diabetes NV,INDUSTRY,2
+Çanakkale Onsekiz Mart University,OTHER,2
+"Proteus Digital Health, Inc.",INDUSTRY,2
+Unilever R&D,INDUSTRY,2
+Western University,OTHER,2
+"Pichamol Jirapinyo, MD, MPH",OTHER,2
+Folkhälsan Researech Center,OTHER,2
+Regeneron Pharmaceuticals,INDUSTRY,2
+Universidad Autonoma del Estado de Mexico,OTHER,2
+Elixir Pharmaceuticals,INDUSTRY,2
+"University of Arkansas, Fayetteville",OTHER,2
+Al-Rasheed University College,OTHER,2
+University of Oregon,OTHER,2
+Sihuan Pharmaceutical Holdings Group Ltd.,INDUSTRY,2
+Centre Hospitalier Universitaire Saint Pierre,OTHER,2
+Welldoc,INDUSTRY,2
+University of North Texas Health Science Center,OTHER,2
+Regione Veneto,OTHER,2
+Sabyasachi Sen,OTHER,2
+HTL-Strefa S.A.,INDUSTRY,2
+PLx Pharma,INDUSTRY,2
+Hospital General Universitario Gregorio Marañon,OTHER,2
+M.H.H. Kramer,OTHER,2
+"Mathematica Policy Research, Inc.",OTHER,2
+"Asian Institute of Gastroenterology, India",OTHER,2
+Shaare Zedek Medical Center,OTHER,2
+New York Stem Cell Foundation Research Institute,OTHER,2
+Pila Pharma,INDUSTRY,2
+Zheng Guo,OTHER,2
+Sinai Health System,OTHER,2
+Kırklareli University,OTHER,2
+"Amalgam Rx, Inc.",INDUSTRY,2
+Ono Pharma USA Inc,INDUSTRY,2
+"Center for Outcomes Research and Clinical Epidemiology, Italy",OTHER,2
+Fresenius Kabi,INDUSTRY,2
+Institute for Clinical Evaluative Sciences,OTHER,2
+MaineHealth,OTHER,2
+Gia Mudd,OTHER,2
+"Ministry of Health, Saudi Arabia",OTHER_GOV,2
+Bo Feldt-Rasmussen,OTHER,2
+"Nutrition 21, Inc.",INDUSTRY,2
+Mostafa Bahaa,OTHER,2
+Fundación Pública Andaluza para la gestión de la Investigación en Sevilla,OTHER,2
+Pontificia Universidade Católica do Rio Grande do Sul,OTHER,2
+Centro de Diabetes Curitiba Ltda,OTHER,2
+Natural Wellness Egypt,INDUSTRY,2
+Kun-Ho Yoon,OTHER,2
+National Geriatric Hospital,OTHER_GOV,2
+"InVasc Therapeutics, Inc.",INDUSTRY,2
+Joshua M Hare,OTHER,2
+University of Ibadan,OTHER,2
+Ixaka Ltd,INDUSTRY,2
+Signos Inc,INDUSTRY,2
+Centre Hospitalier Universitaire de la Guadeloupe,OTHER,2
+Federal University of Pelotas,OTHER,2
+GlucoMe,INDUSTRY,2
+Montana State University,OTHER,2
+NHS Tayside,OTHER_GOV,2
+Springfield College,OTHER,2
+Zhiming Zhu,OTHER,2
+"National Cerebral and Cardiovascular Center, Japan",OTHER,2
+Fundació d'investigació Sanitària de les Illes Balears,OTHER_GOV,2
+Universidade do Extremo Sul Catarinense - Unidade Academica de Ciecias da Saude,OTHER,2
+Sutter Health,OTHER,2
+Diamontech AG,INDUSTRY,2
+Lantheus Medical Imaging,INDUSTRY,2
+59th Medical Wing,FED,2
+"Calibra Medical, Inc.",INDUSTRY,2
+Resverlogix Corp,INDUSTRY,2
+Carmel Medical Center,OTHER,2
+Universitas Sebelas Maret,OTHER,2
+Wills Eye,OTHER,2
+UnitedHealth Group,INDUSTRY,2
+Associazione Medici Endocrinologi,OTHER,2
+Turkish Metabolic Surgery Foundation,OTHER,2
+Beijing Tsinghua Chang Gung Hospital,OTHER,2
+"Gerencia de Atención Primaria, Madrid",OTHER_GOV,2
+Cornell University,OTHER,2
+Manchester Metropolitan University,OTHER,2
+University of Banja Luka,OTHER,2
+Ideal Medical Technologies,INDUSTRY,2
+Associacao Protectora dos Diabeticos de Portugal,OTHER,2
+Royal College of Surgeons in Ireland - Medical University of Bahrain,OTHER,2
+General Hospital of Shenyang Military Region,OTHER,2
+ProgenaBiome,OTHER,2
+University of Nis,OTHER,2
+University of Ljubljana,OTHER,2
+"Institute of Tropical Medicine, Belgium",OTHER,2
+The First Hospital of Jilin University,OTHER,2
+Hospital do Coracao,OTHER,2
+Daniel Amante,OTHER,2
+Metronom Health,INDUSTRY,2
+"Neuraly, Inc.",INDUSTRY,2
+Clemson University,OTHER,2
+Hospital Alemão Oswaldo Cruz,OTHER,2
+International Rescue Committee,OTHER,2
+Zagazig University,OTHER_GOV,2
+Chung Shan Medical University,OTHER,2
+Ziauddin University,OTHER,2
+Istituto Auxologico Italiano,OTHER,2
+Glooko,INDUSTRY,2
+"Translational Research Center for Medical Innovation, Kobe, Hyogo, Japan",OTHER,2
+Balikesir University,OTHER,2
+"National Research Centre, Egypt",OTHER,2
+National Healthcare Group Polyclinics,OTHER_GOV,2
+Bartın Unıversity,OTHER,2
+Kansai Electric Power Hospital,OTHER,2
+King Edward Medical University,OTHER,2
+Faculdade de Motricidade Humana,OTHER,2
+Danish Pain Research Center,OTHER,2
+Nilgün Erdoğan,OTHER,2
+University of Bari,OTHER,2
+Beijing Hospital,OTHER_GOV,2
+Suleyman Demirel University,OTHER,2
+Ali Aminian,OTHER,2
+Newcastle-upon-Tyne Hospitals NHS Trust,OTHER,2
+Wellstat Therapeutics,INDUSTRY,2
+Integrity Applications Ltd.,INDUSTRY,2
+St. Paul Heart Clinic,OTHER,2
+Academy of Nutrition and Dietetics,OTHER,2
+"Astellas Pharma Korea, Inc.",INDUSTRY,2
+"Genexine, Inc.",INDUSTRY,2
+Generex Biotechnology Corp.,INDUSTRY,2
+Van Hanh General Hospital,OTHER,2
+Inha University Hospital,OTHER,2
+Sulaiman AlRajhi Colleges,OTHER,2
+Hospital Arnau de Vilanova,OTHER,2
+"Hangzhou Sciwind Biosciences Co., Ltd.",INDUSTRY,2
+Università degli Studi 'G. d'Annunzio' Chieti e Pescara,OTHER,2
+Anemia Working Group Romania,OTHER,2
+Shionogi,INDUSTRY,2
+Sint Franciscus Gasthuis,OTHER,2
+Asahi Kasei Pharma Corporation,INDUSTRY,2
+Mikkel Christensen,OTHER,2
+Vårdcentralen Lyckorna,OTHER,2
+Xiangya Hospital of Central South University,OTHER,2
+KeyBioscience AG,INDUSTRY,2
+Poxel SA,INDUSTRY,2
+NuSirt Biopharma,INDUSTRY,2
+Paracelsus Medical University,OTHER,2
+Kırıkkale University,OTHER,2
+Vinmec Research Institute of Stem Cell and Gene Technology,OTHER,2
+Ib Abildgaard Jacobsen,OTHER,2
+"InteKrin Therapeutics, Inc.",INDUSTRY,2
+Atrogi AB,INDUSTRY,2
+Chemical Resources,INDUSTRY,2
+University of Bologna,OTHER,2
+DoubleGood AB,INDUSTRY,2
+Universiti Kebangsaan Malaysia Medical Centre,OTHER,2
+Adistem Ltd,INDUSTRY,2
+Servicio Canario de Salud,OTHER,2
+"Hospital Carlos III, Madrid",OTHER,2
+Cellonis Biotechnology Co. Ltd.,INDUSTRY,2
+Piramal Enterprises Limited,INDUSTRY,2
+Yangzhou University,OTHER,2
+Sciwind Biosciences APAC CO Pty. Ltd.,INDUSTRY,2
+Albert Einstein Healthcare Network,OTHER,2
+Nagoya University,OTHER,2
+Asker & Baerum Hospital,OTHER,2
+Oklahoma State University,OTHER,2
+University of Barcelona,OTHER,2
+Hospital General de México Dr. Eduardo Liceaga,OTHER_GOV,2
+Biomea Fusion Inc.,INDUSTRY,2
+Laniado Hospital,OTHER,2
+St. John's Research Institute,OTHER,2
+University of Sulaimani,OTHER,2
+Nanjing University of Traditional Chinese Medicine,OTHER,2
+Landeskrankenhaus Feldkirch,OTHER,2
+Niguarda Hospital,OTHER,2
+Liom Health AG,INDUSTRY,2
+Bigfoot Biomedical Inc.,INDUSTRY,2
+CellTrans Inc.,INDUSTRY,2
+Chang Gung University,OTHER,2
+Anna Cruceta,OTHER,2
+"GentiBio, Inc",INDUSTRY,2
+"Kem Hospital, Pune, India",OTHER,2
+Jannet Svensson,OTHER_GOV,2
+"Kamada, Ltd.",INDUSTRY,2
+University of Prince Edward Island,OTHER,2
+Sir Mortimer B. Davis - Jewish General Hospital,OTHER,2
+Norfolk and Norwich University Hospitals NHS Foundation Trust,OTHER,2
+Tang-Du Hospital,OTHER,2
+Basque Health Service,OTHER_GOV,2
+Western Michigan University,OTHER,2
+Apurano Pharmaceuticals GmbH,INDUSTRY,2
+Umm Al-Qura University,OTHER,2
+Reem Mohammad Alamoudi,OTHER,2
+Hotel Dieu de France Hospital,OTHER,2
+Deraya University,OTHER,2
+"University of Western Ontario, Canada",OTHER,2
+Bahçeşehir University,OTHER,2
+Guangzhou General Hospital of Guangzhou Military Command,OTHER,2
+"Mid-Atlantic Epilepsy and Sleep Center, LLC",OTHER,2
+West Virginia School of Osteopathic Medicine,OTHER,2
+Thais Cesar,OTHER,2
+Vedic Lifesciences Pvt. Ltd.,INDUSTRY,2
+Trisakti University,OTHER,2
+Yuzuncu Yıl University,OTHER,2
+Seattle Institute for Biomedical and Clinical Research,OTHER,2
+Rousselot BVBA,INDUSTRY,2
+"NewChapter, Inc.",INDUSTRY,2
+Gianna Wilkie,OTHER,2
+Tartu University Hospital,OTHER,2
+Icadom,INDUSTRY,2
+Fondation Lenval,OTHER,2
+Canadian Diabetes Association,OTHER,2
+Diatranz Otsuka Limited,INDUSTRY,2
+"Mark D. DeBoer, MD, MSc., MCR",OTHER,2
+Rensselaer Polytechnic Institute,OTHER,2
+"Perle Bioscience, Inc.",INDUSTRY,2
+The Nordic Network For Clinical Islet Transplantation,OTHER,2
+Copenhagen University Hospital at Herlev,OTHER,2
+The Second Hospital of Nanjing Medical University,OTHER,2
+Benaroya Research Institute,OTHER,2
+Yang Tao,OTHER,2
+Medingo Ltd,INDUSTRY,2
+Université de Reims Champagne-Ardenne,OTHER,2
+"University Children's Hospital, Zurich",OTHER,2
+Silesian Centre for Heart Diseases,OTHER,2
+"DiaVacs, Inc.",INDUSTRY,2
+Fundacion Miguel Servet,OTHER,2
+Molly Tanenbaum,OTHER,2
+Zucara Therapeutics Inc.,INDUSTRY,2
+Region Örebro County,OTHER,2
+Oslo Metropolitan University,OTHER,2
+University of Warwick,OTHER,2
+MemorialCare Health System,OTHER,2
+Universidade Estadual da Paraiba,OTHER,2
+University of Mostar,OTHER,2
+Hôpital NOVO,OTHER,2
+Fundacion para la Formacion e Investigacion Sanitarias de la Region de Murcia,OTHER,2
+Hospital Mutua de Terrassa,OTHER,2
+"Environment and Health Group, Inc.",INDUSTRY,2
+Jena University Hospital,OTHER,2
+Belfast Health and Social Care Trust,OTHER,2
+Universiti Sultan Zainal Abidin,OTHER,2
+São Paulo State University,OTHER,2
+The First Affiliated Hospital of Hunan University of Traditional Chinese Medicine,OTHER,2
+EVYD Technology,INDUSTRY,2
+Dicle University,OTHER,2
+Australian Catholic University,OTHER,2
+Kallyope Inc.,INDUSTRY,2
+Second Affiliated Hospital of Wenzhou Medical University,OTHER,2
+Tianjin Women and Children's Health Center,OTHER,2
+Koç University,OTHER,2
+Asociación para Evitar la Ceguera en México,OTHER,2
+Philipps University Marburg,OTHER,2
+Izmir Katip Celebi University,OTHER,2
+Groupe Hospitalier de la Region de Mulhouse et Sud Alsace,OTHER,2
+Sitaram Bhartia Institute of Science and Research,OTHER,2
+NextCell Pharma Ab,INDUSTRY,2
+"Concordia University, Montreal",OTHER,2
+Henan University of Science and Technology,OTHER,2
+Pacific Diabetes Technologies,INDUSTRY,2
+Kowa Research Europe,INDUSTRY,2
+Materia Medica Holding,INDUSTRY,2
+Centre Hospitalier Universitaire de Liege,OTHER,2
+Tianjin Medical University General Hospital,OTHER,2
+"Shanghai General Hospital, China",OTHER,2
+Shanxi Bethune Hospital,OTHER,2
+"Changshan ConjuChem BioPharmaceutical Research and Development (Hebei) Co., Ltd.",INDUSTRY,2
+Beijing Sport University,OTHER,2
+Vista Klinik,OTHER,2
+Kobe University,INDUSTRY,2
+University of Oslo School of Pharmacy,OTHER,2
+Khondrion BV,INDUSTRY,2
+"Enterra Medical, Inc.",INDUSTRY,2
+"Texas Diabetes & Endocrinology, P.A.",OTHER,2
+"Centre of Clinical Pharmacology, Hanoi Medical University",OTHER,2
+Aksaray University,OTHER,2
+University of Catanzaro,OTHER,2
+THPharm Corp.,INDUSTRY,2
+State Key Laboratory of Subhealth Intervention Technology,OTHER,2
+Sophiahemmet University,OTHER,2
+Neurovalens Ltd.,INDUSTRY,2
+Jiangxi University of Traditional Chinese Medicine,OTHER,2
+"In-Young Choi, Ph.D.",OTHER,2
+"University of Missouri, Kansas City",OTHER,2
+Yeouido St. Mary's Hospital,OTHER,2
+University of Health Sciences Lahore,OTHER,2
+Hull University Teaching Hospitals NHS Trust,OTHER_GOV,2
+"Beijing QL Biopharmaceutical Co.,Ltd",INDUSTRY,2
+Shanghai Municipal Hospital of Traditional Chinese Medicine,OTHER,2
+Second Affiliated Hospital of Soochow University,OTHER,2
+CPEX Pharmaceuticals Inc.,INDUSTRY,2
+"ActivX Biosciences, Inc.",INDUSTRY,2
+Marjukka Kolehmainen,OTHER,2
+"Dongguan HEC Biopharmaceutical R&D Co., Ltd.",INDUSTRY,2
+Sorlandet Hospital HF,OTHER_GOV,2
+Muğla Sıtkı Koçman University,OTHER,2
+Azienda Ospedaliera Specializzata in Gastroenterologia Saverio de Bellis,OTHER,2
+Dokkyo Medical University,OTHER,2
+Bionime Corporation,INDUSTRY,2
+Nova Scotia Health Authority,OTHER,2
+Katherine Vickery,OTHER,2
+Recep Tayyip Erdogan University Training and Research Hospital,OTHER,2
+Nottingham University Hospitals NHS Trust,OTHER,2
+New Valley University,OTHER,2
+Newcastle University,OTHER,2
+Athabasca University,OTHER,2
+Istituto Nazionale di Ricovero e Cura per Anziani,OTHER,2
+American College of Cardiology,OTHER,2
+Novindiet Clinic,OTHER,2
+Response Pharmaceuticals,INDUSTRY,2
+"pico-tesla Magnetic Therapies, LLC",INDUSTRY,2
+The Alliance for Canadian Health Outcomes Research in Diabetes,OTHER,2
+Casa Sollievo della Sofferenza IRCCS,OTHER,2
+"University of Colorado, Colorado Springs",OTHER,2
+Steno Diabetes Center Greenland,OTHER,2
+University of Central Arkansas,OTHER,2
+Meharry Medical College,OTHER,2
+Tina Vilsboll,OTHER,2
+King Abdulaziz University,OTHER,2
+Avid Radiopharmaceuticals,INDUSTRY,2
+GRADE Study Group,OTHER,2
+"Jenny Tong, MD, MPH",OTHER,2
+Robert Lodder,INDUSTRY,2
+Valbiotis,INDUSTRY,2
+Korea University Guro Hospital,OTHER,2
+University of Ulster,OTHER,2
+Mathias Ried-Larsen,OTHER,2
+Sante Diabete Mali,OTHER,2
+Sultan Qaboos University,OTHER,2
+"The University of Tennessee, Knoxville",OTHER,2
+RISE Study Group,NETWORK,2
+"University of California, Berkeley",OTHER,2
+Genfit,INDUSTRY,2
+Gaia AG,INDUSTRY,2
+Nimble Science Ltd.,INDUSTRY,2
+"Ian J. Neeland, MD",OTHER,2
+CPL Associates,OTHER,2
+Central South University,OTHER,2
+"Foundation for Atlanta Veterans Education and Research, Inc.",OTHER,2
+"Mesoblast, Ltd.",INDUSTRY,2
+"Esperion Therapeutics, Inc.",INDUSTRY,2
+Clinica Especializada en el Manejo de la Diabetes en la Ciudad de Mexico,NETWORK,2
+Astana Medical University,OTHER,2
+Baker Heart Research Institute,OTHER,2
+National University of Natural Medicine,OTHER,2
+Associação para o Desenvolvimento do Centro Académico de Investigação e Formação Biomédica do Algarv,NETWORK,2
+Lundquist Institute for Biomedical Innovation at Harbor-UCLA Medical Center,OTHER,2
+University of Vermont Medical Center,OTHER,2
+xiaolong zhao,OTHER,2
+Finnish Institute for Health and Welfare,OTHER_GOV,2
+Catalysis SL,INDUSTRY,2
+University Hospital of North Norway,OTHER,2
+"Research Clinical Centre of the Russian Railways, JSC",OTHER,2
+"Anders Rosengren, MD PhD",OTHER,2
+Spanish Biomedical Research Centre in Diabetes and Associated Metabolic Disorders,OTHER,2
+"Zafgen, Inc.",INDUSTRY,2
+The Deutsche Diabetes Forschungsgesellschaft e.V.,OTHER,2
+Kristine Færch,OTHER,2
+Nottingham Trent University,OTHER,2
+"University of Veterinary and Animal Sciences, Lahore - Pakistan",OTHER,2
+Eileen R. Chasens,OTHER,2
+Melior Pharmaceuticals,OTHER,2
+Guelph Food Research Centre,OTHER_GOV,2
+"Boston VA Research Institute, Inc.",OTHER,2
+"Services Hospital, Lahore",OTHER_GOV,2
+Institut d'Investigacions Biomèdiques August Pi i Sunyer,OTHER,2
+Guang Ning,OTHER,2
+Second Hospital of Shanxi Medical University,OTHER,2
+Sankyo Pharma Gmbh,INDUSTRY,2
+Queen Margaret University,OTHER,2
+West Virginia University,OTHER,2
+Cyclerion Therapeutics,INDUSTRY,2
+KineMed,INDUSTRY,2
+"İlke KARA, PT",OTHER,2
+University of Victoria,OTHER,2
+Stewart Harris,OTHER,2
+Hawaii Pacific Health,OTHER,2
+"OCHIN, Inc.",OTHER,2
+University Hospital Dubrava,OTHER,2
+Darren P Casey,OTHER,1
+Yasemin Çırak,OTHER,1
+Chieh Chen,OTHER,1
+Victoria Gomez,OTHER,1
+Evolva SA,INDUSTRY,1
+W.J. Pasman,OTHER,1
+Weidong Tong,OTHER,1
+"Daewon Pharmaceutical Co., Ltd.",INDUSTRY,1
+Keren Zhou,OTHER,1
+Cleveland Clinic Akron General,OTHER,1
+See Yourself Health LLC,OTHER,1
+"Suzhou Alphamab Co., Ltd.",INDUSTRY,1
+Iris Shai,OTHER,1
+Sakarya University,OTHER,1
+"May Faraj, PDt, PhD",OTHER,1
+Tor-Ivar Karlsen,OTHER,1
+KangWon National University Hospital,OTHER,1
+Mercer University,OTHER,1
+Jomo Kenyatta University of Agriculture and Technology,OTHER,1
+Theratechnologies,INDUSTRY,1
+Gao Zhiguang,OTHER,1
+Zilin Sun,OTHER,1
+"ISA Associates, Inc.",OTHER,1
+Christos Mantzoros,OTHER,1
+University of Vienna,OTHER,1
+Sung-Chen Liu,OTHER,1
+OhioHealth,OTHER,1
+Stendo,INDUSTRY,1
+University of Lisbon,OTHER,1
+Skidmore College,OTHER,1
+"Taipei Hospital, Taiwan",OTHER,1
+University of La Rioja,OTHER,1
+Per Løgstrup Poulsen,OTHER,1
+Toros University,OTHER,1
+Catabasis Pharmaceuticals,INDUSTRY,1
+"Nutrisystem, Inc.",INDUSTRY,1
+Hospital de Granollers,OTHER,1
+Heliopolis University,OTHER,1
+Centre de Recherche en Nutrition Humaine Rhone-Alpe,OTHER,1
+Uri Elchalal,OTHER,1
+Kristin Clemens,OTHER,1
+Scion NeuroStim,INDUSTRY,1
+CHANGHEE LEE,INDUSTRY,1
+Menzies Institute for Medical Research,OTHER,1
+"Ministry of Public Health, Argentina",OTHER_GOV,1
+Lu jin ，MD,OTHER,1
+Shaoguan University,OTHER,1
+NuMe Health,INDUSTRY,1
+Lou Qingqing,OTHER_GOV,1
+Asfendiyarov Kazakh National Medical University,OTHER,1
+"David Robbins, MD",OTHER,1
+Ahvaz Jundishapur University of Medical Sciences,OTHER,1
+East Coast Institute for Research,NETWORK,1
+George Medicines PTY Limited,INDUSTRY,1
+Sandwell & West Birmingham Hospitals NHS Trust,OTHER,1
+Array BioPharma,INDUSTRY,1
+Ankara Medipol University,OTHER,1
+SIPPA Solutions INC,INDUSTRY,1
+Embecta Corp.,INDUSTRY,1
+Brooklyn College of the City University of New York,OTHER,1
+CMG Pharmaceutical Co. Ltd,INDUSTRY,1
+Kyu Chang Won,OTHER,1
+Thomas Morland,OTHER,1
+Heba Al-Alwan,OTHER,1
+Tabriz University of Medical Sciences,OTHER,1
+Yeditepe University Hospital,OTHER,1
+Catherine Davis,OTHER,1
+"Medpharmgene, Inc.",INDUSTRY,1
+Marquette University,OTHER,1
+Marzieh Salehi,OTHER,1
+"Lecube, Albert, M.D.",INDIV,1
+University Hospital Sestre Milosrdnice,OTHER,1
+Asociación Siempre Salud,OTHER,1
+Universidade Federal de Goias,OTHER,1
+Winston Salem State University,OTHER,1
+"Biomed Industries, Inc.",INDUSTRY,1
+"January, Inc.",INDUSTRY,1
+Burapha University,OTHER,1
+Inge Holm,OTHER,1
+Fortis Escorts Heart Institute,OTHER,1
+"Array Biopharma, now a wholly owned subsidiary of Pfizer",INDUSTRY,1
+"Hospital de Especialidades, Centro Medico Nacional ""La Raza"", Instituto Mexicano del Seguro Social",OTHER,1
+Karadeniz Technical University,OTHER,1
+Ana Palanca,OTHER,1
+Reya Andrews,OTHER,1
+Zalicus,INDUSTRY,1
+Chettinad Academy of Research and Education (Deemed to be University),OTHER,1
+Marc Y.Donath,OTHER,1
+University of Leipzig,OTHER,1
+GENGE,OTHER,1
+Aylin DEMİR,OTHER,1
+Josip Juraj Strossmayer University of Osijek,OTHER,1
+"Metacrine, Inc.",INDUSTRY,1
+Fundación Fernández-Cruz,OTHER,1
+"Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator, IRB Chair",INDUSTRY,1
+"Utzschneider, Kristina, M.D.",INDIV,1
+University of South China,OTHER,1
+Juraj Koska,FED,1
+Kepler University Hospital,OTHER,1
+"Glyscend, Inc.",INDUSTRY,1
+Dr Bob Ryder,OTHER,1
+SeaCare Health Services,OTHER,1
+University of North Carolina,OTHER,1
+GenMont Biotech Incorporation,INDUSTRY,1
+Dr. Muhammad Abdulghani,INDUSTRY,1
+"Wecare Probiotics Co., Ltd.",INDUSTRY,1
+Dr Adnan Agha,OTHER,1
+"Altimmune, Inc.",INDUSTRY,1
+Regional Obstetrical Consultants,OTHER,1
+University Hospital of the West Indies,OTHER,1
+"Guillermo Umpierrez, MD",OTHER,1
+Bassett Healthcare,OTHER,1
+The Mediterranean Institute for Transplantation and Advanced Specialized Therapies,OTHER,1
+University of Greenwich,OTHER,1
+Jian-hua Ma,OTHER,1
+Endeavor Health,OTHER,1
+Biomedical Research Institute of New Mexico,OTHER,1
+Carolyn Zahler-Miller,OTHER,1
+Holly Willis,OTHER,1
+Region Jönköping County,OTHER_GOV,1
+Lancaster University,OTHER,1
+Katarina Kos,OTHER,1
+British Cardiac Research Trust,OTHER,1
+Centro de Investigacion Sanitaria,NETWORK,1
+Anders Rasmussen Rinnov,OTHER,1
+Prince of Songkla University,OTHER,1
+Patton Medical Devices,INDUSTRY,1
+Public Health - Seattle and King County,OTHER_GOV,1
+Susanna Søberg,OTHER,1
+Carmot Australia First Pty Ltd,INDUSTRY,1
+Laura Staun Valentiner,OTHER,1
+Slimbiotics GmbH,INDUSTRY,1
+"Air Force Military Medical University, China",OTHER,1
+Asklepios proresearch,INDUSTRY,1
+Hartwig R. Siebner,OTHER,1
+Healthconnect,INDUSTRY,1
+Abbott Products,INDUSTRY,1
+"John B Bulger, DO",OTHER,1
+Metabolic Research Unit,INDUSTRY,1
+Sidrah Lodhi,OTHER,1
+University of Gaziantep,OTHER,1
+Lars Christian Gormsen,OTHER,1
+Arpita Basu,OTHER,1
+Xiaoling Guan,OTHER,1
+"OrsoBio, Inc",INDUSTRY,1
+feng Zheng,OTHER,1
+Hospital Civil Juan I. Menchaca,OTHER,1
+Lo.Li.Pharma s.r.l,INDUSTRY,1
+Kanagawa Physicians Association,OTHER,1
+Sam Houston State University,OTHER,1
+Julius Clinical,INDUSTRY,1
+Dr. Peter Swoboda,OTHER,1
+Sykehuset i Vestfold HF,OTHER,1
+Centro Interdisciplinario de Ciencias de la Salud Unidad Santo Tomás,OTHER,1
+Komisarenko Institute of Endocrinology and Metobolism,OTHER_GOV,1
+St Mary's University College,OTHER,1
+Blekinge Institute of Technology,OTHER,1
+Takeshi Morimoto,OTHER,1
+European Vision Institute Clinical Research Network,NETWORK,1
+University of Stavanger,OTHER,1
+Yu-Shan Hsieh,OTHER,1
+Catholic University of Brasília,OTHER,1
+Poznan University of Physical Education,OTHER,1
+Association Pour la Recherche en Diabetologie et en Geriatrie,OTHER,1
+"Anders Fink-Jensen, MD, DMSci",OTHER,1
+Centro de Endocrinologia Experimental y Aplicada,OTHER,1
+Nicole Oosterom,OTHER,1
+Eisai Inc.,INDUSTRY,1
+Dao Wen Wang,OTHER,1
+General Electric Research,INDUSTRY,1
+BOYDSENSE,INDUSTRY,1
+Prof. Amir Tirosh,OTHER_GOV,1
+Positive Trial Group,OTHER,1
+Austin Health,OTHER_GOV,1
+University of Vigo,OTHER,1
+"Qilu Pharmaceutical Co., Ltd.",INDUSTRY,1
+Diabetes Care Center of Nanjing Military Command,OTHER,1
+No. 150 Central Hospital of the Chinese People Liberation Army,OTHER_GOV,1
+Nanexa AB,INDUSTRY,1
+"University Hospital, Gasthuisberg",OTHER,1
+20Lighter,INDUSTRY,1
+Shifa Tameer-e-Millat University,OTHER,1
+Peter Gæde,OTHER,1
+Saga University,OTHER,1
+"Academy for Medical Development and Collaboration, New York",OTHER,1
+University of Milano Bicocca,OTHER,1
+Third Affiliated Hospital of Third Military Medical University,OTHER,1
+"City, University of London",OTHER,1
+Julia Otten,OTHER,1
+Apokus AS,OTHER,1
+Shenzhen Second People's Hospital,OTHER,1
+University of Toronto Practice Based Research Network,OTHER,1
+"Glac Biotech Co., Ltd",INDUSTRY,1
+"Chengdu Easton Biopharmaceuticals Co,Ltd",INDUSTRY,1
+Osaka Metropolitan University,OTHER,1
+"Chiara Fabris, PhD",OTHER,1
+Universidad de Sonora,OTHER,1
+Erbil Polytechnic University,OTHER,1
+Gretchen Swanson Center for Nutrition,OTHER,1
+ARKAY Therapeutics,INDUSTRY,1
+Deutsche Diabetes Gesellschaft,OTHER,1
+"Maccabi Healthcare Services, Israel",OTHER,1
+"University of Colorado, Boulder",OTHER,1
+Markus Perola,OTHER_GOV,1
+Rowan University,OTHER,1
+GraphWear Technologies Inc.,INDUSTRY,1
+St. Boniface Hospital,OTHER,1
+IlDong Pharmaceutical Co Ltd,INDUSTRY,1
+Raquel Ballarin,OTHER,1
+Ullevaal University Hospital,OTHER,1
+Zhongshan Hospital Xiamen University,OTHER,1
+Wits Health Consortium (Pty) Ltd,OTHER,1
+China Agricultural University,OTHER,1
+Finis Terrae University,OTHER,1
+Servier (Tianjin) Pharmaceutical Co. LTD.,INDUSTRY,1
+University of Parma,OTHER,1
+Mario Luca Morieri,OTHER,1
+Deka Research and Development,INDUSTRY,1
+Niigata Medical Center,OTHER,1
+University Hospital Birmingham,OTHER,1
+Robert Petrella,OTHER,1
+Democritus University of Thrace,OTHER,1
+Celon Pharma SA,INDUSTRY,1
+"South Karelia, Social and Health Care District",OTHER,1
+Smt. Kashibai Navale Medical College and General Hospital,OTHER,1
+"Yooyoung Pharmaceutical Co., Ltd.",INDUSTRY,1
+Escola Bahiana de Medicina e Saude Publica,OTHER,1
+Province of Malaga Health Department,OTHER_GOV,1
+Regionshospital Nordjylland,OTHER_GOV,1
+Beta-Stim Ltd.,INDUSTRY,1
+Afimmune,INDUSTRY,1
+University of Diyala,OTHER,1
+Claremont Graduate University,OTHER,1
+Medlior Health Outcomes Research Ltd,OTHER,1
+Fooyin University,OTHER,1
+Giresun University,OTHER,1
+Sichuan Academy of Medical Sciences,OTHER,1
+QuiO,INDUSTRY,1
+William Paterson University of New Jersey,OTHER,1
+First Institute of All Medicines,OTHER,1
+"CSPC Ouyi Pharmaceutical Co., Ltd.",INDUSTRY,1
+Sir Run Run Shaw Hospital,OTHER,1
+University Maribor,OTHER,1
+University of Oviedo,OTHER,1
+Japan Association for Diabetes Education and Care,OTHER,1
+"Imbria Pharmaceuticals, Inc.",INDUSTRY,1
+Wu Qinan,OTHER,1
+Natasha Duke,OTHER,1
+Blanchard Valley Health System,OTHER,1
+Hilda Elizabeth Macías Cervantes,OTHER_GOV,1
+Bellus Health Inc. - a GSK company,INDUSTRY,1
+Mishaela Rubin,OTHER,1
+Arrowhead Pharmaceuticals,INDUSTRY,1
+University of York,OTHER,1
+Jikei University School of Medicine,OTHER,1
+Universidade Federal de Sao Carlos,OTHER,1
+Uskudar University,OTHER,1
+Siel Bleu,OTHER,1
+Princess Nourah Bint Abdulrahman University,OTHER,1
+Kaiser Clinic and Hospital,OTHER,1
+Laboratorios Manuell SA,INDUSTRY,1
+University of Trieste,OTHER,1
+The Reading Hospital and Medical Center,OTHER,1
+Equipo Multidisciplinar Sanitario CS Foietes,OTHER,1
+University of Nebraska Lincoln,OTHER,1
+University of Twente,OTHER,1
+PT Bio Farma,INDUSTRY,1
+"Hangzhou Jiuyuan Gene Engineering Co. Ltd.,",INDUSTRY,1
+"National Center for Chronic and Noncommunicable Disease Control and Prevention, China CDC",OTHER,1
+Nova Southeastern University,OTHER,1
+University of Groningen,OTHER,1
+Possible,OTHER,1
+Instituto Nacional de Enfermedades Respiratorias,OTHER_GOV,1
+Suzanne Morin,OTHER,1
+Fundacin Biomedica Galicia Sur,OTHER,1
+Assaf Harofeh MC,OTHER_GOV,1
+Jewish General Hospital,OTHER,1
+Neurocrine Biosciences,INDUSTRY,1
+Spectrum Health Hospitals,OTHER,1
+Riitta Veijola,OTHER,1
+Northern Sydney and Central Coast Area Health Service,OTHER,1
+Vrije Universiteit Brussel,OTHER,1
+Corline Biomedical AB,INDUSTRY,1
+Jane Yardley,OTHER,1
+Royal North Shore Hospital,OTHER,1
+Jeffrey Bluestone,OTHER,1
+"Perosphere Pharmaceuticals Inc, a wholly owned subsidiary of AMAG Pharmaceuticals, Inc.",INDUSTRY,1
+"Daniel Chernavvsky, MD, CRC",OTHER,1
+University of Moron,OTHER,1
+University of Bialystok,OTHER_GOV,1
+"Provention Bio, Inc.",INDUSTRY,1
+PeriPharm,OTHER,1
+Bruno Bombaci,OTHER,1
+Antonio Di Mauro,OTHER,1
+Oita Red Cross Hospital,OTHER,1
+Emresenocak,OTHER,1
+Anne-Sophie Brazeau,OTHER,1
+Piemonti Lorenzo,OTHER,1
+Diabetech,INDUSTRY,1
+"Huot, Celine, M.D.",OTHER,1
+ELIAS Emergency University Hospital,OTHER,1
+TikoMed AB,INDUSTRY,1
+Sheffield Hallam University,OTHER,1
+Camillo Ricordi and Jay Skyler,OTHER,1
+Rosa María Sánchez Hernández,OTHER,1
+Hospital Las Higueras,OTHER,1
+Hospital General de Segovia,OTHER,1
+"Ministry of Health and Population, Egypt",OTHER_GOV,1
+ITB-Med LLC,INDUSTRY,1
+Masaryk Hospital Usti nad Labem,OTHER,1
+Cwm Taf University Health Board (NHS),OTHER_GOV,1
+Royan Institute,OTHER_GOV,1
+Vanilloid Genetics Inc.,INDUSTRY,1
+Novocell,INDUSTRY,1
+University of Sheffield,OTHER,1
+Universite du Quebec en Outaouais,OTHER,1
+Qassim University,OTHER,1
+Università Vita-Salute San Raffaele,OTHER,1
+General and Teaching Hospital Celje,OTHER,1
+3-C Institute for Social Development,INDUSTRY,1
+University of Florence,OTHER,1
+"Diasome Pharmaceuticlas, Inc.",INDUSTRY,1
+Liwa College,OTHER,1
+"Grill, Valdemar, M.D.",INDIV,1
+Zdeněk Šumník,OTHER,1
+"Boris Kovatchev, PhD",OTHER,1
+EUROSPK Study Group,OTHER,1
+Louisiana State University Health Sciences Center Shreveport,OTHER,1
+Jing Luo,OTHER,1
+Cork University Hospital,OTHER,1
+PolTREG S.A.,INDUSTRY,1
+"Hangzhou Reprogenix Bioscience, Inc",INDUSTRY,1
+Vancouver Coastal Health,OTHER_GOV,1
+SHAHAH ALTAMMAR,OTHER,1
+Doctor Giacomo Gastaldi,OTHER,1
+Encellin,INDUSTRY,1
+Nahid Zarifsanaiey,OTHER,1
+"Kenneth Brayman, MD",OTHER,1
+University Hospital Hradec Kralove,OTHER,1
+"EndoCell Therapeutics, Inc.",OTHER,1
+Roberto Léo da Silva,OTHER,1
+Selverhan Yurttutan,OTHER,1
+Jens Brøndum Frøkjær,OTHER,1
+timkl,INDUSTRY,1
+Creative Medical Technology Holdings Inc,INDUSTRY,1
+Atlanta Diabetes Associates,OTHER,1
+Pirogov Russian National Research Medical University,OTHER,1
+Universidad Iberoamericana,OTHER,1
+Fondation Francophone pour la Recherche sur le Diabete,OTHER,1
+"Adhera Health, Inc.",INDUSTRY,1
+Adil Bharucha,OTHER,1
+David Sanchez Garcia,OTHER_GOV,1
+Creative Peptides Sweden Inc.,INDUSTRY,1
+Randi Streisand,OTHER,1
+Azienda Ospedaliera San Camillo Forlanini,OTHER,1
+Sirnak State Hospital,OTHER_GOV,1
+"Otsuka Pharmaceutical Factory, Inc.",INDUSTRY,1
+Rise Therapeutics LLC,INDUSTRY,1
+Instituto Nacional de Cardiologia de Laranjeiras,OTHER,1
+Soledad Ruiz de Adana,OTHER,1
+"Örebro University, Sweden",OTHER,1
+Jorge Bondia,OTHER,1
+Centro Cardiologico Monzino,OTHER,1
+Chattanooga-Hamilton County Hospital Authority,OTHER,1
+Jay S. Skyler,OTHER,1
+"Centro Hospitalar e Universitário de Coimbra, E.P.E.",OTHER,1
+Hospital Pablo Tobón Uribe,OTHER,1
+Lorenzo Piemonti,OTHER,1
+Aalborg University,OTHER,1
+Guizhou Bailing Group Pharmaceutical Co Ltd,INDUSTRY,1
+Bio-K Plus International Inc.,INDUSTRY,1
+"JuFeng, Hsiao",OTHER,1
+University of Ostrava,OTHER,1
+Mohammed Ramadan Abdallah,OTHER,1
+Pacific Coast Family Medical Group,OTHER,1
+Boston College,OTHER,1
+ValoTec,INDUSTRY,1
+"VitNovo, Inc.",INDUSTRY,1
+"Cirius Therapeutics, Inc.",INDUSTRY,1
+Todd Doyle,OTHER,1
+Nazarii Kobyliak,OTHER,1
+University Hospitals Coventry and Warwickshire NHS Trust,OTHER,1
+FareWell,INDUSTRY,1
+Christopher Tait,OTHER,1
+Dana-Farber Cancer Institute,OTHER,1
+"Faculty of Medical Sciences, Clinical Hospital",OTHER,1
+GCS Ramsay Santé pour l'Enseignement et la Recherche,OTHER,1
+Aboca Spa Societa' Agricola,INDUSTRY,1
+"Zabeen Mahuwala, MD",OTHER,1
+"Albany Research Institute, Inc.",OTHER,1
+Robert Rosenson,OTHER,1
+Fengmei Lian,OTHER,1
+Stefano Rizza,OTHER,1
+Model Clinical Research LLC,OTHER,1
+Université d'Auvergne,OTHER,1
+Alexander Christensen,OTHER,1
+Beacon Health System,OTHER,1
+UKK Institute,OTHER,1
+Tabula Rasa HealthCare,INDUSTRY,1
+North Dakota State University,OTHER,1
+LM Diagnósticos S.L.,OTHER,1
+Sigrid Therapeutics AB,INDUSTRY,1
+ALI KAMAL M. SAMI,OTHER,1
+Wonju Severance Christian Hospital,OTHER,1
+Kirsi Pietiläinen,OTHER,1
+Soo Lim,OTHER,1
+Academisch Ziekenhuis Maastricht,OTHER,1
+Papworth Hospital NHS Foundation Trust,OTHER_GOV,1
+Svendborg Hospital,OTHER,1
+CARLOS ZERRWECK LOPEZ,OTHER_GOV,1
+"Centro de Estudios en Alimentación y Nutrición, Chile",OTHER,1
+"Samar Fares, MD",OTHER,1
+University of Ottawa,OTHER,1
+The N.E.W. Program,OTHER,1
+Tokyo University,OTHER,1
+Jawaharlal Institute of Postgraduate Medical Education & Research,OTHER_GOV,1
+"Chania General Hospital ""St. George""",OTHER,1
+Muş Alparslan University,OTHER,1
+Lingling Ding,OTHER,1
+Société Française de Cardiologie,OTHER,1
+Seyma Acik,OTHER,1
+CES University,OTHER,1
+Eva Cubric,OTHER,1
+"University Hospital, Ioannina",OTHER,1
+Scranton-Temple Residency Program,OTHER,1
+Christophe De Block,OTHER,1
+Jin-Kui Yang,OTHER,1
+Heim Pal Children's Hospital,OTHER,1
+Clinical Hospital Centre Zagreb,OTHER,1
+North Essex Partnership NHS Foundation Trust,OTHER_GOV,1
+Alameda County Medical Center,OTHER,1
+Hospital Universitario Doctor Peset,OTHER,1
+Analgesic Solutions,INDUSTRY,1
+Uludag University,OTHER,1
+Hunter Holmes Mcguire Veteran Affairs Medical Center,FED,1
+Evoke Pharma,INDUSTRY,1
+Tameside General Hospital,OTHER,1
+InGef - Institute for Applied Health Research Berlin GmbH,INDUSTRY,1
+Duygu AKTAR REYHANIOGLU,OTHER,1
+Harvard School of Dental Medicine,OTHER,1
+Fateme Moshirenia,OTHER,1
+Indian Council of Medical Research,OTHER_GOV,1
+Osaka Saiseikai Nakatsu Hospital,OTHER,1
+"Amira Bisher,PhD",OTHER,1
+Mardin Artuklu University,OTHER,1
+Bandim Health Project,OTHER,1
+St Elizabeth Healthcare,OTHER,1
+Obafemi Awolowo University,OTHER,1
+Medicinsk Forsknings Afdeling,OTHER,1
+Taipei Medical University Hospital,OTHER,1
+Shanghai Eye Disease Prevention and Treatment Center,OTHER,1
+Mellitor,INDUSTRY,1
+The Hashemite University,OTHER,1
+Sapporo Health Promotion Foundation,OTHER,1
+Ningbo Beilun District Traditional Chinese Medicine Hospital,OTHER,1
+Bozok University,OTHER,1
+Universidade Federal do Ceara,OTHER,1
+Al-Balqa Applied University,OTHER,1
+Fatima Maqsood,OTHER_GOV,1
+Nina Peled,INDUSTRY,1
+"Gold, Herman K., MD",INDIV,1
+"Shanghai Tongji Hospital, Tongji University School of Medicine",OTHER,1
+Centre Hospitalier de Cayenne,OTHER,1
+Mundipharma Korea Ltd,INDUSTRY,1
+"Zhejiang Anglikang Pharmaceutical Co., Ltd.",INDUSTRY,1
+Marshall University,OTHER,1
+National Institute of Neurological Disorders and Stroke (NINDS),NIH,1
+Instituto Venezolano de Investigaciones Cientificas,OTHER,1
+Shenyang Northern Hospital,OTHER,1
+DeCell Technologies Inc.,INDUSTRY,1
+Charsire Biotechnology Corp.,INDUSTRY,1
+RTI International,OTHER,1
+Axel Brandes,OTHER,1
+Caristo Diagnostics Limited,INDUSTRY,1
+AlFayhaa General Hospital,OTHER,1
+TURRINI FABRIZIO,OTHER,1
+Mukoviszidose Institut gGmbH,OTHER,1
+Sisli Hamidiye Etfal Training and Research Hospital,OTHER,1
+Suez Canal University,OTHER,1
+Joe Fenn,INDUSTRY,1
+"CHEOL WHAN LEE, M.D., Ph.D",OTHER,1
+Swansea Bay University Health Board,OTHER,1
+Hellenic Society for Medical Education,OTHER,1
+Liggins Institute,OTHER,1
+GAAD Medical Research Institute Inc.,OTHER,1
+Janne J. Jokinen,OTHER,1
+Kirsehir Ahi Evran Universitesi,OTHER,1
+Saima Abass Tahammal,OTHER,1
+Ziekenhuisgroep Twente,OTHER,1
+Chiltern Pesquisa Clinica Ltda,INDUSTRY,1
+Philips Healthcare,INDUSTRY,1
+Severance Hospital,OTHER,1
+Future Genetics Limited,OTHER,1
+Marlous Hall,OTHER,1
+Roswell Park Cancer Institute,OTHER,1
+The Hospital of Vestfold,OTHER,1
+Institute of Biophysics and Cell Engineering of National Academy of Sciences of Belarus,OTHER_GOV,1
+General Biologicals Corporation,INDUSTRY,1
+Pamela Youde Nethersole Eastern Hospital,OTHER,1
+Health Quality Partners,OTHER,1
+James Murrough,OTHER,1
+Matthew Allemang,OTHER,1
+Les Laboratoires des Médicaments Stériles,INDUSTRY,1
+Policlinico Casilino ASL RMB,OTHER,1
+Department of Nephrology Clinic Ottakring Vienna,OTHER,1
+Prof. Dr. med. Christoph Hehrlein,OTHER,1
+Retinal Consultants of Arizona,OTHER,1
+Islamia University of Bahawalpur,OTHER,1
+The Diabetes Association of the Republic of China (Taiwan),OTHER,1
+Butantan Institute,OTHER_GOV,1
+Northern Arizona University,OTHER,1
+Sackner Wellness Products LLC,INDUSTRY,1
+Yibing Wang,OTHER,1
+University Hospital Erlangen,OTHER,1
+Walk With Path,INDUSTRY,1
+The Cooper Health System,OTHER,1
+SK Telecom Consortium,OTHER,1
+Sonia Anand,OTHER,1
+"Ulrik Sartipy, MD, PhD",OTHER,1
+Wilhelminenspital Vienna,OTHER,1
+Boston Scientific Corporation,INDUSTRY,1
+Ajman University,OTHER,1
+Syracuse University,OTHER,1
+"Kowloon Hospital, Hong Kong",OTHER,1
+Instituto Universitario de Oftalmobiología Aplicada (Institute of Applied Ophthalmobiology) - IOBA,OTHER,1
+Mohamed Anees,OTHER,1
+University of Beykent,OTHER,1
+Federal University of Juiz de Fora,OTHER,1
+Muhimbili University of Health and Allied Sciences,OTHER,1
+"Institute for Clinical Effectiveness, Japan",OTHER,1
+Osakidetza,OTHER,1
+Superior University,OTHER,1
+Centro Universitario de Tonalá,OTHER,1
+Naestved Hospital,OTHER,1
+"N-Gene Research Laboratories, Inc.",INDUSTRY,1
+Philozon Geradores de Ozonio LTDA,INDUSTRY,1
+Advantage Health Physician Network,OTHER,1
+Dr. Nyanda Elias Ntinginya,OTHER_GOV,1
+Maria Cecilia Hospital,OTHER,1
+Danderyd Hospital,OTHER,1
+"Federal State Budgetary Scientific Institution, Research Institute of Fundamental and Clinical Immunology",OTHER,1
+"Companion Medical, Inc.",INDUSTRY,1
+University of Mauritius,OTHER,1
+Yağmur Saraç Gül,OTHER,1
+Kristianstad University,OTHER,1
+Istanbul Saglik Bilimleri University,OTHER,1
+HeartDrug Research LLC,OTHER,1
+Hospital Universitario Reina Sofia de Cordoba,OTHER_GOV,1
+National Institute of Dental and Craniofacial Research (NIDCR),NIH,1
+Alzahraa Khalil Marie,OTHER,1
+Malmö University,OTHER,1
+All India Institute of Medical Sciences,OTHER,1
+South Tees Hospitals NHS Foundation Trust,OTHER,1
+"Mater Dei Hospital, Malta",OTHER,1
+Retinset SL,INDUSTRY,1
+Dakota Vascular,OTHER,1
+Khon Kaen University,OTHER,1
+Kyuzi Kamoi,OTHER,1
+University Hospital Southampton NHS Foundation Trust,OTHER,1
+Rosalind Franklin University of Medicine and Science,OTHER,1
+Instituto Nacional de Cardiologia Ignacio Chavez,OTHER,1
+Urmia University of Medical Sciences,OTHER,1
+Louisiana State University and A&M College,OTHER,1
+Region Gävleborg,OTHER,1
+Sobngwi Eugene,OTHER_GOV,1
+Hospital Universitario de Canarias,OTHER,1
+Cho Ray Hospital,OTHER,1
+Universidad Estatal de Milagro,OTHER,1
+Japan Early Diabetes Intervention Study Group,OTHER,1
+Mattu University,OTHER,1
+Christian S. Meyhoff,OTHER,1
+Panacea Biotec Ltd,INDUSTRY,1
+"Ministry of Health, Labour and Welfare, Japan",OTHER_GOV,1
+Nepal Health Research Council,OTHER_GOV,1
+Hong Kong Metropolitan University,OTHER,1
+Alborz Medical University,OTHER_GOV,1
+MidAtlantic Retina,OTHER,1
+David Grant U.S. Air Force Medical Center,FED,1
+"Singular Wings Medical Co., Ltd.",INDUSTRY,1
+Esther Soler,OTHER,1
+"Queen Elizabeth Hospital, Hong Kong",OTHER,1
+BIOrest Ltd.,INDUSTRY,1
+"Lisata Therapeutics, Inc.",INDUSTRY,1
+Shanghai Geping Information Technology Company,INDUSTRY,1
+"Saint Vincent's Hospital, Korea",OTHER,1
+Iuliu Hatieganu University of Medicine and Pharmacy,OTHER,1
+Diabetes Frail Ltd,OTHER,1
+White Plains Hospital,OTHER,1
+Aneurin Bevan University Health Board,OTHER,1
+Bart Keymeulen,OTHER,1
+Ng Yong Muh,OTHER,1
+Bagcilar Training and Research Hospital,OTHER_GOV,1
+Shidaihuajing Institute for Diabetic Research,OTHER,1
+"C8 MediSensors, Inc.",INDUSTRY,1
+Sygehus Lillebaelt,OTHER,1
+"National Polytechnic Institute, Mexico",OTHER,1
+"Histocell, S.L.",INDUSTRY,1
+Exempla Saint Joseph Hospital,OTHER,1
+Makerere University,OTHER,1
+SolidarMed,OTHER,1
+"Xantho Biotechnology Co., LTD",INDUSTRY,1
+German Diabetes Association,OTHER,1
+NEIDE APARECIDA TITONELLI ALVIM,OTHER,1
+Graydon Meneilly,OTHER,1
+Xin Gao,OTHER,1
+Saudi Scientific Home Health Care Society,OTHER,1
+Sheikh Zayed Federal Postgraduate Medical Institute,OTHER,1
+The Leeds Teaching Hospitals NHS Trust,OTHER,1
+Dental Practice-Based Research Network,NETWORK,1
+Merve GÃnbaAY,OTHER,1
+Diagram B.V.,OTHER,1
+Prisma Health-Midlands,OTHER,1
+Oguzhan Kahveci,OTHER,1
+Kigali University Teaching Hospital,OTHER,1
+Fundación Cardioinfantil Instituto de Cardiología,OTHER,1
+Saint-Joseph University,OTHER,1
+University of Malta,OTHER,1
+Olawuyi Racett Nigeria Ltd,INDUSTRY,1
+Scotmann Pharmaceuticals,INDUSTRY,1
+Votis Subdermal Imaging Technologies LTD,INDUSTRY,1
+Treatment Research Institute,OTHER,1
+Société de Formation Thérapeutique du Généraliste,OTHER,1
+"Rimidi Diabetes, Inc.",INDUSTRY,1
+Yong Li,OTHER,1
+Medtronic Endovascular,INDUSTRY,1
+Parke-Davis,INDUSTRY,1
+Hospital Universitario Infanta Cristina,OTHER,1
+Hospital Federal de Bonsucesso,OTHER,1
+Ole Lander Svendsen,OTHER,1
+Hospital de Sabadell,OTHER,1
+Tine De Burghraeve,OTHER,1
+Prof Michael Scott,OTHER_GOV,1
+Glucotrack,INDUSTRY,1
+Egymedicalpedia,INDUSTRY,1
+Syrian Private University,OTHER,1
+"Chongqing Renji Hospital, University of Chinese Academy of Sciences",OTHER_GOV,1
+Villanova University,OTHER,1
+"BioCentric, Inc.",OTHER,1
+Erling Bjerregaard Pedersen,OTHER,1
+Bursa Postgraduate Hospital,OTHER,1
+"WinSanTor, Inc",INDUSTRY,1
+University of Lausanne,OTHER,1
+Smartest Technologies,INDUSTRY,1
+"Janssen, LP",INDUSTRY,1
+Paulista University,OTHER,1
+French Cardiology Society,OTHER,1
+Stamford Hospital,OTHER,1
+Fundacion GESICA,OTHER,1
+Assuta Medical Center,OTHER,1
+GlySens Incorporated,INDUSTRY,1
+Mark O'Connor,OTHER,1
+Hamdard University,OTHER,1
+Københavns Kommune,OTHER,1
+Saint Luke's Health System,OTHER,1
+Malcom Randall VA Medical Center,FED,1
+Louisville Metabolic and Atherosclerosis Research Center,OTHER,1
+Ethnicity and Disease Community Empowerment Center,OTHER,1
+Hopital Lariboisière,OTHER,1
+Department of Medical Services Ministry of Public Health of Thailand,OTHER_GOV,1
+João Sérgio Neves,OTHER,1
+"Center for Diabetes Control, Inc.",INDUSTRY,1
+Tourcoing Hospital,OTHER,1
+Academic Centre for Dentistry in Amsterdam,OTHER,1
+Cebix Incorporated,INDUSTRY,1
+Ningbo Eye Hospital,OTHER,1
+Dr. D. Y. Patil Dental College & Hospital,OTHER,1
+Nazarbayev University Medical Center,OTHER,1
+"Dynasplint Systems, Inc.",INDUSTRY,1
+"CirQuest Labs, LLC",OTHER,1
+"Organ, Tissue, Regeneration, Repair and Replacement",INDUSTRY,1
+Mitsui Memorial Hospital,OTHER,1
+Countess of Chester NHS Foundation Trust,OTHER,1
+European Society of Anaesthesiology,OTHER,1
+Hospital Universitario Virgen de la Arrixaca,OTHER,1
+"Beijing Institute of Heart, Lung and Blood Vessel Diseases",OTHER,1
+Tülay Çevik Saldıran,OTHER,1
+"Nastech Pharmaceutical Company, Inc.",INDUSTRY,1
+Dongying Zhang,OTHER,1
+I.M. Sechenov First Moscow State Medical University,OTHER,1
+"Laboratoire De Recherche Sur Le Diabete, Université de Tlemcen",NETWORK,1
+Jack Yanovski,NIH,1
+Sanjay R Patel,OTHER,1
+Nantou Hospital,OTHER_GOV,1
+University of the Punjab,OTHER,1
+Tianjin First Central Hospital,OTHER,1
+Florida Institute for Human and Machine Cognition,OTHER,1
+Nancy Schoenberg,OTHER,1
+Helwan University,OTHER,1
+Universidade Estadual de Maringá,OTHER,1
+Sana Rouis,OTHER,1
+Dijklander Ziekenhuis,OTHER,1
+Laminate Medical Technologies,INDUSTRY,1
+Hospital Moinhos de Vento,OTHER,1
+Miulli General Hospital,OTHER,1
+Bonmedix Holding a.s.,INDUSTRY,1
+Valentin Fuster,OTHER,1
+Sichuan Provincial People's Hospital,OTHER,1
+Jeju National University Hospital,OTHER,1
+Cloud DX Inc.,INDUSTRY,1
+October 6 University,OTHER,1
+University Medical Center Nijmegen,OTHER,1
+"Ethicon, Inc.",INDUSTRY,1
+Yi Yang,OTHER,1
+Rimsha Rasheed,OTHER,1
+First Affiliated Hospital of Wenzhou Medical University,OTHER,1
+Istanbul Physical Medicine Rehabilitation Training and Research Hospital,OTHER_GOV,1
+Universidade Positivo,OTHER,1
+Dr. Waheed Rehman,OTHER,1
+Mutah University,OTHER,1
+North Carolina State University,OTHER,1
+"Ganga Care Hospital, Nagpur",OTHER,1
+VA Eastern Colorado Health Care System,FED,1
+Namyi Gu,OTHER,1
+University of Georgia,OTHER,1
+Hejiang Ye,OTHER,1
+Dental Innovation Foundation Under Royal Patronage,OTHER,1
+"Bracco Diagnostics, Inc",INDUSTRY,1
+Zhejiang Rongjun Hospital,OTHER_GOV,1
+Martin-Luther-Universität Halle-Wittenberg,OTHER,1
+"Novartis Slovakia, s.r.o.",INDUSTRY,1
+Heart Centre Rotenburg,OTHER,1
+Atlanta VA Medical Center,FED,1
+Fundación Oftalmológica de Santander Clínica Carlos Ardila Lulle,OTHER,1
+Sanpasitthiprasong Hospital,OTHER_GOV,1
+MDCECRO LLC,NETWORK,1
+Instituto de Biomecanica de Valencia,OTHER,1
+Namsos Hospital,OTHER,1
+Ross Products,INDUSTRY,1
+"Global Infusion and Aspiration Systems, LLC",OTHER,1
+Başakşehir Çam & Sakura City Hospital,OTHER_GOV,1
+Mitesh Patel,INDUSTRY,1
+Fundación Instituto de Estudios de Ciencias de la Salud de Castilla y León,OTHER,1
+University of Luebeck,OTHER,1
+Presidio Ospedaliero Garibaldi-Centro,OTHER,1
+QDose Limited,INDUSTRY,1
+Ospedale S. Giovanni Bosco,OTHER,1
+Memorial University of Newfoundland,OTHER,1
+"Sharma, Kumar, M.D.",INDIV,1
+"Lepu Medical Technology (Beijing) Co., Ltd.",INDUSTRY,1
+Jakob Starup Linde,OTHER,1
+"Research Unit Of General Practice, Copenhagen",OTHER,1
+Tirat Carmel Mental Health Center,OTHER_GOV,1
+Welkin Health,OTHER,1
+Rovere Querini Patrizia,OTHER,1
+Johnny Froekjaer,OTHER,1
+Centre Europeen d'Etude du Diabete,OTHER,1
+"Unity Biotechnology, Inc.",INDUSTRY,1
+Grupo Rehabilitacion en Salud,NETWORK,1
+Oxford University Clinical Research Unit Indonesia,OTHER,1
+Toronto Metropolitan University,OTHER,1
+AUSL Romagna Rimini,OTHER,1
+Pancreatic Cancer Action Network,OTHER,1
+AET Laboratories Private Limited,INDUSTRY,1
+Kari Alyse Leibowitz,OTHER,1
+"Health Information Management, Belgium",OTHER,1
+Evangelisches Krankenhaus Bielefeld gGmbH,OTHER,1
+Soochow University,OTHER,1
+Zhang Ying Qian,OTHER,1
+Moritz Oberndorfer,OTHER,1
+"Tris Pharma, Inc.",INDUSTRY,1
+"Cardiovascular Academy Society, Turkey",OTHER,1
+Nabiqasim Industries (Pvt) Ltd,INDUSTRY,1
+Tesu Saglik Teknolojileri A.S.,INDUSTRY,1
+Gadjah Mada University,OTHER,1
+"University of Auckland, New Zealand",OTHER,1
+Chinese Association of Geriatric Research,OTHER,1
+Young Men's Christian Association of the Blue Water Area,OTHER,1
+Saud Al Babtain Cardiac Center,OTHER_GOV,1
+VA Ann Arbor Healthcare System,FED,1
+"Hospital for Special Surgery, New York",OTHER,1
+Wiebke Kristin Fenske,OTHER,1
+Diana Jalal,OTHER,1
+"Impactiv, Inc.",INDUSTRY,1
+VA Pittsburgh Healthcare System,FED,1
+Caelus Pharmaceuticals BV,INDUSTRY,1
+Mỹ Đức Hospital,OTHER,1
+Auburn University,OTHER,1
+Aphaia Pharma US LLC,INDUSTRY,1
+AronPharma Sp. z o. o.,INDUSTRY,1
+Tulane University School of Public Health and Tropical Medicine,OTHER,1
+Institut de Recerca Biomèdica de Lleida,OTHER,1
+St. Jude Children's Research Hospital,OTHER,1
+"Kalin Health, LLC",INDUSTRY,1
+Jeong-taek Woo,OTHER,1
+Hospital Civil de Guadalajara,OTHER,1
+Tereos,INDUSTRY,1
+Eric Levian,INDUSTRY,1
+"Mary Ellen Vajravelu, MD",OTHER,1
+National Center of Cardiology and Internal Medicine named after academician M.Mirrakhimov,OTHER_GOV,1
+University of La Laguna,OTHER,1
+Nicolaus Copernicus University,OTHER,1
+"Queens College, The City University of New York",OTHER,1
+Zhaoping Li,OTHER,1
+Leonard Epstein,OTHER,1
+Nigde Omer Halisdemir University,OTHER,1
+Noom Inc.,INDUSTRY,1
+Marinella Temprosa,OTHER,1
+Universidad Católica San Antonio de Murcia,OTHER,1
+Evidem Consultores SL,INDUSTRY,1
+George Mason University,OTHER,1
+Claudia Luévano-Contreras,OTHER,1
+Brooklyn Clinical Research,NETWORK,1
+"Osprey Medical, Inc",INDUSTRY,1
+AbbVie,INDUSTRY,1
+Surgical Review Corporation,OTHER,1
+Columbus Research Foundation,OTHER,1
+Buddhist Tzu Chi General Hospital,OTHER,1
+Fondazione Evidence per Attività e Ricerche Cardiovascolari ONLUS,OTHER,1
+Mahesh Pattabiraman,INDUSTRY,1
+Missouri Department of Health and Senior Services,OTHER,1
+Bioaraba Health Research Institute,NETWORK,1
+Roger Johnson,OTHER,1
+Clinical Centre of Serbia,OTHER,1
+"Medco Health Solutions, Inc.",INDUSTRY,1
+Willows Health,OTHER,1
+Vienna Institute for Research in Ocular Surgery,OTHER,1
+"Shenzhen Precision Health Food Technology Co. Ltd.,",OTHER_GOV,1
+Admetsys Corporation,INDUSTRY,1
+Czech Technical University in Prague,OTHER,1
+The People's Hospital of Gaozhou,OTHER,1
+"Austral University, Argentina",OTHER,1
+"CardioVascular BioTherapeutics, Inc.",INDUSTRY,1
+Xie Mingxing,OTHER,1
+Switch Health Solutions Inc.,INDUSTRY,1
+Concept Medical Inc.,INDUSTRY,1
+"Central Carolina Surgery, PA",OTHER,1
+Aljazeera Hospital,OTHER,1
+Jana Care,INDUSTRY,1
+Azienda di Servizi alla Persona di Pavia,OTHER,1
+Izmir Tinaztepe University,OTHER,1
+Tehran Heart Center,OTHER,1
+Molnlycke Health Care AB,INDUSTRY,1
+The Foundation for Orthopaedics and Regenerative Medicine,OTHER,1
+"Patricia Kluding, PhD",OTHER,1
+Royal Marsden NHS Foundation Trust,OTHER,1
+University of Pikeville,OTHER,1
+Dr. Rakesh C. Arora,OTHER,1
+"YofiMeter, LLC",INDUSTRY,1
+Medical Park Gaziantep Hospital,OTHER,1
+Direction Centrale du Service de Santé des Armées,OTHER,1
+Kevin Davy,OTHER,1
+Université Polytechnique de Bobo-Dioulasso,OTHER,1
+Cuiaba University,OTHER,1
+Universidad Nacional de Asunción,OTHER,1
+USDA Beltsville Human Nutrition Research Center,FED,1
+"Yaffa Golan, Ltd.",INDUSTRY,1
+Delta Health Alliance,OTHER,1
+Windber Research Institute,OTHER,1
+Biologics & Biosimilars Collective Intelligence Consortium,OTHER,1
+Minghui Wang,OTHER,1
+Diabetes Center of the Southwest,OTHER,1
+EnzySurge,INDUSTRY,1
+"Dr. Jean E. Starr, MD",OTHER,1
+Deborah Elder,OTHER,1
+Kirloskar Hospital,OTHER,1
+Harvard Vanguard Medical Associates,OTHER,1
+Hospital General de Niños Pedro de Elizalde,OTHER,1
+RE.DOCTOR LLC,INDUSTRY,1
+"Hengrui Therapeutics, Inc.",INDUSTRY,1
+CellMedX Corporation,INDUSTRY,1
+MRC/UVRI and LSHTM Uganda Research Unit,OTHER,1
+Instituto de Investigación Hospital Universitario La Paz,OTHER,1
+New York City Department of Health and Mental Hygiene,OTHER_GOV,1
+Lovoria Williams,OTHER,1
+Universidade Federal da Fronteira Sul,OTHER,1
+"Psychiatric Research Unit, Region Zealand, Denmark",OTHER,1
+Home Access Health Corporation,INDUSTRY,1
+Diabetes Technology Society,OTHER,1
+Juliana CN Chan,OTHER,1
+Amsterdam University of Applied Sciences,OTHER,1
+Hopital Foch,OTHER,1
+St. Martin De Porress Hospital,OTHER,1
+"Central Institute of Psychiatry, Ranchi, India",OTHER,1
+Tobias Moeller-Bertram,INDUSTRY,1
+Kos Pharmaceuticals,INDUSTRY,1
+Precision Health Equity Initiative,OTHER,1
+Sanidad de Castilla y León,OTHER,1
+"Sonavex, Inc.",INDUSTRY,1
+"Public Health Department, Montreal",OTHER_GOV,1
+Biotec Pharmacon ASA,INDUSTRY,1
+PepsiCo Global R&D,INDUSTRY,1
+Orpyx Medical Technologies Inc.,INDUSTRY,1
+Richmond Research Institute,INDUSTRY,1
+Malawi Epidemiology and Intervention Research Unit,OTHER,1
+Schepens Eye Research Institute,OTHER,1
+Iperboreal Pharma Srl,INDUSTRY,1
+Trears,INDUSTRY,1
+Nykøbing Falster County Hospital,OTHER,1
+S.M. Misericordia Hospital,OTHER,1
+Impeto Medical,INDUSTRY,1
+South Florida Veterans Affairs Foundation for Research and Education,FED,1
+"Bijan Najafi, PhD",OTHER,1
+Allina Health System,OTHER,1
+Northern Ontario School of Medicine,OTHER,1
+Kamuzu University of Health Sciences,OTHER,1
+Luleå Tekniska Universitet,OTHER,1
+North Bronx Healthcare Network,OTHER,1
+KeraCure,INDUSTRY,1
+Tamra Dukatz,OTHER,1
+Federal University of Paraíba,OTHER,1
+South Orange County Endocrinology,OTHER,1
+Providence Health & Services,OTHER,1
+"University of Geneva, Switzerland",OTHER,1
+Michael E. DeBakey VA Medical Center,FED,1
+Maison Médicale Jeanne Garnier,OTHER,1
+Chungbuk National University,OTHER,1
+"Baltimore Research & Education Foundation, Inc.",OTHER,1
+Sydney Children's Hospitals Network,OTHER,1
+Dr. Shany Blum,OTHER,1
+University of Guarulhos,OTHER,1
+COLM Study Research Organization,OTHER,1
+Gian Paolo Fadini,OTHER,1
+"BioTex, Inc.",INDUSTRY,1
+"Beijing Suncadia Pharmaceuticals Co., Ltd",INDUSTRY,1
+LumiraDx UK Limited,INDUSTRY,1
+"Shenzhen SiBiono GeneTech Co.,Ltd",INDUSTRY,1
+"St. Luke's Hospital and Health Network, Pennsylvania",OTHER,1
+B.P. Koirala Institute of Health Sciences,OTHER,1
+Children's & Women's Health Centre of British Columbia,OTHER,1
+Carine Beysen,INDUSTRY,1
+"University Hospital, Linkoeping",OTHER,1
+Université catholique de l'Ouest,OTHER,1
+Advice Pharma Group srl,INDUSTRY,1
+Helio Genomics,INDUSTRY,1
+North York General Hospital,OTHER,1
+Jie Li,OTHER,1
+"RETINA-AI Health, Inc.",INDUSTRY,1
+"Central Institute of Mental Health, Mannheim",OTHER,1
+Fundacion Universitaria Maria Cano,OTHER,1
+Augenabteilung Allgemeines Krankenhaus Linz,OTHER,1
+State Islamic University of Sunan Kalijaga Yogyakarta,OTHER,1
+Hebei Medical University,OTHER,1
+"Shanghai Meiji Health Science and Technology Co., Ltd.",INDUSTRY,1
+"PictureRx, LLC",OTHER,1
+"ReGenTree, LLC",INDUSTRY,1
+Ospital ng Maynila Medical Center,OTHER,1
+Celestino Sardu,OTHER,1
+Tom Elliott,NETWORK,1
+Lilian N. Dindo,OTHER,1
+University of Gdansk,OTHER,1
+Karimi Sater Gebara,OTHER,1
+"Johnson & Johnson Medical, China",INDUSTRY,1
+Seung-Jung Park,OTHER,1
+"Xiangyang Central Hospital, Affiliated Hospital of Hubei University of Arts and Science",OTHER_GOV,1
+"Noveome Biotherapeutics, formerly Stemnion",INDUSTRY,1
+"Rezubio Pharmaceuticals Co., Ltd.",INDUSTRY,1
+University of Taubate,OTHER,1
+Sleepiz AG,INDUSTRY,1
+Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins,OTHER,1
+Torkell Ellingsen,OTHER,1
+Merve DerviAYoAYlu,OTHER,1
+University of Kelaniya,OTHER,1
+Nicolai Jacob Wewer Albrechtsen,OTHER,1
+Laboratoires Genévrier,INDUSTRY,1
+Russian Federation of Anesthesiologists and Reanimatologists,OTHER,1
+Zhongnan Hospital,OTHER,1
+Prof Stig Larsen,OTHER,1
+Ahlia University,OTHER,1
+"University Hospital, Aachen",OTHER,1
+Fondazione IRCCS Policlinico San Matteo di Pavia,OTHER,1
+Guillermo Umpierrez,OTHER,1
+National Institute of Health and Nutrition,OTHER_GOV,1
+Hospital Universitario Ramon y Cajal,OTHER,1
+iHealthScreen Inc,INDUSTRY,1
+The Dental Hospital of Zhejiang University School of Medicine,OTHER,1
+Midhat H. Abdulreda,OTHER,1
+"Campbell University, Incorporated",OTHER,1
+Universidade Francisca,OTHER,1
+"Ministry of Finance, Guinea-Bissau",OTHER_GOV,1
+Università degli Studi di Sassari,OTHER,1
+Glycadia,INDUSTRY,1
+Korea Ginseng Corporation,INDUSTRY,1
+Ostfold Hospital Trust,OTHER,1
+Optain Health,INDUSTRY,1
+The Medicines Company,INDUSTRY,1
+Cardinal Tien Hospital,OTHER,1
+Prof. Iman Basheti,OTHER,1
+Shanghai Yueyang Integrated Medicine Hospital,OTHER,1
+VA Sierra Nevada Health Care System,FED,1
+University Hospitals of Derby and Burton NHS Foundation Trust,OTHER,1
+Global Healthy Living Foundation,OTHER,1
+"Fujirebio Diagnostics, Inc.",INDUSTRY,1
+Xim Limited,INDUSTRY,1
+Meddoc,OTHER,1
+"i-SENS, Inc.",INDUSTRY,1
+UFUOMA MILLER FAKPOR,OTHER,1
+Nguyen Ton Ngoc Huynh,OTHER,1
+"Beijing QS Medical Technology Co., Ltd.",INDUSTRY,1
+Navitas Pharma,INDUSTRY,1
+Kunming Children's Hospital,OTHER,1
+Provident Clinical Research,OTHER,1
+Centre Hospitalier Saint Joseph Saint Luc de Lyon,OTHER,1
+Santa Clara Valley Health & Hospital System,OTHER,1
+Universidade Metodista de Piracicaba,OTHER,1
+Mrs. Thelma Zoegas Foundation,OTHER,1
+Xie Kangjie,OTHER,1
+Kaohsiung Medical University,OTHER,1
+University of North Dakota,OTHER,1
+Eyenez LLC,INDUSTRY,1
+Medicine,OTHER,1
+BioDelivery Sciences International,INDUSTRY,1
+Maine Center for Lipids and Cardiovascular Health,OTHER,1
+Association HGE CHU Bordeaux Sud,OTHER,1
+Centers for Disease Control and Prevention,FED,1
+United States Department of Defense,FED,1
+"Epic Research & Diagnostics, Inc.",INDUSTRY,1
+Kenneth Madden,OTHER,1
+Harvest Technologies,INDUSTRY,1
+UDA Centro Nacional Hepato-Bilio-Pancreático,OTHER,1
+Daxor Corporation,INDUSTRY,1
+Oral Health Centre of Expertise in Western Norway,OTHER,1
+UNC Lineberger Comprehensive Cancer Center,OTHER,1
+Cynthia West,OTHER,1
+Universita degli Studi di Catania,OTHER,1
+Central Finland Hospital District,OTHER,1
+Hung Vuong Hospital,OTHER,1
+Cnoga Medical Ltd.,INDUSTRY,1
+Modulated Imaging Inc.,INDUSTRY,1
+Stiftung Institut fuer Herzinfarktforschung,OTHER,1
+Southwest Regional Wound Care Center,OTHER,1
+Tissue Repair Company,INDUSTRY,1
+Henrik Wiggers,OTHER,1
+Sherief Abd-Elsalam,OTHER,1
+Foerderinitiative Pharmazeutische Betreuung e.V.,OTHER,1
+The Royal Wolverhampton Hospitals NHS Trust,OTHER_GOV,1
+Portland VA Medical Center,FED,1
+Science Consulting in Diabetes,INDUSTRY,1
+Community Partners International,OTHER,1
+"IMU University, Malaysia",OTHER,1
+Robert Bosch Gesellschaft für Medizinische Forschung mbH (RBMF),OTHER,1
+Martin Fortin,OTHER,1
+"DIApedia, LLC",INDUSTRY,1
+Prim PD Dr Afshin Assadian,OTHER,1
+Chen-Yu Chen,OTHER,1
+Kular Hospital,OTHER,1
+National Medical Research Center for Rehabilitation and Balneology,OTHER,1
+Aziende Chimiche Riunite Angelini Francesco S.p.A,INDUSTRY,1
+"Yuyu Pharma, Inc.",INDUSTRY,1
+"MIS Implant Technologies, Ltd",INDUSTRY,1
+Milwaukee VA Medical Center,FED,1
+"University College Hospital, Ibadan",OTHER,1
+Samaritan Health Services,OTHER,1
+Seva Foundation,OTHER,1
+Windsor Ting,OTHER,1
+"BodiMojo, Inc.",OTHER,1
+Sigvaris France,INDUSTRY,1
+Rebecca Tavernier,OTHER,1
+Agence Sanitaire et Sociale de Nouvelle Calédonie,OTHER_GOV,1
+"Southern Medical University, China",OTHER,1
+Home Habilis,INDUSTRY,1
+Nanchang University,OTHER,1
+Harvard University,OTHER,1
+LM Farma Indústria e Comércio Ltda.,INDUSTRY,1
+Bayhill Therapeutics,INDUSTRY,1
+Hospital Universitario La Paz,OTHER,1
+Guohua An,OTHER,1
+University of Cagliari,OTHER,1
+TheraVasc Inc.,INDUSTRY,1
+Eglin AFB Regional Hospital,FED,1
+Samsun Education and Research Hospital,OTHER,1
+Complejo Hospitalario Universitario de Albacete,OTHER,1
+Universitaet Innsbruck,OTHER,1
+Dr Angela Oates,OTHER,1
+Duke Clergy Health Initiative,OTHER,1
+yin ying zhao,OTHER,1
+Endo Pharmaceuticals,INDUSTRY,1
+"Greenyn Biotechnology Co., Ltd.",INDUSTRY,1
+Glasgow Caledonian University,OTHER,1
+Holbaek Sygehus,OTHER,1
+Providence Heart & Vascular Institute,OTHER,1
+Medtronic Hellas Medical Devices ΑEE,INDUSTRY,1
+"AnalyticsPlus, Inc.",INDUSTRY,1
+Partners in Health,OTHER,1
+Antonio Rapacciuolo,OTHER,1
+Prof. Dr. med. Johannes Stegbauer,OTHER,1
+David Dalessio,OTHER,1
+Quotient Diagnostics Limited,INDUSTRY,1
+Mongi Slim Hospital,OTHER,1
+"InquisitHealth, Inc.",OTHER,1
+Cornwall Regional Hospital,OTHER_GOV,1
+Andalusian Initiative for Advanced Therapies - Fundación Pública Andaluza Progreso y Salud,OTHER,1
+"Alberta Health Services, Calgary",OTHER,1
+Alvimedica Medical Technologies France,INDUSTRY,1
+The Rogosin Institute,OTHER,1
+Mary Lacy,OTHER,1
+Luke MacNeill,OTHER,1
+Universidad Europea de Madrid,OTHER,1
+GluSense Ltd,INDUSTRY,1
+BiomeHub Biotechnology Company,INDUSTRY,1
+Gramercy Research Group,OTHER,1
+PKvitality,INDUSTRY,1
+"St Vincent's University Hospital, Ireland",OTHER,1
+WellSpan Health,OTHER,1
+"The Nazareth Hospital, Israel",OTHER,1
+AtheroGenics,INDUSTRY,1
+Lisa Gallagher,OTHER,1
+Peking Union Medical College,OTHER,1
+Revlis Biotech Company Limited,INDUSTRY,1
+University of Memphis,OTHER,1
+Ship Street Surgery,OTHER,1
+Maíra F Pessoa,OTHER,1
+Alaa Mahmoud abd El kader,OTHER,1
+University of Salford,OTHER,1
+Christopher Bell,OTHER,1
+Eco Fusion,INDUSTRY,1
+Yeh,OTHER,1
+CAPTEUR PROTECT,INDUSTRY,1
+Zonguldak Bulent Ecevit University,OTHER,1
+Florida Hospital Tampa Bay Division,OTHER,1
+Wu Shangling,OTHER,1
+Purbanchal University,OTHER,1
+Orputec,OTHER,1
+Paweł Korman,OTHER,1
+Cooperation Afrique,OTHER,1
+James A. Haley Veterans Administration Hospital,FED,1
+"Hygieia, Inc",INDUSTRY,1
+Yuanjiao Yan,OTHER,1
+University of Chester,OTHER,1
+NatureGen,INDUSTRY,1
+Peter Lommer,OTHER,1
+Heike Bischoff-Ferrari,OTHER,1
+Centre Chirurgical Marie Lannelongue,OTHER,1
+Max Nieuwdorp,OTHER,1
+Singapore Chung Hwa Medical Institution,OTHER,1
+The First People's Hospital of Changzhou,OTHER,1
+Quadram Institute Bioscience,OTHER,1
+University of Akureyri,OTHER,1
+Woolcock Institute of Medical Research,OTHER,1
+gino gaddini,FED,1
+Huilian Zhu,OTHER,1
+Kingston University,OTHER,1
+PeriRx,INDUSTRY,1
+"Integrative Health Technologies, Inc.",NETWORK,1
+USDA Grand Forks Human Nutrition Research Center,FED,1
+Anne Birgitte Raben,OTHER,1
+Tessa Mork,OTHER,1
+Onorach Clinical Ltd,OTHER,1
+Myota GmbH,INDUSTRY,1
+A-Mansia Biotech S.A.,INDUSTRY,1
+University of Algiers,OTHER,1
+NovoBliss Research Pvt Ltd,OTHER,1
+Caroline M Kistorp,OTHER,1
+Associacao para Investigacao e Desenvolvimento da Faculdade de Medicina - CETERA,OTHER,1
+West Side Institute for Science and Education,OTHER,1
+New York Institute of Technology,OTHER,1
+"Shi wei, MM",OTHER,1
+Andrea Giaccari,OTHER,1
+Prof. Dr. Thomas Forst,INDUSTRY,1
+National Kaohsiung Normal University,OTHER,1
+"Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",INDUSTRY,1
+Universidad de Los Lagos,OTHER,1
+Andalas University,OTHER,1
+The University of Texas at San Antonio,OTHER,1
+"David S Black, PhD",OTHER,1
+Ilam University of Medical Sciences,OTHER,1
+New Mexico State University,OTHER,1
+Baylor University,OTHER,1
+Yu Chen,OTHER,1
+"Tethys Bioscience, Inc.",INDUSTRY,1
+Danone Global Research & Innovation Center,INDUSTRY,1
+Cambridge Health Alliance,OTHER,1
+InQpharm Group,INDUSTRY,1
+Clinical Research Center Kiel GmbH,OTHER,1
+Clindove Research LLC,OTHER,1
+Regina Menezes,OTHER,1
+Charles George VA Medical Center,FED,1
+Centro de Investigación en Alimentación y Desarrollo A.C.,OTHER,1
+Olive Lifesciences Pvt Ltd,INDUSTRY,1
+Beijing University of Chinese Medicine,OTHER,1
+Wellizen Australia,INDUSTRY,1
+Gary L. Pierce,OTHER,1
+Brescia University College,OTHER,1
+Memorial Hermann Health System,OTHER,1
+The Institute for Iterative Thinking,INDUSTRY,1
+Inuling (Bei Jing) Science and Technology Co. Ltd,INDUSTRY,1
+"National Defense Medical Center, Taiwan",OTHER,1
+"Health Diagnostic Laboratory, Inc.",INDUSTRY,1
+Marshal Godwin,OTHER,1
+Eduardo Ng,OTHER,1
+Defymed,INDUSTRY,1
+Emily K. Sims,OTHER,1
+Peter Stock,OTHER,1
+University of Graz,OTHER,1
+Jason Gaglia,OTHER,1
+"Command Hospital, India",OTHER_GOV,1
+Allison Sylvetsky (Meni),OTHER,1
+Philippe Klee,OTHER,1
+Groupe Hospitalier de la Rochelle Ré Aunis,OTHER,1
+Abu Dhabi Stem Cells Center,OTHER_GOV,1
+The Third Affiliated Hospital of Southern Medical University,OTHER_GOV,1
+University of Sunderland,OTHER,1
+Heba M. Ismail,OTHER,1
+Louise Faerch,OTHER,1
+"Ananda Basu, MD",OTHER,1
+"Association Grenobloise pour le Developpement D'etudes et de Recherches en Physiopathologie Endocrinienne, Diabetologie et Maladies de la Nutrition",OTHER,1
+"Hompesch, Marcus, M.D.",INDIV,1
+Altea Therapeutics,INDUSTRY,1
+Trustees of Dartmouth College,OTHER,1
+"Benjamin U. Nwosu, MD",OTHER,1
+Living Cell Technologies,INDUSTRY,1
+Lille University,OTHER,1
+"Paolo Fiorina, MD",OTHER,1
+Mozart Therapeutics Australia Pty Ltd,INDUSTRY,1
+"Sandra Lord, MD",OTHER,1
+"Robin Goland, MD",OTHER,1
+Orgenesis Ltd.,INDUSTRY,1
+Sheffield Children's NHS Foundation Trust,OTHER,1
+University Hospital A Coruña,OTHER,1
+Pacific Northwest Research Institute,OTHER,1
+"Institute of Mother and Child, Warsaw, Poland",OTHER,1
+Daniela Elleri,OTHER,1
+Lenka Petruzelkova,OTHER,1
+"Wei Wang,MD",OTHER,1
+Kirsten Nørgaard,OTHER,1
+European Foundation for the Study of Diabetes,OTHER,1
+Momentum Data,INDUSTRY,1
+Sarah MacLeish,OTHER,1
+John Hunter Children's Hospital,OTHER,1
+"Nanjing Bioheng Biotech Co., Ltd.",INDUSTRY,1
+The University of New South Wales,OTHER,1
+Université NAZI BONI,OTHER,1
+"Hospital St. Joseph, Marseille, France",OTHER,1
+"Allife Medical Science and Technology Co., Ltd.",INDUSTRY,1
+High Point Clinical Trials Center,INDUSTRY,1
+"Steven J. Russell, MD, PhD",OTHER,1
+"DiaKine Therapeutics, Inc.",INDUSTRY,1
+Viral N. Shah,OTHER,1
+Ana Braescu,OTHER,1
+University Hospitals Bristol and Weston NHS Foundation Trust,OTHER,1
+Universitat Politècnica de València,OTHER,1
+Queen Fabiola Children's University Hospital,OTHER,1
+Elif Bakır,OTHER,1
+Maartje de Wit,OTHER,1
+University Children's Hospital Basel,OTHER,1
+"Beta Bionics, Inc.",INDUSTRY,1
+Ciusss de L'Est de l'Île de Montréal,OTHER,1
+"Huang, Jeannie, M.D.",INDIV,1
+"Hillerod Hospital, Denmark",OTHER,1
+St Vincent's Institute of Medical Research,OTHER,1
+"Team Type 1, Inc.",OTHER,1
+Kalie Tommerdahl,OTHER,1
+Jennifer Sherr,OTHER,1
+Mashhad University of Medical Sciences,OTHER,1
+Marmara University Pendik Training and Research Hospital,OTHER,1
+Clinica Alemana de Santiago,OTHER,1
+Richmond Pharmacology Limited,INDUSTRY,1
+"Health Services Academy, Islamabad, Pakistan",OTHER,1
+Scimita Operations Pty Ltd.,INDUSTRY,1
+Carole Clair,OTHER,1
+Asmaa Abdelfattah Elsayed,OTHER,1
+Marche Region Regional Health Agency,OTHER,1
+Centre Hospitalier Régional d'Orléans,OTHER,1
+Biomedical Development Corporation,INDUSTRY,1
+University of Brasilia,OTHER,1
+Dr Christopher Marguerie,OTHER,1
+DayTwo,INDUSTRY,1
+Pierre and Marie Curie University,OTHER,1
+Claes-Göran Östenson,OTHER,1
+University Medicine Greifswald,OTHER,1
+Bergen University College,OTHER,1
+Siirt University,OTHER,1
+Women's Hospital HUS,OTHER,1
+"Mellitus, LLC",INDUSTRY,1
+Sanliurfa Mehmet Akif Inan Education and Research Hospital,OTHER,1
+Sarah Keim,OTHER,1
+Center for Pharmacological and Botanical Research,OTHER_GOV,1
+Jun Wei,OTHER,1
+Anthony Hanley,OTHER,1
+Gene Solutions,INDUSTRY,1
+Umraniye Education and Research Hospital,OTHER_GOV,1
+Centre Hospitalier Departemental Vendee,OTHER,1
+Mount Carmel Health System,OTHER,1
+Suzan Dogruya,OTHER,1
+Gaziosmanpasa Research and Education Hospital,OTHER_GOV,1
+"Texas Tech University Health Sciences Center, El Paso",OTHER,1
+"Esa M Davis, MD MPH FAAFP",OTHER,1
+University of Tennessee Graduate School of Medicine,OTHER,1
+Prenome,INDUSTRY,1
+Swiss Federal Institute of Technology,OTHER,1
+Qatar University,OTHER,1
+Kayseri Education and Research Hospital,OTHER_GOV,1
+Tripler Army Medical Center,FED,1
+MetroHealth Medical Center,OTHER,1
+AGUNCO Obstetrics and Gynecology Centre,OTHER,1
+Tianjin Central Hospital of Gynecology Obstetrics,OTHER,1
+Prisma Health-Upstate,OTHER,1
+Materno-Perinatal Hospital of the State of Mexico,OTHER,1
+"University of Massachusetts, Boston",OTHER,1
+Medicem Technology s.r.o.,OTHER,1
+King Abdulaziz Medical City,OTHER_GOV,1
+Bethesda Diabetes Research Center,OTHER,1
+"The Baruch Padeh Medical Center, Poriya",OTHER_GOV,1
+Ankara Training and Research Hospital,OTHER,1
+Zuyderland Medisch Centrum,OTHER,1
+Dr. Paul F. Gratzer,INDUSTRY,1
+Aswan University,OTHER,1
+Aswan University Hospital,OTHER,1
+JeyaKumar Henry,OTHER_GOV,1
+Oxford Brookes University,OTHER,1
+"Touro University, California",OTHER,1
+Durban University of Technology,OTHER,1
+Javeriana University,OTHER,1
+James J. Peters Veterans Affairs Medical Center,FED,1
+INNODIA iVZW,OTHER,1
+"Seung-Whan Lee, M.D., Ph.D.",OTHER,1
+Weizmann Institute of Science,OTHER,1
+Philip Polgreen,OTHER,1
+Umair Ali,OTHER_GOV,1
+Nuritas Ltd,INDUSTRY,1
+MetaboGen AB,INDUSTRY,1
+Buchinger Wilhelmi Development & Holding GmbH,OTHER,1
+California Pacific Medical Center Research Institute,OTHER,1
+Hôpital Léon Bérard,OTHER,1
+Rayan Jamal Yousif Khidir,OTHER,1
+Quark Pharmaceuticals,INDUSTRY,1
+Ersta Diakoni,OTHER,1
+MedCu Technologies Ltd.,INDUSTRY,1
+"Podimetrics, Inc.",INDUSTRY,1
+Thomas Advanced Medical LLC,INDUSTRY,1
+Bilecik Seyh Edebali Universitesi,OTHER,1
+Texas Woman's University,OTHER,1
+Global Cell Med,INDUSTRY,1
+S-There Technologies SL,INDUSTRY,1
+ECbiotech Taiwan,OTHER,1
+Intercept Pharmaceuticals,INDUSTRY,1
+"Center for Integrative Medicine, Germany",OTHER,1
+Life University,OTHER,1
+Pharmasaga Co. Ltd.,INDUSTRY,1
+"Global Preventive Medicine Biotech Co., Ltd.",INDUSTRY,1
+Antenna Foundation,OTHER,1
+"Health Service Executive, Ireland",OTHER,1
+Mona Mohamed Abdelkhalek,OTHER,1
+Matthew J. Budoff,OTHER,1
+Metsera,INDUSTRY,1
+Cytoki Pharma,INDUSTRY,1
+Shanghai Chest Hospital,OTHER,1
+Second Affiliated Hospital of Guangxi Medical University,OTHER,1
+Shanghai Golden Leaf MedTec Co. Ltd,INDUSTRY,1
+"ProGen. Co., Ltd.",OTHER,1
+Lin Han,OTHER,1
+Popular Medical College Hospital,OTHER,1
+Serap Balaban Barta,OTHER,1
+Global Institute of Stem Cell Therapy and Research,INDUSTRY,1
+Ernanda Mezaroba,OTHER,1
+University of Abuja,OTHER,1
+HiDO Technologies,INDUSTRY,1
+Chia-Tzu Line,OTHER,1
+Azienda Sanitaria Locale Napoli 2 Nord,OTHER,1
+1Globe Health Institute,INDUSTRY,1
+PNS Hafeez - Naval Hospital,OTHER_GOV,1
+Hospital Sultanah Aminah Johor Bahru,OTHER_GOV,1
+Ragae Dughmosh,OTHER,1
+El Katib Hospital,OTHER,1
+Alnylam Pharmaceuticals,INDUSTRY,1
+Mankind Pharma Limited,INDUSTRY,1
+Azienda USL Modena,OTHER,1
+Semmelweis University,OTHER,1
+"The United Bio-Technology (Hengqin) Co., Ltd.",INDUSTRY,1
+Diabetes Solutions International,OTHER,1
+Duke Kunshan University,OTHER,1
+He Eye Hospital,OTHER,1
+Celltrion,INDUSTRY,1
+Liaquat University of Medical & Health Sciences,OTHER,1
+Instituto de Investigacion Sanitaria La Fe,OTHER,1
+Maria Elizabeth Rossi da Silva,OTHER,1
+Carlos Tavares,OTHER,1
+Ann-Marie Rosland,OTHER,1
+University of Hail,OTHER,1
+Nouran Hesham Slama Younis,OTHER,1
+Dr Cipto Mangunkusumo General Hospital,OTHER,1
+University College London Hospitals,OTHER,1
+Long Island University,OTHER,1
+Maasstad Hospital,OTHER,1
+"Association for Functional Rehabilitation, Recreation and Applied Kinesiology Impulse",OTHER,1
+"IIMC, Riphah International University, Pakistan",OTHER,1
+G. d'Annunzio University,OTHER,1
+Universidad Politecnica de Madrid,OTHER,1
+Leslie Balcazar De Martinez,OTHER,1
+Shanghai First Maternity and Infant Hospital,OTHER,1
+Chen Li,OTHER,1
+Yan Lu,OTHER,1
+Chiayi Christian Hospital,OTHER,1
+UPECLIN HC FM Botucatu Unesp,OTHER,1
+IWK Health Centre,OTHER,1
+The University of Western Australia,OTHER,1
+Gdansk University of Physical Education and Sport,OTHER,1
+Pauls Stradins Clinical University Hospital,OTHER,1
+Celia Bañuls,OTHER,1
+Izmir Democracy University,OTHER,1
+Medicure,INDUSTRY,1
+Cheng Li,OTHER,1
+Medic Mobile,INDUSTRY,1
+Hunter and New England Health,OTHER,1
+Landeskrankenanstalten-Betriebsgesellschaft,INDUSTRY,1
+Islamabad Medical and Dental College,OTHER,1
+Universitas Sriwijaya,OTHER,1
+Mahmoud Awad Ramadan Elkholy,OTHER,1
+Azienda Policlinico Umberto I,OTHER,1
+Maria del Carmen Gogeascoechea Trejo,OTHER,1
+"Aventusoft, LLC.",INDUSTRY,1
+American Association of Diabetes Educators,OTHER,1
+VTT Technical Research Centre of Finland,OTHER,1
+Outcomes'10,NETWORK,1
+"Henk Bilo, MD",OTHER,1
+Nizhpharm,OTHER,1
+Istanbul Sabahattin Zaim University,OTHER,1
+"Gulf Regional Research & Educational Services, LLC",OTHER,1
+"Khyber Medical College, Peshawar",OTHER,1
+Institut für Pharmakologie und Präventive Medizin,NETWORK,1
+ResMed,INDUSTRY,1
+Marcus Borchert,INDUSTRY,1
+Wyckoff Heights Medical Center,OTHER,1
+HOSPITAL VITHAS SEVILLA,NETWORK,1
+"Craig, Nancy, M.D.",INDIV,1
+Universidad Nacional Autonoma de Mexico,OTHER,1
+Prof Gérard WAEBER,OTHER,1
+University of Management and Technology Lahore,OTHER,1
+Meyer Children's Hospital IRCCS,OTHER,1
+King Fahad Medical City,OTHER_GOV,1
+GeNeuro Australia PTY Ltd,INDUSTRY,1
+Alessandro Doria,OTHER,1
+Seraxis,INDUSTRY,1
+"General Committee of Teaching Hospitals and Institutes, Egypt",OTHER_GOV,1
+Stem Cells Arabia,OTHER,1
+"Shanghai HEP Pharmaceutical Co., Ltd.",INDUSTRY,1
+BloomedIn,INDUSTRY,1
+tarek mahdy,OTHER,1
+Hospital General Universitario Elche,OTHER,1
+Thetis Pharmaceuticals LLC,INDUSTRY,1
+Azienda Sanitaria Locale n. 2 - Lanciano Vasto Chieti,OTHER,1
+Breath of Life International Pharma Ltd,INDUSTRY,1
+Michael Tsoukas,NETWORK,1
+Annesofie Lunde Jensen,OTHER,1
+Universidad Loyola Andalucia,OTHER,1
+Erdal AYDIN,OTHER,1
+Carelon Research,OTHER,1
+Besins Healthcare,INDUSTRY,1
+Shinshu University,OTHER,1
+Irina Ermolaeva,OTHER,1
+"Newsoara Biopharma Co., Ltd.",INDUSTRY,1
+"Guangdong Raynovent Biotech Co., Ltd",INDUSTRY,1
+Jichi Medical University,OTHER,1
+Tiziana Life Sciences LTD,INDUSTRY,1
+People's Hospital of Zhengzhou University,OTHER,1
+David Hess,OTHER,1
+NodThera Limited,INDUSTRY,1
+Hospital General Puyo,OTHER_GOV,1
+arife akbulut,OTHER,1
+Hospital Universitario Insular Gran Canaria,OTHER,1
+Christchurch Clinical Studies Trust Ltd,INDUSTRY,1
+Anneli Björklund,OTHER,1
+Vlasta Krausová,OTHER,1
+Future University in Egypt,OTHER,1
+"Children's Hospital New Orleans, LA",OTHER,1
+Xuan Song,OTHER,1
+Housey Healthcare ULC,INDUSTRY,1
+Baqai Institute of Diabetology and Endocrinology,OTHER,1
+"CellMed AG, a subsidiary of BTG plc.",INDUSTRY,1
+Speedel Pharma Ltd.,INDUSTRY,1
+Fr Muller Homoeopathic Medical College,OTHER,1
+Hendry Irawan,OTHER,1
+Spanish National Research Council,OTHER_GOV,1
+American Scitech International,OTHER,1
+Danbury Hospital,OTHER,1
+InovoBiologic Inc.,INDUSTRY,1
+HealthInsight,OTHER,1
+Celio Technology Inc.,INDUSTRY,1
+Armando Torres Ramírez,OTHER,1
+"i-Health, Inc.",INDUSTRY,1
+"Danone Asia Pacific Holdings Pte, Ltd.",INDUSTRY,1
+ALI BAHADIRLI,OTHER,1
+The Danish Center for Strategic Research on Type 2 Diabetes,OTHER,1
+Chen Chaoyang,OTHER,1
+Gansu Provincial Maternal and Child Health Care Hospital,OTHER,1
+Mirvie,INDUSTRY,1
+"Esin Ceber Turfan, Professor",OTHER,1
+Gulsum Uysal,OTHER_GOV,1
+"OSMAN KÖSE, MD",OTHER,1
+Germans Trias i Pujol Hospital,OTHER,1
+Sarah Appel,OTHER,1
+Eva Elizabet Camarena Pulido,OTHER,1
+"Etlik Zubeyde Hanım Women's Health Care, Training and Research Hospital",OTHER,1
+Fairbanks Institute,OTHER,1
+Ageless Regenerative Institute,INDUSTRY,1
+Ziv Hospital,OTHER_GOV,1
+Rijnstate Hospital,OTHER,1
+Mahla Poudineh,OTHER,1
+Zibo Central Hospital,OTHER_GOV,1
+Western Michigan University School of Medicine,OTHER,1
+Instituto Universitario de Investigaciones Biomédicas y Sanitarias (iUIBS) de la Universidad de Las,OTHER,1
+University of Novi Sad,OTHER,1
+Nemours Children's Health System,OTHER,1
+Sibenik University of Applied Sciences,OTHER,1
+Lotus Pharmaceutical,INDUSTRY,1
+Amir Moheet,OTHER,1
+Jagdeesh Ullal,OTHER,1
+Katie Larson Ode,OTHER,1
+University Hospital Schleswig-Holstein,OTHER,1
+Dr. Lutfi Kirdar Kartal Training and Research Hospital,OTHER_GOV,1
+HOSPITAL GINECO OBSTETRICO ISIDRO AYORA,OTHER,1
+Lebanese University,OTHER,1
+Kardelen Kandemir,OTHER,1
+Istituto di Neuroscienze Consiglio Nazionale delle Ricerche,NETWORK,1
+University of Kasdi Merbah,OTHER,1
+Yang ZHANG,OTHER,1
+Ji Jing,OTHER,1
+Konya City Hospital,OTHER,1
+The George Washington University Biostatistics Center,OTHER,1
+K. Marcinkowski University of Medical Sciences,OTHER,1
+Abvance Therapeutics,INDUSTRY,1
+Universiti Malaysia Sabah,OTHER,1
+University of Iowa,OTHER,1
+Isra University,OTHER,1
+Southern California Institute for Research and Education,OTHER,1
+DiappyMed,INDUSTRY,1
+Peter Vestergaard,OTHER,1
+Woodlands Health Campus,OTHER_GOV,1
+Anas El Fathi,OTHER,1
+Roger New,INDUSTRY,1
+Diabetes and Glandular Disease Clinic,INDUSTRY,1
+Consorci Sanitari Integral,OTHER,1
+Livongo Health,INDUSTRY,1
+Klavs Würgler Hansen,OTHER,1
+Chimei Medical Center,OTHER,1
+University of the Faroe Islands,OTHER,1
+"Bangladesh Institute of Research and Rehabilitation in Diabetes, Endocrine and Metabolic Disorders",OTHER,1
+"Vivani Medical, Inc",INDUSTRY,1
+Maltepe University,OTHER,1
+Dong Wha Pharmaceutical Co. Ltd.,INDUSTRY,1
+First Affiliated Hospital of Guangxi Medical University,OTHER,1
+Ayurai Private Limited,INDUSTRY,1
+Jinnah Postgraduate Medical Centre,OTHER_GOV,1
+Amanda Shallcross,OTHER,1
+"Phrapokklao Hospital,Thailand",OTHER,1
+Lexaria Bioscience Corp.,INDUSTRY,1
+Vicore Pharma AB,INDUSTRY,1
+University of Health Sciences Balikesir Hospital Eduation and Research,OTHER_GOV,1
+University of Basrah,OTHER,1
+University of Karachi,OTHER,1
+Public Health Foundation of Bangladesh,OTHER,1
+University of Catania,OTHER,1
+Cees Tack,OTHER,1
+"Azienda Provinciale per i Servizi Sanitari, Provincia Autonoma di Trento",OTHER,1
+Northern Care Alliance NHS Foundation Trust,OTHER,1
+Hopital Nord Franche-Comte,OTHER,1
+MedtronicNeuro,INDUSTRY,1
+National University of Modern Languages,OTHER,1
+Myopharm Limited,OTHER,1
+Rabia Hussain,OTHER,1
+"Shandong New Time Pharmaceutical Co., LTD",INDUSTRY,1
+Bambino Gesù Hospital and Research Institute,OTHER,1
+Luxembourg Institute of Health,OTHER_GOV,1
+Université de Sousse,OTHER,1
+"Immunomolecular Therapeutics, Inc.",INDUSTRY,1
+University of Delaware,OTHER,1
+Andrea L. Greiner,OTHER,1
+Tokat Gaziosmanpasa University,OTHER,1
+University of Wuerzburg,OTHER,1
+Susan Hassenbein,OTHER,1
+"Federal State Budgetary Scientific Institution ""Federal Research Centre of Nutrition, Biotechnology",OTHER,1
+Leeds Beckett University,OTHER,1
+Jean L. Fry,OTHER,1
+Centre Hospitalier Metropole Savoie,OTHER,1
+Migal Galilee Research Institute,OTHER,1
+ARAIR Assistance,OTHER,1
+M-DT1,INDUSTRY,1
+EarlySense Ltd.,INDUSTRY,1
+Sana Klinikum Offenbach,OTHER,1
+Ferring Pharmaceuticals,INDUSTRY,1
+Fisseha Z Amdie,OTHER,1
+RxFunction Inc.,INDUSTRY,1
+Southern Cross Fertility Centre,OTHER,1
+David K Carroll,OTHER,1
+Chiara Lanzani,OTHER,1
+Pacific University,OTHER,1
+Çankırı Karatekin University,OTHER,1
+Dawn Smiley MD,OTHER,1
+Wuxi Hisky Medical Technology Co Ltd,INDUSTRY,1
+Turkish Pediatric Diabetes Working Group,OTHER,1
+Sparrow Pharmaceuticals,INDUSTRY,1
+"Philippe Klee, MD-PhD",OTHER,1
+Max Healthcare Insititute Limited,OTHER,1
+Altheia Science,INDUSTRY,1
+Vardalinstitutet The Swedish Institute for Health Sciences,OTHER,1
+Shimaa Kamal,OTHER,1
+Des Moines University,OTHER,1
+Evangelic Hospital Kalk Cologne,OTHER,1
+Wysa,INDUSTRY,1
+Linda Siminerio,OTHER,1
+Thebiosignals.com,OTHER,1
+Juan J Badimon,OTHER,1
+University of Zambia,OTHER,1
+Mina Wageh Mohareb,OTHER,1
+Jumeirah American Clinic,OTHER,1
+BIOTRONIK Asia Pacific Pte Ltd,INDUSTRY,1
+BIOTRONIK Israel,INDUSTRY,1
+Great Ormond Street Hospital for Children NHS Foundation Trust,OTHER,1
+"Arbelaez, Ana Maria",INDIV,1
+Christiane Haase,OTHER,1
+"Precigen Actobio T1D, LLC",INDUSTRY,1
+"DeveloGen Israel, Ltd.",INDUSTRY,1
+Asia Metabolic Surgery Research Group,OTHER,1
+Whole Endo,INDUSTRY,1
+"Eddii, Inc.",INDUSTRY,1
+Harvard Medical School (HMS and HSDM),OTHER,1
+Texas AgriLife Extension Service,OTHER,1
+The Touro College and University System,OTHER,1
+Cadila Pharnmaceuticals,INDUSTRY,1
+UK Kidney Association,OTHER,1
+Alizyme,INDUSTRY,1
+Lady Davis Institute,OTHER,1
+Istituto Ortopedico Rizzoli,OTHER,1
+Maoquan Li,OTHER,1
+Kaydiar Ltd,INDUSTRY,1
+Jozef Ukropec,OTHER_GOV,1
+Amirhossein Farahmand,OTHER,1
+"Islamic Azad University, Sanandaj",OTHER,1
+Giovanni Taveggia,OTHER,1
+Heidelberg Engineering GmbH,INDUSTRY,1
+Instituto para el Desarrollo Biotecnológico y la Innovación S.A.,OTHER,1
+Results Group LLC,INDUSTRY,1
+Universidade Federal de Ouro Preto,OTHER,1
+TABREJ MUJAWAR,OTHER,1
+Zanjan University of Medical Sciences,OTHER,1
+Calliditas Therapeutics AB,INDUSTRY,1
+Akebia Therapeutics,INDUSTRY,1
+Eyal Leibovitz,OTHER,1
+Dr. Brandy Wicklow,OTHER,1
+IRCCS SYNLAB SDN,OTHER,1
+George E. Dafoulas,OTHER,1
+Security Forces Hospital,OTHER,1
+Microbio Co Ltd,INDUSTRY,1
+Polish Society of Diabetology,OTHER,1
+Eledon Pharmaceuticals,INDUSTRY,1
+"Royal Prince Alfred Hospital, Sydney, Australia",OTHER,1
+Swedish University of Agricultural Sciences,OTHER,1
+Debre Berhan University,OTHER,1
+"Bangabandhu Sheikh Mujib Medical University, Dhaka, Bangladesh",OTHER,1
+Nantong University,OTHER,1
+University of Ghana,OTHER,1
+Mansa,OTHER,1
+Gonca Incemehmet Tamer,OTHER,1
+"Shenzhen MingSight Relin Pharmaceuticals Co., Ltd.",INDUSTRY,1
+Shanghai Tong Ren Hospital,OTHER,1
+"Bota Bio Co., Ltd.",INDUSTRY,1
+Enea Parimbelli,OTHER,1
+Klemens Budde,OTHER,1
+Abertawe Bro Morgannwg University NHS Trust,OTHER_GOV,1
+Mei-fang Huang,OTHER,1
+Chuncheon Sacred Heart Hospital,OTHER,1
+Listen Trial Group,OTHER,1
+University Hospital Birmingham NHS Foundation Trust,OTHER,1
+Leon Fogelfeld MD,OTHER_GOV,1
+Protina Pharmazeutische GmbH,INDUSTRY,1
+Lerdsin General Hospital,OTHER,1
+Shu-Mei Chen,OTHER,1
+SEAMEO Regional Centre for Food and Nutrition,OTHER,1
+Trabzon Arakli Bayram Halil Public Hospital,OTHER,1
+Barmherzige Brüder Linz,OTHER,1
+Instytut Diabetologii Sp. z o.o.,OTHER,1
+Gangnam Severance Hospital,OTHER,1
+Kun Hua,OTHER,1
+Health Education Research Foundation (HERF),OTHER,1
+Sudhalkar Eye Hospital,OTHER,1
+"Chaitanya Hospital, Pune",OTHER,1
+"Universidad de los Andes, Chile",OTHER,1
+María Isabel Espinosa,OTHER,1
+Aiyoudong Children and Youth Sports Health Research Institute,OTHER,1
+Fondation Ophtalmologique Adolphe de Rothschild,NETWORK,1
+"The New Model of Care, Hail Health Cluster",OTHER_GOV,1
+"Applied Biologics, LLC",INDUSTRY,1
+"Sequence LifeScience, Inc.",INDUSTRY,1
+"MiMedx Group, Inc.",INDUSTRY,1
+IRCCS Ospedale San Raffaele,OTHER,1
+Javier Garcia Campayo,OTHER,1
+Jordan University of Science and Technology,OTHER,1
+"Millennium Pharmaceuticals, Inc.",INDUSTRY,1
+"Dr Olu Bamgbade, MD, FRCPC",OTHER,1
+Procter and Gamble,INDUSTRY,1
+The First Affiliated Hospital of Xinxiang Medical College,OTHER,1
+University of Primorska,OTHER,1
+Sadat City University,OTHER,1
+AO Clinical Investigation and Publishing Documentation,OTHER,1
+Second Affiliated Hospital of Guangzhou Medical University,OTHER,1
+Kafrelsheikh University,OTHER,1
+Afyonkarahisar Health Sciences University,OTHER,1
+Rehabilitation Centre Amsterdam,OTHER,1
+Dr. Sefic Eye Polylcinic and Optical Studio,OTHER,1
+Universidad Autónoma Benito Juárez de Oaxaca,OTHER,1
+Parc Sanitari Pere Virgili,OTHER,1
+Alexandra Kautzky-Willer,OTHER,1
+University of the Basque Country (UPV/EHU),OTHER,1
+Qifu Li,OTHER,1
+Eduardo Aleixo Figueira,OTHER,1
+North Carolina Central University,OTHER,1
+University of Tabuk,OTHER,1
+Universidade Federal de Santa Maria,OTHER,1
+Janssen Inc.,INDUSTRY,1
+"Nicole Ehrhardt, MD",OTHER,1
+University Ramon Llull,OTHER,1
+GMP Endotherapeutics,INDUSTRY,1
+University of Hohenheim,OTHER,1
+Wright State University,OTHER,1
+Villa dei Gerani,OTHER,1
+Peng Wu,OTHER,1
+Prof. Roberto Giacomelli,OTHER,1
+"Primary Health Care Corporation, Qatar",OTHER_GOV,1
+SatRx LLC,INDUSTRY,1
+Glaceum,INDUSTRY,1
+University of San Francisco,OTHER,1
+Erzurum Technical University,OTHER,1
+Dr. Danièle Pacaud,INDIV,1
+University of Texas Rio Grande Valley,OTHER,1
+SINA Health Education and Welfare Trust,OTHER,1
+Minneapolis Heart Institute Foundation,OTHER,1
+Anji Pharma,INDUSTRY,1
+A & U Tibbia College Karol Bagh,OTHER,1
+"Dalim BioTech Co., Ltd.",INDUSTRY,1
+Universidad del Zulia,OTHER,1
+Louise Reagan,OTHER,1
+"National Center for Global Health and Medicine, Japan",OTHER_GOV,1
+Sanitas University,OTHER,1
+Clínica Los Yoses,OTHER,1
+"Chandra Osborn, PhD, MPH",INDUSTRY,1
+Pediatrix,OTHER,1
+"Abraham Hulst, MD, PhD",OTHER,1
+Universidad Autonoma de Baja California,OTHER,1
+GogyUp Inc,INDUSTRY,1
+Mikkel Bring Christensen,OTHER,1
+Guanlin Yang,OTHER,1
+aya ramadan ashmawy sarhan,OTHER,1
+Pusan National University,OTHER,1
+"Centocor, Inc.",INDUSTRY,1
+Applied Science Private University,OTHER,1
+"Nemocnice Břeclav, p.o.",OTHER,1
+Korea United Pharm. Inc.,INDUSTRY,1
+Sashwati Roy,OTHER,1
+Carmen Dietvorst,OTHER,1
+Karamanoğlu Mehmetbey University,OTHER,1
+Humana Inc.,INDUSTRY,1
+Burrell College of Osteopathic Medicine,OTHER,1
+"Celltrion Pharm, Inc.",INDUSTRY,1
+Nanhua University,OTHER,1
+"National Medical Research Center for Cardiology, Ministry of Health of Russian Federation",OTHER_GOV,1
+C5 Biomedical,INDUSTRY,1
+Hospital de Sao Sebastiao,OTHER,1
+Fundacion Investigacion Interhospitalaria Cardiovascular,OTHER,1
+"Bostal Drug Delivery Co., Ltd",INDUSTRY,1
+"Institute for Atherosclerosis Research, Russia",OTHER,1
+Verily Life Sciences LLC,INDUSTRY,1
+Tongji Hospital,OTHER,1
+"Chia Tai Tianqing Pharmaceutical Group Nanjing Shunxin Pharmaceutical Co., Ltd.",INDUSTRY,1
+Eric Hoffman,OTHER,1
+Bram Brouwers,OTHER,1
+"Koval' O., MD",OTHER,1
+Wellbeing Services County of Pirkanmaa,OTHER,1
+Paijat-Hame Hospital District,OTHER,1
+"Orexigen Therapeutics, Inc",INDUSTRY,1
+University of Basel,OTHER,1
+"Informed Data Systems, Inc.",INDUSTRY,1
+Jesse Nodora,OTHER,1
+"Centro Studi Internazionali, Italy",NETWORK,1
+Massachusetts Eye and Ear Infirmary,OTHER,1
+Sarawak General Hospital,OTHER,1
+Cleveland Clinic London,OTHER,1
+Mónica Marazuela Azpíroz,OTHER,1
+Adam Bataineh,INDUSTRY,1
+Pole de Sante Chambery Nord,OTHER,1
+Casa Colina Hospital and Centers for Healthcare,OTHER,1
+Francisco Carlos López Marquez,OTHER,1
+Akcea Therapeutics,INDUSTRY,1
+Centre Hospitalier de Saint-Denis,OTHER,1
+"Stendhal Americas, S.A.",INDUSTRY,1
+Healthcare Innovation Technology Lab,INDUSTRY,1
+Dr. Med Anas Taha,OTHER,1
+Joyce Lee,OTHER,1
+Rubina Qasim,OTHER,1
+Centro Medico Nacional Siglo XXI IMSS,OTHER,1
+Croatian Society for Endocrinology and Diabology,OTHER,1
+Leonardo Paroche de Matos,OTHER,1
+Lahey Clinic,OTHER,1
+University of Sarajevo,OTHER,1
+Mukuba University,OTHER,1
+Gaziantep Islam Science and Technology University,OTHER,1
+Hallym University Medical Center,OTHER,1
+Elizabeth Scharnetzki,OTHER,1
+Mohamed Raslan,OTHER,1
+Technical University of Madrid,OTHER,1
+Instituto Nacional de Rehabilitacion,OTHER_GOV,1
+"University Clinical Research Center, Mali",OTHER,1
+"Fadoi Foundation, Italy",OTHER,1
+Singapore Eye Research Institute,OTHER,1
+Signe Schmidt,OTHER,1
+Fanfan Zheng,OTHER,1
+Ewha Womans University Mokdong Hospital,OTHER,1
+"Teatis, Inc",INDUSTRY,1
+"Zentrum fuer Zahn-, Mund- und Kieferheilkunde",OTHER,1
+"Pharmaceuticals and Medical Devices Agency, Japan",OTHER_GOV,1
+University of the Ryukyus,OTHER,1
+Henrik Enghusen Poulsen,OTHER,1
+Northeastern Ohio Universities College of Medicine,OTHER,1
+Centre Hospitalier de Gonesse,OTHER,1
+Taylor's University,OTHER,1
+Techniker Krankenkasse,OTHER,1
+Osmaniye Korkut Ata University,OTHER,1
+Chiara Rafanelli,OTHER,1
+Harras Pharma Curarina GmbH,INDUSTRY,1
+"SBI Pharmaceuticals Co, Ltd.",INDUSTRY,1
+Integra LifeSciences Corporation,INDUSTRY,1
+Autotelicbio,INDUSTRY,1
+Kaneq Bioscience Limited,OTHER,1
+Hopital La Rabta,OTHER,1
+Nantou Christian Hospital,OTHER,1
+Kathmandu University School of Medical Sciences,OTHER,1
+"General Health Council, Mexico",OTHER_GOV,1
+"National Council of Scientific and Technical Research, Argentina",OTHER_GOV,1
+ELAB-Logistics,INDUSTRY,1
+Intersectoral Research Unit for Health Services,OTHER_GOV,1
+Instituto Tecnologico de Sonora,OTHER,1
+BHV Pharma,INDUSTRY,1
+Universidad Católica del Maule,OTHER,1
+The Society of Bariatric and Metabolic Surgeons of Kazakhstan,OTHER,1
+"University of Los Andes, Columbia",OTHER,1
+Antea Foundation,OTHER,1
+Mª Dolores Rodríguez Garrido,OTHER,1
+Vitadio s.r.o.,INDUSTRY,1
+"Hanlim Pharm. Co., Ltd.",INDUSTRY,1
+Manassas Internal Medicine,OTHER,1
+EPI-Q,OTHER,1
+Hospital Universitari de Bellvitge,OTHER,1
+Menzies School of Health Research,OTHER,1
+Rima Obeid,OTHER,1
+Regional Health Authority of Sterea & Thessaly,OTHER_GOV,1
+Afon Technology,INDUSTRY,1
+Bournemouth University,OTHER,1
+Martin Huelsmann,OTHER,1
+"Nutrition Institute, Slovenia",OTHER,1
+Fundación Salutia,OTHER,1
+Haydarpasa Numune State Hospital,OTHER,1
+Hospital Universitario de Fuenlabrada,OTHER,1
+Tabba Heart Institute,OTHER,1
+"Dilay AÇIL,PhD",OTHER,1
+Jimma University,OTHER,1
+Royal Brompton & Harefield NHS Foundation Trust,OTHER,1
+Matthew Grout,OTHER,1
+"Aucta Technologies, Inc.",INDUSTRY,1
+"Military University Hospital, Prague",OTHER,1
+"Lata Medical Research Foundation, Nagpur",OTHER,1
+Jonathan Sinclair,OTHER,1
+"Xuxiang Zhang, MD",OTHER,1
+"Konstantinos Makrilakis, MD",OTHER,1
+Al-Mustafa University College,OTHER,1
+Pakistan Council of Scientific and Industrial Research,OTHER,1
+Kumamoto University,OTHER,1
+"XP Technology, LLC",OTHER,1
+The Christ Hospital,OTHER,1
+"Proove Bioscience, Inc.",INDUSTRY,1
+DongGuk University,OTHER,1
+Corcept Therapeutics,INDUSTRY,1
+Kuwait University,OTHER,1
+União Educacional do Norte,OTHER,1
+Unidad de Investigacion Medica en Enfermedades Renales,OTHER,1
+Ancora Health B.V.,INDUSTRY,1
+Usman Bin Hameed,OTHER,1
+Yeungnam University College of Medicine,OTHER,1
+German Federal Institute for Risk Assessment,OTHER,1
+National Medical Research Center for Therapy and Preventive Medicine,OTHER_GOV,1
+XueQing Yu,OTHER,1
+Cambridge Cardiac Care Centre,OTHER,1
+Humberto Reynales MD MSc PhD,NETWORK,1
+Mohd Khairul Zul Hasymi Firdaus,OTHER,1
+Rheoscience A/S,OTHER,1
+"Beijing Supreme Life Pharmaceutical Technology Co., Ltd.",INDUSTRY,1
+Uplifting Results Labs Inc.,INDUSTRY,1
+Fonds de la Recherche en Santé du Québec,OTHER_GOV,1
+Dimini Konsortium,OTHER,1
+"Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",OTHER,1
+"Consano Clinical Research, LLC",OTHER,1
+Happify Inc.,INDUSTRY,1
+Ameen Medical and Dental Center,OTHER,1
+University of Talca,OTHER,1
+Hygieia Research LLC,OTHER,1
+Lawndale Christian Health Center,OTHER,1
+iGluco,INDUSTRY,1
+Optithera,INDUSTRY,1
+Alicia Monreal Bartolomé,OTHER,1
+Japan Foundation for the Promotion of International Medical Research Cooperation,OTHER,1
+"Cleerly, Inc.",INDUSTRY,1
+Hospital Clinico Universitario de Santiago,OTHER,1
+Instituto Nacional de Psiquiatría Dr. Ramón de la Fuente,OTHER,1
+Eclat Srl.,OTHER,1
+"Center for Primary Care and Public Health (Unisante), University of Lausanne, Switzerland",OTHER,1
+Sophini Logeswaran,OTHER,1
+Hayandra Peduli Foundation,OTHER,1
+Universidade Metropolitana de Santos,OTHER,1
+TecSalud Investigación Clínica,OTHER,1
+"Deborah Wexler, MD",OTHER,1
+Gulhane Training and Research Hospital,OTHER_GOV,1
+"Bristlecone Behavioral Health, Inc.",INDUSTRY,1
+Advanced-J,OTHER,1
+Inventiva Pharma,INDUSTRY,1
+Vladimir Vuksan,OTHER,1
+Certmedica International GmbH,INDUSTRY,1
+Jing Tao,OTHER,1
+Kerman Medical University,OTHER,1
+Kelly Antunes e Silva Oliveira,OTHER,1
+LaTonya J. Hickson,OTHER,1
+Universiti Tunku Abdul Rahman,OTHER,1
+Guangdong Second Provincial General Hospital,OTHER,1
+The Second People's Hospital of Foshan,OTHER,1
+Paula Watson,OTHER,1
+Bespoke Clinical Research,INDUSTRY,1
+Universidad Industrial de Santander,OTHER,1
+Kiyuk Chang,OTHER,1
+"KinDex Pharmaceuticals, Inc.",INDUSTRY,1
+Prof. Dr. Folkert W. Asselbergs,OTHER,1
+Yousra Hisham Abdel Fattah,OTHER,1
+Janssen Pharmaceutical K.K.,INDUSTRY,1
+Médipôle Lyon-Villeurbanne,OTHER,1
+Majmaah University,OTHER,1
+"King Hamad University Hospital, Bahrain",OTHER,1
+"Haugaard, Steen Bendix, M.D., DMSc",INDIV,1
+Osaka University,OTHER,1
+Kyung Hee University Hospital at Gangdong,OTHER,1
+"Aptabio Therapeutics, Inc.",INDIV,1
+GULIN FINDIKOGLU,OTHER,1
+IInstituto Gallego de Medicina Vascular,OTHER,1
+Christchurch Hospital,OTHER,1
+The Canadian College of Naturopathic Medicine,OTHER,1
+Emerald Clinical Inc.,INDUSTRY,1
+Helse i Hardanger,OTHER,1
+Clarunis - Universitäres Bauchzentrum Basel,OTHER,1
+TSH Biopharm Corporation Limited,INDUSTRY,1
+MedsPLUS Consulting,OTHER,1
+Chungnam National University Hospital,OTHER,1
+Prof. Dr. med. Andreas F. H. Pfeiffer,OTHER,1
+Uskudar State Hospital,OTHER_GOV,1
+Neurim Pharmaceuticals Ltd.,INDUSTRY,1
+Jens Rikardt Andersen,OTHER,1
+University Malaysia Sarawak,OTHER,1
+Medality Medical,INDUSTRY,1
+Maria Gabriela Aké Palomo,OTHER,1
+University of Hertfordshire,OTHER,1
+Hospitalsenheden Vest,OTHER,1
+QualiCCare,OTHER,1
+Seung Up Kim,OTHER,1
+Gather Health India,INDUSTRY,1
+Yuwen Zhang,OTHER,1
+"University of Witwatersrand, South Africa",OTHER,1
+Ward Photonics LLC,INDUSTRY,1
+Beijing Institute of Technology,OTHER,1
+University of Warmia and Mazury in Olsztyn,OTHER,1
+Universiti Brunei Darussalam,OTHER,1
+Universidade Estadual de Londrina,OTHER,1
+Maxima Medical Center,OTHER,1
+ANS Pharma,INDUSTRY,1
+Woodinville Psychiatric Associates,OTHER,1
+St. Pölten University of Applied Sciences,OTHER,1
+Chung-Ang University,OTHER,1
+Mersin University,OTHER,1
+University of Vic - Central University of Catalonia,OTHER,1
+Nazarbayev University,OTHER,1
+MediciNova,INDUSTRY,1
+Makati Medical Center,OTHER,1
+Peter Kristensen,OTHER,1
+Black Hills Center for American Indian Health,OTHER,1
+Wholesome Wave,OTHER,1
+Bio Conscious Technologies Ltd,INDUSTRY,1
+Digma Medical Ltd.,INDUSTRY,1
+GLWL Research Inc.,OTHER,1
+"Qingdao Zhixin Health Technology Co., Ltd.",OTHER,1
+Cinnagen,INDUSTRY,1
+Seton Healthcare Family,OTHER,1
+"Community Wellness Center, West Linn, OR",OTHER,1
+Virta Health,INDUSTRY,1
+Marathon Family Health Team,OTHER,1
+Izmir Bakircay University,OTHER,1
+Instituto Tecnologico y de Estudios Superiores de Monterey,OTHER,1
+University of Medicine and Pharmacy at Ho Chi Minh City,OTHER,1
+Berner Klinik Montana,OTHER,1
+Laboratoires Teriak,INDUSTRY,1
+University of Salamanca,OTHER,1
+"Janssen Scientific Affairs, LLC",INDUSTRY,1
+Universidade do Algarve,OTHER,1
+Stefan Fischli,OTHER,1
+Réseau de soins Delta,OTHER,1
+Cantonal Hospital of St. Gallen,OTHER,1
+University of Witten/Herdecke,OTHER,1
+Hospital Universiti Sains Malaysia,OTHER,1
+Instituto Politécnico de Bragança,OTHER,1
+Hospital Infantil de Mexico Federico Gomez,OTHER,1
+chenfengling,OTHER,1
+University of Houston,OTHER,1
+Universität Duisburg-Essen,OTHER,1
+Hongchang Guo,OTHER,1
+Western Kentucky University,OTHER,1
+University of Seville,OTHER,1
+"Kuhnil Pharmaceutical Co., Ltd.",INDUSTRY,1
+Farmacia La Regina s.r.l.,OTHER,1
+Baskent University Ankara Hospital,OTHER,1
+Habitual Health Ltd,INDUSTRY,1
+Metabolics Pharma,INDUSTRY,1
+Mira Zuidgeest,OTHER,1
+Janssen-Cilag International NV,INDUSTRY,1
+Atlas Biomed,INDUSTRY,1
+Foundation for Public Health and Epidemiological Research of Venezuela,NETWORK,1
+"Morten Hostrup, PhD",OTHER,1
+Clinision,OTHER,1
+Yunxuan Li,OTHER,1
+Fox Chase Cancer Center,OTHER,1
+Colorado Prevention Center,OTHER,1
+Tracy Jalbuena MD,OTHER,1
+"Korle-Bu Teaching Hospital, Accra, Ghana",OTHER,1
+Azienda Ospedaliera di Perugia,OTHER,1
+Jose Seijas Amigo,OTHER,1
+Samita Garg,OTHER,1
+Children's Oncology Group,NETWORK,1
+Semmelweis University Heart and Vascular Center,OTHER,1
+Natalia Valadares de Moraes,OTHER,1
+"Nick Giannoukakis, PhD",OTHER,1
+Semnan University of Medical Sciences,OTHER,1
+"Center for Diabetes, Copenhagen Municipality",OTHER_GOV,1
+Konkuk University Medical Center,OTHER,1
+"Max Institute of Minimally Access, Metabolic & Bariatric Surgery",OTHER,1
+Kitasato University,OTHER,1
+"Southeast University, China",OTHER,1
+Giuditta Benincasa,OTHER,1
+Repros Therapeutics Inc.,INDUSTRY,1
+Universidad Dr. José Matías Delgado,OTHER,1
+Zhibin Xu,OTHER,1
+University Clinical Centre of Kosova,OTHER,1
+Yabao Pharmaceutical Group,INDUSTRY,1
+Hanyang University,OTHER,1
+B & Y Technologies,INDUSTRY,1
+Al-Neelain University,OTHER,1
+Catholic Kwandong University,OTHER,1
+"Orient Europharma Co., Ltd.",INDUSTRY,1
+Prosidion Ltd.,INDUSTRY,1
+Cytos Biotechnology AG,INDUSTRY,1
+"Nang Kuang Pharmaceutical Co., Ltd.",INDUSTRY,1
+Shanghai University of Traditional Chinese Medicine,OTHER,1
+Petter Bjornstad,OTHER,1
+Saitama Medical University,OTHER,1
+Luiz Antonio Pugliesi Alves de Lima,OTHER,1
+"Sumitomo Pharma America, Inc.",INDUSTRY,1
+"Genovate Biotechnology Co., Ltd.,",INDUSTRY,1
+Ardelyx,INDUSTRY,1
+Marianne Andersen,OTHER,1
+Thames Valley University,OTHER,1
+Merete Bechmann Christensen,OTHER,1
+Hospital Sirio-Libanes,OTHER,1
+National Institute of Nursing Research (NINR),NIH,1
+Adwin Life Care,INDUSTRY,1
+Basque Culinary Center Fundazioa,OTHER,1
+Robert C. Atkins Foundation,OTHER,1
+Emine KAPLAN SERIN,OTHER,1
+Klick Inc.,INDUSTRY,1
+Hospital Nossa Senhora da Conceicao,OTHER,1
+Showa University,OTHER,1
+dr. DJ Mulder,OTHER,1
+Saniona,INDUSTRY,1
+Yating Liu,OTHER,1
+Sandra Sobel,OTHER,1
+"Tobira Therapeutics, Inc.",INDUSTRY,1
+Dr. Milan Gupta,OTHER,1
+Swiss Tropical & Public Health Institute,OTHER,1
+University of Trás-os-Montes and Alto Douro,OTHER,1
+Regor Pharmaceuticals Inc.,INDUSTRY,1
+Moahad S Dar,OTHER,1
+"Sciwind Biosciences USA Co., Ltd.",INDUSTRY,1
+German Cancer Research Center,OTHER,1
+"Teva Branded Pharmaceutical Products R&D, Inc.",INDUSTRY,1
+Thiruvananthapuram Medical College,OTHER,1
+Sun Pharmaceutical Industries Limited,INDUSTRY,1
+"Bethesda General Hospital, Hoogeveen",OTHER,1
+"Chinese Academy of Medical Sciences, Fuwai Hospital",OTHER,1
+AstraZeneca Turkey,INDUSTRY,1
+Peking University Aerospace Center Hospital,OTHER,1
+Genmedica Therapeutics S.L.,INDUSTRY,1
+Baltimore VA Medical Center,FED,1
+Glenmark Pharmaceuticals Europe Ltd. (R&D),INDUSTRY,1
+Era's Lucknow Medical College,OTHER,1
+Arab American University (Palestine),OTHER,1
+Xuefeng Yu,OTHER,1
+Ohio State University Comprehensive Cancer Center,OTHER,1
+Xiqiao Zhou,OTHER,1
+Dr. Behnood Abbasi,OTHER,1
+Rocky Mountain Diabetes and Osteoporosis Center,INDUSTRY,1
+"North Shore Hospital, New Zealand",OTHER,1
+Wang Siqi,OTHER,1
+Targacept Inc.,INDUSTRY,1
+Dr. José Fernando Vilela-Martin MD PhD,OTHER,1
+Na Liu,OTHER,1
+Royal Perth Hospital,OTHER,1
+Hospital Universitario Getafe,OTHER,1
+Hospital Universitario Central de Asturias,OTHER,1
+Harbor Therapeutics,INDUSTRY,1
+Cabinet Medical,OTHER,1
+"Centre for Chronic Disease Control, India",OTHER,1
+Guerbet,INDUSTRY,1
+University of Otago,OTHER,1
+QL Biopharmaceutical Australia Pty Ltd,INDUSTRY,1
+Marja-Riitta Taskinen,OTHER,1
+KRJG Services Inc.,OTHER,1
+"Cheryl Rosenfeld, DO",OTHER,1
+"Royal Victoria Hospital, Canada",OTHER,1
+Tomsk National Research Medical Center of the Russian Academy of Sciences,OTHER,1
+James King,OTHER,1
+Sao Jose do Rio Preto Medical School,OTHER,1
+Titilayo O Fakeye,OTHER,1
+Nazrat Mirza,OTHER,1
+Kurume University,OTHER,1
+Edgar National Centre for Diabetes Research,OTHER,1
+Kanazawa University,OTHER,1
+"Lannett Company, Inc.",INDUSTRY,1
+AdventHealth,OTHER,1
+Universidade Federal de Santa Catarina,OTHER,1
+Wenwen Yin,OTHER,1
+Li-Li Chen,OTHER,1
+Concert Pharmaceuticals,INDUSTRY,1
+Li Guangwei,OTHER,1
+International Islamic University Malaysia,OTHER,1
+Stefano Trastulli,OTHER,1
+CureDM,INDUSTRY,1
+Li Bo,OTHER,1
+Leilei Zhu,OTHER,1
+"Chengdu Brilliant Pharmaceutical Co., Ltd.",INDUSTRY,1
+Victor Novack,OTHER,1
+Bozyaka Training and Research Hospital,OTHER,1
+Arlene Schmid,OTHER,1
+Faculty of Dental Medicine for Girls,OTHER_GOV,1
+Héctor Iván Saldívar Cerón,OTHER,1
+Udayana University,OTHER,1
+ProMedica Health System,OTHER,1
+IMS HEALTH GmbH & Co. OHG,INDUSTRY,1
+"Rajarata University, Sri Lanka",OTHER,1
+Albany College of Pharmacy and Health Sciences,OTHER,1
+Chinese Diabetes Society,OTHER,1
+Andina Setyawati,OTHER,1
+Ilayda Kayapinar,OTHER,1
+"Kowa Company, Ltd.",INDUSTRY,1
+Shanghai Jiao Tong University Affiliated Sixth People's Hospital,OTHER,1
+"Bantle, John P., MD",INDIV,1
+"Dennis G. Karounos, M.D.",FED,1
+Alizé Pharma,INDUSTRY,1
+Taiwan Resonant Waves Research Corporation,INDUSTRY,1
+Medidata Solutions,INDUSTRY,1
+Malaysia Palm Oil Board,OTHER_GOV,1
+Canadian Heart Research Centre,OTHER,1
+"International Diabetes Institute, Australia",OTHER,1
+Maya Guglin,OTHER,1
+LaborMed Pharma S.A.,INDUSTRY,1
+Queen Elizabeth II Health Sciences Centre,OTHER,1
+Okayama University,OTHER,1
+McKenzie Health System,OTHER,1
+Instituto de Ciencia y Tecnología de Alimentos y Nutrición,OTHER_GOV,1
+Ildiko Lingvay,OTHER,1
+Kolding Sygehus,OTHER,1
+Institut de Recherches Internationales Servier,OTHER,1
+Aparecida Maria Catai,OTHER,1
+Ofra Kalter-Leibovici MD,OTHER_GOV,1
+Maria Eugenia Galván Plata,OTHER_GOV,1
+Karina Vejrum Sørensen,OTHER,1
+Riverside University Health System Medical Center,OTHER,1
+Slotervaart Hospital,OTHER,1
+Lin Liao,OTHER,1
+Sound Shore Medical Center of Westchester,OTHER,1
+"Peptron, Inc.",INDUSTRY,1
+First Affiliated Hospital of Jinan University,OTHER,1
+Liaoning University of Traditional Chinese Medicine,OTHER,1
+"Pacira Pharmaceuticals, Inc",INDUSTRY,1
+Tirang R. Neyestani,OTHER,1
+Nycomed,INDUSTRY,1
+David Bradley MD,OTHER,1
+Ankara University,OTHER,1
+Läkarexpressen AB,INDUSTRY,1
+"TWi Biotechnology, Inc.",INDUSTRY,1
+Thomas Nystrom,OTHER,1
+Cheng Qing-feng,OTHER,1
+Otsuka Beijing Research Institute,INDUSTRY,1
+Italian Society of Diabetology,OTHER,1
+University of Dhaka,OTHER,1
+John Hunter Hospital,OTHER_GOV,1
+Dra. Olga Graciela Cantu Rodriguez,OTHER,1
+Anu Sharma,OTHER,1
+Liverpool Hope University,OTHER,1
+Tao Yuan，MD,OTHER,1
+"Metabolic Research Institute, Inc.",OTHER,1
+"S-Evans Biosciences Co., Ltd.",INDUSTRY,1
+Hellenic Institute for the Study of Sepsis,OTHER,1
+Duquesne University,OTHER,1
+Avotres Inc.,INDUSTRY,1
+"Anelixis Therapeutics, LLC",INDUSTRY,1
+Christian Meier,OTHER,1
+University of Alicante,OTHER,1
+Medical University of Sofia,OTHER,1
+University of Bristol,OTHER,1
+NHS Lothian,OTHER_GOV,1
+Gold Coast Hospital and Health Service,OTHER_GOV,1
+Fernando Sebastián Valles,OTHER,1
+"Estar Medical dba Medical Technologies, LTD",INDUSTRY,1
+"Children's Hospital and Health System Foundation, Wisconsin",OTHER,1
+Cumhuriyet University,OTHER,1
+Kaplan Medical Center,OTHER,1
+"COUR Pharmaceutical Development Company, Inc.",INDUSTRY,1
+"Mesoblast, Inc.",INDUSTRY,1
+Sernova Corp,INDUSTRY,1
+Northampton General Hospital NHS Trust,OTHER,1
+Tulane University Health Sciences Center,OTHER,1
+Korey Hood,OTHER,1
+Frantisek Saudek,OTHER_GOV,1
+Luna Diabetes,INDUSTRY,1
+"Daniel Chernavvsky, MD",OTHER,1
+Peter Bang,OTHER,1
+Grifols Therapeutics LLC,INDUSTRY,1
+Pediatric Clinical Research Platform,OTHER,1
+Universidad del Desarrollo,OTHER,1
+Young Shin Song,OTHER,1
+Steen Andersen,OTHER,1
+Margaret Lawson,OTHER,1
