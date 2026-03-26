@@ -1,0 +1,31 @@
+drug,intervention_type,trials
+Placebo,DRUG,705
+placebo,DRUG,138
+Pregabalin,DRUG,60
+"CP-690,550",DRUG,43
+Etanercept,BIOLOGICAL,39
+Celecoxib,DRUG,35
+pregabalin,DRUG,33
+Midazolam,DRUG,28
+Atorvastatin,DRUG,25
+Fluconazole,DRUG,25
+etanercept,DRUG,23
+13-valent pneumococcal conjugate vaccine,BIOLOGICAL,22
+Sunitinib,DRUG,22
+Bosutinib,DRUG,21
+PF-06651600,DRUG,21
+Enzalutamide,DRUG,21
+Palbociclib,DRUG,20
+Ziprasidone,DRUG,20
+Rimegepant,DRUG,19
+Azithromycin,DRUG,18
+sildenafil,DRUG,18
+PF-04965842,DRUG,17
+atorvastatin,DRUG,17
+Fesoterodine,DRUG,16
+crizotinib,DRUG,16
+Talazoparib,DRUG,15
+Treatment B,DRUG,15
+Treatment A,DRUG,15
+sunitinib,DRUG,15
+Tofacitinib,DRUG,15

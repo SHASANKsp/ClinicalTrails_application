@@ -1,0 +1,997 @@
+country,phase,trials
+Poland,PHASE3,2808
+Belgium,PHASE4,626
+Germany,PHASE1;PHASE2,674
+Serbia,PHASE1;PHASE2,17
+United States,EARLY_PHASE1,2977
+Austria,EARLY_PHASE1,13
+France,EARLY_PHASE1,44
+Germany,EARLY_PHASE1,42
+Hungary,EARLY_PHASE1,6
+Italy,EARLY_PHASE1,28
+Spain,EARLY_PHASE1,55
+United Kingdom,EARLY_PHASE1,102
+Denmark,PHASE2,940
+China,PHASE3,4299
+China,PHASE4,2976
+United States,PHASE4,9901
+Canada,PHASE4,1499
+United States,PHASE3,13210
+Austria,PHASE3,1470
+Belgium,PHASE3,2317
+Brazil,PHASE3,1950
+Czechia,PHASE3,1783
+France,PHASE3,4569
+Germany,PHASE3,4315
+Mexico,PHASE3,1414
+Netherlands,PHASE3,2114
+Portugal,PHASE3,909
+South Africa,PHASE3,970
+Spain,PHASE3,3833
+United Kingdom,PHASE3,5058
+Canada,PHASE3,4696
+Georgia,PHASE3,308
+Italy,PHASE3,3585
+Spain,PHASE4,1167
+Sweden,PHASE4,398
+United States,PHASE2,28828
+United Kingdom,PHASE4,1171
+Ukraine,PHASE3,1241
+Australia,PHASE3,2440
+New Zealand,PHASE3,766
+China,PHASE1,4424
+France,PHASE1,1057
+China,PHASE2,6634
+Netherlands,PHASE1,983
+United States,PHASE1;PHASE2,7603
+United States,PHASE1,22575
+Norway,PHASE4,298
+South Korea,PHASE1,1691
+Poland,PHASE2,1529
+Spain,PHASE2,2857
+Brazil,PHASE4,792
+China,PHASE1;PHASE2,2179
+Poland,PHASE4,432
+Italy,PHASE2,2625
+Switzerland,PHASE2,823
+South Korea,PHASE2,1923
+United Kingdom,PHASE1,2771
+Mexico,PHASE1;PHASE2,52
+Germany,PHASE2,3307
+Australia,PHASE1,1531
+Canada,PHASE1,1715
+Thailand,PHASE4,404
+Turkey (Türkiye),PHASE4,629
+Denmark,PHASE4,862
+Belarus,PHASE3,140
+Bulgaria,PHASE3,969
+Hungary,PHASE3,1724
+Russia,PHASE3,1804
+Puerto Rico,PHASE2,589
+France,PHASE2,3435
+United Kingdom,PHASE2,3822
+Hong Kong,PHASE2,292
+Greece,PHASE3,956
+Egypt,PHASE3,708
+Puerto Rico,PHASE3,1007
+Germany,PHASE4,1172
+India,PHASE1,378
+Brazil,PHASE2;PHASE3,247
+Japan,PHASE1,1184
+India,PHASE2;PHASE3,153
+United States,PHASE2;PHASE3,2167
+Australia,PHASE2;PHASE3,220
+United Kingdom,PHASE2;PHASE3,445
+South Korea,PHASE3,2557
+Sweden,PHASE3,1356
+Latvia,PHASE3,348
+Slovakia,PHASE3,714
+Australia,PHASE1;PHASE2,601
+Belgium,PHASE2,1527
+Germany,PHASE1,1939
+Estonia,PHASE3,380
+Israel,PHASE3,1656
+Lithuania,PHASE3,400
+Serbia,PHASE3,620
+Canada,PHASE2,4049
+Switzerland,PHASE3,1246
+Taiwan,PHASE1;PHASE2,268
+Pakistan,PHASE1,67
+Serbia,EARLY_PHASE1,1
+Israel,PHASE4,460
+Japan,PHASE3,2566
+Taiwan,PHASE3,1662
+Turkey (Türkiye),PHASE3,1326
+Russia,PHASE2,753
+Egypt,EARLY_PHASE1,193
+Israel,PHASE1,359
+Norway,PHASE2;PHASE3,71
+Japan,PHASE1;PHASE2,292
+Taiwan,PHASE2,1024
+Senegal,PHASE3,21
+Singapore,PHASE1,328
+Switzerland,PHASE4,547
+France,PHASE4,1166
+China,PHASE2;PHASE3,755
+India,PHASE3,1061
+Egypt,PHASE1;PHASE2,203
+China,EARLY_PHASE1,900
+Hungary,PHASE4,171
+Sweden,PHASE1,317
+Argentina,PHASE3,1277
+Chile,PHASE3,676
+Croatia,PHASE3,439
+Denmark,PHASE3,1301
+Lebanon,PHASE3,109
+Moldova,PHASE3,58
+Romania,PHASE3,1039
+Thailand,PHASE3,790
+South Korea,PHASE4,1452
+Japan,PHASE2,1219
+Serbia,PHASE2,239
+Switzerland,PHASE1;PHASE2,216
+Italy,PHASE4,1144
+Australia,PHASE2,1608
+Georgia,PHASE2,168
+Turkey (Türkiye),PHASE1,77
+Brazil,PHASE1,241
+Romania,PHASE2,382
+Finland,PHASE3,735
+Pakistan,PHASE2;PHASE3,51
+Turkey (Türkiye),PHASE2,410
+Tanzania,PHASE1,23
+Guam,PHASE3,9
+Mexico,PHASE2,526
+Italy,PHASE1,430
+Hong Kong,PHASE3,488
+Spain,PHASE1,1099
+Belgium,PHASE1,1004
+Greece,PHASE4,236
+Netherlands,PHASE1;PHASE2,422
+Japan,PHASE4,364
+Egypt,PHASE4,992
+South Korea,PHASE1;PHASE2,519
+Spain,PHASE1;PHASE2,821
+Egypt,PHASE2;PHASE3,422
+Costa Rica,PHASE2,12
+Taiwan,EARLY_PHASE1,30
+Norway,PHASE3,624
+Egypt,PHASE2,585
+Norway,PHASE1;PHASE2,103
+Singapore,PHASE2,364
+Netherlands,PHASE2,1450
+Poland,PHASE1,233
+Slovenia,PHASE4,58
+France,PHASE1;PHASE2,837
+Israel,PHASE1;PHASE2,369
+Sweden,PHASE1;PHASE2,194
+Bulgaria,PHASE1,100
+Hungary,PHASE1,117
+Slovakia,PHASE1,53
+Slovenia,PHASE3,169
+Kuwait,PHASE3,11
+Saudi Arabia,PHASE3,177
+Tunisia,PHASE3,104
+Malaysia,PHASE2;PHASE3,61
+Netherlands,PHASE4,709
+Dominican Republic,PHASE2;PHASE3,8
+Ecuador,PHASE2;PHASE3,2
+El Salvador,PHASE2;PHASE3,2
+Panama,PHASE2;PHASE3,13
+Peru,PHASE2;PHASE3,25
+New Zealand,PHASE2,372
+Belarus,PHASE2;PHASE3,13
+South Africa,PHASE2;PHASE3,90
+Uzbekistan,PHASE2;PHASE3,3
+India,PHASE4,434
+Singapore,PHASE3,547
+Uganda,PHASE3,124
+Denmark,PHASE1,334
+Syria,PHASE2;PHASE3,5
+Switzerland,PHASE1,413
+Ukraine,PHASE2,480
+Greece,PHASE2,466
+Republic of the Congo,PHASE2,5
+Norway,PHASE1,105
+Israel,PHASE2,965
+Bulgaria,PHASE2,391
+Vietnam,PHASE3,275
+Belgium,PHASE1;PHASE2,342
+Canada,PHASE1;PHASE2,790
+Denmark,PHASE1;PHASE2,225
+New Zealand,PHASE1;PHASE2,70
+United Kingdom,PHASE1;PHASE2,975
+Sweden,PHASE2,843
+Taiwan,PHASE2;PHASE3,144
+Pakistan,PHASE4,185
+India,PHASE2,392
+South Africa,PHASE2,475
+Austria,PHASE2;PHASE3,111
+Belgium,PHASE2;PHASE3,201
+Canada,PHASE2;PHASE3,519
+Czechia,PHASE2;PHASE3,94
+France,PHASE2;PHASE3,441
+Germany,PHASE2;PHASE3,420
+Italy,PHASE2;PHASE3,332
+Spain,PHASE2;PHASE3,343
+Sudan,PHASE2,10
+Chile,PHASE2,253
+Colombia,PHASE2,148
+Hungary,PHASE2,702
+Peru,PHASE2,122
+Nepal,PHASE3,33
+Peru,PHASE3,384
+Russia,PHASE1;PHASE2,129
+Egypt,PHASE1,284
+Czechia,PHASE4,218
+Finland,PHASE4,298
+Mexico,PHASE4,302
+Portugal,PHASE4,101
+Romania,PHASE4,92
+Argentina,PHASE2,369
+Brazil,PHASE2,822
+Czechia,PHASE2,758
+Latvia,PHASE2,120
+Iran,PHASE1,86
+Cambodia,PHASE4,13
+Ireland,PHASE3,576
+Bosnia and Herzegovina,PHASE1,11
+Georgia,PHASE1,29
+Serbia,PHASE1,24
+Bulgaria,PHASE2;PHASE3,46
+Hungary,PHASE2;PHASE3,88
+Lithuania,PHASE2;PHASE3,21
+Netherlands,PHASE2;PHASE3,254
+Slovakia,PHASE2;PHASE3,40
+Pakistan,PHASE3,151
+New Zealand,PHASE1,302
+Iran,PHASE4,120
+Slovakia,PHASE2,255
+Italy,PHASE1;PHASE2,507
+Jamaica,PHASE4,3
+Belarus,PHASE1;PHASE2,28
+Brazil,PHASE1;PHASE2,213
+Poland,PHASE1;PHASE2,199
+Turkey (Türkiye),PHASE1;PHASE2,74
+Japan,PHASE2;PHASE3,192
+Puerto Rico,PHASE1,137
+Norway,PHASE2,460
+Democratic Republic of the Congo,PHASE2;PHASE3,10
+Guinea,PHASE2;PHASE3,5
+Uganda,PHASE4,66
+Austria,PHASE2,722
+Finland,PHASE2;PHASE3,59
+Australia,PHASE4,373
+Nigeria,PHASE1,12
+Hong Kong,PHASE1,86
+Luxembourg,PHASE2,13
+Croatia,PHASE1;PHASE2,15
+Mongolia,PHASE1;PHASE2,3
+Pakistan,PHASE2,110
+Malaysia,PHASE3,470
+Estonia,PHASE4,23
+Costa Rica,PHASE3,61
+Philippines,PHASE3,324
+Singapore,PHASE1;PHASE2,110
+Uganda,PHASE1,30
+Saint Kitts and Nevis,PHASE4,2
+Iran,PHASE1;PHASE2,90
+Kenya,EARLY_PHASE1,3
+Botswana,PHASE2;PHASE3,5
+Saudi Arabia,PHASE4,90
+Greece,PHASE2;PHASE3,79
+Taiwan,PHASE4,640
+Botswana,PHASE3,19
+Tanzania,PHASE3,80
+Zimbabwe,PHASE3,38
+Chile,PHASE1,48
+Puerto Rico,PHASE4,137
+Iran,PHASE2,189
+Thailand,PHASE1,110
+Austria,PHASE4,392
+Jordan,PHASE3,38
+Dominican Republic,PHASE4,12
+Panama,PHASE4,17
+Burkina Faso,PHASE2;PHASE3,10
+Moldova,PHASE1,79
+Romania,PHASE1,70
+Hong Kong,PHASE4,156
+Portugal,PHASE2,268
+Armenia,PHASE1,8
+Sri Lanka,PHASE3,26
+Finland,PHASE1,125
+Burkina Faso,PHASE2,21
+Pakistan,EARLY_PHASE1,44
+Singapore,PHASE4,122
+India,PHASE1;PHASE2,104
+Malawi,PHASE1;PHASE2,13
+Ukraine,PHASE1,57
+Malta,PHASE3,7
+Slovakia,PHASE4,65
+Jordan,PHASE1,53
+Finland,PHASE2,292
+Lithuania,PHASE2,109
+United Arab Emirates,PHASE1;PHASE2,12
+Argentina,PHASE4,155
+Sudan,PHASE1;PHASE2,2
+Mali,PHASE2,30
+Austria,PHASE1;PHASE2,116
+Denmark,PHASE2;PHASE3,158
+Colombia,PHASE2;PHASE3,57
+Mexico,PHASE2;PHASE3,129
+Jordan,PHASE1;PHASE2,24
+Ethiopia,PHASE3,17
+Greece,PHASE1,73
+Taiwan,PHASE1,447
+South Korea,EARLY_PHASE1,21
+Austria,PHASE1,211
+Argentina,PHASE2;PHASE3,96
+Chile,PHASE2;PHASE3,44
+Israel,PHASE2;PHASE3,182
+Poland,PHASE2;PHASE3,185
+Puerto Rico,PHASE2;PHASE3,67
+South Korea,PHASE2;PHASE3,179
+Cyprus,PHASE1,2
+Russia,PHASE1,230
+New Zealand,PHASE4,64
+Colombia,PHASE3,543
+Dominican Republic,PHASE3,58
+Panama,PHASE3,78
+Canada,EARLY_PHASE1,143
+Ireland,PHASE2,218
+Venezuela,PHASE3,60
+Dominican Republic,PHASE1,18
+Burkina Faso,PHASE3,29
+Ireland,PHASE4,91
+Portugal,PHASE1,69
+United Arab Emirates,PHASE3,47
+Uganda,PHASE2;PHASE3,30
+Bangladesh,PHASE3,89
+Iran,PHASE2;PHASE3,117
+Kenya,PHASE3,105
+Bosnia and Herzegovina,PHASE2,28
+Croatia,PHASE2,110
+Benin,PHASE2,5
+Indonesia,PHASE3,134
+Syria,PHASE4,15
+Czechia,PHASE1,97
+Finland,PHASE1;PHASE2,63
+Bangladesh,PHASE2,86
+Zimbabwe,PHASE2,29
+Bosnia and Herzegovina,PHASE4,12
+Chile,PHASE4,93
+Croatia,PHASE4,69
+Ecuador,PHASE4,5
+Latvia,PHASE4,22
+Lithuania,PHASE4,22
+Malaysia,PHASE4,120
+Philippines,PHASE4,71
+Russia,PHASE4,268
+Serbia,PHASE4,55
+South Africa,PHASE4,138
+Tanzania,PHASE2,53
+Slovenia,PHASE2,82
+South Africa,PHASE1,157
+South Africa,PHASE1;PHASE2,75
+Chile,PHASE1;PHASE2,56
+Estonia,PHASE1;PHASE2,7
+Malawi,PHASE2,31
+Pakistan,PHASE1;PHASE2,40
+Mexico,PHASE1,145
+Saudi Arabia,PHASE2,77
+Indonesia,PHASE2;PHASE3,59
+Thailand,PHASE2,351
+Guatemala,PHASE3,100
+Venezuela,PHASE4,38
+Moldova,PHASE2,72
+Malawi,PHASE4,25
+Cameroon,PHASE2,9
+Côte d’Ivoire,PHASE2,6
+Senegal,PHASE2,17
+Sweden,PHASE2;PHASE3,115
+Malaysia,PHASE2,145
+Vietnam,PHASE2,85
+Russia,PHASE2;PHASE3,116
+Turkey (Türkiye),PHASE2;PHASE3,88
+Mongolia,PHASE3,10
+Mozambique,PHASE1;PHASE2,4
+Philippines,PHASE2,102
+Israel,EARLY_PHASE1,43
+Nicaragua,PHASE2,1
+Tanzania,PHASE2;PHASE3,11
+New Zealand,PHASE2;PHASE3,55
+Thailand,PHASE1;PHASE2,85
+Qatar,PHASE3,18
+Bosnia and Herzegovina,PHASE3,118
+El Salvador,PHASE3,12
+Benin,PHASE3,8
+Ghana,PHASE3,42
+Guinea,PHASE3,9
+Indonesia,PHASE1,46
+Iraq,EARLY_PHASE1,11
+Latvia,PHASE1;PHASE2,7
+Lithuania,PHASE1;PHASE2,9
+Iran,PHASE3,186
+Guam,PHASE2,8
+Belarus,PHASE2,32
+Brazil,EARLY_PHASE1,41
+Kazakhstan,PHASE1,9
+Gabon,PHASE3,6
+Morocco,PHASE3,31
+Thailand,PHASE2;PHASE3,103
+Paraguay,PHASE4,3
+Jamaica,PHASE2,12
+Bolivia,PHASE3,6
+Ukraine,PHASE4,77
+Colombia,PHASE1;PHASE2,27
+Ireland,PHASE1;PHASE2,33
+Algeria,PHASE3,23
+Hong Kong,PHASE2;PHASE3,56
+Ireland,PHASE2;PHASE3,30
+Jordan,PHASE2;PHASE3,8
+Latvia,PHASE2;PHASE3,14
+Portugal,PHASE2;PHASE3,69
+Serbia,PHASE2;PHASE3,35
+Ukraine,PHASE2;PHASE3,58
+Kyrgyzstan,PHASE4,24
+Vietnam,PHASE1;PHASE2,27
+Mexico,EARLY_PHASE1,17
+United Arab Emirates,PHASE1,7
+Mozambique,PHASE2,15
+Saudi Arabia,PHASE1;PHASE2,19
+Malawi,PHASE3,55
+Turkey (Türkiye),EARLY_PHASE1,25
+Iceland,PHASE2,11
+Bulgaria,PHASE4,71
+Democratic Republic of the Congo,PHASE4,17
+Hong Kong,PHASE1;PHASE2,58
+Bangladesh,PHASE1;PHASE2,22
+Switzerland,EARLY_PHASE1,46
+Bosnia and Herzegovina,PHASE2;PHASE3,7
+Tunisia,PHASE4,66
+United Arab Emirates,PHASE4,27
+Guinea-Bissau,PHASE3,3
+Bangladesh,PHASE4,71
+Cameroon,PHASE4,22
+Kenya,PHASE4,53
+Lebanon,PHASE4,62
+Mozambique,PHASE4,13
+Nigeria,PHASE4,34
+Sudan,PHASE4,7
+Zambia,PHASE4,21
+Colombia,PHASE4,83
+Ecuador,PHASE3,29
+Guinea,PHASE4,5
+Indonesia,PHASE4,96
+Mali,PHASE4,14
+Zimbabwe,PHASE4,12
+Kazakhstan,PHASE1;PHASE2,6
+Tanzania,PHASE4,43
+Vietnam,PHASE4,71
+Iceland,PHASE3,27
+Luxembourg,PHASE3,16
+Puerto Rico,PHASE1;PHASE2,72
+Romania,PHASE2;PHASE3,59
+Kazakhstan,PHASE3,36
+Palestinian Territories,PHASE1,1
+Luxembourg,PHASE1;PHASE2,7
+Denmark,EARLY_PHASE1,63
+Lesotho,PHASE3,4
+Portugal,PHASE1;PHASE2,30
+Peru,PHASE4,44
+Dominican Republic,PHASE2,31
+Gabon,PHASE4,11
+Cambodia,PHASE2,5
+Iraq,PHASE3,15
+Iraq,PHASE2;PHASE3,6
+Slovenia,PHASE2;PHASE3,14
+Antigua and Barbuda,PHASE1,30
+Slovenia,PHASE1,14
+Benin,EARLY_PHASE1,2
+Monaco,PHASE4,6
+Lebanon,PHASE2,54
+Mozambique,PHASE2;PHASE3,6
+Trinidad and Tobago,PHASE1;PHASE2,4
+Philippines,PHASE1,17
+Bahrain,EARLY_PHASE1,1
+Indonesia,PHASE2,93
+Qatar,PHASE4,26
+Thailand,EARLY_PHASE1,12
+Uganda,EARLY_PHASE1,3
+Argentina,PHASE1;PHASE2,50
+Bulgaria,PHASE1;PHASE2,28
+Czechia,PHASE1;PHASE2,87
+Sri Lanka,PHASE1,1
+Estonia,PHASE2,90
+Jordan,PHASE2,24
+Burkina Faso,PHASE1;PHASE2,6
+Croatia,PHASE2;PHASE3,20
+Greece,PHASE1;PHASE2,62
+Hungary,PHASE1;PHASE2,71
+Slovakia,PHASE1;PHASE2,11
+Kenya,PHASE2,68
+Argentina,PHASE1,53
+Croatia,PHASE1,16
+Nicaragua,PHASE1;PHASE2,2
+Singapore,PHASE2;PHASE3,62
+Bangladesh,PHASE2;PHASE3,29
+Bolivia,PHASE4,6
+Costa Rica,PHASE2;PHASE3,5
+Nigeria,PHASE3,45
+Burkina Faso,PHASE4,29
+Georgia,PHASE4,19
+Kazakhstan,PHASE4,19
+Moldova,PHASE4,5
+Uzbekistan,PHASE4,9
+Malaysia,PHASE1,36
+Tunisia,PHASE1,14
+Australia,EARLY_PHASE1,48
+Netherlands,EARLY_PHASE1,41
+Ghana,PHASE2,11
+Switzerland,PHASE2;PHASE3,99
+Morocco,PHASE4,10
+Burma,PHASE4,4
+Jordan,PHASE4,12
+Jamaica,PHASE1,3
+Georgia,EARLY_PHASE1,4
+Guinea-Bissau,PHASE4,41
+Senegal,PHASE4,12
+Mongolia,PHASE2,10
+Uzbekistan,PHASE3,6
+Mali,PHASE2;PHASE3,5
+Martinique,PHASE3,8
+Slovenia,PHASE1;PHASE2,12
+Iraq,PHASE1,13
+Estonia,PHASE1,5
+Montenegro,PHASE3,12
+North Macedonia,PHASE3,51
+India,EARLY_PHASE1,11
+Bolivia,PHASE2;PHASE3,2
+Lebanon,PHASE1,15
+Bangladesh,PHASE1,27
+Gabon,PHASE2,15
+Uganda,PHASE2,93
+Nigeria,PHASE2,26
+Poland,EARLY_PHASE1,10
+Belgium,EARLY_PHASE1,30
+Sweden,EARLY_PHASE1,38
+Bahrain,PHASE4,4
+Laos,PHASE3,4
+Estonia,PHASE2;PHASE3,11
+Mali,PHASE1,26
+Indonesia,PHASE1;PHASE2,41
+Kuwait,PHASE1;PHASE2,3
+Vietnam,PHASE1,28
+Albania,PHASE4,3
+Kenya,PHASE1,38
+Georgia,PHASE2;PHASE3,26
+Haiti,PHASE4,10
+Ethiopia,PHASE4,23
+North Macedonia,PHASE4,4
+Botswana,PHASE4,15
+Lithuania,PHASE1,14
+Honduras,PHASE2,19
+Tunisia,PHASE2;PHASE3,9
+Armenia,PHASE3,13
+Latvia,PHASE1,11
+Syria,PHASE3,9
+Belize,PHASE3,13
+Malta,PHASE1;PHASE2,1
+North Macedonia,PHASE1;PHASE2,5
+Uruguay,PHASE3,14
+Laos,PHASE2;PHASE3,4
+Armenia,PHASE4,12
+Madagascar,PHASE3,9
+Comoros,PHASE3,2
+Zambia,PHASE3,38
+Guatemala,PHASE2,31
+The Gambia,PHASE1,8
+Sri Lanka,PHASE2,6
+Ireland,PHASE1,35
+Bangladesh,EARLY_PHASE1,5
+Nepal,PHASE4,42
+Mauritius,PHASE2,12
+Russia,EARLY_PHASE1,7
+Panama,PHASE2,36
+Honduras,PHASE2;PHASE3,5
+Haiti,PHASE2,14
+South Africa,EARLY_PHASE1,7
+Tanzania,EARLY_PHASE1,1
+Niger,PHASE4,15
+Honduras,PHASE1;PHASE2,6
+Botswana,PHASE1;PHASE2,9
+Belarus,PHASE1,7
+Kenya,PHASE2;PHASE3,14
+Uganda,PHASE1;PHASE2,18
+Algeria,PHASE2,3
+Belarus,PHASE4,10
+Singapore,EARLY_PHASE1,9
+Kyrgyzstan,EARLY_PHASE1,2
+Côte d’Ivoire,PHASE3,17
+Kuwait,PHASE2,2
+Cuba,PHASE3,27
+The Gambia,PHASE3,26
+Iceland,PHASE4,12
+Iraq,PHASE2,25
+Laos,PHASE2,7
+Nigeria,PHASE2;PHASE3,6
+Haiti,PHASE2;PHASE3,1
+Vietnam,PHASE2;PHASE3,21
+Guatemala,PHASE4,8
+Ethiopia,PHASE2;PHASE3,3
+Papua New Guinea,PHASE2,7
+North Macedonia,PHASE2;PHASE3,3
+Philippines,EARLY_PHASE1,3
+Iran,EARLY_PHASE1,19
+Honduras,PHASE4,6
+Sudan,PHASE1,2
+Oman,PHASE3,23
+Algeria,PHASE4,4
+Zimbabwe,PHASE1,5
+Zambia,PHASE1;PHASE2,3
+Botswana,PHASE1,5
+Nicaragua,PHASE3,4
+Georgia,PHASE1;PHASE2,21
+Indonesia,EARLY_PHASE1,18
+Zambia,PHASE2,19
+Equatorial Guinea,PHASE1,3
+Malaysia,EARLY_PHASE1,8
+Japan,EARLY_PHASE1,7
+Cameroon,PHASE3,16
+Kuwait,PHASE4,19
+Lebanon,PHASE1;PHASE2,4
+Ukraine,PHASE1;PHASE2,42
+El Salvador,PHASE4,4
+Liberia,PHASE4,1
+Serbia and Montenegro,PHASE4,2
+Cyprus,PHASE3,16
+Nepal,EARLY_PHASE1,1
+Portugal,EARLY_PHASE1,3
+The Gambia,PHASE2,11
+Sierra Leone,PHASE3,5
+Botswana,PHASE2,14
+Monaco,PHASE3,15
+Ghana,PHASE4,18
+Jamaica,PHASE1;PHASE2,2
+Libya,PHASE3,2
+El Salvador,PHASE2,13
+Ghana,PHASE1,5
+Ireland,EARLY_PHASE1,3
+Cameroon,PHASE1;PHASE2,4
+Mozambique,PHASE3,14
+Peru,PHASE1,14
+Morocco,PHASE1;PHASE2,1
+Azerbaijan,PHASE1;PHASE2,2
+Saudi Arabia,PHASE1,26
+Cyprus,EARLY_PHASE1,2
+Albania,PHASE3,11
+Bahrain,PHASE3,2
+Ecuador,PHASE2,4
+Honduras,PHASE1,3
+Cuba,PHASE2;PHASE3,5
+Guatemala,PHASE2;PHASE3,10
+Armenia,PHASE2,15
+Cuba,PHASE2,19
+Honduras,PHASE3,13
+Moldova,PHASE1;PHASE2,17
+Panama,PHASE1;PHASE2,13
+Comoros,PHASE2,1
+Romania,PHASE1;PHASE2,27
+Kuwait,PHASE1,2
+Senegal,PHASE1;PHASE2,3
+Zimbabwe,PHASE1;PHASE2,9
+Ethiopia,PHASE2,11
+Haiti,PHASE3,4
+Saudi Arabia,PHASE2;PHASE3,25
+Dominican Republic,PHASE1;PHASE2,3
+Mongolia,PHASE2;PHASE3,1
+Malta,PHASE2,1
+The Bahamas,PHASE2,4
+Holy See,PHASE3,1
+Peru,EARLY_PHASE1,1
+Philippines,PHASE1;PHASE2,14
+Central African Republic,PHASE2;PHASE3,1
+Republic of the Congo,PHASE2;PHASE3,3
+Gabon,PHASE1,8
+Côte d’Ivoire,PHASE2;PHASE3,6
+Malawi,PHASE2;PHASE3,6
+Zambia,PHASE2;PHASE3,7
+Zimbabwe,PHASE2;PHASE3,5
+Rwanda,PHASE2;PHASE3,3
+Benin,PHASE2;PHASE3,3
+Ghana,PHASE2;PHASE3,5
+Colombia,PHASE1,26
+French Guiana,PHASE4,1
+Guadeloupe,PHASE4,2
+Martinique,PHASE4,4
+Mayotte,PHASE4,1
+Reunion,PHASE4,4
+Democratic Republic of the Congo,PHASE3,25
+Niger,PHASE3,4
+Rwanda,PHASE3,12
+Croatia,EARLY_PHASE1,3
+Philippines,PHASE2;PHASE3,34
+Armenia,PHASE1;PHASE2,3
+Guadeloupe,PHASE3,2
+Zambia,PHASE1,7
+Micronesia,PHASE2,1
+Zimbabwe,EARLY_PHASE1,2
+Azerbaijan,PHASE3,1
+Albania,PHASE1;PHASE2,3
+Jamaica,PHASE3,7
+Cameroon,PHASE2;PHASE3,3
+Cyprus,PHASE2,15
+Tunisia,PHASE2,31
+Rwanda,PHASE1,8
+Paraguay,PHASE3,14
+Papua New Guinea,PHASE4,6
+North Macedonia,PHASE2,11
+Democratic Republic of the Congo,PHASE2,12
+Laos,PHASE4,4
+Saint Kitts and Nevis,PHASE2,1
+Mauritius,PHASE3,7
+Malawi,PHASE1,5
+Kenya,PHASE1;PHASE2,25
+Saudi Arabia,EARLY_PHASE1,9
+Liberia,PHASE2,5
+Nepal,PHASE1,1
+Nigeria,PHASE1;PHASE2,9
+Uruguay,PHASE2,2
+Moldova,PHASE2;PHASE3,4
+Montenegro,PHASE4,1
+Sudan,PHASE3,8
+Lesotho,PHASE4,1
+Mali,PHASE1;PHASE2,6
+Ghana,EARLY_PHASE1,2
+Burma,PHASE3,5
+Gabon,PHASE1;PHASE2,2
+Greece,EARLY_PHASE1,9
+Cambodia,PHASE3,9
+Uruguay,PHASE1,5
+Cambodia,PHASE1,4
+The Bahamas,PHASE3,5
+Mauritius,PHASE2;PHASE3,2
+Nepal,PHASE1;PHASE2,1
+Norway,EARLY_PHASE1,14
+Tunisia,EARLY_PHASE1,3
+Nepal,PHASE2;PHASE3,9
+Kosovo,PHASE4,2
+Peru,PHASE1;PHASE2,8
+Papua New Guinea,PHASE3,11
+Cuba,PHASE1;PHASE2,1
+Hong Kong,EARLY_PHASE1,5
+Sudan,PHASE2;PHASE3,2
+United Arab Emirates,EARLY_PHASE1,8
+Bosnia and Herzegovina,PHASE1;PHASE2,5
+Malaysia,PHASE1;PHASE2,24
+Haiti,PHASE1;PHASE2,4
+Tanzania,PHASE1;PHASE2,12
+Paraguay,PHASE2,3
+Netherlands Antilles,PHASE1;PHASE2,1
+Nepal,PHASE2,9
+Panama,PHASE1,7
+Democratic Republic of the Congo,PHASE1,1
+South Sudan,PHASE4,1
+United Arab Emirates,PHASE2;PHASE3,8
+Syria,PHASE1;PHASE2,4
+The Bahamas,PHASE1,1
+Federal Republic of Yugoslavia,PHASE3,2
+Mauritius,PHASE1,3
+Nigeria,EARLY_PHASE1,4
+Oman,PHASE1;PHASE2,1
+Serbia and Montenegro,PHASE2,6
+Oman,PHASE4,5
+Lebanon,PHASE2;PHASE3,10
+North Korea,PHASE1,1
+Liberia,PHASE3,2
+Lebanon,EARLY_PHASE1,5
+Uruguay,PHASE2;PHASE3,2
+Kazakhstan,PHASE2,7
+Oman,PHASE2,6
+Qatar,EARLY_PHASE1,2
+Reunion,PHASE2;PHASE3,2
+Rwanda,EARLY_PHASE1,1
+Sri Lanka,PHASE4,7
+Paraguay,PHASE1;PHASE2,3
+Angola,PHASE4,2
+Guadeloupe,PHASE2,2
+Martinique,PHASE2,6
+Sierra Leone,PHASE4,3
+Virgin Islands,PHASE4,3
+Slovakia,EARLY_PHASE1,1
+Cyprus,PHASE4,3
+United Arab Emirates,PHASE2,11
+Argentina,EARLY_PHASE1,3
+Trinidad and Tobago,PHASE2,3
+Finland,EARLY_PHASE1,7
+Reunion,PHASE2,2
+Oman,PHASE2;PHASE3,4
+Sierra Leone,PHASE2,5
+Tunisia,PHASE1;PHASE2,3
+Solomon Islands,PHASE4,2
+Mongolia,PHASE1,2
+Iraq,PHASE4,16
+Paraguay,PHASE1,2
+Morocco,PHASE2;PHASE3,2
+Venezuela,PHASE1;PHASE2,4
+Bahrain,PHASE2,3
+Paraguay,EARLY_PHASE1,3
+Central African Republic,PHASE4,1
+Morocco,PHASE2,5
+Trinidad and Tobago,PHASE2;PHASE3,2
+Fiji,PHASE2,1
+North Macedonia,PHASE1,2
+Côte d’Ivoire,PHASE4,4
+Republic of the Congo,PHASE4,4
+Rwanda,PHASE1;PHASE2,5
+Afghanistan,PHASE4,5
+Rwanda,PHASE4,8
+The Gambia,PHASE2;PHASE3,2
+Laos,PHASE1;PHASE2,2
+Burkina Faso,PHASE1,9
+Chile,EARLY_PHASE1,6
+Republic of the Congo,PHASE3,5
+Montenegro,PHASE2;PHASE3,1
+Central African Republic,PHASE3,2
+Armenia,EARLY_PHASE1,2
+Nicaragua,PHASE1,1
+Palestinian Territories,PHASE2,1
+Monaco,PHASE2,3
+Vietnam,EARLY_PHASE1,3
+Colombia,EARLY_PHASE1,1
+Senegal,PHASE1,2
+Mali,PHASE3,15
+Luxembourg,PHASE4,6
+Saint Lucia,PHASE3,1
+Republic of the Congo,PHASE1,1
+Qatar,PHASE1,3
+Azerbaijan,PHASE2,2
+Mongolia,PHASE4,1
+Palestinian Territories,PHASE2;PHASE3,2
+Qatar,PHASE2,9
+Panama,EARLY_PHASE1,2
+Andorra,PHASE3,1
+Bahrain,PHASE2;PHASE3,2
+Madagascar,PHASE2;PHASE3,2
+Palestinian Territories,EARLY_PHASE1,1
+Serbia and Montenegro,PHASE3,7
+Belize,PHASE1,2
+Venezuela,PHASE2;PHASE3,6
+Guinea,PHASE2,10
+Senegal,EARLY_PHASE1,1
+Jordan,EARLY_PHASE1,3
+Uruguay,PHASE4,5
+Iraq,PHASE1;PHASE2,10
+Kyrgyzstan,PHASE3,4
+The Gambia,PHASE1;PHASE2,3
+The Gambia,PHASE4,6
+Azerbaijan,PHASE4,2
+Puerto Rico,EARLY_PHASE1,2
+French Guiana,PHASE3,2
+Afghanistan,PHASE2;PHASE3,1
+Slovenia,EARLY_PHASE1,2
+Chad,PHASE4,4
+Czechia,EARLY_PHASE1,3
+Kuwait,EARLY_PHASE1,1
+Federal Republic of Yugoslavia,PHASE2,1
+Fiji,PHASE3,2
+Guinea-Bissau,PHASE1,2
+New Zealand,EARLY_PHASE1,3
+Benin,PHASE4,3
+Bolivia,PHASE2,14
+Bulgaria,EARLY_PHASE1,1
+Libya,PHASE4,1
+Cambodia,PHASE2;PHASE3,3
+Afghanistan,PHASE3,2
+Qatar,PHASE2;PHASE3,3
+Rwanda,PHASE2,4
+Mozambique,PHASE1,2
+Namibia,PHASE4,1
+Cyprus,PHASE1;PHASE2,2
+Senegal,PHASE2;PHASE3,2
+Togo,PHASE2;PHASE3,2
+Burma,PHASE1;PHASE2,1
+Grenada,PHASE3,1
+Brunei,PHASE3,1
+Paraguay,PHASE2;PHASE3,1
+South Sudan,EARLY_PHASE1,1
+Oman,EARLY_PHASE1,1
+Jamaica,EARLY_PHASE1,4
+Syria,PHASE2,2
+Latvia,EARLY_PHASE1,1
+Kuwait,PHASE2;PHASE3,2
+Costa Rica,PHASE4,6
+Cyprus,PHASE2;PHASE3,1
+Ecuador,EARLY_PHASE1,1
+Angola,PHASE1;PHASE2,2
+Democratic Republic of the Congo,PHASE1;PHASE2,2
+Madagascar,PHASE1,1
+Kyrgyzstan,PHASE2;PHASE3,1
+Guinea,PHASE1;PHASE2,1
+Liberia,PHASE1;PHASE2,1
+Sierra Leone,PHASE1;PHASE2,1
+Angola,PHASE3,1
+Central African Republic,PHASE2,1
+Albania,PHASE1,1
+Barbados,PHASE4,1
+Trinidad and Tobago,PHASE4,1
+American Samoa,PHASE2,1
+Timor-Leste,PHASE4,1
+French Guiana,PHASE2,2
+Nicaragua,EARLY_PHASE1,1
+El Salvador,PHASE1,1
+Somalia,PHASE4,1
+Burundi,PHASE2,2
+Virgin Islands,PHASE3,1
+United States Minor Outlying Islands,EARLY_PHASE1,1
+Barbados,EARLY_PHASE1,1
+Burma,PHASE2;PHASE3,1
+Bolivia,PHASE1;PHASE2,3
+Namibia,PHASE3,1
+Guam,PHASE2;PHASE3,1
+Kyrgyzstan,PHASE2,1
+Ethiopia,PHASE1,1
+Ukraine,EARLY_PHASE1,1
+Ethiopia,EARLY_PHASE1,1
+Iceland,PHASE2;PHASE3,1
+Solomon Islands,PHASE3,1
+Christmas Island,PHASE1,1
+Albania,PHASE2,2
+South Sudan,PHASE3,1
+Reunion,PHASE3,4
+The Bahamas,PHASE1;PHASE2,3
+Liberia,PHASE1,1
+Venezuela,PHASE2,5
+Faroe Islands,PHASE1;PHASE2,1
+Belarus,EARLY_PHASE1,1
+Afghanistan,PHASE2,1
+Burma,PHASE2,1
+Netherlands Antilles,PHASE3,1
+Costa Rica,PHASE1;PHASE2,1
+Trinidad and Tobago,PHASE1,2
+United States Minor Outlying Islands,PHASE2,1
+Eswatini,PHASE3,2
+The Bahamas,PHASE4,1
+Angola,PHASE2,2
+Algeria,PHASE1;PHASE2,1
+Malawi,EARLY_PHASE1,1
+Zambia,EARLY_PHASE1,1
+American Samoa,EARLY_PHASE1,1
+Holy See,PHASE2;PHASE3,1
+Algeria,PHASE2;PHASE3,1
+Montenegro,PHASE2,1
+Benin,PHASE1,1
+Uzbekistan,EARLY_PHASE1,1
+Papua New Guinea,PHASE2;PHASE3,1
+Togo,PHASE3,1
+Bosnia and Herzegovina,EARLY_PHASE1,1
+Syria,PHASE1,2
+Sri Lanka,PHASE2;PHASE3,1
+Cuba,PHASE1,2
+Madagascar,PHASE2,1
+Uzbekistan,PHASE2,2
+American Samoa,PHASE3,1
+Eswatini,PHASE4,2
+The Bahamas,PHASE2;PHASE3,1
+Burundi,PHASE2;PHASE3,1
+Gabon,PHASE2;PHASE3,1
+Nicaragua,PHASE2;PHASE3,1
+Cambodia,EARLY_PHASE1,1
+Azerbaijan,PHASE1,1
+Trinidad and Tobago,PHASE3,1
+Luxembourg,PHASE2;PHASE3,1
+American Samoa,PHASE1,1
+Serbia and Montenegro,PHASE2;PHASE3,1
+Sierra Leone,PHASE2;PHASE3,1
+Eswatini,PHASE2;PHASE3,1
+Côte d’Ivoire,PHASE1,1
+Djibouti,PHASE4,1
+Romania,EARLY_PHASE1,1
+Cayman Islands,PHASE1,1
+Barbados,PHASE3,1
+Sri Lanka,PHASE1;PHASE2,1
+Nicaragua,PHASE4,1
+Kazakhstan,EARLY_PHASE1,1
+Haiti,PHASE1,1
+Palestinian Territories,PHASE3,1
+The Gambia,EARLY_PHASE1,1
