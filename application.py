@@ -1,120 +1,156 @@
 """
 Clinical Trials Knowledge Graph — Analytics Applications
 =========================================================
-20 applications across 5 categories:
-  1. Drug Intelligence      (4 apps)
-  2. Disease Analytics      (5 apps)
-  3. Sponsor Intelligence   (5 apps)
-  4. Network & Graph        (3 apps)
-  5. Geo & Temporal         (3 apps)
+  1. Drug Intelligence
+  2. Disease Analytics
+  3. Sponsor Intelligence
+  4. Network & Graph Analytics
+  5. Geo & Temporal Analytics
 
-Each function:
-  - Runs a Cypher query against the KG
-  - Saves a CSV to  outputs/<app>/data/
-  - Saves a PNG to  outputs/<app>/plots/   (where applicable)
-  - Returns the raw DataFrame for further use / LLM piping
+Refactored for Streamlit: all plot functions return (fig, df) instead of
+saving to disk, so Streamlit can render them inline.
 """
 
+import os
+import numpy as np
 import pandas as pd
+import networkx as nx
+import seaborn as sns
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-import seaborn as sns
-import os
-import networkx as nx
-import community as community_louvain   # pip install python-louvain
 from collections import Counter
+
+try:
+    import community as community_louvain
+    LOUVAIN_AVAILABLE = True
+except ImportError:
+    LOUVAIN_AVAILABLE = False
+
 from neo4j import GraphDatabase
 
-BASE_DIR = "outputs"
-os.makedirs(BASE_DIR, exist_ok=True)
 
-URI = "neo4j://localhost:7687" 
-USER = "neo4j"
-PASSWORD = "CTrail@123"
+# ══════════════════════════════════════════════════════════════
+#  NEO4J CLIENT
+# ══════════════════════════════════════════════════════════════
 
-# Step 2: Initialize KG client
-kg = KGClient(URI, USER, PASSWORD)
+class KGClient:
+    """Thin wrapper around the Neo4j driver."""
 
-# ─────────────────────────────────────────────
-#  Shared helpers
-# ─────────────────────────────────────────────
+    def __init__(self, uri: str, user: str, password: str):
+        self.driver = GraphDatabase.driver(uri, auth=(user, password))
 
-def _dirs(app_name):
-    base     = os.path.join(BASE_DIR, app_name)
-    data_dir = os.path.join(base, "data")
-    plot_dir = os.path.join(base, "plots")
-    os.makedirs(data_dir, exist_ok=True)
-    os.makedirs(plot_dir, exist_ok=True)
-    return data_dir, plot_dir
+    def query(self, cypher: str, params: dict = {}) -> list[dict]:
+        with self.driver.session() as session:
+            result = session.run(cypher, params)
+            return [dict(r) for r in result]
 
-def _save(df, data_dir, filename):
-    path = os.path.join(data_dir, filename)
-    df.to_csv(path, index=False)
-    print(f"  [csv]  {path}  ({len(df)} rows)")
+    def close(self):
+        self.driver.close()
 
-def _savefig(plot_dir, filename):
-    path = os.path.join(plot_dir, filename)
-    plt.tight_layout()
-    plt.savefig(path, dpi=150)
-    plt.close()
-    print(f"  [plot] {path}")
+    def test_connection(self) -> bool:
+        try:
+            self.query("RETURN 1")
+            return True
+        except Exception:
+            return False
+
+
+# ══════════════════════════════════════════════════════════════
+#  MATPLOTLIB STYLE HELPERS
+# ══════════════════════════════════════════════════════════════
+
+PALETTE = {
+    "steelblue":    "#4682B4",
+    "darkcyan":     "#008B8B",
+    "tomato":       "#FF6347",
+    "mediumseagreen": "#3CB371",
+    "mediumpurple": "#9370DB",
+    "slateblue":    "#6A5ACD",
+    "goldenrod":    "#DAA520",
+    "orange":       "#FFA500",
+    "darkorange":   "#FF8C00",
+    "peru":         "#CD853F",
+    "purple":       "#800080",
+    "indigo":       "#4B0082",
+    "darkorchid":   "#9932CC",
+    "teal":         "#008080",
+    "skyblue":      "#87CEEB",
+    "violet":       "#EE82EE",
+}
+
+def _style():
+    plt.rcParams.update({
+        "figure.facecolor": "#0F1117",
+        "axes.facecolor":   "#0F1117",
+        "axes.edgecolor":   "#333344",
+        "axes.labelcolor":  "#CCCCDD",
+        "text.color":       "#CCCCDD",
+        "xtick.color":      "#CCCCDD",
+        "ytick.color":      "#CCCCDD",
+        "grid.color":       "#1E1E2E",
+        "grid.linestyle":   "--",
+        "axes.grid":        True,
+        "axes.titlecolor":  "#EEEEFF",
+        "axes.titlesize":   13,
+        "axes.titleweight": "bold",
+    })
+
+_style()
 
 
 # ══════════════════════════════════════════════════════════════
 #  CATEGORY 1 — DRUG INTELLIGENCE
 # ══════════════════════════════════════════════════════════════
 
-def drug_evidence(kg, drug):
+def drug_evidence(kg: KGClient, drug: str):
     """
-    Full evidence profile for a drug:
-    trials, phases, conditions, sponsors, countries.
-    Validates: Are phases and conditions populated?
+    Full evidence profile for a drug: trials, phases, conditions, sponsors, countries.
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("drug_evidence")
-
     query = """
     MATCH (i:Intervention)<-[:USES_INTERVENTION]-(st:Study)
     WHERE toLower(i.name) CONTAINS toLower($drug)
     OPTIONAL MATCH (st)-[:STUDIES]->(c:Condition)
     OPTIONAL MATCH (st)<-[:SPONSORS]-(s:Sponsor)
     OPTIONAL MATCH (st)-[:CONDUCTED_AT]->(l:Location)
-    RETURN st.nct_id       AS trial,
-           st.phases        AS phase,
+    RETURN st.nct_id        AS trial,
+           st.phases         AS phase,
            st.overall_status AS status,
-           st.enrollment     AS enrollment,
-           c.name            AS condition,
-           s.name            AS sponsor,
-           l.country         AS country
+           st.enrollment      AS enrollment,
+           c.name             AS condition,
+           s.name             AS sponsor,
+           l.country          AS country
     """
     df = pd.DataFrame(kg.query(query, {"drug": drug}))
-    _save(df, data_dir, f"{drug}.csv")
+    if df.empty:
+        return None, df
 
-    # --- plot 1: phase distribution
     fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+    fig.patch.set_facecolor("#0F1117")
 
     phase_counts = df["phase"].value_counts()
-    phase_counts.plot.bar(ax=axes[0], color="steelblue")
-    axes[0].set_title(f"{drug} – Phase distribution")
+    phase_counts.plot.bar(ax=axes[0], color=PALETTE["steelblue"], edgecolor="none")
+    axes[0].set_title(f"{drug} — Phase Distribution")
     axes[0].set_xlabel("Phase")
     axes[0].set_ylabel("Trials")
     axes[0].tick_params(axis="x", rotation=45)
 
     status_counts = df["status"].value_counts().head(8)
-    status_counts.plot.barh(ax=axes[1], color="darkcyan")
-    axes[1].set_title(f"{drug} – Trial status")
+    status_counts.plot.barh(ax=axes[1], color=PALETTE["darkcyan"], edgecolor="none")
+    axes[1].set_title(f"{drug} — Trial Status")
     axes[1].set_xlabel("Count")
 
-    _savefig(plot_dir, f"{drug}_evidence.png")
-    return df
+    plt.tight_layout()
+    return fig, df
 
 
-def drug_competition(kg, drug):
+def drug_competition(kg: KGClient, drug: str):
     """
     Competing drugs in the same conditions as the target drug.
-    Useful for market analysis and pipeline differentiation.
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("drug_competition")
-
     query = """
     MATCH (i:Intervention)<-[:USES_INTERVENTION]-(st:Study)-[:STUDIES]->(c:Condition)
     MATCH (c)<-[:STUDIES]-(st2:Study)-[:USES_INTERVENTION]->(i2:Intervention)
@@ -125,24 +161,26 @@ def drug_competition(kg, drug):
     LIMIT 30
     """
     df = pd.DataFrame(kg.query(query, {"drug": drug}))
-    _save(df, data_dir, f"{drug}.csv")
+    if df.empty:
+        return None, df
 
-    df.head(15).plot.bar(x="competitor", y="trials", legend=False, color="tomato")
-    plt.title(f"Top competitors to {drug} (shared conditions)")
-    plt.xlabel("Drug")
-    plt.ylabel("Trials")
-    plt.xticks(rotation=45, ha="right")
-    _savefig(plot_dir, f"{drug}_competition.png")
-    return df
+    fig, ax = plt.subplots(figsize=(12, 4))
+    fig.patch.set_facecolor("#0F1117")
+    df.head(15).plot.bar(x="competitor", y="trials", legend=False,
+                         color=PALETTE["tomato"], edgecolor="none", ax=ax)
+    ax.set_title(f"Top Competitors to {drug} (shared conditions)")
+    ax.set_xlabel("Drug")
+    ax.set_ylabel("Trials")
+    ax.tick_params(axis="x", rotation=45)
+    plt.tight_layout()
+    return fig, df
 
 
-def drug_geo(kg, drug):
+def drug_geo(kg: KGClient, drug: str):
     """
     Countries conducting trials for a drug.
-    Validates: geographic spread, identifying dominant markets.
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("drug_geo")
-
     query = """
     MATCH (i:Intervention)<-[:USES_INTERVENTION]-(st:Study)-[:CONDUCTED_AT]->(l:Location)
     WHERE toLower(i.name) CONTAINS toLower($drug)
@@ -150,37 +188,39 @@ def drug_geo(kg, drug):
     ORDER BY trials DESC
     """
     df = pd.DataFrame(kg.query(query, {"drug": drug}))
-    _save(df, data_dir, f"{drug}.csv")
+    if df.empty:
+        return None, df
 
-    df.head(20).plot.bar(x="country", y="trials", legend=False, color="mediumseagreen")
-    plt.title(f"{drug} – Trial countries")
-    plt.xlabel("Country")
-    plt.ylabel("Trials")
-    plt.xticks(rotation=45, ha="right")
-    _savefig(plot_dir, f"{drug}_geo.png")
-    return df
+    fig, ax = plt.subplots(figsize=(12, 4))
+    fig.patch.set_facecolor("#0F1117")
+    df.head(20).plot.bar(x="country", y="trials", legend=False,
+                         color=PALETTE["mediumseagreen"], edgecolor="none", ax=ax)
+    ax.set_title(f"{drug} — Geographic Footprint")
+    ax.set_xlabel("Country")
+    ax.set_ylabel("Trials")
+    ax.tick_params(axis="x", rotation=45)
+    plt.tight_layout()
+    return fig, df
 
 
-def drug_paths(kg, drug):
+def drug_paths(kg: KGClient, drug: str) -> pd.DataFrame:
     """
     Multi-hop paths: Drug → Study → Condition + Sponsor.
-    Useful for building subgraphs fed into a GraphRAG pipeline.
+    Used as structured context for the GraphRAG pipeline.
+    Returns df only (no chart).
     """
-    data_dir, _ = _dirs("drug_paths")
-
     query = """
     MATCH (i:Intervention)<-[:USES_INTERVENTION]-(st:Study)
     WHERE toLower(i.name) CONTAINS toLower($drug)
     MATCH (st)-[:STUDIES]->(c:Condition)
     MATCH (st)<-[:SPONSORS]-(s:Sponsor)
-    RETURN i.name   AS drug,
-           st.nct_id AS trial,
-           c.name    AS condition,
-           s.name    AS sponsor,
-           s.class   AS sponsor_class
+    RETURN i.name    AS drug,
+           st.nct_id  AS trial,
+           c.name     AS condition,
+           s.name     AS sponsor,
+           s.class    AS sponsor_class
     """
     df = pd.DataFrame(kg.query(query, {"drug": drug}))
-    _save(df, data_dir, f"{drug}.csv")
     return df
 
 
@@ -188,13 +228,11 @@ def drug_paths(kg, drug):
 #  CATEGORY 2 — DISEASE ANALYTICS
 # ══════════════════════════════════════════════════════════════
 
-def disease_landscape(kg, disease):
+def disease_landscape(kg: KGClient, disease: str):
     """
-    All drugs being trialled for a disease, ranked by trial count.
-    Reveals therapeutic crowding vs opportunity gaps.
+    All drugs trialled for a disease, ranked by trial count.
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("disease_landscape")
-
     query = """
     MATCH (st:Study)-[:STUDIES]->(c:Condition)
     WHERE toLower(c.name) CONTAINS toLower($disease)
@@ -204,22 +242,24 @@ def disease_landscape(kg, disease):
     LIMIT 30
     """
     df = pd.DataFrame(kg.query(query, {"disease": disease}))
-    _save(df, data_dir, f"{disease}.csv")
+    if df.empty:
+        return None, df
 
-    df.head(15).plot.barh(x="drug", y="trials", legend=False, color="slateblue")
-    plt.title(f"{disease} – Treatment landscape (top drugs)")
-    plt.xlabel("Trials")
-    _savefig(plot_dir, f"{disease}_landscape.png")
-    return df
+    fig, ax = plt.subplots(figsize=(10, 6))
+    fig.patch.set_facecolor("#0F1117")
+    df.head(15).plot.barh(x="drug", y="trials", legend=False,
+                          color=PALETTE["slateblue"], edgecolor="none", ax=ax)
+    ax.set_title(f"{disease} — Treatment Landscape (Top Drugs)")
+    ax.set_xlabel("Trials")
+    plt.tight_layout()
+    return fig, df
 
 
-def disease_design(kg, disease):
+def disease_design(kg: KGClient, disease: str):
     """
     Trial design breakdown: arm types, allocation, masking.
-    Validates: what study designs dominate in this disease area?
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("disease_design")
-
     query = """
     MATCH (st:Study)-[:STUDIES]->(c:Condition)
     WHERE toLower(c.name) CONTAINS toLower($disease)
@@ -231,27 +271,27 @@ def disease_design(kg, disease):
            COUNT(*)       AS count
     """
     df = pd.DataFrame(kg.query(query, {"disease": disease}))
-    _save(df, data_dir, f"{disease}.csv")
+    if df.empty:
+        return None, df
 
     fig, axes = plt.subplots(1, 3, figsize=(15, 4))
+    fig.patch.set_facecolor("#0F1117")
     for ax, col in zip(axes, ["allocation", "masking", "arm_type"]):
         counts = df.groupby(col)["count"].sum().sort_values(ascending=False).head(8)
-        counts.plot.bar(ax=ax, color="mediumpurple")
+        counts.plot.bar(ax=ax, color=PALETTE["mediumpurple"], edgecolor="none")
         ax.set_title(col.replace("_", " ").title())
         ax.tick_params(axis="x", rotation=45)
 
-    plt.suptitle(f"{disease} – Trial design patterns")
-    _savefig(plot_dir, f"{disease}_design.png")
-    return df
+    plt.suptitle(f"{disease} — Trial Design Patterns", color="#EEEEFF", fontsize=14, fontweight="bold")
+    plt.tight_layout()
+    return fig, df
 
 
-def disease_phase_progression(kg, disease):
+def disease_phase_progression(kg: KGClient, disease: str):
     """
     Phase distribution across all trials for a disease.
-    Shows pipeline maturity (Phase I vs III balance).
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("disease_phase")
-
     query = """
     MATCH (st:Study)-[:STUDIES]->(c:Condition)
     WHERE toLower(c.name) CONTAINS toLower($disease)
@@ -259,24 +299,26 @@ def disease_phase_progression(kg, disease):
     ORDER BY phase
     """
     df = pd.DataFrame(kg.query(query, {"disease": disease}))
-    _save(df, data_dir, f"{disease}.csv")
+    if df.empty:
+        return None, df
 
-    df.plot.bar(x="phase", y="trials", legend=False, color="mediumpurple")
-    plt.title(f"{disease} – Phase distribution")
-    plt.xlabel("Phase")
-    plt.ylabel("Trials")
-    plt.xticks(rotation=45, ha="right")
-    _savefig(plot_dir, f"{disease}_phase.png")
-    return df
+    fig, ax = plt.subplots(figsize=(8, 4))
+    fig.patch.set_facecolor("#0F1117")
+    df.plot.bar(x="phase", y="trials", legend=False,
+                color=PALETTE["mediumpurple"], edgecolor="none", ax=ax)
+    ax.set_title(f"{disease} — Phase Distribution")
+    ax.set_xlabel("Phase")
+    ax.set_ylabel("Trials")
+    ax.tick_params(axis="x", rotation=45)
+    plt.tight_layout()
+    return fig, df
 
 
-def disease_enrollment(kg, disease):
+def disease_enrollment(kg: KGClient, disease: str):
     """
     Enrollment size distribution for a disease.
-    Identifies large-scale vs early/small trials.
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("disease_enrollment")
-
     query = """
     MATCH (st:Study)-[:STUDIES]->(c:Condition)
     WHERE toLower(c.name) CONTAINS toLower($disease)
@@ -286,34 +328,36 @@ def disease_enrollment(kg, disease):
            st.phases     AS phase
     """
     df = pd.DataFrame(kg.query(query, {"disease": disease}))
+    if df.empty:
+        return None, df
+
     df["enrollment"] = pd.to_numeric(df["enrollment"], errors="coerce")
     df = df.dropna(subset=["enrollment"])
-    _save(df, data_dir, f"{disease}.csv")
 
     fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+    fig.patch.set_facecolor("#0F1117")
+
     df["enrollment"].clip(upper=df["enrollment"].quantile(0.95)).hist(
-        bins=30, ax=axes[0], color="steelblue", edgecolor="white"
+        bins=30, ax=axes[0], color=PALETTE["steelblue"], edgecolor="#0F1117"
     )
-    axes[0].set_title(f"{disease} – Enrollment size (≤95th pct)")
+    axes[0].set_title(f"{disease} — Enrollment Size (≤95th pct)")
     axes[0].set_xlabel("Participants")
 
     phase_enroll = df.groupby("phase")["enrollment"].median().sort_values()
-    phase_enroll.plot.barh(ax=axes[1], color="steelblue")
-    axes[1].set_title("Median enrollment by phase")
-    axes[1].set_xlabel("Median enrollment")
+    phase_enroll.plot.barh(ax=axes[1], color=PALETTE["steelblue"], edgecolor="none")
+    axes[1].set_title("Median Enrollment by Phase")
+    axes[1].set_xlabel("Median Enrollment")
 
-    plt.suptitle(f"{disease} – Enrollment analysis")
-    _savefig(plot_dir, f"{disease}_enrollment.png")
-    return df
+    plt.suptitle(f"{disease} — Enrollment Analysis", color="#EEEEFF", fontsize=14, fontweight="bold")
+    plt.tight_layout()
+    return fig, df
 
 
-def disease_sponsor_diversity(kg, disease):
+def disease_sponsor_diversity(kg: KGClient, disease: str):
     """
-    Who is sponsoring trials for a disease and what class are they?
-    Industry vs Academic vs Government split.
+    Industry vs Academic vs Government sponsor split for a disease.
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("disease_sponsor_diversity")
-
     query = """
     MATCH (st:Study)-[:STUDIES]->(c:Condition)
     WHERE toLower(c.name) CONTAINS toLower($disease)
@@ -324,35 +368,31 @@ def disease_sponsor_diversity(kg, disease):
     ORDER BY trials DESC
     """
     df = pd.DataFrame(kg.query(query, {"disease": disease}))
-    _save(df, data_dir, f"{disease}.csv")
+    if df.empty:
+        return None, df
 
     fig, axes = plt.subplots(1, 2, figsize=(13, 4))
+    fig.patch.set_facecolor("#0F1117")
 
-    # Top sponsors
     df.head(12).plot.barh(x="sponsor", y="trials", ax=axes[0],
-                          legend=False, color="darkcyan")
-    axes[0].set_title(f"Top sponsors for {disease}")
+                          legend=False, color=PALETTE["darkcyan"], edgecolor="none")
+    axes[0].set_title(f"Top Sponsors — {disease}")
 
-    # Sponsor class breakdown
     class_counts = df.groupby("sponsor_class")["trials"].sum().sort_values()
-    class_counts.plot.barh(ax=axes[1], color="teal")
-    axes[1].set_title("By sponsor class")
+    class_counts.plot.barh(ax=axes[1], color=PALETTE["teal"], edgecolor="none")
+    axes[1].set_title("By Sponsor Class")
 
-    plt.suptitle(f"{disease} – Sponsor diversity")
-    _savefig(plot_dir, f"{disease}_sponsor_diversity.png")
-    return df
+    plt.suptitle(f"{disease} — Sponsor Diversity", color="#EEEEFF", fontsize=14, fontweight="bold")
+    plt.tight_layout()
+    return fig, df
 
 
 # ══════════════════════════════════════════════════════════════
 #  CATEGORY 3 — SPONSOR INTELLIGENCE
 # ══════════════════════════════════════════════════════════════
 
-def sponsor_portfolio(kg, sponsor):
-    """
-    Condition portfolio of a sponsor: where are they investing?
-    """
-    data_dir, plot_dir = _dirs("sponsor_portfolio")
-
+def sponsor_portfolio(kg: KGClient, sponsor: str):
+    """Condition portfolio of a sponsor. Returns (fig, df)."""
     query = """
     MATCH (st:Study)<-[:SPONSORS]-(s:Sponsor)
     WHERE toLower(s.name) CONTAINS toLower($sponsor)
@@ -362,21 +402,21 @@ def sponsor_portfolio(kg, sponsor):
     LIMIT 30
     """
     df = pd.DataFrame(kg.query(query, {"sponsor": sponsor}))
-    _save(df, data_dir, f"{sponsor}.csv")
+    if df.empty:
+        return None, df
 
-    df.head(15).plot.barh(x="condition", y="trials", legend=False, color="goldenrod")
-    plt.title(f"{sponsor} – Condition portfolio")
-    plt.xlabel("Trials")
-    _savefig(plot_dir, f"{sponsor}_portfolio.png")
-    return df
+    fig, ax = plt.subplots(figsize=(10, 6))
+    fig.patch.set_facecolor("#0F1117")
+    df.head(15).plot.barh(x="condition", y="trials", legend=False,
+                          color=PALETTE["goldenrod"], edgecolor="none", ax=ax)
+    ax.set_title(f"{sponsor} — Condition Portfolio")
+    ax.set_xlabel("Trials")
+    plt.tight_layout()
+    return fig, df
 
 
-def sponsor_geo(kg, sponsor):
-    """
-    Geographic distribution of a sponsor's trials.
-    """
-    data_dir, plot_dir = _dirs("sponsor_geo")
-
+def sponsor_geo(kg: KGClient, sponsor: str):
+    """Geographic distribution of a sponsor's trials. Returns (fig, df)."""
     query = """
     MATCH (st:Study)<-[:SPONSORS]-(s:Sponsor)
     WHERE toLower(s.name) CONTAINS toLower($sponsor)
@@ -385,22 +425,21 @@ def sponsor_geo(kg, sponsor):
     ORDER BY trials DESC
     """
     df = pd.DataFrame(kg.query(query, {"sponsor": sponsor}))
-    _save(df, data_dir, f"{sponsor}.csv")
+    if df.empty:
+        return None, df
 
-    df.head(20).plot.bar(x="country", y="trials", legend=False, color="orange")
-    plt.title(f"{sponsor} – Geographic reach")
-    plt.xticks(rotation=45, ha="right")
-    _savefig(plot_dir, f"{sponsor}_geo.png")
-    return df
+    fig, ax = plt.subplots(figsize=(12, 4))
+    fig.patch.set_facecolor("#0F1117")
+    df.head(20).plot.bar(x="country", y="trials", legend=False,
+                         color=PALETTE["orange"], edgecolor="none", ax=ax)
+    ax.set_title(f"{sponsor} — Geographic Reach")
+    ax.tick_params(axis="x", rotation=45)
+    plt.tight_layout()
+    return fig, df
 
 
-def sponsor_pipeline(kg, sponsor):
-    """
-    Phase breakdown of a sponsor's pipeline.
-    Shows early-stage vs late-stage investment mix.
-    """
-    data_dir, plot_dir = _dirs("sponsor_pipeline")
-
+def sponsor_pipeline(kg: KGClient, sponsor: str):
+    """Phase breakdown of a sponsor's pipeline. Returns (fig, df)."""
     query = """
     MATCH (st:Study)<-[:SPONSORS]-(s:Sponsor)
     WHERE toLower(s.name) CONTAINS toLower($sponsor)
@@ -409,25 +448,24 @@ def sponsor_pipeline(kg, sponsor):
            COUNT(DISTINCT st.nct_id) AS trials
     """
     df = pd.DataFrame(kg.query(query, {"sponsor": sponsor}))
-    _save(df, data_dir, f"{sponsor}.csv")
+    if df.empty:
+        return None, df
 
     pivot = df.groupby(["phase", "status"])["trials"].sum().unstack(fill_value=0)
-    pivot.plot.bar(stacked=True, figsize=(12, 5), colormap="tab10")
-    plt.title(f"{sponsor} – Pipeline by phase & status")
-    plt.xlabel("Phase")
-    plt.ylabel("Trials")
-    plt.xticks(rotation=45, ha="right")
-    plt.legend(loc="upper right", fontsize=8)
-    _savefig(plot_dir, f"{sponsor}_pipeline.png")
-    return df
+    fig, ax = plt.subplots(figsize=(12, 5))
+    fig.patch.set_facecolor("#0F1117")
+    pivot.plot.bar(stacked=True, colormap="tab10", ax=ax)
+    ax.set_title(f"{sponsor} — Pipeline by Phase & Status")
+    ax.set_xlabel("Phase")
+    ax.set_ylabel("Trials")
+    ax.tick_params(axis="x", rotation=45)
+    ax.legend(loc="upper right", fontsize=8)
+    plt.tight_layout()
+    return fig, df
 
 
-def sponsor_drugs(kg, sponsor):
-    """
-    All interventions a sponsor is running trials for.
-    """
-    data_dir, plot_dir = _dirs("sponsor_drugs")
-
+def sponsor_drugs(kg: KGClient, sponsor: str):
+    """All interventions a sponsor is running trials for. Returns (fig, df)."""
     query = """
     MATCH (st:Study)<-[:SPONSORS]-(s:Sponsor)
     WHERE toLower(s.name) CONTAINS toLower($sponsor)
@@ -438,22 +476,21 @@ def sponsor_drugs(kg, sponsor):
     LIMIT 30
     """
     df = pd.DataFrame(kg.query(query, {"sponsor": sponsor}))
-    _save(df, data_dir, f"{sponsor}.csv")
+    if df.empty:
+        return None, df
 
-    df.head(15).plot.barh(x="drug", y="trials", legend=False, color="darkorange")
-    plt.title(f"{sponsor} – Drug pipeline")
-    plt.xlabel("Trials")
-    _savefig(plot_dir, f"{sponsor}_drugs.png")
-    return df
+    fig, ax = plt.subplots(figsize=(10, 6))
+    fig.patch.set_facecolor("#0F1117")
+    df.head(15).plot.barh(x="drug", y="trials", legend=False,
+                          color=PALETTE["darkorange"], edgecolor="none", ax=ax)
+    ax.set_title(f"{sponsor} — Drug Pipeline")
+    ax.set_xlabel("Trials")
+    plt.tight_layout()
+    return fig, df
 
 
-def sponsor_collaborators(kg, sponsor):
-    """
-    Other sponsors who appear in the same trials as the target sponsor.
-    Reveals co-development partnerships and research consortia.
-    """
-    data_dir, plot_dir = _dirs("sponsor_collaborators")
-
+def sponsor_collaborators(kg: KGClient, sponsor: str):
+    """Sponsors who appear in the same trials as the target sponsor. Returns (fig, df)."""
     query = """
     MATCH (st:Study)<-[:SPONSORS]-(s:Sponsor)
     WHERE toLower(s.name) CONTAINS toLower($sponsor)
@@ -464,29 +501,28 @@ def sponsor_collaborators(kg, sponsor):
     LIMIT 25
     """
     df = pd.DataFrame(kg.query(query, {"sponsor": sponsor}))
-    _save(df, data_dir, f"{sponsor}.csv")
+    if df.empty:
+        return None, df
 
-    if not df.empty:
-        df.head(15).plot.barh(x="collaborator", y="shared_trials",
-                               legend=False, color="peru")
-        plt.title(f"{sponsor} – Frequent collaborators")
-        plt.xlabel("Shared trials")
-        _savefig(plot_dir, f"{sponsor}_collaborators.png")
-    return df
+    fig, ax = plt.subplots(figsize=(10, 5))
+    fig.patch.set_facecolor("#0F1117")
+    df.head(15).plot.barh(x="collaborator", y="shared_trials",
+                           legend=False, color=PALETTE["peru"], edgecolor="none", ax=ax)
+    ax.set_title(f"{sponsor} — Frequent Collaborators")
+    ax.set_xlabel("Shared Trials")
+    plt.tight_layout()
+    return fig, df
 
 
 # ══════════════════════════════════════════════════════════════
 #  CATEGORY 4 — NETWORK & GRAPH ANALYTICS
 # ══════════════════════════════════════════════════════════════
 
-def centrality(kg):
+def centrality(kg: KGClient):
     """
-    Degree centrality on the drug–condition bipartite graph.
-    High-centrality drugs = broad-spectrum agents.
-    High-centrality conditions = heavily studied diseases.
+    Degree & betweenness centrality on the drug–condition bipartite graph.
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("network_centrality")
-
     query = """
     MATCH (st:Study)-[:USES_INTERVENTION]->(i:Intervention)
     MATCH (st)-[:STUDIES]->(c:Condition)
@@ -498,39 +534,38 @@ def centrality(kg):
         if r["drug"] and r["condition"]:
             G.add_edge(r["drug"], r["condition"])
 
-    deg  = nx.degree_centrality(G)
-    bet  = nx.betweenness_centrality(G, k=min(200, len(G)))
+    deg = nx.degree_centrality(G)
+    bet = nx.betweenness_centrality(G, k=min(200, len(G)))
     df = pd.DataFrame({
         "node": list(deg.keys()),
         "degree_centrality":      [deg[n] for n in deg],
         "betweenness_centrality": [bet.get(n, 0) for n in deg],
     }).sort_values("degree_centrality", ascending=False)
 
-    _save(df, data_dir, "centrality.csv")
-
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+    fig.patch.set_facecolor("#0F1117")
     df.head(20).plot.barh(x="node", y="degree_centrality",
-                           ax=axes[0], legend=False, color="purple")
-    axes[0].set_title("Top 20 by degree centrality")
+                           ax=axes[0], legend=False, color=PALETTE["purple"], edgecolor="none")
+    axes[0].set_title("Top 20 — Degree Centrality")
 
     df.sort_values("betweenness_centrality", ascending=False).head(20).plot.barh(
         x="node", y="betweenness_centrality",
-        ax=axes[1], legend=False, color="indigo"
+        ax=axes[1], legend=False, color=PALETTE["indigo"], edgecolor="none"
     )
-    axes[1].set_title("Top 20 by betweenness centrality")
+    axes[1].set_title("Top 20 — Betweenness Centrality")
 
-    plt.suptitle("Drug–Condition network centrality")
-    _savefig(plot_dir, "centrality.png")
-    return df
+    plt.suptitle("Drug–Condition Network Centrality", color="#EEEEFF", fontsize=14, fontweight="bold")
+    plt.tight_layout()
+    return fig, df
 
 
-def community_detection(kg):
+def community_detection(kg: KGClient):
     """
     Louvain community detection on the drug–condition graph.
-    Clusters reveal disease areas + their dominant drugs.
-    Requires: pip install python-louvain networkx
+    Returns (fig, df). Requires python-louvain.
     """
-    data_dir, plot_dir = _dirs("network_communities")
+    if not LOUVAIN_AVAILABLE:
+        return None, pd.DataFrame({"error": ["python-louvain not installed"]})
 
     query = """
     MATCH (st:Study)-[:USES_INTERVENTION]->(i:Intervention)
@@ -545,29 +580,25 @@ def community_detection(kg):
 
     partition = community_louvain.best_partition(G)
     df = pd.DataFrame(partition.items(), columns=["node", "community"])
-
-    # Summarise each community
     community_sizes = df["community"].value_counts().reset_index()
     community_sizes.columns = ["community", "members"]
-    _save(df, data_dir, "communities_raw.csv")
-    _save(community_sizes, data_dir, "community_sizes.csv")
 
+    fig, ax = plt.subplots(figsize=(12, 4))
+    fig.patch.set_facecolor("#0F1117")
     community_sizes.head(20).plot.bar(x="community", y="members",
-                                       legend=False, color="slateblue")
-    plt.title("Community sizes (Louvain on drug–condition graph)")
-    plt.xlabel("Community ID")
-    plt.ylabel("Nodes")
-    _savefig(plot_dir, "communities.png")
-    return df
+                                       legend=False, color=PALETTE["slateblue"], edgecolor="none", ax=ax)
+    ax.set_title("Community Sizes (Louvain — Drug–Condition Graph)")
+    ax.set_xlabel("Community ID")
+    ax.set_ylabel("Nodes")
+    plt.tight_layout()
+    return fig, df
 
 
-def drug_repurposing(kg):
+def drug_repurposing(kg: KGClient):
     """
     Drugs studied across the largest number of distinct conditions.
-    High overlap = potential repurposing candidates for GraphRAG.
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("drug_repurposing")
-
     query = """
     MATCH (i:Intervention)<-[:USES_INTERVENTION]-(st:Study)-[:STUDIES]->(c:Condition)
     RETURN i.name AS drug,
@@ -578,52 +609,52 @@ def drug_repurposing(kg):
     LIMIT 40
     """
     df = pd.DataFrame(kg.query(query))
-    _save(df, data_dir, "repurposing_candidates.csv")
+    if df.empty:
+        return None, df
 
     fig, ax = plt.subplots(figsize=(12, 5))
-    ax.scatter(df["n_trials"], df["n_conditions"], alpha=0.7, color="darkorchid", s=60)
+    fig.patch.set_facecolor("#0F1117")
+    ax.scatter(df["n_trials"], df["n_conditions"], alpha=0.7, color=PALETTE["darkorchid"], s=60)
     for _, row in df.head(15).iterrows():
         ax.annotate(row["drug"], (row["n_trials"], row["n_conditions"]),
-                    fontsize=7, alpha=0.8)
-    ax.set_xlabel("Number of trials")
-    ax.set_ylabel("Number of distinct conditions")
-    ax.set_title("Drug repurposing signals (breadth of conditions studied)")
-    _savefig(plot_dir, "repurposing.png")
-    return df
+                    fontsize=7, alpha=0.8, color="#CCCCDD")
+    ax.set_xlabel("Number of Trials")
+    ax.set_ylabel("Number of Distinct Conditions")
+    ax.set_title("Drug Repurposing Signals (Breadth of Conditions Studied)")
+    plt.tight_layout()
+    return fig, df
 
 
 # ══════════════════════════════════════════════════════════════
 #  CATEGORY 5 — GEO & TEMPORAL ANALYTICS
 # ══════════════════════════════════════════════════════════════
 
-def trial_density(kg):
-    """
-    Global trial density by country.
-    """
-    data_dir, plot_dir = _dirs("geo_density")
-
+def trial_density(kg: KGClient):
+    """Global trial density by country. Returns (fig, df)."""
     query = """
     MATCH (st:Study)-[:CONDUCTED_AT]->(l:Location)
     RETURN l.country AS country, COUNT(DISTINCT st.nct_id) AS trials
     ORDER BY trials DESC
     """
     df = pd.DataFrame(kg.query(query))
-    _save(df, data_dir, "global.csv")
+    if df.empty:
+        return None, df
 
-    df.head(25).plot.bar(x="country", y="trials", legend=False, color="teal")
-    plt.title("Global trial density by country")
-    plt.xticks(rotation=45, ha="right")
-    _savefig(plot_dir, "density.png")
-    return df
+    fig, ax = plt.subplots(figsize=(14, 4))
+    fig.patch.set_facecolor("#0F1117")
+    df.head(25).plot.bar(x="country", y="trials", legend=False,
+                         color=PALETTE["teal"], edgecolor="none", ax=ax)
+    ax.set_title("Global Trial Density by Country")
+    ax.tick_params(axis="x", rotation=45)
+    plt.tight_layout()
+    return fig, df
 
 
-def trial_timeline(kg):
+def trial_timeline(kg: KGClient):
     """
-    Trial start date distribution over time.
-    Shows activity waves, COVID dips, research surges.
+    Trial start date distribution over time (monthly).
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("geo_timeline")
-
     query = """
     MATCH (st:Study)
     WHERE st.start_date IS NOT NULL
@@ -635,32 +666,31 @@ def trial_timeline(kg):
     df = pd.DataFrame(kg.query(query))
     df["start_date"] = pd.to_datetime(df["start_date"], errors="coerce")
     df = df.dropna(subset=["start_date"])
-    _save(df, data_dir, "timeline.csv")
+    if df.empty:
+        return None, df
 
-    # Aggregate by year-month
     df["ym"] = df["start_date"].dt.to_period("M").dt.to_timestamp()
     monthly = df.groupby("ym")["trials"].sum().reset_index()
 
     fig, ax = plt.subplots(figsize=(14, 4))
-    ax.plot(monthly["ym"], monthly["trials"], linewidth=1.5, color="steelblue")
-    ax.fill_between(monthly["ym"], monthly["trials"], alpha=0.2, color="steelblue")
+    fig.patch.set_facecolor("#0F1117")
+    ax.plot(monthly["ym"], monthly["trials"], linewidth=1.5, color=PALETTE["steelblue"])
+    ax.fill_between(monthly["ym"], monthly["trials"], alpha=0.2, color=PALETTE["steelblue"])
     ax.xaxis.set_major_locator(mdates.YearLocator())
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
-    ax.set_title("Trial starts over time (monthly)")
+    ax.set_title("Trial Starts Over Time (Monthly)")
     ax.set_xlabel("Date")
-    ax.set_ylabel("Trials started")
+    ax.set_ylabel("Trials Started")
     plt.xticks(rotation=45)
-    _savefig(plot_dir, "timeline.png")
-    return df
+    plt.tight_layout()
+    return fig, df
 
 
-def geo_phase_heatmap(kg):
+def geo_phase_heatmap(kg: KGClient):
     """
-    Pivot: country × phase trial counts.
-    Reveals which countries run late-phase (Phase III) trials.
+    Country × phase trial counts heatmap.
+    Returns (fig, df).
     """
-    data_dir, plot_dir = _dirs("geo_phase_heatmap")
-
     query = """
     MATCH (st:Study)-[:CONDUCTED_AT]->(l:Location)
     WHERE l.country IS NOT NULL AND st.phases IS NOT NULL
@@ -668,7 +698,8 @@ def geo_phase_heatmap(kg):
            COUNT(DISTINCT st.nct_id) AS trials
     """
     df = pd.DataFrame(kg.query(query))
-    _save(df, data_dir, "geo_phase.csv")
+    if df.empty:
+        return None, df
 
     pivot = (
         df.groupby(["country", "phase"])["trials"]
@@ -678,66 +709,89 @@ def geo_phase_heatmap(kg):
     top_countries = pivot.sum(axis=1).nlargest(20).index
     pivot = pivot.loc[top_countries]
 
-    plt.figure(figsize=(14, 8))
+    fig, ax = plt.subplots(figsize=(14, 8))
+    fig.patch.set_facecolor("#0F1117")
     sns.heatmap(pivot, annot=True, fmt="d", cmap="YlOrRd",
-                linewidths=0.3, cbar_kws={"label": "Trials"})
-    plt.title("Country × Phase heatmap (top 20 countries)")
+                linewidths=0.3, cbar_kws={"label": "Trials"}, ax=ax)
+    ax.set_title("Country × Phase Heatmap (Top 20 Countries)")
     plt.tight_layout()
-    _savefig(plot_dir, "geo_phase_heatmap.png")
-    return df
+    return fig, df
 
 
 # ══════════════════════════════════════════════════════════════
-#  RUNNER — execute all applications
+#  GRAPHRAG — CONTEXT BUILDER
 # ══════════════════════════════════════════════════════════════
 
-def run_all(kg,
-            drug="Donepezil",
-            disease="Alzheimer",
-            sponsor="Pfizer"):
+def build_graphrag_context(kg: KGClient, drug: str | None = None,
+                           disease: str | None = None,
+                           sponsor: str | None = None,
+                           limit: int = 50) -> str:
     """
-    Run every application in sequence.
-    Outputs land in outputs/<app>/data/ and outputs/<app>/plots/.
+    Build a structured text context chunk from the KG for LLM grounding.
+    Assembles Drug→Study→Condition→Sponsor multi-hop paths.
     """
+    if drug:
+        df = drug_paths(kg, drug)
+        df = df.head(limit)
+        if df.empty:
+            return f"No data found for drug: {drug}"
+        lines = [f"## Clinical Trial Evidence: {drug}\n"]
+        for _, row in df.iterrows():
+            lines.append(
+                f"- Trial {row.get('trial', 'N/A')}: "
+                f"Condition={row.get('condition', 'N/A')}, "
+                f"Sponsor={row.get('sponsor', 'N/A')} ({row.get('sponsor_class', 'N/A')})"
+            )
+        return "\n".join(lines)
 
-    print("\n══ 1. DRUG INTELLIGENCE ══════════════════")
-    drug_evidence(kg, drug)
-    drug_competition(kg, drug)
-    drug_geo(kg, drug)
-    drug_paths(kg, drug)
+    if disease:
+        query = """
+        MATCH (st:Study)-[:STUDIES]->(c:Condition)
+        WHERE toLower(c.name) CONTAINS toLower($disease)
+        MATCH (st)-[:USES_INTERVENTION]->(i:Intervention)
+        OPTIONAL MATCH (st)<-[:SPONSORS]-(s:Sponsor)
+        RETURN st.nct_id AS trial, i.name AS drug,
+               c.name AS condition, st.phases AS phase,
+               st.overall_status AS status, s.name AS sponsor
+        LIMIT $limit
+        """
+        rows = kg.query(query, {"disease": disease, "limit": limit})
+        if not rows:
+            return f"No data found for disease: {disease}"
+        lines = [f"## Clinical Trial Evidence: {disease}\n"]
+        for row in rows:
+            lines.append(
+                f"- Trial {row.get('trial', 'N/A')}: "
+                f"Drug={row.get('drug', 'N/A')}, "
+                f"Phase={row.get('phase', 'N/A')}, "
+                f"Status={row.get('status', 'N/A')}, "
+                f"Sponsor={row.get('sponsor', 'N/A')}"
+            )
+        return "\n".join(lines)
 
-    print("\n══ 2. DISEASE ANALYTICS ══════════════════")
-    disease_landscape(kg, disease)
-    disease_design(kg, disease)
-    disease_phase_progression(kg, disease)
-    disease_enrollment(kg, disease)
-    disease_sponsor_diversity(kg, disease)
+    if sponsor:
+        query = """
+        MATCH (st:Study)<-[:SPONSORS]-(s:Sponsor)
+        WHERE toLower(s.name) CONTAINS toLower($sponsor)
+        MATCH (st)-[:STUDIES]->(c:Condition)
+        MATCH (st)-[:USES_INTERVENTION]->(i:Intervention)
+        RETURN st.nct_id AS trial, i.name AS drug,
+               c.name AS condition, st.phases AS phase,
+               st.overall_status AS status
+        LIMIT $limit
+        """
+        rows = kg.query(query, {"sponsor": sponsor, "limit": limit})
+        if not rows:
+            return f"No data found for sponsor: {sponsor}"
+        lines = [f"## Clinical Trial Evidence: {sponsor}\n"]
+        for row in rows:
+            lines.append(
+                f"- Trial {row.get('trial', 'N/A')}: "
+                f"Drug={row.get('drug', 'N/A')}, "
+                f"Condition={row.get('condition', 'N/A')}, "
+                f"Phase={row.get('phase', 'N/A')}, "
+                f"Status={row.get('status', 'N/A')}"
+            )
+        return "\n".join(lines)
 
-    print("\n══ 3. SPONSOR INTELLIGENCE ═══════════════")
-    sponsor_portfolio(kg, sponsor)
-    sponsor_geo(kg, sponsor)
-    sponsor_pipeline(kg, sponsor)
-    sponsor_drugs(kg, sponsor)
-    sponsor_collaborators(kg, sponsor)
-
-    print("\n══ 4. NETWORK & GRAPH ANALYTICS ══════════")
-    centrality(kg)
-    community_detection(kg)
-    drug_repurposing(kg)
-
-    print("\n══ 5. GEO & TEMPORAL ANALYTICS ═══════════")
-    trial_density(kg)
-    trial_timeline(kg)
-    geo_phase_heatmap(kg)
-
-    print("\n✅  All 20 applications executed.")
-    print(f"    CSVs  → outputs/<app>/data/")
-    print(f"    Plots → outputs/<app>/plots/")
-
-
-# ── entry point ──────────────────────────────────────────────
-if __name__ == "__main__":
-    # Replace `kg` with your Neo4j graph connection object.
-    # e.g.  from your_graph_module import KnowledgeGraph
-    #        kg = KnowledgeGraph(uri=..., user=..., password=...)
-    run_all(kg)
+    return "Please specify a drug, disease, or sponsor to build context."

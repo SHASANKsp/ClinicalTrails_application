@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 split_json_to_edge_files_with_progress.py
 
@@ -8,9 +7,6 @@ for later Neo4j ingestion. Uses tqdm progress bar.
 Usage:
     python split_json_to_edge_files_with_progress.py --input clinical_trials_dump.jsonl[.gz] --outdir kg_staging
 
-Notes:
- - For very large JSON array files (a single huge '[' ... ']'), the script will attempt to load the file into memory.
-   This may be memory-heavy. Prefer JSONL (one JSON object per line) or gzipped JSONL.
 """
 
 import json
@@ -23,26 +19,21 @@ from datetime import datetime
 from typing import Dict, Any, Iterable
 from tqdm import tqdm
 
-# --------------------------
+
 # Config
-# --------------------------
 DEAD_LETTER_NAME = "dead_letter.jsonl"
 LOG_FILE = "split_etl_progress.log"
 
-# --------------------------
 # Logging
-# --------------------------
-logging.basicConfig(level=logging.INFO, filename=LOG_FILE,
-                    format="%(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(level=logging.INFO, filename=LOG_FILE,format="%(asctime)s %(levelname)s %(message)s")
 console = logging.StreamHandler()
 console.setLevel(logging.INFO)
 formatter = logging.Formatter("%(asctime)s %(levelname)s %(message)s")
 console.setFormatter(formatter)
 logging.getLogger().addHandler(console)
 
-# --------------------------
+
 # Utilities
-# --------------------------
 def open_input(path: Path):
     if not path.exists():
         raise FileNotFoundError(path)
@@ -76,9 +67,8 @@ def ensure_dir(d: Path):
 def write_jsonl(fp, obj):
     fp.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
-# --------------------------
-# Writers factory (open many files)
-# --------------------------
+
+# Writers factory
 def open_writers(outdir: Path):
     ensure_dir(outdir)
     writers = {}
@@ -108,9 +98,7 @@ def open_writers(outdir: Path):
         ow(fname)
     return writers
 
-# --------------------------
 # Input counting helpers for progress
-# --------------------------
 def estimate_total_lines(path: Path):
     """
     Estimate total items for progress bar.
@@ -149,9 +137,8 @@ def estimate_total_lines(path: Path):
         logging.exception("Failed to estimate total lines (will run without total).")
         return None
 
-# --------------------------
+
 # Extraction logic (single pass with progress)
-# --------------------------
 def process_file_with_progress(input_path: Path, outdir: Path):
     writers = open_writers(outdir)
     dead_letter_fp = open(outdir / DEAD_LETTER_NAME, "a", encoding="utf-8")
@@ -510,9 +497,7 @@ def process_file_with_progress(input_path: Path, outdir: Path):
     logging.info(f"Done. Processed ~{processed} records. Output dir: {outdir}")
     print("Summary counts:", counters)
 
-# --------------------------
 # CLI
-# --------------------------
 def main():
     parser = argparse.ArgumentParser(description="Split ClinicalTrials JSON into per-edge JSONL files (with progress)")
     parser.add_argument("--input", "-i", type=str, required=True, help="Input JSONL file (or .json/.jsonl.gz) with one trial per line or JSON array")

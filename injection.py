@@ -20,48 +20,33 @@ REQUIRED_KEYS = {
     "Arms": ["id", "nct_id"],
     "Locations": ["id", "nct_id"],
     "Outcomes": ["measure", "nct_id"],
-    "AdverseEvents": ["nct_id"]
-}
+    "AdverseEvents": ["nct_id"]}
 
-# =============================
 # Connect
-# =============================
-
-driver = GraphDatabase.driver(
-    NEO4J_URI,
-    auth=(NEO4J_USER, NEO4J_PASSWORD)
-)
-
+driver = GraphDatabase.driver( NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 
 def run_query(query, parameters=None):
     with driver.session() as session:
         session.run(query, parameters or {})
 
 
-# =============================
+
 # Utility: Batch Loader
-# =============================
-
 def batch_loader(df, query, label):
-
     total = len(df)
     batches = math.ceil(total / BATCH_SIZE)
-
     print(f"\n--- Loading {label} ---")
     print(f"Total rows: {total}")
     print(f"Batches: {batches} (Batch size: {BATCH_SIZE})")
 
     required = REQUIRED_KEYS.get(label, [])
-
     start_time = time.time()
-
     for i in range(batches):
         start = i * BATCH_SIZE
         end = min((i + 1) * BATCH_SIZE, total)
-
         batch_df = df.iloc[start:end].copy()
 
-        # Convert NaN → None
+        # Convert NaN to None
         batch_df = batch_df.where(pd.notnull(batch_df), None)
 
         # Strip whitespace from string columns
@@ -74,23 +59,18 @@ def batch_loader(df, query, label):
         # Drop rows missing required merge keys
         for col in required:
             batch_df = batch_df[batch_df[col].notnull()]
-
         if len(batch_df) == 0:
             print(f"{label}: Batch {i+1}/{batches} skipped (no valid rows)")
             continue
 
         run_query(query, {"rows": batch_df.to_dict("records")})
-
         print(f"{label}: Batch {i+1}/{batches} loaded ({end}/{total})")
 
     elapsed = time.time() - start_time
     print(f"{label} completed in {elapsed:.2f} seconds.")
 
 
-# =============================
 # Constraints
-# =============================
-
 def create_constraints():
     print("\nCreating constraints...")
 
@@ -109,25 +89,18 @@ def create_constraints():
     print("Constraints ready.")
 
 
-# =============================
 # Loaders
-# =============================
-
 def load_studies():
     df = pd.read_csv(os.path.join(DATA_DIR, "studies.csv"))
-
     query = """
     UNWIND $rows AS row
     MERGE (s:Study {nct_id: row.nct_id})
     SET s += row
     """
-
     batch_loader(df, query, "Studies")
-
 
 def load_sponsors():
     df = pd.read_csv(os.path.join(DATA_DIR, "sponsors.csv"))
-
     query = """
     UNWIND $rows AS row
     MERGE (sp:Sponsor {name: row.lead_sponsor})
@@ -136,13 +109,10 @@ def load_sponsors():
     MATCH (s:Study {nct_id: row.nct_id})
     MERGE (sp)-[:SPONSORS]->(s)
     """
-
     batch_loader(df, query, "Sponsors")
-
 
 def load_conditions():
     df = pd.read_csv(os.path.join(DATA_DIR, "conditions.csv"))
-
     query = """
     UNWIND $rows AS row
     MERGE (c:Condition {name: row.condition})
@@ -150,13 +120,10 @@ def load_conditions():
     MATCH (s:Study {nct_id: row.nct_id})
     MERGE (s)-[:STUDIES]->(c)
     """
-
     batch_loader(df, query, "Conditions")
-
 
 def load_interventions():
     df = pd.read_csv(os.path.join(DATA_DIR, "interventions.csv"))
-
     query = """
     UNWIND $rows AS row
     MERGE (i:Intervention {name: row.intervention_name})
@@ -166,14 +133,11 @@ def load_interventions():
     MATCH (s:Study {nct_id: row.nct_id})
     MERGE (s)-[:USES_INTERVENTION]->(i)
     """
-
     batch_loader(df, query, "Interventions")
-
 
 def load_arms():
     df = pd.read_csv(os.path.join(DATA_DIR, "arms.csv"))
     df["id"] = df["nct_id"] + "_" + df["arm_label"].astype(str)
-
     query = """
     UNWIND $rows AS row
     MERGE (a:Arm {id: row.id})
@@ -184,14 +148,11 @@ def load_arms():
     MATCH (s:Study {nct_id: row.nct_id})
     MERGE (s)-[:HAS_ARM]->(a)
     """
-
     batch_loader(df, query, "Arms")
-
 
 def load_locations():
     df = pd.read_csv(os.path.join(DATA_DIR, "locations.csv"))
     df["id"] = df["nct_id"] + "_" + df["facility"].astype(str)
-
     query = """
     UNWIND $rows AS row
     MERGE (l:Location {id: row.id})
@@ -204,13 +165,10 @@ def load_locations():
     MATCH (s:Study {nct_id: row.nct_id})
     MERGE (s)-[:CONDUCTED_AT]->(l)
     """
-
     batch_loader(df, query, "Locations")
-
 
 def load_outcomes():
     df = pd.read_csv(os.path.join(DATA_DIR, "outcomes.csv"))
-
     query = """
     UNWIND $rows AS row
     MERGE (o:Outcome {measure: row.measure})
@@ -220,13 +178,10 @@ def load_outcomes():
     MATCH (s:Study {nct_id: row.nct_id})
     MERGE (s)-[:MEASURES]->(o)
     """
-
     batch_loader(df, query, "Outcomes")
-
 
 def load_adverse_events():
     df = pd.read_csv(os.path.join(DATA_DIR, "adverse_events.csv"))
-
     query = """
     UNWIND $rows AS row
     CREATE (ae:AdverseEvent {
@@ -238,20 +193,14 @@ def load_adverse_events():
     MATCH (s:Study {nct_id: row.nct_id})
     MERGE (s)-[:REPORTS_EVENT]->(ae)
     """
-
     batch_loader(df, query, "AdverseEvents")
 
 
-# =============================
-# MAIN
-# =============================
+
 
 if __name__ == "__main__":
 
-    print("\n=========================================")
     print("Starting ClinicalTrials KG Construction")
-    print("=========================================")
-
     total_start = time.time()
 
     create_constraints()
@@ -261,13 +210,10 @@ if __name__ == "__main__":
     load_interventions()
     load_arms()
     load_locations()
-    load_outcomes()
+
 
     driver.close()
-
     total_time = time.time() - total_start
 
-    print("\n=========================================")
     print("Knowledge Graph Successfully Built")
-    print(f"Total execution time: {total_time:.2f} seconds")
-    print("=========================================")
+    print(f"Total execution time: {total_time:.2f} seconds")s
