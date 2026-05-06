@@ -1,5 +1,5 @@
 """
-ClinicalTrials Knowledge Graph — Unified Agent Interface
+TrialGraph — Clinical Trials Intelligence Platform
 =========================================================
 Single-page application with two agent panels:
   Left  — Chat Agent  (conversational Q&A via Ollama + GraphRAG)
@@ -44,7 +44,7 @@ from network_graph_supplementary import (
 # ─────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="ClinicalTrials Knowledge Graph",
+    page_title="TrialGraph",
     page_icon="⬡",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -70,9 +70,9 @@ st.markdown("""
     --accent-dim:    rgba(79,124,255,0.15);
     --accent-glow:   rgba(79,124,255,0.08);
     --text-primary:  #e4eaf8;
-    --text-secondary:#8b97b8;
-    --text-muted:    #404d6a;
-    --text-faint:    #252d42;
+    --text-secondary:#a0aec8;
+    --text-muted:    #6b7fa8;
+    --text-faint:    #4a5878;
     --green:  #22d3a5;  --green-bg:  rgba(34,211,165,0.08);
     --red:    #f87171;  --red-bg:    rgba(248,113,113,0.08);
     --amber:  #fbbf24;  --amber-bg:  rgba(251,191,36,0.08);
@@ -260,18 +260,24 @@ code, .stCode {
    CHAT MESSAGES
 ════════════════════════════════════════ */
 [data-testid="stChatMessage"] {
-    background: var(--bg-surface) !important;
-    border: 1px solid var(--border-subtle) !important;
     border-radius: var(--r-md) !important;
     padding: 0.75rem 1rem !important;
     margin-bottom: 0.5rem !important;
 }
-[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-user"]) {
-    background: var(--bg-raised) !important;
-    border-color: var(--border-mid) !important;
+/* Assistant — deep navy with blue left stripe */
+[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-assistant"]) {
+    background: #07101f !important;
+    border: 1px solid rgba(79,124,255,0.14) !important;
+    border-left: 3px solid var(--accent) !important;
 }
-/* Avatar icons */
+/* User — warm dark with amber left stripe */
+[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-user"]) {
+    background: #110d06 !important;
+    border: 1px solid rgba(201,123,42,0.14) !important;
+    border-left: 3px solid #c97b2a !important;
+}
 [data-testid="chatAvatarIcon-assistant"] svg { color: var(--accent) !important; }
+[data-testid="chatAvatarIcon-user"]      svg { color: #c97b2a !important; }
 
 /* ════════════════════════════════════════
    EXPANDERS
@@ -1266,10 +1272,10 @@ with st.sidebar:
                         display:flex;align-items:center;justify-content:center;
                         font-size:14px;flex-shrink:0;">⬡</div>
             <div>
-                <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.16em;
-                            text-transform:uppercase;color:var(--text-faint);">ClinicalTrials</div>
-                <div style="font-size:1rem;font-weight:700;color:var(--text-primary);
-                            letter-spacing:-0.02em;line-height:1.1;">Knowledge Graph</div>
+                <div style="font-size:0.62rem;font-weight:600;letter-spacing:0.14em;
+                            text-transform:uppercase;color:var(--text-faint);">Clinical Intelligence</div>
+                <div style="font-size:1.05rem;font-weight:700;color:var(--text-primary);
+                            letter-spacing:-0.02em;line-height:1.1;">TrialGraph</div>
             </div>
         </div>
         <div style="font-size:0.68rem;color:var(--text-faint);
@@ -1280,13 +1286,20 @@ with st.sidebar:
     <div style="height:1px;background:var(--border-subtle);margin:0 1rem 0.5rem;"></div>
     """, unsafe_allow_html=True)
 
-    # ── Neo4j ──
-    st.markdown('<div class="sidebar-section" style="padding:0.8rem 1rem 0.35rem;">Graph database</div>', unsafe_allow_html=True)
-    with st.container():
-        neo_uri  = st.text_input("URI",      value="neo4j://localhost:7687", placeholder="Bolt URI")
-        neo_user = st.text_input("Username", value="neo4j",        placeholder="Username")
-        neo_pass = st.text_input("Password", value="CTrail@123",   placeholder="Password", type="password")
+    # ── Card helper ─────────────────────────────────────────────
+    def _card_start(label):
+        st.markdown(
+            f'<div style="font-size:0.6rem;font-weight:700;letter-spacing:0.16em;'
+            f'text-transform:uppercase;color:var(--text-faint);'
+            f'padding:1rem 0 0.45rem;">{label}</div>',
+            unsafe_allow_html=True,
+        )
 
+    # ── Neo4j card ──────────────────────────────────────────────
+    _card_start("Graph database")
+    neo_uri  = st.text_input("URI",      value="neo4j://localhost:7687", placeholder="Bolt URI")
+    neo_user = st.text_input("Username", value="neo4j",        placeholder="Username")
+    neo_pass = st.text_input("Password", value="CTrail@123",   placeholder="Password", type="password")
     if st.button("Connect to Neo4j", use_container_width=True, type="primary"):
         try:
             kg = KGClient(neo_uri, neo_user, neo_pass)
@@ -1298,16 +1311,14 @@ with st.sidebar:
                 st.error("Connection failed.")
         except Exception as e:
             st.error(str(e))
-
     if st.session_state.connected:
         st.markdown('<span class="status-pill status-ok"><span class="dot dot-ok"></span>Neo4j connected</span>', unsafe_allow_html=True)
     else:
         st.markdown('<span class="status-pill status-err"><span class="dot dot-err"></span>Not connected</span>', unsafe_allow_html=True)
 
-    # ── Ollama ──
-    st.markdown('<div class="sidebar-section" style="padding:0.8rem 1rem 0.35rem;">Local LLM</div>', unsafe_allow_html=True)
+    # ── Ollama card ─────────────────────────────────────────────
+    _card_start("Local LLM")
     ollama_url = st.text_input("Ollama URL", value="http://localhost:11434", placeholder="http://localhost:11434")
-
     c1, c2 = st.columns([3, 2])
     with c1:
         fallback = ["llama3","llama3:8b","llama3.2","mistral","mistral:7b",
@@ -1322,17 +1333,16 @@ with st.sidebar:
                 st.success(f"{len(models)} found.")
             else:
                 st.warning("Not reachable")
-
     running = ollama_is_running(ollama_url)
     if running:
         st.markdown('<span class="status-pill status-ok"><span class="dot dot-ok"></span>Ollama running</span>', unsafe_allow_html=True)
     else:
         st.markdown('<span class="status-pill status-err"><span class="dot dot-err"></span>Ollama not detected</span>', unsafe_allow_html=True)
 
-    # ── Session ──
-    st.markdown('<div class="sidebar-section" style="padding:0.8rem 1rem 0.35rem;">Session</div>', unsafe_allow_html=True)
+    # ── Session card ────────────────────────────────────────────
+    _card_start("Session")
     st.markdown(
-        '<p style="font-size:0.72rem;color:var(--text-faint);line-height:1.55;margin:0 0 0.6rem;padding:0 1rem;">'
+        '<p style="font-size:0.72rem;color:var(--text-faint);line-height:1.55;margin:0 0 0.6rem;">'
         "Entity names are resolved automatically from your question via the knowledge graph.</p>",
         unsafe_allow_html=True,
     )
@@ -1345,10 +1355,11 @@ with st.sidebar:
         st.rerun()
 
     st.markdown("""
-    <div style="position:absolute;bottom:1.2rem;left:0;right:0;
-                text-align:center;font-size:0.62rem;color:var(--text-faint);
-                letter-spacing:0.06em;font-family:var(--font-ui);">
-        v1.0 &nbsp;&middot;&nbsp; CTKG
+    <div style="margin-top:1.5rem;padding:0.6rem 0;text-align:center;
+                font-size:0.62rem;color:var(--text-faint);
+                letter-spacing:0.06em;font-family:var(--font-ui);
+                border-top:1px solid var(--border-subtle);">
+        v1.0 &nbsp;&middot;&nbsp; TrialGraph
     </div>
     """, unsafe_allow_html=True)
 
@@ -1365,9 +1376,9 @@ st.markdown("""
                     display:flex;align-items:center;justify-content:center;font-size:18px;">⬡</div>
         <div>
             <div style="font-size:1.3rem;font-weight:700;color:var(--text-primary);
-                        letter-spacing:-0.03em;line-height:1.1;">ClinicalTrials KG</div>
+                        letter-spacing:-0.03em;line-height:1.1;">TrialGraph</div>
             <div style="font-size:0.7rem;color:var(--text-muted);letter-spacing:0.04em;
-                        margin-top:2px;">Intelligent clinical trial analytics · GraphRAG agent</div>
+                        margin-top:2px;">Clinical trial intelligence · Knowledge Graph · GraphRAG</div>
         </div>
     </div>
     <div style="display:flex;gap:8px;align-items:center;">
@@ -1377,7 +1388,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-chat_col, analysis_col = st.columns([5, 7], gap="large")
+chat_col, analysis_col = st.columns([6, 7], gap="large")
 
 
 # ─────────────────────────────────────────────────────────────
@@ -1468,7 +1479,8 @@ with chat_col:
                 st.markdown(prompt)
 
             # ── Entity resolution ──────────────────────────────────────
-            with st.spinner("Resolving entity and selecting analyses..."):
+            with st.status("Processing query...", expanded=True) as _status:
+                st.write("Extracting entity from question...")
                 intent = detect_intent(
                     question=prompt,
                     kg=st.session_state.kg,
@@ -1554,10 +1566,9 @@ with chat_col:
 
             # ── LLM-based analysis selection (Option 3) ─────────────────
             if intent["entity_type"] == "nct":
-                # NCT ID queries bypass LLM analysis selection entirely —
-                # they always run nct_detail and nothing else.
                 intent["analyses"] = ["nct_detail"]
             elif intent["analyses"] is None:
+                _status.write("Selecting analyses via LLM...")
                 intent["analyses"] = llm_select_analyses(
                     question=prompt,
                     entity_type=intent["entity_type"],
@@ -1568,16 +1579,22 @@ with chat_col:
                 )
 
             if generate_plots:
-                with st.spinner("Running knowledge graph analyses..."):
-                    results = run_analyses(st.session_state.kg, intent, intent_defaults)
-                    turn_label = f"Turn {len(st.session_state.analysis_panels) + 1}: {prompt[:60]}"
-                    st.session_state.analysis_panels.append({
-                        "turn_id": len(st.session_state.analysis_panels),
-                        "label":   turn_label,
-                        "panels":  results,
-                    })
+                _status.write("Running knowledge graph queries...")
+                results = run_analyses(st.session_state.kg, intent, intent_defaults)
+                turn_label = f"Turn {len(st.session_state.analysis_panels) + 1}: {prompt[:60]}"
+                st.session_state.analysis_panels.append({
+                    "turn_id": len(st.session_state.analysis_panels),
+                    "label":   turn_label,
+                    "panels":  results,
+                })
             else:
                 results = []
+
+            _status.update(
+                label=f"Ready · {intent['entity_type']} · {intent['entity_value'] or 'no entity'}",
+                state="complete",
+                expanded=False,
+            )
 
             # Build context — route by entity type
             et = intent["entity_type"]
@@ -1649,6 +1666,11 @@ Guidelines:
             # Stream the response
             with st.chat_message("assistant"):
                 placeholder = st.empty()
+                placeholder.markdown(
+                    '<div style="font-size:0.78rem;color:var(--text-faint);">'
+                    'Generating answer...</div>',
+                    unsafe_allow_html=True,
+                )
                 full_response = ""
                 try:
                     for token in ollama_stream(
@@ -1791,7 +1813,11 @@ Be specific with numbers. Use precise language. Do not use bullet points."""
                 # Chart
                 if panel.get("fig") is not None:
                     try:
-                        st.pyplot(panel["fig"])
+                        _fig = panel["fig"]
+                        _fig.patch.set_alpha(0)          # transparent outer background
+                        for _ax in _fig.get_axes():
+                            _ax.patch.set_alpha(0)       # transparent axes background
+                        st.pyplot(_fig, transparent=True, use_container_width=True)
                     except Exception:
                         st.caption("Chart could not be rendered.")
 

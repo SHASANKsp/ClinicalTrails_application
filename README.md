@@ -1,196 +1,172 @@
-# ClinicalTrials Knowledge Graph
+# TrialGraph - Clinical trial intelligence
 
-A graph native intelligence platform built on Neo4j that transforms raw ClinicalTrials.gov data into a queryable knowledge graph, powering drug intelligence, disease analytics, sponsor profiling, network analysis, and a GraphRAG pipeline for grounded clinical Q&A.
+TrialGraph transforms raw ClinicalTrials.gov data into a queryable property graph on Neo4j, then exposes it through five analytical modules and a fully local GraphRAG agent.
 
-## Overview
+It is an **LLM orchestrated analytical pipeline with GraphRAG**. The LLM performs entity extraction and analysis selection, all tool execution is deterministic python codes.
 
-Clinical trial registries contain huge data points on drugs, diseases, sponsors, locations, and outcomes, but they are hard to query across dimensions. This project constructs a **property graph** where studies, interventions, conditions, sponsors, arms, locations, and outcomes are nodes connected by semantically meaningful relationships.
+**What makes it agentic adjacent:**
+- Two focused LLM calls per query with structured outputs
+- Conversation context persists across turns
+- Dynamic analysis selection based on question semantics
+- KG grounded answers with no hallucinated statistics
 
-The result is a platform that can answers questions like:
+Ask it things like:
 
-- *"What drugs compete with Semaglutide, broken down by trial volume and geography?"*
+- *"What drugs is Amgen testing and what are the trial details?"*
 - *"How does the Alzheimer's pipeline funnel compare to Diabetes?"*
-- *"Which drugs appear as structural bridges across disease communities?"*
+- *"Which drugs act as structural bridges across disease communities?"*
 - *"What are Pfizer's top therapeutic areas and phase completion rates?"*
+- *"Can you explain what happens in NCT02103283?"*
+
+---
+
+## Table of Contents
+
+1. [Architecture](#architecture)
+2. [Graph Schema](#graph-schema)
+3. [Analytical Modules](#analytical-modules)
+4. [Query Pipeline — How the Agent Works](#query-pipeline--how-the-agent-works)
+5. [Streamlit Application](#streamlit-application)
+
 
 ---
 
 ## Architecture
 
-```
-ClinicalTrials.gov Data
-        │
-        ▼
-  CSV Extraction & Cleaning
-        │
-        ▼
-  Neo4j Knowledge Graph  ◄──── injection.py
-        │
-        ▼
-  Defined functions for each application
-  ├── Drug Intelligence Queries
-  ├── Disease Analytics Queries
-  ├── Sponsor Intelligence Queries
-  └── Network & Graph Analytics
-        │
-        ▼
-  GraphRAG Pipeline
-  └── LLM · Summarization · Q&A
-```
+![System Architecture](01_architecture.svg)
+
+### Two Stage LLM Pipeline
+
+Every query runs two focused Ollama calls before the main answer:
+
+1. **`llm_extract_entity()`** : identifies the named entity (drug, disease, sponsor) from the question using natural language understanding.
+2. **`llm_select_analyses()`** : given the resolved entity and question, selects which of 18 catalogued analyses to run. Uses a closed vocabulary so hallucinated analysis types are impossible.
+
+Both calls use `temperature=0` for determinism and complete in under one second on typical hardware.
 
 ---
 
 ## Graph Schema
 
+![Graph Schema](02_graph_schema.svg)
+
 ### Node Labels
 
-| Label  | Description |
+| Label | Key Properties |
 |---|---|
-| `Study` | A registered clinical trial |
-| `Intervention` | Drug, device, or procedure tested |
-| `Condition` | Disease or condition studied |
-| `Sponsor` | Organization funding/running the trial |
-| `Arm` | Trial arm (experimental, placebo, comparator) |
-| `Location` | Facility conducting the trial |
+| `Study` | `nct_id`, `phases`, `overall_status`, `enrollment`, `start_date`, `completion_date`, `study_type`, `allocation`, `masking` |
+| `Intervention` | `name`, `type` |
+| `Condition` | `name` |
+| `Sponsor` | `name`, `class`  |
+| `Arm` | `type` |
+| `Location` | `country`, `city` |
 
 ### Relationships
 
 | Relationship | Direction | Meaning |
 |---|---|---|
-| `SPONSORS` | Sponsor → Study | Sponsor funds the study |
-| `STUDIES` | Study → Condition | Study targets a disease |
-| `USES_INTERVENTION` | Study → Intervention | Study tests a drug/device |
-| `HAS_ARM` | Study → Arm | Study contains a trial arm |
-| `CONDUCTED_AT` | Study → Location | Study runs at a facility |
+| `SPONSORS` | Sponsor → Study | Sponsor funds/leads the trial |
+| `STUDIES` | Study → Condition | Trial targets a disease or condition |
+| `USES_INTERVENTION` | Study → Intervention | Trial tests a drug or device |
+| `HAS_ARM` | Study → Arm | Trial contains this arm |
+| `CONDUCTED_AT` | Study → Location | Trial runs at this facility |
 
 ---
 
-## Modules
 
-### 01 · Drug Intelligence
+## Analytical Modules
 
-Query any intervention's full evidence profile in a single graph traversal.
+All functions in `application.py` and `network_graph_supplementary.py` return `(fig, df)`.
 
-| Feature | What It Does |
+### Module 1: Drug Intelligence
+
+| Function | What It Returns |
 |---|---|
-| **Evidence Profile** | Aggregates all trials by phase, status, condition, and geography | 
-| **Competitive Landscape** | Finds all drugs sharing a condition with the target compound, ranked by trial volume | 
-| **Geographic Footprint** | Maps countries conducting trials for a drug | 
-| **Multi-hop Paths** | Constructs Drug → Study → Condition → Sponsor subgraphs for GraphRAG context |
+| `drug_evidence` | Phase distribution, statuses, enrollment, conditions, sponsors |
+| `drug_competition` | All drugs sharing a condition, ranked by trial count |
+| `drug_geo` | Countries running trials for the drug |
+| `drug_paths` | Multi hop Drug→Trial→Condition→Sponsor paths, used for GraphRAG context |
 
-**Example: Semaglutide -** Phase 3 heavy, US centric geography, Novo Nordisk as lead sponsor, Diabetes Mellitus Type 2 and Obesity as primary conditions.
+**Example — Semaglutide:** Phase 3 dominant, US centric geography, Novo Nordisk as lead sponsor, Diabetes Mellitus Type 2 and Obesity as primary conditions.
 
-**Example: Donepezil -** Competitor list spans oncology and antipsychotics (reflecting Alzheimer's comorbidity landscape), Phase 2 peak signals an unmet need space still searching for breakthrough efficacy.
+### Module 2: Disease Analytics 
 
----
-
-### 02 · Disease Analytics
-
-Characterize the full clinical landscape for any disease area.
-
-| Feature | What It Does |
+| Function | What It Returns |
 |---|---|
-| **Treatment Landscape** | Ranks all active drugs by trial count |
-| **Trial Design Patterns** | Breaks down allocation, blinding, and arm types | 
-| **Phase Progression** | Plots the trial funnel by phase; inversion signals high attrition | 
-| **Enrollment Analysis** | Histogram + phase stratified median charts | 
-| **Sponsor Diversity** | Classifies sponsors as Industry / Academic / Government | 
+| `disease_landscape` | All active drugs ranked by trial volume |
+| `disease_phase_progression` | Phase distribution funnel |
+| `disease_enrollment` | Enrollment histogram + median by phase |
+| `disease_design` | Allocation, blinding, arm type breakdown |
+| `disease_sponsor_diversity` | Industry vs Academic vs Government sponsor split |
 
-**Example: Diabetes -** Mature, RCT dominated, >85% randomized, Phase 3 enrollment medians exceeding 300 participants. Industry led by Novo Nordisk and Eli Lilly.
+**Example — Diabetes:** Mature, RCT dominated landscape. Over 85% of trials randomised. Phase 3 median enrollment exceeds 300. Industry led by Novo Nordisk and Eli Lilly.
 
-**Example: Alzheimer's -** Inverted funnel peaking at Phase 2, high academic/government sponsorship, large Phase 3 enrollment requirements signaling high cost and risk.
+**Example — Alzheimer's:** Inverted funnel peaking at Phase 2. High academic and government sponsorship. Large Phase 3 enrollment requirements signal high cost and risk.
 
----
+### Module 3: Sponsor Intelligence
 
-### 03 · Sponsor Intelligence
-
-Profile any sponsor's therapeutic footprint, pipeline health, and partnership network.
-
-| Feature | What It Does |
+| Function | What It Returns |
 |---|---|
-| **Condition Portfolio** | Ranks every disease area a sponsor runs trials in |
-| **Geographic Reach** | Maps countries where the sponsor conducts trials |
-| **Pipeline Mix** | Cross tabulates phase × status in a stacked bar |
-| **Drug Inventory** | Lists every intervention a sponsor trials, ranked by volume |
-| **Collaborator Network** | Identifies co-sponsors from shared trials |
+| `sponsor_portfolio` | Condition areas ranked by trial count |
+| `sponsor_drugs` | All interventions the sponsor is testing |
+| `sponsor_pipeline` | Phase × Status cross-tabulation |
+| `sponsor_geo` | Countries where the sponsor runs trials |
+| `sponsor_collaborators` | Co-sponsors from shared trials |
 
-**Example: Pfizer -** 15+ therapeutic areas, Phase 2/3 completion heavy pipeline, US and UK leading geographic reach.
+**Example — Pfizer:** 15+ therapeutic areas, Phase 2/3 completion heavy pipeline, US and UK as leading geographies.
 
-**Example: Novo Nordisk -** Tightly focused on Diabetes and Obesity, Semaglutide and insulin analogues as flagship compounds, Germany topping geographic reach.
+**Example — Novo Nordisk:** Tightly focused on Diabetes and Obesity, Semaglutide and insulin analogues as flagship compounds, Germany leading geographic reach.
 
----
+### Module 4: Network & Graph Analytics
 
-### 04 · Network & Graph Analytics
-
-Applies graph algorithms to reveal structural patterns invisible to tabular analysis.
-
-| Feature | What It Does | Algorithm |
+| Function | Algorithm | What It Shows |
 |---|---|---|
-| **Centrality Scoring** | Computes degree and betweenness centrality across the drug condition graph | Degree / Betweenness |
-| **Community Detection** | Partitions the graph into dense therapeutic clusters | Louvain |
-| **Drug Repurposing Signals** | Identifies drugs studied across the greatest number of distinct conditions relative to trial volume | Condition breadth scoring |
+| `centrality` | Degree + Betweenness | Most connected / most bridge like nodes |
+| `community_detection` | Louvain | Dense therapeutic clusters without expert labels |
+| `drug_repurposing` | Condition breadth | Drugs studied across the most distinct conditions |
+| `drug_condition_subgraph` | Ego-graph | Drug–Condition–Sponsor neighbourhood |
+| `sponsor_network` | Co-occurrence | Weighted sponsor collaboration graph |
+| `condition_similarity_network` | Shared drugs | Conditions linked by common treatments |
+| `graph_metrics` | Summary stats | Nodes, edges, density, components |
+| `degree_distribution` | Log-scale | Degree distribution plots (log and log-log) |
+| `bridge_drugs` | Betweenness | Drugs acting as structural bridges |
 
 **Centrality highlights:**
-- **Obesity** - highest degree node; GLP-1, SGLT2, bariatric, and behavioral trials all converge here
-- **Dexamethasone** - sole pharmaceutical in the betweenness top 25; bridges oncology, COVID19, surgery, sepsis, and haematology simultaneously
+- **Obesity**  highest degree node; GLP-1, SGLT2, bariatric, and behavioural trials all converge here
+- **Dexamethasone**  sole pharmaceutical in the betweenness top 25; bridges oncology, COVID19, surgery, sepsis, and haematology simultaneously
 
-**Community detection:** 15,585 total communities detected; 28 mega clusters (>1,000 nodes) align precisely with real biomedical domains including Metabolic & Behavioral Health, Oncology, Cardiovascular, Infectious Disease, Hepatitis B Virology, with no expert labeling required.
+**Community detection:** 15,585 communities detected; 28 mega clusters (>1,000 nodes) align precisely with biomedical domains, Metabolic & Behavioural Health, Oncology, Cardiovascular, Infectious Disease, Hepatitis B Virology with no expert labelling.
 
-**Repurposing archetypes identified:**
-- Cytotoxic backbone drugs (broad oncology use via DNA damage + immune modulation)
-- Checkpoint inhibitors (tumor agnostic expansion; Nivolumab appearing in HBV and COVID-19)
-- Corticosteroids (Dexamethasone as the canonical cross disease repurposing success)
+**Repurposing archetypes:**
+- Cytotoxic backbone drugs (broad oncology use via DNA damage and immune modulation)
+- Checkpoint inhibitors (tumour agnostic expansion; Nivolumab appearing in HBV and COVID19)
+- Corticosteroids (Dexamethasone as the canonical cross-disease repurposing success)
 
----
+### Module 5: Geo & Temporal Analytics 
 
-### 05 · GraphRAG Pipeline
-
-The KG is designed as the retrieval backbone for a grounded clinical Q&A system.
-
-```
-User Query
-    │
-    ▼
-Named Entity Recognition (drug / disease / sponsor)
-    │
-    ▼
-Neo4j Subgraph Extraction
-(Multi-hop paths: Drug → Study → Condition → Sponsor)
-    │
-    ▼
-Community Summary Injection
-(Louvain cluster context chunks)
-    │
-    ▼
-LLM (Claude / GPT)
-    │
-    ▼
-Grounded Answer with Citation Ready Evidence Chains
-```
-
-This architecture grounds every LLM response in structured, citation traceable graph paths, eliminating hallucination of trial statistics and sponsor relationships.
-
----
-
-## Key Findings
-
-| Domain | Finding |
+| Function | What It Shows |
 |---|---|
-| Drug | Semaglutide is the most Phase 3 validated GLP-1 agonist; US centric geography is a generalizability risk |
-| Drug | Donepezil's trial landscape spans oncology and antipsychotics, reflecting the Alzheimer's comorbidity footprint |
-| Disease | Diabetes is a benchmark RCT dominated disease; Alzheimer's shows an inverted funnel still in discovery phase |
-| Sponsor | Pfizer has the broadest portfolio; Novo Nordisk is the most focused metabolic disease sponsor |
-| Graph | Dexamethasone is the only pharmaceutical acting as a cross domain structural bridge in the trial network |
-| Graph | Louvain algorithm independently recovers clinically coherent therapeutic communities without expert labels |
-| Repurposing | Nivolumab's appearance in HBV and COVID19 trials surfaces as a biological signal for cross disease immune axis activity |
+| `trial_density` | Trial counts by country globally |
+| `trial_timeline` | Monthly trial start activity over time |
+| `geo_phase_heatmap` | Country × Phase heatmap |
 
 ---
 
-## Agentic AI Integration
+## Query Pipeline — How the Agent Works
 
-This KG is built to serve as the structured memory layer for clinical AI agents. Intended integration points:
+![Query Pipeline](03_query_pipeline.svg)
 
-- **GraphRAG Q&A** — Subgraph extraction feeds structured context to an LLM for grounded natural language answers
-- **Hypothesis Generation** — Community detection outputs seed prompts for drug repurposing hypotheses
-- **Automated Evidence Summaries** — Multi-hop paths generate citation ready evidence chains for regulatory or medical affairs use cases
-- **Tool augmented Agents** — Neo4j can be exposed as an MCP (Model Context Protocol) server, allowing agents to query the KG dynamically via Cypher tool calls
+### Resolution Methods
+
+| Code | Meaning |
+|---|---|
+| `nct_id` | NCT ID matched by regex, trial queried directly |
+| `llm_kg` | LLM extracted entity, confirmed in knowledge graph |
+| `llm_only` | LLM extracted entity, not found in KG |
+| `conversation_context` | Inherited from prior turn |
+
+## Streamlit Application
+
+![Application Layout](04_app_layout.svg)
+
+

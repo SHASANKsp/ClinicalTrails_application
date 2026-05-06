@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 600" width="780" height="600">
+  <defs>
+    <style>
+      text { font-family: Segoe UI, system-ui, sans-serif; }
+      .title { font-size:13px; font-weight:700; fill:#1a202c; }
+      .ph    { font-size:9px; font-weight:700; letter-spacing:0.1em; }
+      .lbl   { font-size:10px; fill:#2d3748; }
+      .sub   { font-size:8.5px; fill:#718096; }
+      .code  { font-family: Cascadia Code, Fira Code, monospace; font-size:8.5px; fill:#553c9a; }
+      .badge { font-size:8px; font-weight:600; fill:#fff; }
+      .step  { font-size:8.5px; font-weight:600; fill:#4a5568; }
+      .cat   { font-size:8px; font-weight:700; letter-spacing:0.08em; }
+    </style>
+  </defs>
+  <rect width="780" height="600" fill="#f7f9fc" rx="12"/>
+  <text x="390" y="26" text-anchor="middle" class="title">Streamlit Application Layout</text>
+  <!-- ── SIDEBAR x=14 w=150 y=40 h=546 ── -->
+  <rect x="14"  y="40"  width="150" height="546" rx="8" fill="#1a202c" stroke="#2d3748" stroke-width="1"/>
+  <!-- brand -->
+  <rect x="22"  y="50"  width="20"  height="20"  rx="4" fill="#4f7cff"/>
+  <text x="32"  y="64"  text-anchor="middle" font-size="11" fill="#fff" font-weight="700">T</text>
+  <text x="50"  y="58"  class="sub" fill="#718096" font-size="7.5">ClinicalTrials</text>
+  <text x="50"  y="69"  class="lbl" fill="#e2e8f0" font-weight="700" font-size="10">TrialGraph</text>
+  <text x="50"  y="79"  class="sub" fill="#4a5568" font-size="7">GraphRAG · Ollama</text>
+  <line x1="22" y1="86" x2="150" y2="86" stroke="#2d3748" stroke-width="0.8"/>
+  <!-- Graph DB section -->
+  <text x="22"  y="100" class="ph" fill="#4a5568" font-size="7.5">Graph database</text>
+  <rect x="22"  y="105" width="130" height="82" rx="6" fill="#2d3748" stroke="#4a5568" stroke-width="0.8"/>
+  <text x="28"  y="118" class="sub" fill="#718096">URI</text>
+  <rect x="28"  y="122" width="118" height="13" rx="3" fill="#1a202c"/>
+  <text x="32"  y="132" class="code" fill="#7eb8f7" font-size="7.5">neo4j://localhost:7687</text>
+  <text x="28"  y="144" class="sub" fill="#718096">Username</text>
+  <rect x="28"  y="148" width="118" height="13" rx="3" fill="#1a202c"/>
+  <text x="28"  y="164" class="sub" fill="#718096">Password</text>
+  <rect x="28"  y="168" width="118" height="13" rx="3" fill="#1a202c"/>
+  <rect x="28"  y="184" width="118" height="14" rx="4" fill="#4f7cff"/>
+  <text x="87"  y="194" text-anchor="middle" class="badge">Connect to Neo4j</text>
+  <!-- neo4j status pill -->
+  <rect x="28"  y="200" width="90"  height="12" rx="6" fill="rgba(34,211,165,0.15)" stroke="rgba(34,211,165,0.3)" stroke-width="0.8"/>
+  <circle cx="34" cy="206" r="3" fill="#22d3a5"/>
+  <text x="40"  y="210" class="badge" fill="#22d3a5" font-size="7">Neo4j connected</text>
+  <!-- Local LLM section -->
+  <text x="22"  y="228" class="ph" fill="#4a5568" font-size="7.5">Local LLM</text>
+  <rect x="22"  y="233" width="130" height="76" rx="6" fill="#2d3748" stroke="#4a5568" stroke-width="0.8"/>
+  <text x="28"  y="247" class="sub" fill="#718096">Ollama URL</text>
+  <rect x="28"  y="251" width="118" height="13" rx="3" fill="#1a202c"/>
+  <text x="32"  y="261" class="code" fill="#7eb8f7" font-size="7.5">localhost:11434</text>
+  <text x="28"  y="273" class="sub" fill="#718096">Model</text>
+  <rect x="28"  y="277" width="72"  height="13" rx="3" fill="#1a202c"/>
+  <text x="32"  y="287" class="code" fill="#a0aec0" font-size="7.5">llama3</text>
+  <rect x="104" y="277" width="36"  height="13" rx="4" fill="#2d3748" stroke="#4a5568" stroke-width="0.8"/>
+  <text x="122" y="287" text-anchor="middle" class="badge" fill="#a0aec0" font-size="7">Detect</text>
+  <!-- ollama status -->
+  <rect x="28"  y="294" width="90"  height="12" rx="6" fill="rgba(34,211,165,0.15)" stroke="rgba(34,211,165,0.3)" stroke-width="0.8"/>
+  <circle cx="34" cy="300" r="3" fill="#22d3a5"/>
+  <text x="40"  y="304" class="badge" fill="#22d3a5" font-size="7">Ollama running</text>
+  <!-- Session section -->
+  <text x="22"  y="324" class="ph" fill="#4a5568" font-size="7.5">Session</text>
+  <rect x="22"  y="329" width="130" height="56" rx="6" fill="#2d3748" stroke="#4a5568" stroke-width="0.8"/>
+  <text x="28"  y="342" class="sub" fill="#4a5568" font-size="7.5">Entity names resolved</text>
+  <text x="28"  y="354" class="sub" fill="#4a5568" font-size="7.5">automatically from your</text>
+  <text x="28"  y="366" class="sub" fill="#4a5568" font-size="7.5">question via the KG.</text>
+  <rect x="28"  y="378" width="118" height="14" rx="4" fill="#2d3748" stroke="#4a5568" stroke-width="0.8"/>
+  <text x="87"  y="388" text-anchor="middle" class="badge" fill="#718096">Clear session</text>
+  <!-- version -->
+  <text x="89"  y="575" text-anchor="middle" class="sub" fill="#2d3748" font-size="7.5">v1.0 · TrialGraph</text>
+
+  <!-- ── HEADER x=172 y=40 w=594 h=40 ── -->
+  <rect x="172" y="40"  width="594" height="40" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="182" y="50"  width="26"  height="26" rx="6" fill="#4f7cff"/>
+  <text x="195" y="67"  text-anchor="middle" fill="#fff" font-size="13">T</text>
+  <text x="218" y="60"  class="lbl" font-weight="700" font-size="12">TrialGraph</text>
+  <text x="218" y="73"  class="sub">Clinical trial intelligence · Knowledge Graph · GraphRAG</text>
+  <text x="736" y="63"  text-anchor="end" class="sub" fill="#a0aec0">Agent interface</text>
+
+  <!-- ── CHAT PANEL x=172 y=88 w=320 h=498 ── -->
+  <rect x="172" y="88"  width="320" height="498" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="172" y="88"  width="320" height="24"  rx="8" fill="#f7f9fc"/>
+  <text x="184" y="103" class="ph" fill="#3d5c9e">Chat Agent</text>
+  <text x="474" y="103" text-anchor="end" class="sub" fill="#a0aec0">GraphRAG · Ollama</text>
+  <line x1="172" y1="112" x2="492" y2="112" stroke="#e2e8f0" stroke-width="0.8"/>
+  <!-- status box -->
+  <rect x="182" y="118" width="300" height="52" rx="6" fill="#faf5ff" stroke="#b794f4" stroke-width="1"/>
+  <text x="192" y="130" class="step" fill="#805ad5">Processing query...</text>
+  <text x="192" y="142" class="sub">Extracting entity from question</text>
+  <text x="192" y="152" class="sub">Selecting analyses via LLM</text>
+  <text x="192" y="162" class="sub">Running KG queries</text>
+  <!-- user message -->
+  <rect x="182" y="178" width="300" height="36" rx="7" fill="#110d06" stroke="rgba(201,123,42,0.2)" stroke-width="1"/>
+  <rect x="182" y="178" width="3"   height="36" rx="2" fill="#c97b2a"/>
+  <text x="194" y="193" class="lbl" fill="#e2e8f0" font-size="9">What are drugs by Amgen?</text>
+  <text x="194" y="206" class="sub" fill="#718096">user</text>
+  <!-- assistant message -->
+  <rect x="182" y="222" width="300" height="72" rx="7" fill="#07101f" stroke="rgba(79,124,255,0.15)" stroke-width="1"/>
+  <rect x="182" y="222" width="3"   height="72" rx="2" fill="#4f7cff"/>
+  <text x="194" y="237" class="lbl" fill="#e2e8f0" font-size="9">Amgen is testing the following drugs:</text>
+  <text x="194" y="251" class="sub" fill="#718096">Evolocumab (Repatha) — cardiovascular</text>
+  <text x="194" y="263" class="sub" fill="#718096">Blinatumomab — haematology</text>
+  <text x="194" y="275" class="sub" fill="#718096">AMG 890, Romosozumab, Tarlatamab...</text>
+  <text x="194" y="287" class="sub" fill="#718096">assistant</text>
+  <!-- query details expander -->
+  <rect x="182" y="298" width="300" height="20" rx="5" fill="#0c0f1e" stroke="#1e2840" stroke-width="1"/>
+  <text x="192" y="312" class="sub" fill="#3a5080">Query Details — Amgen · sponsor</text>
+  <!-- checkbox -->
+  <rect x="182" y="468" width="300" height="22" rx="5" fill="#f7f9fc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="190" y="474" width="11"  height="11" rx="2" fill="#fff" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="208" y="483" class="sub">Generate plots and summaries</text>
+  <!-- chat input -->
+  <rect x="182" y="496" width="300" height="28" rx="8" fill="#0f1626" stroke="#1e2d4a" stroke-width="1"/>
+  <text x="192" y="514" class="sub" fill="#4a5568">Ask a clinical question...</text>
+
+  <!-- ── ANALYSIS PANEL x=500 y=88 w=266 h=498 ── -->
+  <rect x="500" y="88"  width="266" height="498" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="500" y="88"  width="266" height="24"  rx="8" fill="#f7f9fc"/>
+  <text x="512" y="103" class="ph" fill="#2a7060">Analysis Agent</text>
+  <text x="754" y="103" text-anchor="end" class="sub" fill="#a0aec0">Plots · Summaries</text>
+  <line x1="500" y1="112" x2="766" y2="112" stroke="#e2e8f0" stroke-width="0.8"/>
+  <!-- turn 1 label -->
+  <rect x="508" y="120" width="3"   height="86" rx="2" fill="#4f7cff"/>
+  <text x="516" y="132" class="sub" fill="#2d3748" font-weight="700" font-size="7.5" letter-spacing="0.1em">TURN 1</text>
+  <text x="516" y="144" class="sub" fill="#718096" font-style="italic">What are drugs by Amgen?</text>
+  <!-- chart placeholder -->
+  <rect x="516" y="150" width="240" height="36" rx="5" fill="#f7f9fc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="636" y="164" text-anchor="middle" class="sub" fill="#a0aec0">Drug Portfolio — Amgen</text>
+  <text x="636" y="178" text-anchor="middle" class="sub" fill="#bee3f8">[ bar chart ]</text>
+  <!-- summary -->
+  <rect x="516" y="190" width="3"   height="38" rx="2" fill="#e2e8f0"/>
+  <text x="524" y="202" class="sub" fill="#718096">Amgen's portfolio is dominated by</text>
+  <text x="524" y="214" class="sub" fill="#718096">oncology and cardiovascular agents.</text>
+  <text x="524" y="226" class="sub" fill="#718096">Repatha leads by trial volume.</text>
+  <!-- expander -->
+  <rect x="516" y="232" width="240" height="18" rx="4" fill="#f7f9fc" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="524" y="244" class="sub" fill="#a0aec0">Data &amp; Query — Drug Portfolio</text>
+  <line x1="508" y1="256" x2="754" y2="256" stroke="#e2e8f0" stroke-width="0.8" stroke-dasharray="4 2"/>
+  <!-- turn 2 label -->
+  <rect x="508" y="264" width="3"   height="76" rx="2" fill="#e2e8f0"/>
+  <text x="516" y="276" class="sub" fill="#2d3748" font-weight="700" font-size="7.5" opacity="0.5" letter-spacing="0.1em">TURN 2</text>
+  <text x="516" y="288" class="sub" fill="#718096" font-style="italic" opacity="0.5">What conditions are they in?</text>
+  <rect x="516" y="294" width="240" height="30" rx="5" fill="#f7f9fc" stroke="#e2e8f0" stroke-width="0.8" opacity="0.5"/>
+  <text x="636" y="308" text-anchor="middle" class="sub" fill="#a0aec0">Condition Portfolio — Amgen</text>
+  <text x="636" y="320" text-anchor="middle" class="sub" fill="#bee3f8">[ bar chart ]</text>
+  <rect x="516" y="328" width="240" height="18" rx="4" fill="#f7f9fc" stroke="#e2e8f0" stroke-width="0.8" opacity="0.5"/>
+  <text x="524" y="340" class="sub" fill="#a0aec0" opacity="0.5">Data &amp; Query — Condition Portfolio</text>
+
+  <!-- ── LEGEND y=532 ── -->
+  <line x1="172" y1="538" x2="492" y2="538" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="172" y1="535" x2="172" y2="541" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="492" y1="535" x2="492" y2="541" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="332" y="554" text-anchor="middle" class="sub" fill="#a0aec0">Chat panel</text>
+  <line x1="500" y1="538" x2="766" y2="538" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="500" y1="535" x2="500" y2="541" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="766" y1="535" x2="766" y2="541" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="633" y="554" text-anchor="middle" class="sub" fill="#a0aec0">Analysis panel</text>
+  <rect x="172" y="560" width="594" height="26" rx="5" fill="none" stroke="#e2e8f0" stroke-width="0.8"/>
+  <rect x="182" y="567" width="10" height="10" rx="2" fill="#07101f" stroke="rgba(79,124,255,0.4)" stroke-width="0.8"/>
+  <rect x="182" y="567" width="2"  height="10" rx="1" fill="#4f7cff"/>
+  <text x="196" y="576" class="sub">Assistant (blue)</text>
+  <rect x="280" y="567" width="10" height="10" rx="2" fill="#110d06" stroke="rgba(201,123,42,0.4)" stroke-width="0.8"/>
+  <rect x="280" y="567" width="2"  height="10" rx="1" fill="#c97b2a"/>
+  <text x="294" y="576" class="sub">User (amber)</text>
+  <rect x="378" y="567" width="10" height="10" rx="2" fill="#faf5ff" stroke="#b794f4" stroke-width="0.8"/>
+  <text x="392" y="576" class="sub">Staged progress box</text>
+  <rect x="508" y="567" width="10" height="3"  rx="1" fill="#4f7cff"/>
+  <text x="522" y="576" class="sub">Latest turn (blue border)</text>
+  <rect x="640" y="567" width="10" height="3"  rx="1" fill="#e2e8f0"/>
+  <text x="654" y="576" class="sub">Prior turn (grey)</text>
+</svg>
